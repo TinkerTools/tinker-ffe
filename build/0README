@@ -1,0 +1,20 @@
+
+               ##################################################
+               Protocol for Building Tinker-FFE Installation Kits
+               ##################################################
+
+         In order to build a Tinker-FFE installation kit, perform each
+         step listed below. For steps 2 and 3, OSNAME should be replaced
+         with one of "linux", "macos" or "windows".
+ 
+         (1) Invoke "source build-setup.sh" or "source build-setup.csh"
+             for bash/sh or tcsh/csh shells, respectively.
+
+         (2) Next run "ant -f OSNAME.ant.xml >& build.log &". This will
+             copy and make Tinker, FFTW, APBS and FFE, then build the
+             FFE/Tinker installation packages.
+
+         (3) To build FFE only, assuming that Tinker, FFTW and APBS are
+             already compiled and present in the current directory, use
+             "ant -f OSNAME-ffe-only.ant.xml" in place of step 2.
+

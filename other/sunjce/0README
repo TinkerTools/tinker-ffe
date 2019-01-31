@@ -1,0 +1,15 @@
+
+                    ########################################
+                    sunjce_provider for 2048-bit DH Keypairs
+                    ########################################
+
+         This directory contains a JAR file, sunjce_provider.jar taken
+         from the Java 1.8.0_112 JDK/JRE. It is useable with and able to
+         generate 2048-bit DH keypairs, as needed to access modern sites
+         under https:// protocols. For example, the NCI Cactus Database
+         site used by FFE requires 2048-bit keypairs as of spring 2016.
+
+         This JAR file should be placed in the ffe/lib directory of the
+         FFE distribution, and its presence should be noted in the file
+         build.xml in the FFE top level directory.
+

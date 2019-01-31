@@ -1,0 +1,7 @@
+build/buildtools/ant
+build/kits/Tinker-FFE*
+other/java/jdk*
+other/java/jre*
+other/java/linux*
+other/java/macos*
+other/java/windows*

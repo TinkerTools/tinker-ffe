@@ -1,0 +1,10 @@
+
+                       ##################################
+                       Ant for Use in Building Tinker-FFE                     
+                       ##################################
+
+        This directory contains a version of Ant (1.9.6) that is capable
+        of building FFE from the cooresponding scripts in ffe/build. The
+        Ant package can be installed in any location, but must be in the
+        user's path prior to building FFE.
+

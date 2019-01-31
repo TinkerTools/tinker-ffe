@@ -1,0 +1,2071 @@
+Buildfile: C:\cygwin64\home\ponder\ffe\build\windows.ant.xml
+
+info:
+     [echo] General Build Information:
+     [echo] Developer: ponder
+     [echo] Build File: C:\cygwin64\home\ponder\ffe\build\windows.ant.xml
+     [echo] OS: Windows 10 version 10.0 on amd64
+     [echo] JVM: Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 1.8.0_112
+     [echo] Compiler Information:
+     [echo] Fortran Compiler: gfortran
+     [echo] Fortran Flags: -Ofast -msse3 -fopenmp
+     [echo] C Compiler: gcc
+     [echo] C Flags: -Ofast -msse3
+     [echo] Tinker Build Information:
+     [echo] Directory: C:\cygwin64\home\ponder\ffe\build/tinker
+     [echo] Source: C:\cygwin64\home\ponder\ffe\build/tinker/source
+     [echo] Include Flags: -IC:\cygwin64\home\ponder\ffe\build/tinker/source -IC:\cygwin64\home\ponder\ffe\build/apbs/include -IC:\cygwin64\home\ponder\ffe\build/ffe/native -IC:\cygwin64\home\ponder\ffe\build/ffe/native/windows
+     [echo] Link Flags: -Ofast -msse3 -fopenmp -static -L. -LC:\cygwin64\home\ponder\ffe\build/apbs/lib -LC:\cygwin64\home\ponder\ffe\build/fftw/lib -ltinker -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lfftw3 -lfftw3_threads
+     [echo] Link Libraries: -ltinker -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lfftw3 -lfftw3_threads
+     [echo] FFTW Build Information:
+     [echo] Directory: C:\cygwin64\home\ponder\ffe\build/fftw
+     [echo] APBS Build Information:
+     [echo] Directory: C:\cygwin64\home\ponder\ffe\build/apbs
+     [echo] C Flags: -Ofast -msse3 -DVAPBSQUIET
+     [echo] Fortran Flags: -Ofast -msse3 -fopenmp -DVAPBSQUIET
+     [echo] FFE Build Information:
+     [echo] Directory: C:\cygwin64\home\ponder\ffe\build/ffe
+
+init:
+   [delete] Directory does not exist: C:\cygwin64\home\ponder\ffe\build\ffe
+   [delete] Directory does not exist: C:\cygwin64\home\ponder\ffe\build\tinker
+   [delete] Directory does not exist: C:\cygwin64\home\ponder\ffe\build\fftw
+   [delete] Directory does not exist: C:\cygwin64\home\ponder\ffe\build\apbs
+   [delete] Directory does not exist: C:\cygwin64\home\ponder\ffe\build\apbs_src
+     [echo] Create Tinker Directories
+    [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\tinker
+    [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\tinker\bin
+     [echo] Create APBS Directories
+    [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs
+    [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include
+    [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc
+[echoproperties] #Ant properties
+[echoproperties] #Sun Jan 13 18:41:44 CST 2019
+[echoproperties] DSTAMP=20190113
+[echoproperties] TODAY=January 13 2019
+[echoproperties] TSTAMP=1841
+[echoproperties] ant.core.lib=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar
+[echoproperties] ant.file=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
+[echoproperties] ant.file.Force\ Field\ Explorer\ for\ Windows=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
+[echoproperties] ant.file.type=file
+[echoproperties] ant.file.type.Force\ Field\ Explorer\ for\ Windows=file
+[echoproperties] ant.home=C\:/cygwin64/home/ponder/ffe/build/buildtools/ant
+[echoproperties] ant.java.version=1.8
+[echoproperties] ant.library.dir=C\:/cygwin64/home/ponder/ffe/build/buildtools/ant/lib
+[echoproperties] ant.project.default-target=make
+[echoproperties] ant.project.invoked-targets=make
+[echoproperties] ant.project.name=Force Field Explorer for Windows
+[echoproperties] ant.version=Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+[echoproperties] apbs.bin.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/apbs/bin
+[echoproperties] apbs.c.flags=-Ofast -msse3 -DVAPBSQUIET
+[echoproperties] apbs.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/apbs
+[echoproperties] apbs.f.flags=-Ofast -msse3 -fopenmp -DVAPBSQUIET
+[echoproperties] apbs.include.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/apbs/include
+[echoproperties] apbs.lib.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/apbs/lib
+[echoproperties] apbs_src.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/apbs_src
+[echoproperties] awt.toolkit=sun.awt.windows.WToolkit
+[echoproperties] basedir=C\:\\cygwin64\\home\\ponder\\ffe\\build
+[echoproperties] build.log=kits/build_8.5.31.log
+[echoproperties] build.number=31
+[echoproperties] c.flags=-Ofast -msse3
+[echoproperties] cc=gcc
+[echoproperties] cygwin.user.home=C\:/cygwin64/home/ponder
+[echoproperties] env.\=\:\:=\:\:\\
+[echoproperties] env.ALLUSERSPROFILE=C\:\\ProgramData
+[echoproperties] env.ANT_HOME=C\:/cygwin64/home/ponder/ffe/build/buildtools/ant
+[echoproperties] env.ANT_OPTS=-Xms512M -Xmx1G
+[echoproperties] env.APPDATA=C\:\\Users\\ponder\\AppData\\Roaming
+[echoproperties] env.BLD=/home/ponder/ffe/build
+[echoproperties] env.CLASSPATH=C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.4.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;\=
+[echoproperties] env.COMMONPROGRAMFILES=C\:\\Program Files\\Common Files
+[echoproperties] env.COMPUTERNAME=WIN10-64
+[echoproperties] env.COMSPEC=C\:\\WINDOWS\\system32\\cmd.exe
+[echoproperties] env.CommonProgramFiles(x86)=C\:\\Program Files (x86)\\Common Files
+[echoproperties] env.CommonProgramW6432=C\:\\Program Files\\Common Files
+[echoproperties] env.FFEHOME=C\:\\Users\\ponder\\MolecularTools\\ffe
+[echoproperties] env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+[echoproperties] env.FPS_BROWSER_USER_PROFILE_STRING=Default
+[echoproperties] env.FP_NO_HOST_CHECK=NO
+[echoproperties] env.GROUP=None
+[echoproperties] env.HOME=C\:\\cygwin64\\home\\ponder
+[echoproperties] env.HOMEDRIVE=C\:
+[echoproperties] env.HOMEPATH=\\Users\\ponder
+[echoproperties] env.HOST=win10-64
+[echoproperties] env.HOSTTYPE=x86_64-cygwin
+[echoproperties] env.ICPP_COMPILER15=C\:\\Program Files (x86)\\Intel\\Composer XE 2015\\
+[echoproperties] env.IFORT_COMPILER15=C\:\\Program Files (x86)\\Intel\\Composer XE 2015\\
+[echoproperties] env.INTEL_DEV_REDIST=C\:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\
+[echoproperties] env.INTEL_LICENSE_FILE=C\:\\Program Files (x86)\\Common Files\\Intel\\Licenses
+[echoproperties] env.JAVA_HOME=C\:/Program Files/Java/jdk1.8.0_112
+[echoproperties] env.LANG=en_US.UTF-8
+[echoproperties] env.LOCALAPPDATA=C\:\\Users\\ponder\\AppData\\Local
+[echoproperties] env.LOGNAME=ponder
+[echoproperties] env.LOGONSERVER=\\\\WIN10-64
+[echoproperties] env.MACHTYPE=x86_64
+[echoproperties] env.MAKE_MODE=unix
+[echoproperties] env.MIC_LD_LIBRARY_PATH=C\:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic
+[echoproperties] env.MINTTY_SHORTCUT=/cygdrive/c/Users/Public/Desktop/Cygwin64 Terminal.lnk
+[echoproperties] env.NUMBER_OF_PROCESSORS=4
+[echoproperties] env.OS=Windows_NT
+[echoproperties] env.OSTYPE=cygwin
+[echoproperties] env.OneDrive=C\:\\Users\\ponder\\OneDrive
+[echoproperties] env.PATH=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\bin;.;C\:\\cygwin64\\home\\ponder\\ffe\\;C\:\\cygwin64\\usr\\local\\bin;C\:\\cygwin64\\bin;C\:\\cygwin64\\bin;C\:\\Program;Files;(x86)\\Parallels\\Parallels;Tools\\Applications;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\mpirt;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\compiler;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C\:\\Program;Files;(x86)\\QuickTime\\QTSystem;C\:\\Users\\ponder\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\cygwin64\\home\\ponder\\tinker\\bin;C\:\\cygwin64\\home\\ponder\\install4j6\\bin;C\:\\Program;Files\\Java\\jdk1.8.0_112\\bin
+[echoproperties] env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+[echoproperties] env.PROCESSOR_ARCHITECTURE=AMD64
+[echoproperties] env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 70 Stepping 1, GenuineIntel
+[echoproperties] env.PROCESSOR_LEVEL=6
+[echoproperties] env.PROCESSOR_REVISION=4601
+[echoproperties] env.PROGRAMFILES=C\:\\Program Files
+[echoproperties] env.PSModulePath=C\:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\
+[echoproperties] env.PUBLIC=C\:\\Users\\Public
+[echoproperties] env.PWD=/home/ponder/ffe/build
+[echoproperties] env.ProgramData=C\:\\ProgramData
+[echoproperties] env.ProgramFiles(x86)=C\:\\Program Files (x86)
+[echoproperties] env.ProgramW6432=C\:\\Program Files
+[echoproperties] env.SESSIONNAME=Console
+[echoproperties] env.SHELL=/bin/tcsh
+[echoproperties] env.SHLVL=1
+[echoproperties] env.SYSTEMDRIVE=C\:
+[echoproperties] env.SYSTEMROOT=C\:\\WINDOWS
+[echoproperties] env.TERM=xterm
+[echoproperties] env.TINKER=C\:\\Users\\ponder\\MolecularTools\\tinker
+[echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
+[echoproperties] env.TZ=America/Guatemala
+[echoproperties] env.USER=ponder
+[echoproperties] env.USERDOMAIN=WIN10-64
+[echoproperties] env.USERDOMAIN_ROAMINGPROFILE=WIN10-64
+[echoproperties] env.USERNAME=ponder
+[echoproperties] env.USERPROFILE=C\:\\Users\\ponder
+[echoproperties] env.VENDOR=unknown
+[echoproperties] env.VS100COMNTOOLS=c\:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\
+[echoproperties] env.WINDIR=C\:\\WINDOWS
+[echoproperties] env.asl.log=Destination\=file
+[echoproperties] error.log=kits/error_8.5.31.log
+[echoproperties] fc=gfortran
+[echoproperties] ffe.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/ffe
+[echoproperties] fftw.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/fftw
+[echoproperties] fftw.lib.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/fftw/lib
+[echoproperties] file.encoding=Cp1252
+[echoproperties] file.encoding.pkg=sun.io
+[echoproperties] file.separator=\\
+[echoproperties] fortran.flags=-Ofast -msse3 -fopenmp
+[echoproperties] java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+[echoproperties] java.awt.printerjob=sun.awt.windows.WPrinterJob
+[echoproperties] java.class.path=C\:/cygwin64/home/ponder/ffe/build/buildtools/ant/lib/ant-launcher.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.4.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\cygwin64\\home\\ponder\\ffe\\build\\\=;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-antlr.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-bcel.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-bsf.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-log4j.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-oro.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-regexp.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-resolver.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-xalan2.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-commons-logging.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-commons-net.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jai.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-javamail.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jdepend.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jmf.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jsch.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-junit.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-junit4.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-launcher.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-netrexx.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-swing.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-testutil.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\lib\\tools.jar
+[echoproperties] java.class.version=52.0
+[echoproperties] java.endorsed.dirs=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\endorsed
+[echoproperties] java.ext.dirs=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\ext;C\:\\WINDOWS\\Sun\\Java\\lib\\ext
+[echoproperties] java.home=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre
+[echoproperties] java.io.tmpdir=C\:\\Users\\ponder\\
+[echoproperties] java.library.path=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\bin;C\:\\WINDOWS\\Sun\\Java\\bin;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\bin;.;C\:\\cygwin64\\home\\ponder\\ffe\\;C\:\\cygwin64\\usr\\local\\bin;C\:\\cygwin64\\bin;C\:\\cygwin64\\bin;C\:\\Program;Files;(x86)\\Parallels\\Parallels;Tools\\Applications;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\mpirt;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\compiler;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C\:\\Program;Files;(x86)\\QuickTime\\QTSystem;C\:\\Users\\ponder\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\cygwin64\\home\\ponder\\tinker\\bin;C\:\\cygwin64\\home\\ponder\\install4j6\\bin;C\:\\Program;Files\\Java\\jdk1.8.0_112\\bin;.
+[echoproperties] java.runtime.name=Java(TM) SE Runtime Environment
+[echoproperties] java.runtime.version=1.8.0_112-b15
+[echoproperties] java.specification.name=Java Platform API Specification
+[echoproperties] java.specification.vendor=Oracle Corporation
+[echoproperties] java.specification.version=1.8
+[echoproperties] java.vendor=Oracle Corporation
+[echoproperties] java.vendor.url=http\://java.oracle.com/
+[echoproperties] java.vendor.url.bug=http\://bugreport.sun.com/bugreport/
+[echoproperties] java.version=1.8.0_112
+[echoproperties] java.vm.info=mixed mode
+[echoproperties] java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+[echoproperties] java.vm.specification.name=Java Virtual Machine Specification
+[echoproperties] java.vm.specification.vendor=Oracle Corporation
+[echoproperties] java.vm.specification.version=1.8
+[echoproperties] java.vm.vendor=Oracle Corporation
+[echoproperties] java.vm.version=25.112-b15
+[echoproperties] jni.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/ffe/native
+[echoproperties] jni_md.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/ffe/native/windows
+[echoproperties] jvm.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/ffe/native/windows
+[echoproperties] kit.dir=kits
+[echoproperties] line.separator=\r\n
+[echoproperties] os.arch=amd64
+[echoproperties] os.name=Windows 10
+[echoproperties] os.version=10.0
+[echoproperties] path.separator=;
+[echoproperties] platform=windows
+[echoproperties] ponder.password=parker1k
+[echoproperties] sun.arch.data.model=64
+[echoproperties] sun.boot.class.path=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\resources.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\rt.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\sunrsasign.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\jsse.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\jce.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\charsets.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\jfr.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\classes
+[echoproperties] sun.boot.library.path=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\bin
+[echoproperties] sun.cpu.endian=little
+[echoproperties] sun.cpu.isalist=amd64
+[echoproperties] sun.desktop=windows
+[echoproperties] sun.io.unicode.encoding=UnicodeLittle
+[echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.4.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;\= -f windows.ant.xml
+[echoproperties] sun.java.launcher=SUN_STANDARD
+[echoproperties] sun.jnu.encoding=Cp1252
+[echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+[echoproperties] sun.os.patch.level=
+[echoproperties] tinker.bin.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/tinker/bin
+[echoproperties] tinker.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/tinker
+[echoproperties] tinker.include.flags=-IC\:\\cygwin64\\home\\ponder\\ffe\\build/tinker/source -IC\:\\cygwin64\\home\\ponder\\ffe\\build/apbs/include -IC\:\\cygwin64\\home\\ponder\\ffe\\build/ffe/native -IC\:\\cygwin64\\home\\ponder\\ffe\\build/ffe/native/windows
+[echoproperties] tinker.libs=-ltinker -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lfftw3 -lfftw3_threads
+[echoproperties] tinker.link.flags=-Ofast -msse3 -fopenmp -static -L. -LC\:\\cygwin64\\home\\ponder\\ffe\\build/apbs/lib -LC\:\\cygwin64\\home\\ponder\\ffe\\build/fftw/lib -ltinker -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lfftw3 -lfftw3_threads
+[echoproperties] tinker.src.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/tinker/source
+[echoproperties] user.country=US
+[echoproperties] user.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build
+[echoproperties] user.home=C\:\\Users\\ponder
+[echoproperties] user.language=en
+[echoproperties] user.name=ponder
+[echoproperties] user.script=
+[echoproperties] user.timezone=
+[echoproperties] user.variant=
+[echoproperties] version=8.5
+
+sync-source:
+     [echo] Syncing Source Files
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build
+    [untar] Expanding: C:\cygwin64\home\ponder\ffe\build\ffe.tgz into C:\cygwin64\home\ponder\ffe\build
+    [untar] Expanding: C:\cygwin64\home\ponder\ffe\build\tinker.tgz into C:\cygwin64\home\ponder\ffe\build
+    [untar] Expanding: C:\cygwin64\home\ponder\ffe\build\fftw.tgz into C:\cygwin64\home\ponder\ffe\build
+    [untar] Expanding: C:\cygwin64\home\ponder\ffe\build\apbs.tgz into C:\cygwin64\home\ponder\ffe\build
+
+configfftw:
+     [echo] Configuring FFTW
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build\fftw
+
+makefftw:
+     [echo] Making FFTW
+     [echo] Installing FFTW
+
+configapbs:
+     [echo] Configuring APBS
+
+makeapbs:
+     [echo] Making APBS
+     [echo] Installing APBS
+     [copy] Copying 12 files to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\maloc.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\maloc.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\maloc_base.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\maloc_base.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\psh.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\psh.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vcom.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vcom.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vio.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vio.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vmem.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vmem.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vmp.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vmp.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vmpi.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vmpi.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vnm.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vnm.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vset.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vset.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vsh.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vsh.h
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\include\maloc\vsys.h to C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc\vsys.h
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build\apbs\lib
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\lib\libmaloc.a to C:\cygwin64\home\ponder\ffe\build\apbs\lib\libmaloc.a
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build\apbs\lib
+     [copy] Copying C:\cygwin64\home\ponder\ffe\build\apbs_src\contrib\lib\libapbsblas.a to C:\cygwin64\home\ponder\ffe\build\apbs\lib\libapbsblas.a
+
+maketinker:
+     [echo] Compiling Tinker
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build\tinker\source
+     [exec] gfortran -c -Ofast -msse3 -fopenmp analyz.f -o analyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp sizes.f -o sizes.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp atoms.f -o atoms.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp energi.f -o energi.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp files.f -o files.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp inform.f -o inform.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp iounit.f -o iounit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp katoms.f -o katoms.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mutant.f -o mutant.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp potent.f -o potent.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp units.f -o units.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp usage.f -o usage.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp alchemy.f -o alchemy.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp action.f -o action.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp keys.f -o keys.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp active.f -o active.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp align.f -o align.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp group.f -o group.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp inter.f -o inter.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp limits.f -o limits.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp vdwpot.f -o vdwpot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp analysis.f -o analysis.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp angang.f -o angang.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp angbnd.f -o angbnd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp angpot.f -o angpot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp angtor.f -o angtor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp atomid.f -o atomid.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bath.f -o bath.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bitor.f -o bitor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bndstr.f -o bndstr.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bound.f -o bound.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp boxes.f -o boxes.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp charge.f -o charge.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp chgpen.f -o chgpen.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp chgpot.f -o chgpot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp chgtrn.f -o chgtrn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp couple.f -o couple.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp deriv.f -o deriv.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp dipole.f -o dipole.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp disp.f -o disp.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ewald.f -o ewald.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp fields.f -o fields.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp improp.f -o improp.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp imptor.f -o imptor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp korbs.f -o korbs.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ktrtor.f -o ktrtor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kvdws.f -o kvdws.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp math.f -o math.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp molcul.f -o molcul.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp moment.f -o moment.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mplpot.f -o mplpot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mpole.f -o mpole.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp opbend.f -o opbend.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp opdist.f -o opdist.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp output.f -o output.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp piorbs.f -o piorbs.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pistuf.f -o pistuf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pitors.f -o pitors.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pme.f -o pme.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp polar.f -o polar.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp polgrp.f -o polgrp.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp polpot.f -o polpot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp repel.f -o repel.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp solute.f -o solute.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp strbnd.f -o strbnd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp strtor.f -o strtor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp titles.f -o titles.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp tors.f -o tors.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp tortor.f -o tortor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp urey.f -o urey.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp vdw.f -o vdw.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp virial.f -o virial.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp analyze.f -o analyze.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp atmlst.f -o atmlst.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp angles.f -o angles.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mdstuf.f -o mdstuf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp warp.f -o warp.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp anneal.f -o anneal.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp archive.f -o archive.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp argue.f -o argue.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ascii.f -o ascii.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp attach.f -o attach.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp freeze.f -o freeze.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp moldyn.f -o moldyn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp stodyn.f -o stodyn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp baoab.f -o baoab.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bar.f -o bar.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp basefile.f -o basefile.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ielscf.f -o ielscf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp beeman.f -o beeman.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bicubic.f -o bicubic.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bitors.f -o bitors.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bndpot.f -o bndpot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bonds.f -o bonds.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pbstuf.f -o pbstuf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp born.f -o born.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bounds.f -o bounds.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp bussi.f -o bussi.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp calendar.f -o calendar.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp cell.f -o cell.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp center.f -o center.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp chkpole.f -o chkpole.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp chkring.f -o chkring.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp chkxyz.f -o chkxyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp cholesky.f -o cholesky.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp chrono.f -o chrono.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp chunks.f -o chunks.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp clock.f -o clock.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp cluster.f -o cluster.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp column.f -o column.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp command.f -o command.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp zclose.f -o zclose.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp zcoord.f -o zcoord.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp connect.f -o connect.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp faces.f -o faces.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp connolly.f -o connolly.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp control.f -o control.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp correlate.f -o correlate.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp crystal.f -o crystal.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp cspline.f -o cspline.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp hescut.f -o hescut.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp neigh.f -o neigh.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp tarray.f -o tarray.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp cutoffs.f -o cutoffs.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp damping.f -o damping.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp deflate.f -o deflate.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp delete.f -o delete.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp diagq.f -o diagq.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp diffeq.f -o diffeq.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp diffuse.f -o diffuse.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp disgeo.f -o disgeo.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp refer.f -o refer.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp restrn.f -o restrn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp distgeom.f -o distgeom.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp dma.f -o dma.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp document.f -o document.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp domega.f -o domega.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp dsppot.f -o dsppot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp dynamic.f -o dynamic.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangang.f -o eangang.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangang1.f -o eangang1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp hessn.f -o hessn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangang2.f -o eangang2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangang3.f -o eangang3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangle.f -o eangle.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangle1.f -o eangle1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangle2.f -o eangle2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangle3.f -o eangle3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp torpot.f -o torpot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangtor.f -o eangtor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangtor1.f -o eangtor1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangtor2.f -o eangtor2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eangtor3.f -o eangtor3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ebond.f -o ebond.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ebond1.f -o ebond1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ebond2.f -o ebond2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ebond3.f -o ebond3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp light.f -o light.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp shunt.f -o shunt.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ebuck.f -o ebuck.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ebuck1.f -o ebuck1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ebuck2.f -o ebuck2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ebuck3.f -o ebuck3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echarge.f -o echarge.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echarge1.f -o echarge1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echarge2.f -o echarge2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echarge3.f -o echarge3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echgdpl.f -o echgdpl.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echgdpl1.f -o echgdpl1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echgdpl2.f -o echgdpl2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echgdpl3.f -o echgdpl3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echgtrn.f -o echgtrn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echgtrn1.f -o echgtrn1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echgtrn2.f -o echgtrn2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp echgtrn3.f -o echgtrn3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp edipole.f -o edipole.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp edipole1.f -o edipole1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp edipole2.f -o edipole2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp edipole3.f -o edipole3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp edisp.f -o edisp.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp edisp1.f -o edisp1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp edisp2.f -o edisp2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp edisp3.f -o edisp3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp egauss.f -o egauss.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp egauss1.f -o egauss1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp egauss2.f -o egauss2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp egauss3.f -o egauss3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp egeom.f -o egeom.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp egeom1.f -o egeom1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp egeom2.f -o egeom2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp egeom3.f -o egeom3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ehal.f -o ehal.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ehal1.f -o ehal1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ehal2.f -o ehal2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ehal3.f -o ehal3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eimprop.f -o eimprop.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eimprop1.f -o eimprop1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eimprop2.f -o eimprop2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eimprop3.f -o eimprop3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eimptor.f -o eimptor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eimptor1.f -o eimptor1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eimptor2.f -o eimptor2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eimptor3.f -o eimptor3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp elj.f -o elj.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp elj1.f -o elj1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp elj2.f -o elj2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp elj3.f -o elj3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp minima.f -o minima.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp embed.f -o embed.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kchrge.f -o kchrge.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp emetal.f -o emetal.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp emetal1.f -o emetal1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp emetal2.f -o emetal2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp emetal3.f -o emetal3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp emm3hb.f -o emm3hb.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp emm3hb1.f -o emm3hb1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp emm3hb2.f -o emm3hb2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp emm3hb3.f -o emm3hb3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mrecip.f -o mrecip.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp empole.f -o empole.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp empole1.f -o empole1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp empole2.f -o empole2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp empole3.f -o empole3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rigid.f -o rigid.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp energy.f -o energy.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eopbend.f -o eopbend.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eopbend1.f -o eopbend1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eopbend2.f -o eopbend2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eopbend3.f -o eopbend3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eopdist.f -o eopdist.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eopdist1.f -o eopdist1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eopdist2.f -o eopdist2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eopdist3.f -o eopdist3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp epitors.f -o epitors.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp epitors1.f -o epitors1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp epitors2.f -o epitors2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp epitors3.f -o epitors3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp epolar.f -o epolar.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp polopt.f -o polopt.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp poltcg.f -o poltcg.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp epolar1.f -o epolar1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp epolar2.f -o epolar2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp epolar3.f -o epolar3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp reppot.f -o reppot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erepel.f -o erepel.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erepel1.f -o erepel1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erepel2.f -o erepel2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erepel3.f -o erepel3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erf.f -o erf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rxnfld.f -o rxnfld.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rxnpot.f -o rxnpot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erxnfld.f -o erxnfld.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erxnfld1.f -o erxnfld1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erxnfld2.f -o erxnfld2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp erxnfld3.f -o erxnfld3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp gkstuf.f -o gkstuf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp hpmf.f -o hpmf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp nonpol.f -o nonpol.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp esolv.f -o esolv.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp esolv1.f -o esolv1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp esolv2.f -o esolv2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp esolv3.f -o esolv3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp estrbnd.f -o estrbnd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp estrbnd1.f -o estrbnd1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp estrbnd2.f -o estrbnd2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp estrbnd3.f -o estrbnd3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp estrtor.f -o estrtor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp estrtor1.f -o estrtor1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp estrtor2.f -o estrtor2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp estrtor3.f -o estrtor3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp etors.f -o etors.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp etors1.f -o etors1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp etors2.f -o etors2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp etors3.f -o etors3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp etortor.f -o etortor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp etortor1.f -o etortor1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp etortor2.f -o etortor2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp etortor3.f -o etortor3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp urypot.f -o urypot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eurey.f -o eurey.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eurey1.f -o eurey1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eurey2.f -o eurey2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp eurey3.f -o eurey3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kdsp.f -o kdsp.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp evcorr.f -o evcorr.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp extra.f -o extra.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp extra1.f -o extra1.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp extra2.f -o extra2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp extra3.f -o extra3.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp fatal.f -o fatal.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp fft.f -o fft.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp openmp.f -o openmp.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp fft3d.f -o fft3d.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp fftpack.f -o fftpack.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp field.f -o field.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp fracs.f -o fracs.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kanang.f -o kanang.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kcpen.f -o kcpen.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kctrn.f -o kctrn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kpolr.f -o kpolr.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp krepl.f -o krepl.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp merck.f -o merck.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp omega.f -o omega.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp orbits.f -o orbits.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp paths.f -o paths.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pdb.f -o pdb.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp polpcg.f -o polpcg.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp potfit.f -o potfit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp qmstuf.f -o qmstuf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rgddyn.f -o rgddyn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ring.f -o ring.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rotbnd.f -o rotbnd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp socket.f -o socket.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp syntrn.f -o syntrn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp uprior.f -o uprior.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp vibs.f -o vibs.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp final.f -o final.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp flatten.f -o flatten.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp freeunit.f -o freeunit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp gda.f -o gda.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp geometry.f -o geometry.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getarc.f -o getarc.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getint.f -o getint.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getkey.f -o getkey.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getmol.f -o getmol.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getmol2.f -o getmol2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getnumb.f -o getnumb.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getpdb.f -o getpdb.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp params.f -o params.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getprm.f -o getprm.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getref.f -o getref.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getstring.f -o getstring.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp gettext.f -o gettext.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getword.f -o getword.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp getxyz.f -o getxyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ghmcstep.f -o ghmcstep.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp gradient.f -o gradient.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp gradrgd.f -o gradrgd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp gradrot.f -o gradrot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp groups.f -o groups.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp grpline.f -o grpline.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp gyrate.f -o gyrate.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp hessian.f -o hessian.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp hessrgd.f -o hessrgd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp hessrot.f -o hessrot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kangs.f -o kangs.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kbonds.f -o kbonds.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kdipol.f -o kdipol.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kitors.f -o kitors.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kstbnd.f -o kstbnd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ksttor.f -o ksttor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ktorsn.f -o ktorsn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp hybrid.f -o hybrid.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp image.f -o image.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp impose.f -o impose.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp induce.f -o induce.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp inertia.f -o inertia.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ptable.f -o ptable.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp initatom.f -o initatom.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp linmin.f -o linmin.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp precis.f -o precis.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp scales.f -o scales.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp sequen.f -o sequen.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp initial.f -o initial.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kantor.f -o kantor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp khbond.f -o khbond.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kiprop.f -o kiprop.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kmulti.f -o kmulti.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kopbnd.f -o kopbnd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kopdst.f -o kopdst.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kpitor.f -o kpitor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kurybr.f -o kurybr.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kvdwpr.f -o kvdwpr.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp initprm.f -o initprm.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp resdue.f -o resdue.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp initres.f -o initres.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp initrot.f -o initrot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp insert.f -o insert.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp intedit.f -o intedit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp intxyz.f -o intxyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp invbeta.f -o invbeta.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp invert.f -o invert.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp jacobi.f -o jacobi.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kangang.f -o kangang.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kangle.f -o kangle.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kangtor.f -o kangtor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp katom.f -o katom.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kbond.f -o kbond.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kcharge.f -o kcharge.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kchgtrn.f -o kchgtrn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kdipole.f -o kdipole.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kdisp.f -o kdisp.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kewald.f -o kewald.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kextra.f -o kextra.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kgeom.f -o kgeom.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kimprop.f -o kimprop.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kimptor.f -o kimptor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kinetic.f -o kinetic.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kmetal.f -o kmetal.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kmpole.f -o kmpole.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kopbend.f -o kopbend.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kopdist.f -o kopdist.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp korbit.f -o korbit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kpitors.f -o kpitors.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kpolar.f -o kpolar.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp krepel.f -o krepel.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ksolv.f -o ksolv.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kstrbnd.f -o kstrbnd.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kstrtor.f -o kstrtor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ktors.f -o ktors.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ktortor.f -o ktortor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kurey.f -o kurey.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp kvdw.f -o kvdw.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp lattice.f -o lattice.o 
+     [exec] gfortran -c -O1 -msse3 -fopenmp lbfgs.f -o lbfgs.o
+     [exec] gfortran -c -Ofast -msse3 -fopenmp lights.f -o lights.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp makeint.f -o makeint.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp makeref.f -o makeref.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp makexyz.f -o makexyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp maxwell.f -o maxwell.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mdinit.f -o mdinit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mdrest.f -o mdrest.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mdsave.f -o mdsave.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mdstat.f -o mdstat.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mechanic.f -o mechanic.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp merge.f -o merge.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp minimize.f -o minimize.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp minirot.f -o minirot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp minrigid.f -o minrigid.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mol2xyz.f -o mol2xyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp molecule.f -o molecule.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp molxyz.f -o molxyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp moments.f -o moments.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp monte.f -o monte.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp mutate.f -o mutate.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp nblist.f -o nblist.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp newton.f -o newton.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp newtrot.f -o newtrot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp nextarg.f -o nextarg.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp nexttext.f -o nexttext.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp nose.f -o nose.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp nspline.f -o nspline.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp nucleo.f -o nucleo.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp nucleic.f -o nucleic.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp number.f -o number.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp numeral.f -o numeral.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp numgrad.f -o numgrad.o 
+     [exec] gfortran -c -O1 -msse3 -fopenmp ocvm.f -o ocvm.o
+     [exec] gfortran -c -Ofast -msse3 -fopenmp openend.f -o openend.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp optimize.f -o optimize.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp optinit.f -o optinit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp optirot.f -o optirot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp optrigid.f -o optrigid.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp optsave.f -o optsave.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp orbital.f -o orbital.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp orient.f -o orient.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp orthog.f -o orthog.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp overlap.f -o overlap.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp path.f -o path.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pdbxyz.f -o pdbxyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp phipsi.f -o phipsi.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp picalc.f -o picalc.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pmestuf.f -o pmestuf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pmpb.f -o pmpb.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp polarize.f -o polarize.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp poledit.f -o poledit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp polymer.f -o polymer.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp potential.f -o potential.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp precise.f -o precise.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pressure.f -o pressure.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prmedit.f -o prmedit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prmkey.f -o prmkey.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp promo.f -o promo.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp protein.f -o protein.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prtdyn.f -o prtdyn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prterr.f -o prterr.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prtint.f -o prtint.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prtmol2.f -o prtmol2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prtpdb.f -o prtpdb.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prtprm.f -o prtprm.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prtseq.f -o prtseq.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp prtxyz.f -o prtxyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp tree.f -o tree.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pss.f -o pss.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pssrigid.f -o pssrigid.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp pssrot.f -o pssrot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp qrfact.f -o qrfact.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp quatfit.f -o quatfit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp radial.f -o radial.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp random.f -o random.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rattle.f -o rattle.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readdyn.f -o readdyn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readgau.f -o readgau.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readgdma.f -o readgdma.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readint.f -o readint.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readmol.f -o readmol.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readmol2.f -o readmol2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readpdb.f -o readpdb.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readprm.f -o readprm.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readseq.f -o readseq.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp readxyz.f -o readxyz.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp replica.f -o replica.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp respa.f -o respa.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rgdstep.f -o rgdstep.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rings.f -o rings.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rmsfit.f -o rmsfit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rotlist.f -o rotlist.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp rotpole.f -o rotpole.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp saddle.f -o saddle.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp scan.f -o scan.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp sdstep.f -o sdstep.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp search.f -o search.o 
+     [exec] gcc -c -I/home/ponder/ffe/build/ffe/native -I/home/ponder/ffe/build/ffe/native/linux -I"C:\Program Files\Java\jdk1.8.0_112\include" -I"C:\Program Files\Java\jdk1.8.0_112\include\win32" -I"C:\Program Files\Java\jdk1.8.0_112\lib" -I/home/ponder/ffe/build/apbs/include -Ofast -msse3 -fopenmp server.c
+     [exec] gfortran -c -Ofast -msse3 -fopenmp shakeup.f -o shakeup.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp sigmoid.f -o sigmoid.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp simplex.f -o simplex.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp sktstuf.f -o sktstuf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp sniffer.f -o sniffer.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp sort.f -o sort.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp spacefill.f -o spacefill.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp spectrum.f -o spectrum.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp square.f -o square.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp suffix.f -o suffix.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp superpose.f -o superpose.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp surface.f -o surface.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp surfatom.f -o surfatom.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp switch.f -o switch.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp tcgstuf.f -o tcgstuf.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp temper.f -o temper.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp testgrad.f -o testgrad.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp testhess.f -o testhess.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp testpair.f -o testpair.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp testpol.f -o testpol.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp testrot.f -o testrot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp testvir.f -o testvir.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp timer.f -o timer.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp timerot.f -o timerot.o 
+     [exec] gfortran -c -O1 -msse3 -fopenmp tncg.f -o tncg.o
+     [exec] gfortran -c -Ofast -msse3 -fopenmp torphase.f -o torphase.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp torque.f -o torque.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp torsfit.f -o torsfit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp torsions.f -o torsions.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp trimtext.f -o trimtext.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp unitcell.f -o unitcell.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp valfit.f -o valfit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp valence.f -o valence.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp verlet.f -o verlet.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp version.f -o version.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp vibbig.f -o vibbig.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp vibrate.f -o vibrate.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp vibrot.f -o vibrot.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp volume.f -o volume.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp xtals.f -o xtals.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp xtalfit.f -o xtalfit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp xtalmin.f -o xtalmin.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp xyzatm.f -o xyzatm.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp xyzedit.f -o xyzedit.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp xyzint.f -o xyzint.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp xyzmol2.f -o xyzmol2.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp xyzpdb.f -o xyzpdb.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp zatom.f -o zatom.o 
+     [exec] ar -crusv libtinker.a \
+     [exec] action.o \
+     [exec] active.o \
+     [exec] align.o \
+     [exec] analysis.o \
+     [exec] analyz.o \
+     [exec] angang.o \
+     [exec] angbnd.o \
+     [exec] angles.o \
+     [exec] angpot.o \
+     [exec] angtor.o \
+     [exec] argue.o \
+     [exec] ascii.o \
+     [exec] atmlst.o \
+     [exec] atomid.o \
+     [exec] atoms.o \
+     [exec] attach.o \
+     [exec] baoab.o \
+     [exec] basefile.o \
+     [exec] bath.o \
+     [exec] beeman.o \
+     [exec] bicubic.o \
+     [exec] bitor.o \
+     [exec] bitors.o \
+     [exec] bndpot.o \
+     [exec] bndstr.o \
+     [exec] bonds.o \
+     [exec] born.o \
+     [exec] bound.o \
+     [exec] bounds.o \
+     [exec] boxes.o \
+     [exec] bussi.o \
+     [exec] calendar.o \
+     [exec] cell.o \
+     [exec] center.o \
+     [exec] charge.o \
+     [exec] chgpen.o \
+     [exec] chgpot.o \
+     [exec] chgtrn.o \
+     [exec] chkpole.o \
+     [exec] chkring.o \
+     [exec] chkxyz.o \
+     [exec] cholesky.o \
+     [exec] chrono.o \
+     [exec] chunks.o \
+     [exec] clock.o \
+     [exec] cluster.o \
+     [exec] column.o \
+     [exec] command.o \
+     [exec] connect.o \
+     [exec] connolly.o \
+     [exec] control.o \
+     [exec] couple.o \
+     [exec] cspline.o \
+     [exec] cutoffs.o \
+     [exec] damping.o \
+     [exec] deflate.o \
+     [exec] delete.o \
+     [exec] deriv.o \
+     [exec] diagq.o \
+     [exec] diffeq.o \
+     [exec] dipole.o \
+     [exec] disgeo.o \
+     [exec] disp.o \
+     [exec] dma.o \
+     [exec] domega.o \
+     [exec] dsppot.o \
+     [exec] eangang.o \
+     [exec] eangang1.o \
+     [exec] eangang2.o \
+     [exec] eangang3.o \
+     [exec] eangle.o \
+     [exec] eangle1.o \
+     [exec] eangle2.o \
+     [exec] eangle3.o \
+     [exec] eangtor.o \
+     [exec] eangtor1.o \
+     [exec] eangtor2.o \
+     [exec] eangtor3.o \
+     [exec] ebond.o \
+     [exec] ebond1.o \
+     [exec] ebond2.o \
+     [exec] ebond3.o \
+     [exec] ebuck.o \
+     [exec] ebuck1.o \
+     [exec] ebuck2.o \
+     [exec] ebuck3.o \
+     [exec] echarge.o \
+     [exec] echarge1.o \
+     [exec] echarge2.o \
+     [exec] echarge3.o \
+     [exec] echgdpl.o \
+     [exec] echgdpl1.o \
+     [exec] echgdpl2.o \
+     [exec] echgdpl3.o \
+     [exec] echgtrn.o \
+     [exec] echgtrn1.o \
+     [exec] echgtrn2.o \
+     [exec] echgtrn3.o \
+     [exec] edipole.o \
+     [exec] edipole1.o \
+     [exec] edipole2.o \
+     [exec] edipole3.o \
+     [exec] edisp.o \
+     [exec] edisp1.o \
+     [exec] edisp2.o \
+     [exec] edisp3.o \
+     [exec] egauss.o \
+     [exec] egauss1.o \
+     [exec] egauss2.o \
+     [exec] egauss3.o \
+     [exec] egeom.o \
+     [exec] egeom1.o \
+     [exec] egeom2.o \
+     [exec] egeom3.o \
+     [exec] ehal.o \
+     [exec] ehal1.o \
+     [exec] ehal2.o \
+     [exec] ehal3.o \
+     [exec] eimprop.o \
+     [exec] eimprop1.o \
+     [exec] eimprop2.o \
+     [exec] eimprop3.o \
+     [exec] eimptor.o \
+     [exec] eimptor1.o \
+     [exec] eimptor2.o \
+     [exec] eimptor3.o \
+     [exec] elj.o \
+     [exec] elj1.o \
+     [exec] elj2.o \
+     [exec] elj3.o \
+     [exec] embed.o \
+     [exec] emetal.o \
+     [exec] emetal1.o \
+     [exec] emetal2.o \
+     [exec] emetal3.o \
+     [exec] emm3hb.o \
+     [exec] emm3hb1.o \
+     [exec] emm3hb2.o \
+     [exec] emm3hb3.o \
+     [exec] empole.o \
+     [exec] empole1.o \
+     [exec] empole2.o \
+     [exec] empole3.o \
+     [exec] energi.o \
+     [exec] energy.o \
+     [exec] eopbend.o \
+     [exec] eopbend1.o \
+     [exec] eopbend2.o \
+     [exec] eopbend3.o \
+     [exec] eopdist.o \
+     [exec] eopdist1.o \
+     [exec] eopdist2.o \
+     [exec] eopdist3.o \
+     [exec] epitors.o \
+     [exec] epitors1.o \
+     [exec] epitors2.o \
+     [exec] epitors3.o \
+     [exec] epolar.o \
+     [exec] epolar1.o \
+     [exec] epolar2.o \
+     [exec] epolar3.o \
+     [exec] erepel.o \
+     [exec] erepel1.o \
+     [exec] erepel2.o \
+     [exec] erepel3.o \
+     [exec] erf.o \
+     [exec] erxnfld.o \
+     [exec] erxnfld1.o \
+     [exec] erxnfld2.o \
+     [exec] erxnfld3.o \
+     [exec] esolv.o \
+     [exec] esolv1.o \
+     [exec] esolv2.o \
+     [exec] esolv3.o \
+     [exec] estrbnd.o \
+     [exec] estrbnd1.o \
+     [exec] estrbnd2.o \
+     [exec] estrbnd3.o \
+     [exec] estrtor.o \
+     [exec] estrtor1.o \
+     [exec] estrtor2.o \
+     [exec] estrtor3.o \
+     [exec] etors.o \
+     [exec] etors1.o \
+     [exec] etors2.o \
+     [exec] etors3.o \
+     [exec] etortor.o \
+     [exec] etortor1.o \
+     [exec] etortor2.o \
+     [exec] etortor3.o \
+     [exec] eurey.o \
+     [exec] eurey1.o \
+     [exec] eurey2.o \
+     [exec] eurey3.o \
+     [exec] evcorr.o \
+     [exec] ewald.o \
+     [exec] extra.o \
+     [exec] extra1.o \
+     [exec] extra2.o \
+     [exec] extra3.o \
+     [exec] faces.o \
+     [exec] fatal.o \
+     [exec] fft.o \
+     [exec] fft3d.o \
+     [exec] fftpack.o \
+     [exec] field.o \
+     [exec] fields.o \
+     [exec] files.o \
+     [exec] final.o \
+     [exec] flatten.o \
+     [exec] fracs.o \
+     [exec] freeunit.o \
+     [exec] freeze.o \
+     [exec] geometry.o \
+     [exec] getarc.o \
+     [exec] getint.o \
+     [exec] getkey.o \
+     [exec] getmol.o \
+     [exec] getmol2.o \
+     [exec] getnumb.o \
+     [exec] getpdb.o \
+     [exec] getprm.o \
+     [exec] getref.o \
+     [exec] getstring.o \
+     [exec] gettext.o \
+     [exec] getword.o \
+     [exec] getxyz.o \
+     [exec] ghmcstep.o \
+     [exec] gkstuf.o \
+     [exec] gradient.o \
+     [exec] gradrgd.o \
+     [exec] gradrot.o \
+     [exec] group.o \
+     [exec] groups.o \
+     [exec] grpline.o \
+     [exec] gyrate.o \
+     [exec] hescut.o \
+     [exec] hessian.o \
+     [exec] hessn.o \
+     [exec] hessrgd.o \
+     [exec] hessrot.o \
+     [exec] hpmf.o \
+     [exec] hybrid.o \
+     [exec] ielscf.o \
+     [exec] image.o \
+     [exec] impose.o \
+     [exec] improp.o \
+     [exec] imptor.o \
+     [exec] induce.o \
+     [exec] inertia.o \
+     [exec] inform.o \
+     [exec] initatom.o \
+     [exec] initial.o \
+     [exec] initprm.o \
+     [exec] initres.o \
+     [exec] initrot.o \
+     [exec] insert.o \
+     [exec] inter.o \
+     [exec] invbeta.o \
+     [exec] invert.o \
+     [exec] iounit.o \
+     [exec] jacobi.o \
+     [exec] kanang.o \
+     [exec] kangang.o \
+     [exec] kangle.o \
+     [exec] kangs.o \
+     [exec] kangtor.o \
+     [exec] kantor.o \
+     [exec] katom.o \
+     [exec] katoms.o \
+     [exec] kbond.o \
+     [exec] kbonds.o \
+     [exec] kcharge.o \
+     [exec] kchgtrn.o \
+     [exec] kchrge.o \
+     [exec] kcpen.o \
+     [exec] kctrn.o \
+     [exec] kdipol.o \
+     [exec] kdipole.o \
+     [exec] kdisp.o \
+     [exec] kdsp.o \
+     [exec] kewald.o \
+     [exec] kextra.o \
+     [exec] keys.o \
+     [exec] kgeom.o \
+     [exec] khbond.o \
+     [exec] kimprop.o \
+     [exec] kimptor.o \
+     [exec] kinetic.o \
+     [exec] kiprop.o \
+     [exec] kitors.o \
+     [exec] kmetal.o \
+     [exec] kmpole.o \
+     [exec] kmulti.o \
+     [exec] kopbend.o \
+     [exec] kopbnd.o \
+     [exec] kopdist.o \
+     [exec] kopdst.o \
+     [exec] korbit.o \
+     [exec] korbs.o \
+     [exec] kpitor.o \
+     [exec] kpitors.o \
+     [exec] kpolar.o \
+     [exec] kpolr.o \
+     [exec] krepel.o \
+     [exec] krepl.o \
+     [exec] ksolv.o \
+     [exec] kstbnd.o \
+     [exec] kstrbnd.o \
+     [exec] kstrtor.o \
+     [exec] ksttor.o \
+     [exec] ktors.o \
+     [exec] ktorsn.o \
+     [exec] ktortor.o \
+     [exec] ktrtor.o \
+     [exec] kurey.o \
+     [exec] kurybr.o \
+     [exec] kvdw.o \
+     [exec] kvdwpr.o \
+     [exec] kvdws.o \
+     [exec] lattice.o \
+     [exec] lbfgs.o \
+     [exec] light.o \
+     [exec] lights.o \
+     [exec] limits.o \
+     [exec] linmin.o \
+     [exec] makeint.o \
+     [exec] makeref.o \
+     [exec] makexyz.o \
+     [exec] math.o \
+     [exec] maxwell.o \
+     [exec] mdinit.o \
+     [exec] mdrest.o \
+     [exec] mdsave.o \
+     [exec] mdstat.o \
+     [exec] mdstuf.o \
+     [exec] mechanic.o \
+     [exec] merck.o \
+     [exec] merge.o \
+     [exec] minima.o \
+     [exec] molcul.o \
+     [exec] moldyn.o \
+     [exec] molecule.o \
+     [exec] moment.o \
+     [exec] moments.o \
+     [exec] mplpot.o \
+     [exec] mpole.o \
+     [exec] mrecip.o \
+     [exec] mutant.o \
+     [exec] mutate.o \
+     [exec] nblist.o \
+     [exec] neigh.o \
+     [exec] nextarg.o \
+     [exec] nexttext.o \
+     [exec] nonpol.o \
+     [exec] nose.o \
+     [exec] nspline.o \
+     [exec] nucleo.o \
+     [exec] number.o \
+     [exec] numeral.o \
+     [exec] numgrad.o \
+     [exec] ocvm.o \
+     [exec] omega.o \
+     [exec] opbend.o \
+     [exec] opdist.o \
+     [exec] openend.o \
+     [exec] openmp.o \
+     [exec] optinit.o \
+     [exec] optsave.o \
+     [exec] orbital.o \
+     [exec] orbits.o \
+     [exec] orient.o \
+     [exec] orthog.o \
+     [exec] output.o \
+     [exec] overlap.o \
+     [exec] params.o \
+     [exec] paths.o \
+     [exec] pbstuf.o \
+     [exec] pdb.o \
+     [exec] phipsi.o \
+     [exec] picalc.o \
+     [exec] piorbs.o \
+     [exec] pistuf.o \
+     [exec] pitors.o \
+     [exec] pme.o \
+     [exec] pmestuf.o \
+     [exec] pmpb.o \
+     [exec] polar.o \
+     [exec] polgrp.o \
+     [exec] polopt.o \
+     [exec] polpcg.o \
+     [exec] polpot.o \
+     [exec] poltcg.o \
+     [exec] polymer.o \
+     [exec] potent.o \
+     [exec] potfit.o \
+     [exec] precis.o \
+     [exec] precise.o \
+     [exec] pressure.o \
+     [exec] prmkey.o \
+     [exec] promo.o \
+     [exec] prtdyn.o \
+     [exec] prterr.o \
+     [exec] prtint.o \
+     [exec] prtmol2.o \
+     [exec] prtpdb.o \
+     [exec] prtprm.o \
+     [exec] prtseq.o \
+     [exec] prtxyz.o \
+     [exec] ptable.o \
+     [exec] qmstuf.o \
+     [exec] qrfact.o \
+     [exec] quatfit.o \
+     [exec] random.o \
+     [exec] rattle.o \
+     [exec] readdyn.o \
+     [exec] readgau.o \
+     [exec] readgdma.o \
+     [exec] readint.o \
+     [exec] readmol.o \
+     [exec] readmol2.o \
+     [exec] readpdb.o \
+     [exec] readprm.o \
+     [exec] readseq.o \
+     [exec] readxyz.o \
+     [exec] refer.o \
+     [exec] repel.o \
+     [exec] replica.o \
+     [exec] reppot.o \
+     [exec] resdue.o \
+     [exec] respa.o \
+     [exec] restrn.o \
+     [exec] rgddyn.o \
+     [exec] rgdstep.o \
+     [exec] rigid.o \
+     [exec] ring.o \
+     [exec] rings.o \
+     [exec] rmsfit.o \
+     [exec] rotbnd.o \
+     [exec] rotlist.o \
+     [exec] rotpole.o \
+     [exec] rxnfld.o \
+     [exec] rxnpot.o \
+     [exec] scales.o \
+     [exec] sdstep.o \
+     [exec] search.o \
+     [exec] sequen.o \
+     [exec] server.o \
+     [exec] shakeup.o \
+     [exec] shunt.o \
+     [exec] sigmoid.o \
+     [exec] simplex.o \
+     [exec] sizes.o \
+     [exec] sktstuf.o \
+     [exec] socket.o \
+     [exec] solute.o \
+     [exec] sort.o \
+     [exec] square.o \
+     [exec] stodyn.o \
+     [exec] strbnd.o \
+     [exec] strtor.o \
+     [exec] suffix.o \
+     [exec] surface.o \
+     [exec] surfatom.o \
+     [exec] switch.o \
+     [exec] syntrn.o \
+     [exec] tarray.o \
+     [exec] tcgstuf.o \
+     [exec] temper.o \
+     [exec] titles.o \
+     [exec] tncg.o \
+     [exec] torphase.o \
+     [exec] torpot.o \
+     [exec] torque.o \
+     [exec] tors.o \
+     [exec] torsions.o \
+     [exec] tortor.o \
+     [exec] tree.o \
+     [exec] trimtext.o \
+     [exec] unitcell.o \
+     [exec] units.o \
+     [exec] uprior.o \
+     [exec] urey.o \
+     [exec] urypot.o \
+     [exec] usage.o \
+     [exec] valfit.o \
+     [exec] vdw.o \
+     [exec] vdwpot.o \
+     [exec] verlet.o \
+     [exec] version.o \
+     [exec] vibs.o \
+     [exec] virial.o \
+     [exec] volume.o \
+     [exec] warp.o \
+     [exec] xtals.o \
+     [exec] xyzatm.o \
+     [exec] zatom.o \
+     [exec] zclose.o \
+     [exec] zcoord.o
+     [exec] a - action.o
+     [exec] a - active.o
+     [exec] a - align.o
+     [exec] a - analysis.o
+     [exec] a - analyz.o
+     [exec] a - angang.o
+     [exec] a - angbnd.o
+     [exec] a - angles.o
+     [exec] a - angpot.o
+     [exec] a - angtor.o
+     [exec] a - argue.o
+     [exec] a - ascii.o
+     [exec] a - atmlst.o
+     [exec] a - atomid.o
+     [exec] a - atoms.o
+     [exec] a - attach.o
+     [exec] a - baoab.o
+     [exec] a - basefile.o
+     [exec] a - bath.o
+     [exec] a - beeman.o
+     [exec] a - bicubic.o
+     [exec] a - bitor.o
+     [exec] a - bitors.o
+     [exec] a - bndpot.o
+     [exec] a - bndstr.o
+     [exec] a - bonds.o
+     [exec] a - born.o
+     [exec] a - bound.o
+     [exec] a - bounds.o
+     [exec] a - boxes.o
+     [exec] a - bussi.o
+     [exec] a - calendar.o
+     [exec] a - cell.o
+     [exec] a - center.o
+     [exec] a - charge.o
+     [exec] a - chgpen.o
+     [exec] a - chgpot.o
+     [exec] a - chgtrn.o
+     [exec] a - chkpole.o
+     [exec] a - chkring.o
+     [exec] a - chkxyz.o
+     [exec] a - cholesky.o
+     [exec] a - chrono.o
+     [exec] a - chunks.o
+     [exec] a - clock.o
+     [exec] a - cluster.o
+     [exec] a - column.o
+     [exec] a - command.o
+     [exec] a - connect.o
+     [exec] a - connolly.o
+     [exec] a - control.o
+     [exec] a - couple.o
+     [exec] a - cspline.o
+     [exec] a - cutoffs.o
+     [exec] a - damping.o
+     [exec] a - deflate.o
+     [exec] a - delete.o
+     [exec] a - deriv.o
+     [exec] a - diagq.o
+     [exec] a - diffeq.o
+     [exec] a - dipole.o
+     [exec] a - disgeo.o
+     [exec] a - disp.o
+     [exec] a - dma.o
+     [exec] a - domega.o
+     [exec] a - dsppot.o
+     [exec] a - eangang.o
+     [exec] a - eangang1.o
+     [exec] a - eangang2.o
+     [exec] a - eangang3.o
+     [exec] a - eangle.o
+     [exec] a - eangle1.o
+     [exec] a - eangle2.o
+     [exec] a - eangle3.o
+     [exec] a - eangtor.o
+     [exec] a - eangtor1.o
+     [exec] a - eangtor2.o
+     [exec] a - eangtor3.o
+     [exec] a - ebond.o
+     [exec] a - ebond1.o
+     [exec] a - ebond2.o
+     [exec] a - ebond3.o
+     [exec] a - ebuck.o
+     [exec] a - ebuck1.o
+     [exec] a - ebuck2.o
+     [exec] a - ebuck3.o
+     [exec] a - echarge.o
+     [exec] a - echarge1.o
+     [exec] a - echarge2.o
+     [exec] a - echarge3.o
+     [exec] a - echgdpl.o
+     [exec] a - echgdpl1.o
+     [exec] a - echgdpl2.o
+     [exec] a - echgdpl3.o
+     [exec] a - echgtrn.o
+     [exec] a - echgtrn1.o
+     [exec] a - echgtrn2.o
+     [exec] a - echgtrn3.o
+     [exec] a - edipole.o
+     [exec] a - edipole1.o
+     [exec] a - edipole2.o
+     [exec] a - edipole3.o
+     [exec] a - edisp.o
+     [exec] a - edisp1.o
+     [exec] a - edisp2.o
+     [exec] a - edisp3.o
+     [exec] a - egauss.o
+     [exec] a - egauss1.o
+     [exec] a - egauss2.o
+     [exec] a - egauss3.o
+     [exec] a - egeom.o
+     [exec] a - egeom1.o
+     [exec] a - egeom2.o
+     [exec] a - egeom3.o
+     [exec] a - ehal.o
+     [exec] a - ehal1.o
+     [exec] a - ehal2.o
+     [exec] a - ehal3.o
+     [exec] a - eimprop.o
+     [exec] a - eimprop1.o
+     [exec] a - eimprop2.o
+     [exec] a - eimprop3.o
+     [exec] a - eimptor.o
+     [exec] a - eimptor1.o
+     [exec] a - eimptor2.o
+     [exec] a - eimptor3.o
+     [exec] a - elj.o
+     [exec] a - elj1.o
+     [exec] a - elj2.o
+     [exec] a - elj3.o
+     [exec] a - embed.o
+     [exec] a - emetal.o
+     [exec] a - emetal1.o
+     [exec] a - emetal2.o
+     [exec] a - emetal3.o
+     [exec] a - emm3hb.o
+     [exec] a - emm3hb1.o
+     [exec] a - emm3hb2.o
+     [exec] a - emm3hb3.o
+     [exec] a - empole.o
+     [exec] a - empole1.o
+     [exec] a - empole2.o
+     [exec] a - empole3.o
+     [exec] a - energi.o
+     [exec] a - energy.o
+     [exec] a - eopbend.o
+     [exec] a - eopbend1.o
+     [exec] a - eopbend2.o
+     [exec] a - eopbend3.o
+     [exec] a - eopdist.o
+     [exec] a - eopdist1.o
+     [exec] a - eopdist2.o
+     [exec] a - eopdist3.o
+     [exec] a - epitors.o
+     [exec] a - epitors1.o
+     [exec] a - epitors2.o
+     [exec] a - epitors3.o
+     [exec] a - epolar.o
+     [exec] a - epolar1.o
+     [exec] a - epolar2.o
+     [exec] a - epolar3.o
+     [exec] a - erepel.o
+     [exec] a - erepel1.o
+     [exec] a - erepel2.o
+     [exec] a - erepel3.o
+     [exec] a - erf.o
+     [exec] a - erxnfld.o
+     [exec] a - erxnfld1.o
+     [exec] a - erxnfld2.o
+     [exec] a - erxnfld3.o
+     [exec] a - esolv.o
+     [exec] a - esolv1.o
+     [exec] a - esolv2.o
+     [exec] a - esolv3.o
+     [exec] a - estrbnd.o
+     [exec] a - estrbnd1.o
+     [exec] a - estrbnd2.o
+     [exec] a - estrbnd3.o
+     [exec] a - estrtor.o
+     [exec] a - estrtor1.o
+     [exec] a - estrtor2.o
+     [exec] a - estrtor3.o
+     [exec] a - etors.o
+     [exec] a - etors1.o
+     [exec] a - etors2.o
+     [exec] a - etors3.o
+     [exec] a - etortor.o
+     [exec] a - etortor1.o
+     [exec] a - etortor2.o
+     [exec] a - etortor3.o
+     [exec] a - eurey.o
+     [exec] a - eurey1.o
+     [exec] a - eurey2.o
+     [exec] a - eurey3.o
+     [exec] a - evcorr.o
+     [exec] a - ewald.o
+     [exec] a - extra.o
+     [exec] a - extra1.o
+     [exec] a - extra2.o
+     [exec] a - extra3.o
+     [exec] a - faces.o
+     [exec] a - fatal.o
+     [exec] a - fft.o
+     [exec] a - fft3d.o
+     [exec] a - fftpack.o
+     [exec] a - field.o
+     [exec] a - fields.o
+     [exec] a - files.o
+     [exec] a - final.o
+     [exec] a - flatten.o
+     [exec] a - fracs.o
+     [exec] a - freeunit.o
+     [exec] a - freeze.o
+     [exec] a - geometry.o
+     [exec] a - getarc.o
+     [exec] a - getint.o
+     [exec] a - getkey.o
+     [exec] a - getmol.o
+     [exec] a - getmol2.o
+     [exec] a - getnumb.o
+     [exec] a - getpdb.o
+     [exec] a - getprm.o
+     [exec] a - getref.o
+     [exec] a - getstring.o
+     [exec] a - gettext.o
+     [exec] a - getword.o
+     [exec] a - getxyz.o
+     [exec] a - ghmcstep.o
+     [exec] a - gkstuf.o
+     [exec] a - gradient.o
+     [exec] a - gradrgd.o
+     [exec] a - gradrot.o
+     [exec] a - group.o
+     [exec] a - groups.o
+     [exec] a - grpline.o
+     [exec] a - gyrate.o
+     [exec] a - hescut.o
+     [exec] a - hessian.o
+     [exec] a - hessn.o
+     [exec] a - hessrgd.o
+     [exec] a - hessrot.o
+     [exec] a - hpmf.o
+     [exec] a - hybrid.o
+     [exec] a - ielscf.o
+     [exec] a - image.o
+     [exec] a - impose.o
+     [exec] a - improp.o
+     [exec] a - imptor.o
+     [exec] a - induce.o
+     [exec] a - inertia.o
+     [exec] a - inform.o
+     [exec] a - initatom.o
+     [exec] a - initial.o
+     [exec] a - initprm.o
+     [exec] a - initres.o
+     [exec] a - initrot.o
+     [exec] a - insert.o
+     [exec] a - inter.o
+     [exec] a - invbeta.o
+     [exec] a - invert.o
+     [exec] a - iounit.o
+     [exec] a - jacobi.o
+     [exec] a - kanang.o
+     [exec] a - kangang.o
+     [exec] a - kangle.o
+     [exec] a - kangs.o
+     [exec] a - kangtor.o
+     [exec] a - kantor.o
+     [exec] a - katom.o
+     [exec] a - katoms.o
+     [exec] a - kbond.o
+     [exec] a - kbonds.o
+     [exec] a - kcharge.o
+     [exec] a - kchgtrn.o
+     [exec] a - kchrge.o
+     [exec] a - kcpen.o
+     [exec] a - kctrn.o
+     [exec] a - kdipol.o
+     [exec] a - kdipole.o
+     [exec] a - kdisp.o
+     [exec] a - kdsp.o
+     [exec] a - kewald.o
+     [exec] a - kextra.o
+     [exec] a - keys.o
+     [exec] a - kgeom.o
+     [exec] a - khbond.o
+     [exec] a - kimprop.o
+     [exec] a - kimptor.o
+     [exec] a - kinetic.o
+     [exec] a - kiprop.o
+     [exec] a - kitors.o
+     [exec] a - kmetal.o
+     [exec] a - kmpole.o
+     [exec] a - kmulti.o
+     [exec] a - kopbend.o
+     [exec] a - kopbnd.o
+     [exec] a - kopdist.o
+     [exec] a - kopdst.o
+     [exec] a - korbit.o
+     [exec] a - korbs.o
+     [exec] a - kpitor.o
+     [exec] a - kpitors.o
+     [exec] a - kpolar.o
+     [exec] a - kpolr.o
+     [exec] a - krepel.o
+     [exec] a - krepl.o
+     [exec] a - ksolv.o
+     [exec] a - kstbnd.o
+     [exec] a - kstrbnd.o
+     [exec] a - kstrtor.o
+     [exec] a - ksttor.o
+     [exec] a - ktors.o
+     [exec] a - ktorsn.o
+     [exec] a - ktortor.o
+     [exec] a - ktrtor.o
+     [exec] a - kurey.o
+     [exec] a - kurybr.o
+     [exec] a - kvdw.o
+     [exec] a - kvdwpr.o
+     [exec] a - kvdws.o
+     [exec] a - lattice.o
+     [exec] a - lbfgs.o
+     [exec] a - light.o
+     [exec] a - lights.o
+     [exec] a - limits.o
+     [exec] a - linmin.o
+     [exec] a - makeint.o
+     [exec] a - makeref.o
+     [exec] a - makexyz.o
+     [exec] a - math.o
+     [exec] a - maxwell.o
+     [exec] a - mdinit.o
+     [exec] a - mdrest.o
+     [exec] a - mdsave.o
+     [exec] a - mdstat.o
+     [exec] a - mdstuf.o
+     [exec] a - mechanic.o
+     [exec] a - merck.o
+     [exec] a - merge.o
+     [exec] a - minima.o
+     [exec] a - molcul.o
+     [exec] a - moldyn.o
+     [exec] a - molecule.o
+     [exec] a - moment.o
+     [exec] a - moments.o
+     [exec] a - mplpot.o
+     [exec] a - mpole.o
+     [exec] a - mrecip.o
+     [exec] a - mutant.o
+     [exec] a - mutate.o
+     [exec] a - nblist.o
+     [exec] a - neigh.o
+     [exec] a - nextarg.o
+     [exec] a - nexttext.o
+     [exec] a - nonpol.o
+     [exec] a - nose.o
+     [exec] a - nspline.o
+     [exec] a - nucleo.o
+     [exec] a - number.o
+     [exec] a - numeral.o
+     [exec] a - numgrad.o
+     [exec] a - ocvm.o
+     [exec] a - omega.o
+     [exec] a - opbend.o
+     [exec] a - opdist.o
+     [exec] a - openend.o
+     [exec] a - openmp.o
+     [exec] a - optinit.o
+     [exec] a - optsave.o
+     [exec] a - orbital.o
+     [exec] a - orbits.o
+     [exec] a - orient.o
+     [exec] a - orthog.o
+     [exec] a - output.o
+     [exec] a - overlap.o
+     [exec] a - params.o
+     [exec] a - paths.o
+     [exec] a - pbstuf.o
+     [exec] a - pdb.o
+     [exec] a - phipsi.o
+     [exec] a - picalc.o
+     [exec] a - piorbs.o
+     [exec] a - pistuf.o
+     [exec] a - pitors.o
+     [exec] a - pme.o
+     [exec] a - pmestuf.o
+     [exec] a - pmpb.o
+     [exec] a - polar.o
+     [exec] a - polgrp.o
+     [exec] a - polopt.o
+     [exec] a - polpcg.o
+     [exec] a - polpot.o
+     [exec] a - poltcg.o
+     [exec] a - polymer.o
+     [exec] a - potent.o
+     [exec] a - potfit.o
+     [exec] a - precis.o
+     [exec] a - precise.o
+     [exec] a - pressure.o
+     [exec] a - prmkey.o
+     [exec] a - promo.o
+     [exec] a - prtdyn.o
+     [exec] a - prterr.o
+     [exec] a - prtint.o
+     [exec] a - prtmol2.o
+     [exec] a - prtpdb.o
+     [exec] a - prtprm.o
+     [exec] a - prtseq.o
+     [exec] a - prtxyz.o
+     [exec] a - ptable.o
+     [exec] a - qmstuf.o
+     [exec] a - qrfact.o
+     [exec] a - quatfit.o
+     [exec] a - random.o
+     [exec] a - rattle.o
+     [exec] a - readdyn.o
+     [exec] a - readgau.o
+     [exec] a - readgdma.o
+     [exec] a - readint.o
+     [exec] a - readmol.o
+     [exec] a - readmol2.o
+     [exec] a - readpdb.o
+     [exec] a - readprm.o
+     [exec] a - readseq.o
+     [exec] a - readxyz.o
+     [exec] a - refer.o
+     [exec] a - repel.o
+     [exec] a - replica.o
+     [exec] a - reppot.o
+     [exec] a - resdue.o
+     [exec] a - respa.o
+     [exec] a - restrn.o
+     [exec] a - rgddyn.o
+     [exec] a - rgdstep.o
+     [exec] a - rigid.o
+     [exec] a - ring.o
+     [exec] a - rings.o
+     [exec] a - rmsfit.o
+     [exec] a - rotbnd.o
+     [exec] a - rotlist.o
+     [exec] a - rotpole.o
+     [exec] a - rxnfld.o
+     [exec] a - rxnpot.o
+     [exec] a - scales.o
+     [exec] a - sdstep.o
+     [exec] a - search.o
+     [exec] a - sequen.o
+     [exec] a - server.o
+     [exec] a - shakeup.o
+     [exec] a - shunt.o
+     [exec] a - sigmoid.o
+     [exec] a - simplex.o
+     [exec] a - sizes.o
+     [exec] a - sktstuf.o
+     [exec] a - socket.o
+     [exec] a - solute.o
+     [exec] a - sort.o
+     [exec] a - square.o
+     [exec] a - stodyn.o
+     [exec] a - strbnd.o
+     [exec] a - strtor.o
+     [exec] a - suffix.o
+     [exec] a - surface.o
+     [exec] a - surfatom.o
+     [exec] a - switch.o
+     [exec] a - syntrn.o
+     [exec] a - tarray.o
+     [exec] a - tcgstuf.o
+     [exec] a - temper.o
+     [exec] a - titles.o
+     [exec] a - tncg.o
+     [exec] a - torphase.o
+     [exec] a - torpot.o
+     [exec] a - torque.o
+     [exec] a - tors.o
+     [exec] a - torsions.o
+     [exec] a - tortor.o
+     [exec] a - tree.o
+     [exec] a - trimtext.o
+     [exec] a - unitcell.o
+     [exec] a - units.o
+     [exec] a - uprior.o
+     [exec] a - urey.o
+     [exec] a - urypot.o
+     [exec] a - usage.o
+     [exec] a - valfit.o
+     [exec] a - vdw.o
+     [exec] a - vdwpot.o
+     [exec] a - verlet.o
+     [exec] a - version.o
+     [exec] a - vibs.o
+     [exec] a - virial.o
+     [exec] a - volume.o
+     [exec] a - warp.o
+     [exec] a - xtals.o
+     [exec] a - xyzatm.o
+     [exec] a - zatom.o
+     [exec] a - zclose.o
+     [exec] a - zcoord.o
+     [exec] ranlib libtinker.a
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o alchemy.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib alchemy.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip alchemy.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o analyze.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib analyze.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip analyze.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o anneal.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib anneal.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip anneal.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o archive.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib archive.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip archive.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o bar.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib bar.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip bar.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o correlate.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib correlate.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip correlate.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o crystal.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib crystal.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip crystal.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o diffuse.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib diffuse.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip diffuse.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o distgeom.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib distgeom.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip distgeom.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o document.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib document.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip document.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o dynamic.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib dynamic.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip dynamic.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o gda.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib gda.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip gda.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o intedit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib intedit.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip intedit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o intxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib intxyz.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip intxyz.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minimize.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib minimize.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip minimize.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minirot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib minirot.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip minirot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib minrigid.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip minrigid.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o mol2xyz.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib mol2xyz.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip mol2xyz.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o molxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib molxyz.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip molxyz.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o monte.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib monte.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip monte.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o newton.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib newton.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip newton.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o newtrot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib newtrot.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip newtrot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o nucleic.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib nucleic.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip nucleic.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optimize.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib optimize.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip optimize.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optirot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib optirot.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip optirot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib optrigid.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip optrigid.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o path.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib path.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip path.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pdbxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib pdbxyz.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip pdbxyz.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o polarize.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib polarize.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip polarize.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o poledit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib poledit.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip poledit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o potential.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib potential.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip potential.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o prmedit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib prmedit.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip prmedit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o protein.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib protein.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip protein.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pss.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib pss.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip pss.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pssrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib pssrigid.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip pssrigid.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pssrot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib pssrot.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip pssrot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o radial.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib radial.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip radial.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o saddle.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib saddle.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip saddle.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o scan.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib scan.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip scan.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o sniffer.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib sniffer.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip sniffer.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o spacefill.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib spacefill.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip spacefill.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o spectrum.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib spectrum.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip spectrum.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o superpose.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib superpose.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip superpose.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testgrad.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testgrad.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip testgrad.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testhess.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testhess.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip testhess.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testpair.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testpair.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip testpair.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testpol.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testpol.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip testpol.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testrot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testrot.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip testrot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testvir.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testvir.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip testvir.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o timer.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib timer.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip timer.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o timerot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib timerot.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip timerot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o torsfit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib torsfit.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip torsfit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o valence.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib valence.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip valence.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibbig.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib vibbig.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip vibbig.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibrate.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib vibrate.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip vibrate.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibrot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib vibrot.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip vibrot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xtalfit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xtalfit.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip xtalfit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xtalmin.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xtalmin.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip xtalmin.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzedit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xyzedit.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip xyzedit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzint.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xyzint.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip xyzint.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzmol2.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xyzmol2.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip xyzmol2.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzpdb.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xyzpdb.o libtinker.a -lstdc++ -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas; strip xyzpdb.x
+     [copy] Copying 62 files to C:\cygwin64\home\ponder\ffe\build\tinker\bin
+     [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build\tinker\bin
+
+ffe:
+     [echo] Build Force Field Explorer
+
+init:
+
+compile:
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\build.xml:189: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 110 source files to C:\cygwin64\home\ponder\ffe\build\ffe\target\classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] 		SignalHandler handler = new SignalHandler() {
+    [javac] 		^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] 		SignalHandler handler = new SignalHandler() {
+    [javac] 		                            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:147: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 			public void handle(Signal sig) {
+    [javac] 			                   ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 		Signal.handle(new Signal("INT"), handler);
+    [javac] 		                  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 		Signal.handle(new Signal("INT"), handler);
+    [javac] 		^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] public class OSXAdapter extends ApplicationAdapter {
+    [javac]                                 ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:37: warning: [deprecation] Application() in Application has been deprecated
+    [javac] 			osxApplication = new Application();
+    [javac] 			                 ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:42: warning: [deprecation] addApplicationListener(ApplicationListener) in Application has been deprecated
+    [javac] 		osxApplication.addApplicationListener(osxAdapter);
+    [javac] 		              ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:43: warning: [deprecation] setEnabledPreferencesMenu(boolean) in Application has been deprecated
+    [javac] 		osxApplication.setEnabledPreferencesMenu(true);
+    [javac] 		              ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:44: warning: [deprecation] setEnabledAboutMenu(boolean) in Application has been deprecated
+    [javac] 		osxApplication.setEnabledAboutMenu(true);
+    [javac] 		              ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:94: warning: [deprecation] handleAbout(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleAbout(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:94: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleAbout(ApplicationEvent ae) {
+    [javac] 	                        ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:96: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:99: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:103: warning: [deprecation] handleOpenFile(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:103: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
+    [javac] 	                           ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:105: warning: [deprecation] getFilename() in ApplicationEvent has been deprecated
+    [javac] 			mainPanel.open(ae.getFilename());
+    [javac] 			                 ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:106: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:108: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:112: warning: [deprecation] handlePreferences(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handlePreferences(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:112: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handlePreferences(ApplicationEvent ae) {
+    [javac] 	                              ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:115: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:117: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:121: warning: [deprecation] handleQuit(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleQuit(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:121: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleQuit(ApplicationEvent ae) {
+    [javac] 	                       ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:123: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 38 warnings
+
+resource:
+     [copy] Copying 5 files to C:\cygwin64\home\ponder\ffe\build\ffe\target\classes
+
+package:
+      [jar] Building jar: C:\cygwin64\home\ponder\ffe\build\ffe\lib\ffe-8.5.jar
+
+make:
+
+kits:
+     [echo] Kit Build Number 31
+[install4j] install4j version 6.1.3 (build 6299), built on 2016-09-19
+[install4j] Registered to 
+[install4j] 
+[install4j] Loading config file C:\cygwin64\home\ponder\ffe\build\windows.install4j
+[install4j] Creating media file 'Windows':
+[install4j]   Collecting files:
+[install4j]   Compiling launchers:
+[install4j]     Compiling launcher 'Force Field Explorer':
+[install4j]   Creating media file: 
+[install4j]     Zipping custom code & resources JAR file
+[install4j]     Identifying components
+[install4j]     Adding JRE (windows-amd64-1.8.0_112)
+[install4j]     Shrinking runtime
+[install4j]   
+[install4j] Creating media file 'Windows Archive':
+[install4j]   Collecting files:
+[install4j]   Compiling launchers:
+[install4j]     Compiling launcher 'Force Field Explorer':
+[install4j]   Creating media file: 
+[install4j]       Zipping custom code & resources JAR file
+[install4j]       Shrinking runtime
+[install4j]       Adding JRE (windows-amd64-1.8.0_112)
+[install4j]   
+[install4j] Compressing 2 media files with 2 threads:
+[install4j] 
+[install4j] Compressed media file 'Windows Archive':
+[install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
+[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.5.31.zip.
+[install4j]   The size of the media file is 228.6 MB
+[install4j] 
+[install4j] Compressed media file 'Windows':
+[install4j]   Compressing files
+[install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
+[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.5.31.exe.
+[install4j]   The size of the media file is 228.2 MB
+[install4j] Writing md5sums.
+[install4j] Writing updates.xml.
+[install4j] Build completed in 37.6 seconds.
+     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\build_8.5.31.log.gz
+     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\error_8.5.31.log.gz
+   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\build_8.5.31.log
+   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\error_8.5.31.log
+
+make:
+
+BUILD SUCCESSFUL
+Total time: 21 minutes 33 seconds

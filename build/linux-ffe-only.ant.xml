@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="make" name="Force Field Explorer for Linux">
+
+	<tstamp />
+	<property file="tools.properties" />
+	<property name="platform" value="linux" />
+	<buildnumber file="${platform}.build.number" />
+	<property name="version" value="8.5" />
+	<property name="kit.dir" value="kits" />
+	<property name="build.log"
+		value="${kit.dir}/build_${version}.${build.number}.log" />
+	<property name="error.log"
+		value="${kit.dir}/error_${version}.${build.number}.log" />
+
+	<property name="ffe.dir" value="${basedir}/ffe" />
+	<property name="jni.dir" value="${ffe.dir}/native" />
+	<property name="jni_md.dir" value="${ffe.dir}/native/${platform}" />
+
+	<target name="info" description="Print Platform Details">
+		<echo message="General Build Information:" />
+		<echo message="Developer: ${user.name}" />
+		<echo message="Build File: ${ant.file}" />
+		<echo message="OS: ${os.name} version ${os.version} on ${os.arch}" />
+		<echo message="JVM: ${java.vendor} ${java.vm.name} version ${java.version}" />
+
+		<echo message="FFE Build Information:" />
+		<echo message="FFE Directory: ${ffe.dir}" />
+	</target>
+
+	<target name="init">
+		<delete verbose="true"
+			includeemptydirs="true"
+			failonerror="false" >
+			<fileset dir="${ffe.dir}" defaultexcludes="no" />
+		</delete>
+
+		<mkdir dir="${kit.dir}" />
+		<echoproperties destfile="${build.log}" format="text" />
+		<echoproperties format="text" />
+	</target>
+
+	<target name="sync-source"
+		depends="init"
+		description="Sync Local Sources with Remote Repositories" >
+
+		<echo level="info" message="Syncing Source Files" />
+		<copy file="../source/ffe.tgz" todir="."/>
+		<untar src="ffe.tgz" dest="." compression="gzip"/>
+	</target>
+
+	<target name="ffe">
+		<echo level="info" message="Build Force Field Explorer" />
+		<ant dir="ffe" target="make" />
+	</target>
+
+	<taskdef name="install4j"
+		classname="com.install4j.Install4JTask"
+		classpath="/opt/install4j6/bin/ant.jar" />
+
+	<target name="kits"
+		depends="ffe"
+		description="Build an FFE Installer Kit" >
+
+		<echo level="info" message="Kit Build Number ${build.number}" />
+		<install4j projectfile="${platform}.install4j" verbose="false">
+			<variable name="date.stamp" value="${DSTAMP}" />
+			<variable name="time.stamp" value="${TSTAMP}" />
+			<variable name="build.number" value="${build.number}" />
+		</install4j>
+		<gzip src="${build.log}" destfile="${build.log}.gz" />
+		<gzip src="${error.log}" destfile="${error.log}.gz" />
+		<delete file="${build.log}" />
+		<delete file="${error.log}" />
+	</target>
+
+	<target name="make"
+		depends="info,sync-source,kits"
+		description="Build of FFE from Source Code" />
+
+</project>

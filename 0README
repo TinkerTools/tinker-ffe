@@ -1,0 +1,33 @@
+
+                     #####################################
+                     Distribution Directory for Tinker-FFE
+                     #####################################
+
+         This directory contains the full source distribution and build
+         environment for the Tinker-FFE (Force Field Explorer) package.
+         FFE is a Java-based molecular engineering and visualization tool
+         that provides a GUI interface to the Tinker programs.
+
+         The /source area has full source code for FFE itself, the FFTW
+         Fourier Transform package, the APBS Poisson-Boltzmann solver,
+         and Tinker. Compressed .tgz archive files for these packages
+         are used directly when building FFE.
+
+         The /other area contains code and libraries for many additional
+         pieces needed for FFE, such as bundled Java JREs, Java3D, ant,
+         groovy, Mesa and Sun JCE routines.
+
+         The /build directory has a build environment for constructing
+         FFE install kits for Linux, MacOS and Windows. Scripts provided
+         allowing building of FFE installers via the install4j program.
+         See /build/0README for the exact procedure for building full
+         Tinker-FFE installer kits.
+
+         The current directory has pieces to build Tinker-FFE, except
+         for the following: (1) a C/C++/Fortran compiler suite, the GNU
+         compilers are recommended, (2) a locally installed version of
+         Java 8, and (3) the install4j Java installer builder. Note
+         install4j is a commercial package. The full GUI version is not
+         needed, only a command line version of the install4jc compiler
+         is required.
+

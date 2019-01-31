@@ -1,0 +1,28 @@
+
+                      #####################################
+                      Groovy for Use in Building Tinker-FFE                   
+                      #####################################
+
+        This directory contains Groovy-2.4.4 as downloaded from the site
+        www.groovy-lang.org/download.html during August 2015. Groovy is
+        used by the FFE shell, which must be built as .class files prior
+        to the main FFE build.
+
+        To set up Groovy, first untar the distribution, then follow the 
+        steps in install-groovy.pdf by defining GROOVY_HOME and adding
+        the $GROOVY_HOME/bin directory to your path. The groovyc compiler
+        should then be available at the command line.
+
+        In order to build the FFE shell, run the commands in the script
+        at ffe/src/main/groovy/make.console after setting up the Groovy
+        compiler.
+
+        The /embeddable/groovy-all-2.4.4.jar file in the distribution is
+        a maven version of Groovy to go in the ffe/lib area of the FFE
+        source distribution. Make sure the file ffe/build.xml file points
+        to the correct groovy version.
+
+        Note Groovy 2.4.7 was tested during December 2016. The FFE shell
+        compiles under 2.4.7, but gives an error when run. Code changes
+        would likely be needed to use this newer Groovy version.
+

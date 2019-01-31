@@ -1,0 +1,16 @@
+
+                ###############################################
+                Java JDK and JRE for Use in Building Tinker-FFE
+                ###############################################
+
+        This directory contains Java JRE kits downloaded from Oracle and
+        the install4j web site during November 2016. The JDK kits are to
+        be installed prior to building FFE, and are needed to run the ant
+        script and install4j.
+
+        The "macosx" and "windows" kits are JREs from the install4j site,
+        and are to be bundled with the FFE installation kits. install4j
+        does not provide pre-bundled JRE kits for Linux, so the "linux"
+        JRE kit found here was created from the original Oracle JRE via
+        the "createbundle" program provided with install4j.
+
