@@ -1,0 +1,17 @@
+
+              ####################################################
+              System-Dependent "Native" FFE Components for Windows
+              ####################################################
+
+       This directory contains native components for Windows, including:
+
+       (1)  ffe.dll, to let Force Field Explorer launch native executables,
+            built from nativeExec.c via the dll.bat script
+
+       (2)  jni_md.h, the system-dependent Java Native Interface (JNI)
+            header file, should be taken from the JRE bundled with FFE,
+            the current version, which is Java 1.8.0_112
+
+       (3)  jvm.dll, the main Java virtual machine dynamic library from
+            the current version, which is Java 1.8.0_112
+

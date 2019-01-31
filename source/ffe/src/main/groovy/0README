@@ -1,0 +1,9 @@
+
+                       ###################################
+                       Groovy-based Shell for Use with FFE
+                       ###################################
+
+        In order to build the FFE shell, run the commands in the script
+        "make.console" after setting up the groovy compiler. The groovy
+        distribution is in other/groovy.
+

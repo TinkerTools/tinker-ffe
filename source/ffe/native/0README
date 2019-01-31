@@ -1,0 +1,13 @@
+
+               #################################################
+               "Native" FFE Components for Supported OS Versions
+               #################################################
+
+        This directory contains native components for FFE, including:
+
+        (1)  jni.h, the machine-independent Java Native Interface (JNI)
+             header file, should be taken from the JRE bundled with FFE,
+             the current version is from Java 1.8.0_112
+
+        (2)  ffe_core_FFEExec.h
+
