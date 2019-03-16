@@ -1,4 +1,4 @@
 # List of generated media files. The columns are tab-separated:
 # id | media file type | display name | media file path
-42744	windows	Windows Archive	C:\cygwin64\home\ponder\ffe\build\kits\Tinker-FFE_windows-x64_8.5.31.zip
-42743	windows	Windows	C:\cygwin64\home\ponder\ffe\build\kits\Tinker-FFE_windows-x64_8.5.31.exe
+42743	windows	Windows	C:\cygwin64\home\ponder\ffe\build\kits\Tinker-FFE_windows-x64_8.6.31.exe
+42744	windows	Windows Archive	C:\cygwin64\home\ponder\ffe\build\kits\Tinker-FFE_windows-x64_8.6.31.zip

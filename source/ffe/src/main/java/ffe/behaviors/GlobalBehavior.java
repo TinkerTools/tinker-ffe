@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2019 Jay William Ponder</p>
  * <p>Company: Jay Ponder Lab, Washington University in Saint Louis</p>
  * @author Michael J. Schnieders
- * @version 8.5
+ * @version 8.6
  */
 
 package ffe.behaviors;

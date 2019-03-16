@@ -1,11 +1,12 @@
+
                       #####################################
                       FFE Setup on Linux, MacOS and Windows
                       #####################################
 
-          On Linux and MacOS, either FFESetup*.sh or FFESetup*.csh
-          must be invoked in order to set environment variables needed
-          to run Force Field Explorer from the command line. Note the
-          scripts can either be "sourced" or run directly. On Windows,
-          the FFESetupWin.bat script must be invoked prior to running
-          FFE by double-clicking the app to achieve the same effect.
+         On Linux and MacOS, either FFESetup*.sh or FFESetup*.csh must
+         be invoked in order to set environment variables needed to run
+         Force Field Explorer from the command line. Note the scripts
+         can be sourced or run directly. On Windows, the FFESetupWin.bat
+         script must be invoked prior to running FFE by double-clicking
+         the app to achieve the same effect.
 

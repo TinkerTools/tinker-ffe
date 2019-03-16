@@ -5,7 +5,7 @@
 	<property file="tools.properties" />
 	<property name="platform" value="macos" />
 	<buildnumber file="${platform}.build.number" />
-	<property name="version" value="8.5" />
+	<property name="version" value="8.6" />
 	<property name="kit.dir" value="kits" />
 	<property name="build.log"
 		value="${kit.dir}/build_${version}.${build.number}.log" />
@@ -133,7 +133,6 @@
 		description="Configure FFTW" >
 
 		<echo level="info" message="Configuring FFTW" />
-		<copy file="fftw/configure-${platform}" tofile="fftw/configure" overwrite="true" />
 		<chmod file="fftw/configure" perm="+x" />
 		<chmod file="fftw/install-sh" perm="+x" />
 		<exec dir="${fftw.dir}"
@@ -212,7 +211,7 @@
 			<env key="CFLAGS" value="${apbs.c.flags}" />
 			<env key="CXXFLAGS" value="${apbs.c.flags}" />
 			<arg value="-c" />
-			<arg value="./configure --enable-tinker --disable-zlib --prefix=${apbs.dir}" />
+			<arg value="./configure --prefix=${apbs.dir} --enable-tinker --disable-zlib" />
 		</exec>
 	</target>
 

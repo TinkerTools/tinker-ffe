@@ -1,6 +1,6 @@
 /* -------------------------------------------------------
 This shader implements a directional light per pixel using the diffuse,
-specular and ambient terms acoording to "Mathematics of Lighthing"
+specular and ambient terms acoording to "Mathematics of Lighting"
 as found in the book "OpenGL Programming Guide" (aka the Red Book)
 
 Antonio Ramires Fernandes

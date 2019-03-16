@@ -6,7 +6,7 @@
 	<property name="platform" value="windows" />
 	<property name="compiler" value="intel" />
 	<buildnumber file="${platform}.build.number" />
-	<property name="version" value="8.5" />
+	<property name="version" value="8.6" />
 	<property name="kit.dir" value="kits" />
 	<property name="build.log"
 	          value="${kit.dir}/build_${version}.${build.number}.log" />

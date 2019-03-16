@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <updateDescriptor baseUrl="">
-  <entry targetMediaFileId="42744" updatableVersionMin="" updatableVersionMax="" fileName="Tinker-FFE_windows-x64_8.5.31.zip" newVersion="8.5.31" newMediaFileId="42744" fileSize="239682628" bundledJre="windows-amd64-1.8.0_112" archive="true">
+  <entry targetMediaFileId="42743" updatableVersionMin="" updatableVersionMax="" fileName="Tinker-FFE_windows-x64_8.6.31.exe" newVersion="8.6.31" newMediaFileId="42743" fileSize="277193728" bundledJre="windows-amd64-1.8.0_112" archive="false">
     <comment language="en" />
   </entry>
-  <entry targetMediaFileId="42743" updatableVersionMin="" updatableVersionMax="" fileName="Tinker-FFE_windows-x64_8.5.31.exe" newVersion="8.5.31" newMediaFileId="42743" fileSize="239236608" bundledJre="windows-amd64-1.8.0_112" archive="false">
+  <entry targetMediaFileId="42744" updatableVersionMin="" updatableVersionMax="" fileName="Tinker-FFE_windows-x64_8.6.31.zip" newVersion="8.6.31" newMediaFileId="42744" fileSize="277638834" bundledJre="windows-amd64-1.8.0_112" archive="true">
     <comment language="en" />
   </entry>
 </updateDescriptor>
