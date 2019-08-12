@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: /home/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /home/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Fri Mar 15 14:44:29 CDT 2019
-[echoproperties] DSTAMP=20190315
-[echoproperties] TODAY=March 15 2019
-[echoproperties] TSTAMP=1444
+[echoproperties] #Thu Jul 11 18:42:12 CDT 2019
+[echoproperties] DSTAMP=20190711
+[echoproperties] TODAY=July 11 2019
+[echoproperties] TSTAMP=1842
 [echoproperties] ant.core.lib=/home/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
@@ -65,7 +65,7 @@ init:
 [echoproperties] apbs_src.dir=/home/ponder/ffe/build/apbs_src
 [echoproperties] awt.toolkit=sun.awt.X11.XToolkit
 [echoproperties] basedir=/home/ponder/ffe/build
-[echoproperties] build.log=kits/build_8.6.21.log
+[echoproperties] build.log=kits/build_8.7.21.log
 [echoproperties] build.number=21
 [echoproperties] c.flags=-Ofast -msse3
 [echoproperties] cc=gcc
@@ -75,13 +75,13 @@ init:
 [echoproperties] env.BLD=/home/ponder/ffe/build
 [echoproperties] env.COLORTERM=
 [echoproperties] env.CVS_RSH=ssh
-[echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:abstract\=/tmp/dbus-GYMs8Kd3is,guid\=378f79fccc90488cdb5ede005c8bffc1
+[echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:abstract\=/tmp/dbus-TAxCwKXQ9U,guid\=94f7a2677b4cc7c9525988005d27c729
 [echoproperties] env.DESKTOP_SESSION=default
 [echoproperties] env.DISPLAY=\:0.0
 [echoproperties] env.GDMSESSION=default
 [echoproperties] env.GDM_XSERVER_LOCATION=local
 [echoproperties] env.GNOME_DESKTOP_SESSION_ID=Default
-[echoproperties] env.GNOME_KEYRING_SOCKET=/tmp/keyring-UWAYKS/socket
+[echoproperties] env.GNOME_KEYRING_SOCKET=/tmp/keyring-IXUVkk/socket
 [echoproperties] env.GROUP=users
 [echoproperties] env.GTK_RC_FILES=/etc/gtk/gtkrc\:/home/ponder/.gtkrc-1.2-gnome2
 [echoproperties] env.G_BROKEN_FILENAMES=1
@@ -92,8 +92,8 @@ init:
 [echoproperties] env.INPUTRC=/etc/inputrc
 [echoproperties] env.KDEDIR=/usr
 [echoproperties] env.KDE_IS_PRELINKED=1
-[echoproperties] env.KONSOLE_DCOP=DCOPRef(konsole-8678,konsole)
-[echoproperties] env.KONSOLE_DCOP_SESSION=DCOPRef(konsole-8678,session-1)
+[echoproperties] env.KONSOLE_DCOP=DCOPRef(konsole-4456,konsole)
+[echoproperties] env.KONSOLE_DCOP_SESSION=DCOPRef(konsole-4456,session-1)
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LD_LIBRARY_PATH=/opt/gcc-4.9.2/lib64\:/opt/gcc-4.9.2/lib\:
 [echoproperties] env.LESSOPEN=|/usr/bin/lesspipe.sh %s
@@ -105,22 +105,22 @@ init:
 [echoproperties] env.OSTYPE=linux
 [echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/opt/gcc-4.9.2/bin\:/opt/gcc-4.9.2/bin\:/usr/kerberos/bin\:/usr/local/bin\:/usr/bin\:/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin\:/opt/install4j6/bin\:.\:/home/ponder/tinker/bin\:/opt/install4j6/bin
 [echoproperties] env.PWD=/home/ponder/ffe/build
-[echoproperties] env.SESSION_MANAGER=local/CentOS\:/tmp/.ICE-unix/8436
+[echoproperties] env.SESSION_MANAGER=local/CentOS\:/tmp/.ICE-unix/4215
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] env.SHLVL=2
-[echoproperties] env.SSH_AGENT_PID=8424
+[echoproperties] env.SSH_AGENT_PID=4203
 [echoproperties] env.SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
-[echoproperties] env.SSH_AUTH_SOCK=/tmp/ssh-vQgKEv8388/agent.8388
+[echoproperties] env.SSH_AUTH_SOCK=/tmp/ssh-iwVwvs4167/agent.4167
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
 [echoproperties] env.USER=ponder
 [echoproperties] env.USERNAME=ponder
 [echoproperties] env.VENDOR=unknown
 [echoproperties] env.WINDOWID=27262983
-[echoproperties] env.XAUTHORITY=/tmp/.gdmYV3DYZ
+[echoproperties] env.XAUTHORITY=/tmp/.gdmQ14P4Z
 [echoproperties] env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
 [echoproperties] env.XMODIFIERS=@im\=none
-[echoproperties] error.log=kits/error_8.6.21.log
+[echoproperties] error.log=kits/error_8.7.21.log
 [echoproperties] fc=gfortran
 [echoproperties] ffe.dir=/home/ponder/ffe/build/ffe
 [echoproperties] fftw.dir=/home/ponder/ffe/build/fftw
@@ -188,7 +188,7 @@ init:
 [echoproperties] user.language=en
 [echoproperties] user.name=ponder
 [echoproperties] user.timezone=
-[echoproperties] version=8.6
+[echoproperties] version=8.7
 
 sync-source:
      [echo] Syncing Source Files
@@ -355,6 +355,7 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp correlate.f -o correlate.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp crystal.f -o crystal.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp cspline.f -o cspline.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ctrpot.f -o ctrpot.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp hescut.f -o hescut.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp neigh.f -o neigh.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp tarray.f -o tarray.o 
@@ -595,7 +596,6 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp ptable.f -o ptable.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp initatom.f -o initatom.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp linmin.f -o linmin.o 
-     [exec] gfortran -c -Ofast -msse3 -fopenmp precis.f -o precis.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp scales.f -o scales.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp sequen.f -o sequen.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp initial.f -o initial.o 
@@ -703,7 +703,6 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp poledit.f -o poledit.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp polymer.f -o polymer.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp potential.f -o potential.o 
-     [exec] gfortran -c -Ofast -msse3 -fopenmp precise.f -o precise.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp pressure.f -o pressure.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp prmedit.f -o prmedit.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp prmkey.f -o prmkey.o 
@@ -850,6 +849,7 @@ maketinker:
      [exec] 	control.o \
      [exec] 	couple.o \
      [exec] 	cspline.o \
+     [exec] 	ctrpot.o \
      [exec] 	cutoffs.o \
      [exec] 	damping.o \
      [exec] 	deflate.o \
@@ -1193,8 +1193,6 @@ maketinker:
      [exec] 	polymer.o \
      [exec] 	potent.o \
      [exec] 	potfit.o \
-     [exec] 	precis.o \
-     [exec] 	precise.o \
      [exec] 	pressure.o \
      [exec] 	prmkey.o \
      [exec] 	promo.o \
@@ -1349,6 +1347,7 @@ maketinker:
      [exec] a - control.o
      [exec] a - couple.o
      [exec] a - cspline.o
+     [exec] a - ctrpot.o
      [exec] a - cutoffs.o
      [exec] a - damping.o
      [exec] a - deflate.o
@@ -1692,8 +1691,6 @@ maketinker:
      [exec] a - polymer.o
      [exec] a - potent.o
      [exec] a - potfit.o
-     [exec] a - precis.o
-     [exec] a - precise.o
      [exec] a - pressure.o
      [exec] a - prmkey.o
      [exec] a - promo.o
@@ -1867,11 +1864,131 @@ init:
 
 compile:
     [javac] /home/ponder/ffe/build/ffe/build.xml:189: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 110 source files to /home/ponder/ffe/build/ffe/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] 		SignalHandler handler = new SignalHandler() {
+    [javac] 		^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] 		SignalHandler handler = new SignalHandler() {
+    [javac] 		                            ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:147: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 			public void handle(Signal sig) {
+    [javac] 			                   ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 		Signal.handle(new Signal("INT"), handler);
+    [javac] 		                  ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 		Signal.handle(new Signal("INT"), handler);
+    [javac] 		^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] public class OSXAdapter extends ApplicationAdapter {
+    [javac]                                 ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:37: warning: [deprecation] Application() in Application has been deprecated
+    [javac] 			osxApplication = new Application();
+    [javac] 			                 ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:42: warning: [deprecation] addApplicationListener(ApplicationListener) in Application has been deprecated
+    [javac] 		osxApplication.addApplicationListener(osxAdapter);
+    [javac] 		              ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:43: warning: [deprecation] setEnabledPreferencesMenu(boolean) in Application has been deprecated
+    [javac] 		osxApplication.setEnabledPreferencesMenu(true);
+    [javac] 		              ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:44: warning: [deprecation] setEnabledAboutMenu(boolean) in Application has been deprecated
+    [javac] 		osxApplication.setEnabledAboutMenu(true);
+    [javac] 		              ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:94: warning: [deprecation] handleAbout(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleAbout(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:94: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleAbout(ApplicationEvent ae) {
+    [javac] 	                        ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:96: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:99: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:103: warning: [deprecation] handleOpenFile(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:103: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
+    [javac] 	                           ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:105: warning: [deprecation] getFilename() in ApplicationEvent has been deprecated
+    [javac] 			mainPanel.open(ae.getFilename());
+    [javac] 			                 ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:106: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:108: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:112: warning: [deprecation] handlePreferences(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handlePreferences(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:112: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handlePreferences(ApplicationEvent ae) {
+    [javac] 	                              ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:115: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:117: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:121: warning: [deprecation] handleQuit(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleQuit(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:121: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleQuit(ApplicationEvent ae) {
+    [javac] 	                       ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:123: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 38 warnings
 
 resource:
+     [copy] Copying 5 files to /home/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-8.6.jar
+      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-8.7.jar
 
 make:
 
@@ -1919,27 +2036,27 @@ kits:
 [install4j] Compressed media file 'Unix Installer':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_8.6.21.sh.
-[install4j]   The size of the media file is 273.8 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_8.7.21.sh.
+[install4j]   The size of the media file is 275.5 MB
 [install4j] 
 [install4j] Compressed media file 'Unix Archive':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_8.6.21.tar.gz.
-[install4j]   The size of the media file is 259.7 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_8.7.21.tar.gz.
+[install4j]   The size of the media file is 260.8 MB
 [install4j] 
 [install4j] Compressed media file 'Linux RPM':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_linux_8.6.21.rpm.
-[install4j]   The size of the media file is 260.4 MB
+[install4j]   The name of the media file is Tinker-FFE_linux_8.7.21.rpm.
+[install4j]   The size of the media file is 261.5 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 60.9 seconds.
-     [gzip] Building: /home/ponder/ffe/build/kits/build_8.6.21.log.gz
-     [gzip] Building: /home/ponder/ffe/build/kits/error_8.6.21.log.gz
-   [delete] Deleting: /home/ponder/ffe/build/kits/build_8.6.21.log
-   [delete] Deleting: /home/ponder/ffe/build/kits/error_8.6.21.log
+[install4j] Build completed in 77.4 seconds.
+     [gzip] Building: /home/ponder/ffe/build/kits/build_8.7.21.log.gz
+     [gzip] Building: /home/ponder/ffe/build/kits/error_8.7.21.log.gz
+   [delete] Deleting: /home/ponder/ffe/build/kits/build_8.7.21.log
+   [delete] Deleting: /home/ponder/ffe/build/kits/error_8.7.21.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 4 minutes 54 seconds
+Total time: 5 minutes 34 seconds

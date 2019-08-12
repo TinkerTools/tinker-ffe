@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2019 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in Saint Louis</p>
  * @author Michael J. Schnieders
- * @version 8.6
+ * @version 8.7
  */
 
 package ffe.shell
@@ -237,7 +237,7 @@ class Console implements CaretListener {
 
 		frame.show()
 		SwingUtilities.invokeLater({inputArea.requestFocus()});
-		appendOutput("\n Force Field Explorer\n Version 8.6, February 2019\n" + " Copyright (c) Michael Schnieders, Jay Ponder, 2004-2019,\n All Rights Reserved\n" + " Email to: ponder@dasher.wustl.edu\n\n", commandStyle);
+		appendOutput("\n Force Field Explorer\n Version 8.7, June 2019\n" + " Copyright (c) Michael Schnieders, Jay Ponder, 2004-2019,\n All Rights Reserved\n" + " Email to: ponder@dasher.wustl.edu\n\n", commandStyle);
 	}
 
 	void addStylesToDocument(JTextPane outputArea) {

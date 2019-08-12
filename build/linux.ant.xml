@@ -5,7 +5,7 @@
 	<property file="tools.properties" />
 	<property name="platform" value="linux" />
 	<buildnumber file="${platform}.build.number" />
-	<property name="version" value="8.6" />
+	<property name="version" value="8.7" />
 	<property name="kit.dir" value="kits" />
 	<property name="build.log"
 		value="${kit.dir}/build_${version}.${build.number}.log" />

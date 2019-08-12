@@ -38,7 +38,7 @@
 		
 	</description>
 
-	<property name="ffe.version" value="8.6" />
+	<property name="ffe.version" value="8.7" />
 	<property name="src.dir" value="src/main/java" />
 	<property name="build.dir" value="target/classes" />
 	<property name="jar.dir" value="${basedir}/lib" />

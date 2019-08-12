@@ -54,13 +54,13 @@ endif
 # Add required JAR files to CLASSPATH variable
 #
 if !($?CLASSPATH) then
-   setenv CLASSPATH "$FFE_LIB/AppleJavaExtensions-1.6.jar:$FFE_LIB/commons-io-2.6.jar:$FFE_LIB/commons-lang-2.7.jar:$FFE_LIB/commons-logging-1.3.jar:$FFE_LIB/ffe-8.6.jar:$FFE_LIB/gluegen-rt-android-natives-macosx-universal.jar:$FFE_LIB/gluegen-rt.jar:$FFE_LIB/gluegen.jar:$FFE_LIB/groovy-all-2.4.4.jar:$FFE_LIB/j3dcore-1.7.jar:$FFE_LIB/j3dutils-1.7.jar:$FFE_LIB/jh-2.0.5.jar:$FFE_LIB/joal-natives-macosx-universal.jar:$FFE_LIB/joal.jar:$FFE_LIB/jogl-all-noawt-natives-macosx-universal.jar:$FFE_LIB/jogl-all.jar:$FFE_LIB/sunjce_provider.jar:$FFE_LIB/vecmath-1.7.jar:$OS_LIB"
+   setenv CLASSPATH "$FFE_LIB/AppleJavaExtensions-1.6.jar:$FFE_LIB/commons-io-2.6.jar:$FFE_LIB/commons-lang-2.7.jar:$FFE_LIB/commons-logging-1.3.jar:$FFE_LIB/ffe-8.7.jar:$FFE_LIB/gluegen-rt-android-natives-macosx-universal.jar:$FFE_LIB/gluegen-rt.jar:$FFE_LIB/gluegen.jar:$FFE_LIB/groovy-all-2.4.4.jar:$FFE_LIB/j3dcore-1.7.jar:$FFE_LIB/j3dutils-1.7.jar:$FFE_LIB/jh-2.0.5.jar:$FFE_LIB/joal-natives-macosx-universal.jar:$FFE_LIB/joal.jar:$FFE_LIB/jogl-all-noawt-natives-macosx-universal.jar:$FFE_LIB/jogl-all.jar:$FFE_LIB/sunjce_provider.jar:$FFE_LIB/vecmath-1.7.jar:$OS_LIB"
 else
-   setenv CLASSPATH "$FFE_LIB/AppleJavaExtensions-1.6.jar:$FFE_LIB/commons-io-2.6.jar:$FFE_LIB/commons-lang-2.7.jar:$FFE_LIB/commons-logging-1.3.jar:$FFE_LIB/ffe-8.6.jar:$FFE_LIB/gluegen-rt-android-natives-macosx-universal.jar:$FFE_LIB/gluegen-rt.jar:$FFE_LIB/gluegen.jar:$FFE_LIB/groovy-all-2.4.4.jar:$FFE_LIB/j3dcore-1.7.jar:$FFE_LIB/j3dutils-1.7.jar:$FFE_LIB/jh-2.0.5.jar:$FFE_LIB/joal-natives-macosx-universal.jar:$FFE_LIB/joal.jar:$FFE_LIB/jogl-all-noawt-natives-macosx-universal.jar:$FFE_LIB/jogl-all.jar:$FFE_LIB/sunjce_provider.jar:$FFE_LIB/vecmath-1.7.jar:$OS_LIB:$CLASSPATH"
+   setenv CLASSPATH "$FFE_LIB/AppleJavaExtensions-1.6.jar:$FFE_LIB/commons-io-2.6.jar:$FFE_LIB/commons-lang-2.7.jar:$FFE_LIB/commons-logging-1.3.jar:$FFE_LIB/ffe-8.7.jar:$FFE_LIB/gluegen-rt-android-natives-macosx-universal.jar:$FFE_LIB/gluegen-rt.jar:$FFE_LIB/gluegen.jar:$FFE_LIB/groovy-all-2.4.4.jar:$FFE_LIB/j3dcore-1.7.jar:$FFE_LIB/j3dutils-1.7.jar:$FFE_LIB/jh-2.0.5.jar:$FFE_LIB/joal-natives-macosx-universal.jar:$FFE_LIB/joal.jar:$FFE_LIB/jogl-all-noawt-natives-macosx-universal.jar:$FFE_LIB/jogl-all.jar:$FFE_LIB/sunjce_provider.jar:$FFE_LIB/vecmath-1.7.jar:$OS_LIB:$CLASSPATH"
 endif
 
 #
 # Create an alias to execute Force Field Explorer
 #
-#alias ffe "java -server -ms1024M -mx4096M -Djava.library.path=$FFE_LIB -Dtinker.dir=$TINKER_HOME -jar $FFE_LIB/ffe-8.6.jar"
+#alias ffe "java -server -ms1024M -mx4096M -Djava.library.path=$FFE_LIB -Dtinker.dir=$TINKER_HOME -jar $FFE_LIB/ffe-8.7.jar"
 alias ffe "$FFE_HOME/Force*Field*Explorer.app/Contents/MacOS/JavaApplicationStub"

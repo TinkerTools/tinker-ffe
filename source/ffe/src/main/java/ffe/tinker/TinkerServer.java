@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2019 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in Saint Louis</p>
  * @author Michael J. Schnieders
- * @version 8.6
+ * @version 8.7
  */
 
 package ffe.tinker;

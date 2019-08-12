@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc
 [echoproperties] #Ant properties
-[echoproperties] #Fri Mar 15 14:59:28 COT 2019
-[echoproperties] DSTAMP=20190315
-[echoproperties] TODAY=March 15 2019
-[echoproperties] TSTAMP=1459
+[echoproperties] #Thu Jul 11 19:52:26 COT 2019
+[echoproperties] DSTAMP=20190711
+[echoproperties] TODAY=July 11 2019
+[echoproperties] TSTAMP=1952
 [echoproperties] ant.core.lib=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar
 [echoproperties] ant.file=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Windows=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
@@ -65,7 +65,7 @@ init:
 [echoproperties] apbs_src.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/apbs_src
 [echoproperties] awt.toolkit=sun.awt.windows.WToolkit
 [echoproperties] basedir=C\:\\cygwin64\\home\\ponder\\ffe\\build
-[echoproperties] build.log=kits/build_8.6.31.log
+[echoproperties] build.log=kits/build_8.7.31.log
 [echoproperties] build.number=31
 [echoproperties] c.flags=-Ofast -msse3
 [echoproperties] cc=gcc
@@ -141,7 +141,7 @@ init:
 [echoproperties] env.VS100COMNTOOLS=c\:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\
 [echoproperties] env.WINDIR=C\:\\WINDOWS
 [echoproperties] env.asl.log=Destination\=file
-[echoproperties] error.log=kits/error_8.6.31.log
+[echoproperties] error.log=kits/error_8.7.31.log
 [echoproperties] fc=gfortran
 [echoproperties] ffe.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/ffe
 [echoproperties] fftw.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/fftw
@@ -212,7 +212,7 @@ init:
 [echoproperties] user.script=
 [echoproperties] user.timezone=
 [echoproperties] user.variant=
-[echoproperties] version=8.6
+[echoproperties] version=8.7
 
 sync-source:
      [echo] Syncing Source Files
@@ -380,6 +380,7 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp correlate.f -o correlate.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp crystal.f -o crystal.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp cspline.f -o cspline.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp ctrpot.f -o ctrpot.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp hescut.f -o hescut.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp neigh.f -o neigh.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp tarray.f -o tarray.o 
@@ -620,7 +621,6 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp ptable.f -o ptable.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp initatom.f -o initatom.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp linmin.f -o linmin.o 
-     [exec] gfortran -c -Ofast -msse3 -fopenmp precis.f -o precis.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp scales.f -o scales.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp sequen.f -o sequen.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp initial.f -o initial.o 
@@ -728,7 +728,6 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp poledit.f -o poledit.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp polymer.f -o polymer.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp potential.f -o potential.o 
-     [exec] gfortran -c -Ofast -msse3 -fopenmp precise.f -o precise.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp pressure.f -o pressure.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp prmedit.f -o prmedit.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp prmkey.f -o prmkey.o 
@@ -875,6 +874,7 @@ maketinker:
      [exec] control.o \
      [exec] couple.o \
      [exec] cspline.o \
+     [exec] ctrpot.o \
      [exec] cutoffs.o \
      [exec] damping.o \
      [exec] deflate.o \
@@ -1218,8 +1218,6 @@ maketinker:
      [exec] polymer.o \
      [exec] potent.o \
      [exec] potfit.o \
-     [exec] precis.o \
-     [exec] precise.o \
      [exec] pressure.o \
      [exec] prmkey.o \
      [exec] promo.o \
@@ -1374,6 +1372,7 @@ maketinker:
      [exec] a - control.o
      [exec] a - couple.o
      [exec] a - cspline.o
+     [exec] a - ctrpot.o
      [exec] a - cutoffs.o
      [exec] a - damping.o
      [exec] a - deflate.o
@@ -1717,8 +1716,6 @@ maketinker:
      [exec] a - polymer.o
      [exec] a - potent.o
      [exec] a - potfit.o
-     [exec] a - precis.o
-     [exec] a - precise.o
      [exec] a - pressure.o
      [exec] a - prmkey.o
      [exec] a - promo.o
@@ -1893,11 +1890,131 @@ init:
 
 compile:
     [javac] C:\cygwin64\home\ponder\ffe\build\ffe\build.xml:189: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 110 source files to C:\cygwin64\home\ponder\ffe\build\ffe\target\classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] 		SignalHandler handler = new SignalHandler() {
+    [javac] 		^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] 		SignalHandler handler = new SignalHandler() {
+    [javac] 		                            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:147: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 			public void handle(Signal sig) {
+    [javac] 			                   ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 		Signal.handle(new Signal("INT"), handler);
+    [javac] 		                  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 		Signal.handle(new Signal("INT"), handler);
+    [javac] 		^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] public class OSXAdapter extends ApplicationAdapter {
+    [javac]                                 ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:37: warning: [deprecation] Application() in Application has been deprecated
+    [javac] 			osxApplication = new Application();
+    [javac] 			                 ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:42: warning: [deprecation] addApplicationListener(ApplicationListener) in Application has been deprecated
+    [javac] 		osxApplication.addApplicationListener(osxAdapter);
+    [javac] 		              ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:43: warning: [deprecation] setEnabledPreferencesMenu(boolean) in Application has been deprecated
+    [javac] 		osxApplication.setEnabledPreferencesMenu(true);
+    [javac] 		              ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:44: warning: [deprecation] setEnabledAboutMenu(boolean) in Application has been deprecated
+    [javac] 		osxApplication.setEnabledAboutMenu(true);
+    [javac] 		              ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:94: warning: [deprecation] handleAbout(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleAbout(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:94: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleAbout(ApplicationEvent ae) {
+    [javac] 	                        ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:96: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:99: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:103: warning: [deprecation] handleOpenFile(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:103: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
+    [javac] 	                           ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:105: warning: [deprecation] getFilename() in ApplicationEvent has been deprecated
+    [javac] 			mainPanel.open(ae.getFilename());
+    [javac] 			                 ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:106: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:108: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:112: warning: [deprecation] handlePreferences(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handlePreferences(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:112: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handlePreferences(ApplicationEvent ae) {
+    [javac] 	                              ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:115: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:117: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:121: warning: [deprecation] handleQuit(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleQuit(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:121: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleQuit(ApplicationEvent ae) {
+    [javac] 	                       ^
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:123: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 38 warnings
 
 resource:
+     [copy] Copying 5 files to C:\cygwin64\home\ponder\ffe\build\ffe\target\classes
 
 package:
-      [jar] Building jar: C:\cygwin64\home\ponder\ffe\build\ffe\lib\ffe-8.6.jar
+      [jar] Building jar: C:\cygwin64\home\ponder\ffe\build\ffe\lib\ffe-8.7.jar
 
 make:
 
@@ -1928,25 +2045,25 @@ kits:
 [install4j]   
 [install4j] Compressing 2 media files with 2 threads:
 [install4j] 
+[install4j] Compressed media file 'Windows Archive':
+[install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
+[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.7.31.zip.
+[install4j]   The size of the media file is 266.7 MB
+[install4j] 
 [install4j] Compressed media file 'Windows':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
-[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.6.31.exe.
-[install4j]   The size of the media file is 264.4 MB
-[install4j] 
-[install4j] Compressed media file 'Windows Archive':
-[install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
-[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.6.31.zip.
-[install4j]   The size of the media file is 264.8 MB
+[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.7.31.exe.
+[install4j]   The size of the media file is 266.2 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 33.3 seconds.
-     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\build_8.6.31.log.gz
-     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\error_8.6.31.log.gz
-   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\build_8.6.31.log
-   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\error_8.6.31.log
+[install4j] Build completed in 37.6 seconds.
+     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\build_8.7.31.log.gz
+     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\error_8.7.31.log.gz
+   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\build_8.7.31.log
+   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\error_8.7.31.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 23 minutes 1 second
+Total time: 23 minutes 27 seconds

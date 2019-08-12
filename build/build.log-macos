@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Fri Mar 15 13:48:51 CDT 2019
-[echoproperties] DSTAMP=20190315
-[echoproperties] TODAY=March 15 2019
-[echoproperties] TSTAMP=1348
+[echoproperties] #Thu Jul 11 18:11:46 CDT 2019
+[echoproperties] DSTAMP=20190711
+[echoproperties] TODAY=July 11 2019
+[echoproperties] TSTAMP=1811
 [echoproperties] ant.core.lib=/Users/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/Users/ponder/ffe/build/macos.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ MacOS=/Users/ponder/ffe/build/macos.ant.xml
@@ -65,14 +65,14 @@ init:
 [echoproperties] apbs_src.dir=/Users/ponder/ffe/build/apbs_src
 [echoproperties] awt.toolkit=sun.lwawt.macosx.LWCToolkit
 [echoproperties] basedir=/Users/ponder/ffe/build
-[echoproperties] build.log=kits/build_8.6.11.log
+[echoproperties] build.log=kits/build_8.7.11.log
 [echoproperties] build.number=11
 [echoproperties] c.flags=-Ofast -mssse3
 [echoproperties] cc=gcc
 [echoproperties] env.ANT_ARGS=
 [echoproperties] env.ANT_HOME=/Users/ponder/ffe/build/buildtools/ant
 [echoproperties] env.ANT_OPTS=-Xms512M -Xmx1G
-[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.XvJBynabQG/Render
+[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ofeg7weSEl/Render
 [echoproperties] env.BLD=/Users/ponder/ffe/build
 [echoproperties] env.CMAKE_OSX_DEPLOYMENT_TARGET=
 [echoproperties] env.COPYFILES_DISABLE=true
@@ -93,7 +93,8 @@ init:
 [echoproperties] env.INFOPATH=/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/share/info/
 [echoproperties] env.INTEL_LICENSE_FILE=/opt/intel/composer_xe_2015.3.187/licenses\:/opt/intel/licenses\:/Users/ponder/intel/licenses\:/Users/Shared/Library/Application Support/Intel/Licenses
 [echoproperties] env.INTEL_PYTHONHOME=/opt/intel/composer_xe_2015.3.187/debugger/python/intel64/
-[echoproperties] env.JAVA_MAIN_CLASS_89411=org.apache.tools.ant.launch.Launcher
+[echoproperties] env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
+[echoproperties] env.JAVA_MAIN_CLASS_28247=org.apache.tools.ant.launch.Launcher
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LD_LIBRARY_PATH=/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/gaussian/gv/lib
 [echoproperties] env.LIBRARY_PATH=/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/mkl/lib
@@ -102,9 +103,6 @@ init:
 [echoproperties] env.MANPATH=/Applications/gaussian/g09/bsd\:/opt/intel/composer_xe_2015.3.187/man/en_US\:/opt/intel/composer_xe_2015.3.187/man/en_US\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/share/man/\:
 [echoproperties] env.MKLROOT=/opt/intel/composer_xe_2015.3.187/mkl
 [echoproperties] env.NLSPATH=/opt/intel/composer_xe_2015.3.187/compiler/lib/locale/en_US/%N\:/opt/intel/composer_xe_2015.3.187/mkl/lib/locale/%l_%t/%N\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/share/locale/%l_%t/%N
-[echoproperties] env.NWCHEM=/Users/ponder/nwchem
-[echoproperties] env.NWCHEM_BASIS_LIBRARY=/Users/ponder/nwchem/src/basis/libraries/
-[echoproperties] env.NWCHEM_NWPW_LIBRARY=/Users/ponder/nwchem/src/nwpw/libraryps/
 [echoproperties] env.OPENMM_PLUGIN_DIR=/usr/local/openmm/lib/plugins
 [echoproperties] env.OSTYPE=darwin
 [echoproperties] env.PATH=/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/Library/Frameworks/Python.framework/Versions/3.6/bin\:/opt/intel/composer_xe_2015.3.187/bin/intel64\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/opt/X11/bin\:/usr/X11R6/bin\:.\:/Applications/bin\:/Users/ponder/Applications\:/Users/ponder/tinker/bin\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/bin\:/opt/pgi/osx86-64/18.10/bin\:/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/groovy-2.4.4/bin\:/usr/local/cuda/bin
@@ -112,20 +110,17 @@ init:
 [echoproperties] env.PGI=/opt/pgi
 [echoproperties] env.PGIDIR=/opt/pgi/unknown
 [echoproperties] env.PGI_TERM=trace,abort
-[echoproperties] env.PSI=/Applications/psi4
-[echoproperties] env.PSI_SCRATCH=/scratch
 [echoproperties] env.PWD=/Users/ponder/ffe/build
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] env.SHLVL=1
-[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.ziQde89YyZ/Listeners
+[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.9YcnTZ1MOr/Listeners
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TERM_PROGRAM=Apple_Terminal
 [echoproperties] env.TERM_PROGRAM_VERSION=404.1
-[echoproperties] env.TERM_SESSION_ID=A805114B-D0C4-4879-9771-BC39BA529CF1
+[echoproperties] env.TERM_SESSION_ID=F424714F-387A-4FD7-8754-1C89584E6261
 [echoproperties] env.TLS=/Users/ponder/ffe/build/buildtools
 [echoproperties] env.TMPDIR=/var/folders/2p/kc8wx8rj6555t37q5f2tklfh0000z8/T/
 [echoproperties] env.USER=ponder
-[echoproperties] env.USE_MPI=no
 [echoproperties] env.VENDOR=apple
 [echoproperties] env.XPC_FLAGS=0x0
 [echoproperties] env.XPC_SERVICE_NAME=0
@@ -133,7 +128,7 @@ init:
 [echoproperties] env._RLD_ARGS=-log /dev/null
 [echoproperties] env.__CF_USER_TEXT_ENCODING=0x3E8\:0x0\:0x0
 [echoproperties] env.g09root=/Applications/gaussian
-[echoproperties] error.log=kits/error_8.6.11.log
+[echoproperties] error.log=kits/error_8.7.11.log
 [echoproperties] fc=gfortran
 [echoproperties] ffe.dir=/Users/ponder/ffe/build/ffe
 [echoproperties] fftw.dir=/Users/ponder/ffe/build/fftw
@@ -204,7 +199,7 @@ init:
 [echoproperties] user.language=en
 [echoproperties] user.name=ponder
 [echoproperties] user.timezone=
-[echoproperties] version=8.6
+[echoproperties] version=8.7
 
 sync-source:
      [echo] Syncing Source Files
@@ -371,6 +366,7 @@ maketinker:
      [exec] gfortran -c -Ofast -mssse3 -fopenmp correlate.f -o correlate.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp crystal.f -o crystal.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp cspline.f -o cspline.o 
+     [exec] gfortran -c -Ofast -mssse3 -fopenmp ctrpot.f -o ctrpot.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp hescut.f -o hescut.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp neigh.f -o neigh.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp tarray.f -o tarray.o 
@@ -611,7 +607,6 @@ maketinker:
      [exec] gfortran -c -Ofast -mssse3 -fopenmp ptable.f -o ptable.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp initatom.f -o initatom.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp linmin.f -o linmin.o 
-     [exec] gfortran -c -Ofast -mssse3 -fopenmp precis.f -o precis.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp scales.f -o scales.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp sequen.f -o sequen.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp initial.f -o initial.o 
@@ -719,7 +714,6 @@ maketinker:
      [exec] gfortran -c -Ofast -mssse3 -fopenmp poledit.f -o poledit.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp polymer.f -o polymer.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp potential.f -o potential.o 
-     [exec] gfortran -c -Ofast -mssse3 -fopenmp precise.f -o precise.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp pressure.f -o pressure.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp prmedit.f -o prmedit.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp prmkey.f -o prmkey.o 
@@ -866,6 +860,7 @@ maketinker:
      [exec] 	control.o \
      [exec] 	couple.o \
      [exec] 	cspline.o \
+     [exec] 	ctrpot.o \
      [exec] 	cutoffs.o \
      [exec] 	damping.o \
      [exec] 	deflate.o \
@@ -1209,8 +1204,6 @@ maketinker:
      [exec] 	polymer.o \
      [exec] 	potent.o \
      [exec] 	potfit.o \
-     [exec] 	precis.o \
-     [exec] 	precise.o \
      [exec] 	pressure.o \
      [exec] 	prmkey.o \
      [exec] 	promo.o \
@@ -1369,6 +1362,7 @@ maketinker:
      [exec] a - control.o
      [exec] a - couple.o
      [exec] a - cspline.o
+     [exec] a - ctrpot.o
      [exec] a - cutoffs.o
      [exec] a - damping.o
      [exec] a - deflate.o
@@ -1710,10 +1704,9 @@ maketinker:
      [exec] a - polpot.o
      [exec] a - poltcg.o
      [exec] a - polymer.o
-     [exec] a - potent.o
-     [exec] a - potfit.o
-     [exec] a - precis.o
-     [exec] a - precise.o
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(ascii.o) has no symbolsa - potent.o
+     [exec] 
+     [exec] a - potfit.o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
      [exec] a - pressure.o
      [exec] a - prmkey.o
      [exec] a - promo.o
@@ -1722,16 +1715,18 @@ maketinker:
      [exec] a - prtint.o
      [exec] a - prtmol2.o
      [exec] a - prtpdb.o
+     [exec] 
      [exec] a - prtprm.o
      [exec] a - prtseq.o
      [exec] a - prtxyz.o
-     [exec] a - ptable.o
+     [exec] a - ptable.o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
      [exec] a - qmstuf.o
      [exec] a - qrfact.o
      [exec] a - quatfit.o
      [exec] a - random.o
      [exec] a - rattle.o
      [exec] a - readdyn.o
+     [exec] 
      [exec] a - readgau.o
      [exec] a - readgdma.o
      [exec] a - readint.o
@@ -1741,6 +1736,7 @@ maketinker:
      [exec] a - readprm.o
      [exec] a - readseq.o
      [exec] a - readxyz.o
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(units.o) has no symbols
      [exec] a - refer.o
      [exec] a - repel.o
      [exec] a - replica.o
@@ -1816,10 +1812,6 @@ maketinker:
      [exec] a - zclose.o
      [exec] a - zcoord.o
      [exec] ranlib -c libtinker.a
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(ascii.o) has no symbols
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(units.o) has no symbols
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o alchemy.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib alchemy.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip alchemy.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o analyze.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib analyze.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip analyze.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o anneal.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib anneal.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip anneal.x
@@ -1891,11 +1883,131 @@ init:
 
 compile:
     [javac] /Users/ponder/ffe/build/ffe/build.xml:189: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 110 source files to /Users/ponder/ffe/build/ffe/target/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.Signal;
+    [javac]                ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] import sun.misc.SignalHandler;
+    [javac]                ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationAdapter;
+    [javac]                      ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] import com.apple.eawt.ApplicationEvent;
+    [javac]                      ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] 		SignalHandler handler = new SignalHandler() {
+    [javac] 		^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] 		SignalHandler handler = new SignalHandler() {
+    [javac] 		                            ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:147: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 			public void handle(Signal sig) {
+    [javac] 			                   ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 		Signal.handle(new Signal("INT"), handler);
+    [javac] 		                  ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] 		Signal.handle(new Signal("INT"), handler);
+    [javac] 		^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
+    [javac] public class OSXAdapter extends ApplicationAdapter {
+    [javac]                                 ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:37: warning: [deprecation] Application() in Application has been deprecated
+    [javac] 			osxApplication = new Application();
+    [javac] 			                 ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:42: warning: [deprecation] addApplicationListener(ApplicationListener) in Application has been deprecated
+    [javac] 		osxApplication.addApplicationListener(osxAdapter);
+    [javac] 		              ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:43: warning: [deprecation] setEnabledPreferencesMenu(boolean) in Application has been deprecated
+    [javac] 		osxApplication.setEnabledPreferencesMenu(true);
+    [javac] 		              ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:44: warning: [deprecation] setEnabledAboutMenu(boolean) in Application has been deprecated
+    [javac] 		osxApplication.setEnabledAboutMenu(true);
+    [javac] 		              ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:94: warning: [deprecation] handleAbout(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleAbout(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:94: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleAbout(ApplicationEvent ae) {
+    [javac] 	                        ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:96: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:99: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:103: warning: [deprecation] handleOpenFile(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:103: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
+    [javac] 	                           ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:105: warning: [deprecation] getFilename() in ApplicationEvent has been deprecated
+    [javac] 			mainPanel.open(ae.getFilename());
+    [javac] 			                 ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:106: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:108: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:112: warning: [deprecation] handlePreferences(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handlePreferences(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:112: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handlePreferences(ApplicationEvent ae) {
+    [javac] 	                              ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:115: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(true);
+    [javac] 			  ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:117: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:121: warning: [deprecation] handleQuit(ApplicationEvent) in ApplicationAdapter has been deprecated
+    [javac] 	public void handleQuit(ApplicationEvent ae) {
+    [javac] 	            ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:121: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
+    [javac] 	public void handleQuit(ApplicationEvent ae) {
+    [javac] 	                       ^
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:123: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
+    [javac] 			ae.setHandled(false);
+    [javac] 			  ^
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 38 warnings
 
 resource:
+     [copy] Copying 5 files to /Users/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /Users/ponder/ffe/build/ffe/lib/ffe-8.6.jar
+      [jar] Building jar: /Users/ponder/ffe/build/ffe/lib/ffe-8.7.jar
 
 make:
 
@@ -1931,22 +2043,22 @@ kits:
 [install4j]   Compressing files
 [install4j]   Generating VM options file vmoptions.txt.
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_macos_8.6.11.dmg.
-[install4j]   The size of the media file is 261.2 MB
+[install4j]   The name of the media file is Tinker-FFE_macos_8.7.11.dmg.
+[install4j]   The size of the media file is 262.6 MB
 [install4j] 
 [install4j] Compressed media file 'MacOS Archive':
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_macos_8.6.11.tgz.
-[install4j]   The size of the media file is 244.7 MB
+[install4j]   The name of the media file is Tinker-FFE_macos_8.7.11.tgz.
+[install4j]   The size of the media file is 245.7 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 46.4 seconds.
-     [gzip] Building: /Users/ponder/ffe/build/kits/build_8.6.11.log.gz
-     [gzip] Building: /Users/ponder/ffe/build/kits/error_8.6.11.log.gz
-   [delete] Deleting: /Users/ponder/ffe/build/kits/build_8.6.11.log
-   [delete] Deleting: /Users/ponder/ffe/build/kits/error_8.6.11.log
+[install4j] Build completed in 52.4 seconds.
+     [gzip] Building: /Users/ponder/ffe/build/kits/build_8.7.11.log.gz
+     [gzip] Building: /Users/ponder/ffe/build/kits/error_8.7.11.log.gz
+   [delete] Deleting: /Users/ponder/ffe/build/kits/build_8.7.11.log
+   [delete] Deleting: /Users/ponder/ffe/build/kits/error_8.7.11.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 17 minutes 50 seconds
+Total time: 18 minutes 2 seconds
