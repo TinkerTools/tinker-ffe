@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc
 [echoproperties] #Ant properties
-[echoproperties] #Thu Jul 11 19:52:26 COT 2019
-[echoproperties] DSTAMP=20190711
-[echoproperties] TODAY=July 11 2019
-[echoproperties] TSTAMP=1952
+[echoproperties] #Wed Nov 27 21:26:31 CST 2019
+[echoproperties] DSTAMP=20191127
+[echoproperties] TODAY=November 27 2019
+[echoproperties] TSTAMP=2126
 [echoproperties] ant.core.lib=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar
 [echoproperties] ant.file=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Windows=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
@@ -131,7 +131,7 @@ init:
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TINKER=C\:\\Users\\ponder\\MolecularTools\\tinker
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
-[echoproperties] env.TZ=America/Bogota
+[echoproperties] env.TZ=America/Guatemala
 [echoproperties] env.USER=ponder
 [echoproperties] env.USERDOMAIN=WIN10-64
 [echoproperties] env.USERDOMAIN_ROAMINGPROFILE=WIN10-64
@@ -1928,19 +1928,19 @@ compile:
     [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
     [javac] import com.apple.eawt.ApplicationEvent;
     [javac]                      ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
     [javac] 		SignalHandler handler = new SignalHandler() {
     [javac] 		^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
     [javac] 		SignalHandler handler = new SignalHandler() {
     [javac] 		                            ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:147: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:145: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] 			public void handle(Signal sig) {
     [javac] 			                   ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] 		Signal.handle(new Signal("INT"), handler);
     [javac] 		                  ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] 		Signal.handle(new Signal("INT"), handler);
     [javac] 		^
     [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
@@ -2048,13 +2048,13 @@ kits:
 [install4j] Compressed media file 'Windows Archive':
 [install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
 [install4j]   The name of the media file is Tinker-FFE_windows-x64_8.7.31.zip.
-[install4j]   The size of the media file is 266.7 MB
+[install4j]   The size of the media file is 266.8 MB
 [install4j] 
 [install4j] Compressed media file 'Windows':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
 [install4j]   The name of the media file is Tinker-FFE_windows-x64_8.7.31.exe.
-[install4j]   The size of the media file is 266.2 MB
+[install4j]   The size of the media file is 266.3 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
 [install4j] Build completed in 37.6 seconds.
@@ -2066,4 +2066,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 23 minutes 27 seconds
+Total time: 25 minutes 4 seconds

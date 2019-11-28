@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Thu Jul 11 18:11:46 CDT 2019
-[echoproperties] DSTAMP=20190711
-[echoproperties] TODAY=July 11 2019
-[echoproperties] TSTAMP=1811
+[echoproperties] #Wed Nov 27 20:25:37 CST 2019
+[echoproperties] DSTAMP=20191127
+[echoproperties] TODAY=November 27 2019
+[echoproperties] TSTAMP=2025
 [echoproperties] ant.core.lib=/Users/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/Users/ponder/ffe/build/macos.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ MacOS=/Users/ponder/ffe/build/macos.ant.xml
@@ -72,13 +72,15 @@ init:
 [echoproperties] env.ANT_ARGS=
 [echoproperties] env.ANT_HOME=/Users/ponder/ffe/build/buildtools/ant
 [echoproperties] env.ANT_OPTS=-Xms512M -Xmx1G
-[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ofeg7weSEl/Render
+[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.NEMKYRdU5X/Render
 [echoproperties] env.BLD=/Users/ponder/ffe/build
+[echoproperties] env.CC=gcc
 [echoproperties] env.CMAKE_OSX_DEPLOYMENT_TARGET=
 [echoproperties] env.COPYFILES_DISABLE=true
 [echoproperties] env.CPATH=/opt/intel/composer_xe_2015.3.187/mkl/include
 [echoproperties] env.DISPLAY=0\:
 [echoproperties] env.DYLD_LIBRARY_PATH=/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64\:/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/mkl/lib\:\:/opt/intel/lib\:/usr/local/cuda/lib\:/usr/local/openmm/lib
+[echoproperties] env.F77=gfortran
 [echoproperties] env.G09BASIS=/Applications/gaussian/g09/basis
 [echoproperties] env.GAUSS_ARCHDIR=/Applications/gaussian/g09/arch
 [echoproperties] env.GAUSS_EXEDIR=/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09
@@ -94,7 +96,7 @@ init:
 [echoproperties] env.INTEL_LICENSE_FILE=/opt/intel/composer_xe_2015.3.187/licenses\:/opt/intel/licenses\:/Users/ponder/intel/licenses\:/Users/Shared/Library/Application Support/Intel/Licenses
 [echoproperties] env.INTEL_PYTHONHOME=/opt/intel/composer_xe_2015.3.187/debugger/python/intel64/
 [echoproperties] env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
-[echoproperties] env.JAVA_MAIN_CLASS_28247=org.apache.tools.ant.launch.Launcher
+[echoproperties] env.JAVA_MAIN_CLASS_97822=org.apache.tools.ant.launch.Launcher
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LD_LIBRARY_PATH=/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/gaussian/gv/lib
 [echoproperties] env.LIBRARY_PATH=/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/mkl/lib
@@ -113,11 +115,11 @@ init:
 [echoproperties] env.PWD=/Users/ponder/ffe/build
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] env.SHLVL=1
-[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.9YcnTZ1MOr/Listeners
+[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.UdGop7lJTC/Listeners
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TERM_PROGRAM=Apple_Terminal
 [echoproperties] env.TERM_PROGRAM_VERSION=404.1
-[echoproperties] env.TERM_SESSION_ID=F424714F-387A-4FD7-8754-1C89584E6261
+[echoproperties] env.TERM_SESSION_ID=371993CB-B317-4001-BE0A-47A2D2672052
 [echoproperties] env.TLS=/Users/ponder/ffe/build/buildtools
 [echoproperties] env.TMPDIR=/var/folders/2p/kc8wx8rj6555t37q5f2tklfh0000z8/T/
 [echoproperties] env.USER=ponder
@@ -1704,9 +1706,8 @@ maketinker:
      [exec] a - polpot.o
      [exec] a - poltcg.o
      [exec] a - polymer.o
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(ascii.o) has no symbolsa - potent.o
-     [exec] 
-     [exec] a - potfit.o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
+     [exec] a - potent.o
+     [exec] a - potfit.o
      [exec] a - pressure.o
      [exec] a - prmkey.o
      [exec] a - promo.o
@@ -1715,18 +1716,16 @@ maketinker:
      [exec] a - prtint.o
      [exec] a - prtmol2.o
      [exec] a - prtpdb.o
-     [exec] 
      [exec] a - prtprm.o
      [exec] a - prtseq.o
      [exec] a - prtxyz.o
-     [exec] a - ptable.o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
+     [exec] a - ptable.o
      [exec] a - qmstuf.o
      [exec] a - qrfact.o
      [exec] a - quatfit.o
      [exec] a - random.o
      [exec] a - rattle.o
      [exec] a - readdyn.o
-     [exec] 
      [exec] a - readgau.o
      [exec] a - readgdma.o
      [exec] a - readint.o
@@ -1736,7 +1735,6 @@ maketinker:
      [exec] a - readprm.o
      [exec] a - readseq.o
      [exec] a - readxyz.o
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(units.o) has no symbols
      [exec] a - refer.o
      [exec] a - repel.o
      [exec] a - replica.o
@@ -1812,6 +1810,10 @@ maketinker:
      [exec] a - zclose.o
      [exec] a - zcoord.o
      [exec] ranlib -c libtinker.a
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(ascii.o) has no symbols
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(units.o) has no symbols
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o alchemy.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib alchemy.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip alchemy.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o analyze.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib analyze.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip analyze.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o anneal.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib anneal.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip anneal.x
@@ -1921,19 +1923,19 @@ compile:
     [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
     [javac] import com.apple.eawt.ApplicationEvent;
     [javac]                      ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
     [javac] 		SignalHandler handler = new SignalHandler() {
     [javac] 		^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:146: warning: SignalHandler is internal proprietary API and may be removed in a future release
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
     [javac] 		SignalHandler handler = new SignalHandler() {
     [javac] 		                            ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:147: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:145: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] 			public void handle(Signal sig) {
     [javac] 			                   ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] 		Signal.handle(new Signal("INT"), handler);
     [javac] 		                  ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:161: warning: Signal is internal proprietary API and may be removed in a future release
+    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] 		Signal.handle(new Signal("INT"), handler);
     [javac] 		^
     [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
@@ -2044,15 +2046,15 @@ kits:
 [install4j]   Generating VM options file vmoptions.txt.
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_macos_8.7.11.dmg.
-[install4j]   The size of the media file is 262.6 MB
+[install4j]   The size of the media file is 263.2 MB
 [install4j] 
 [install4j] Compressed media file 'MacOS Archive':
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_macos_8.7.11.tgz.
-[install4j]   The size of the media file is 245.7 MB
+[install4j]   The size of the media file is 246.2 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 52.4 seconds.
+[install4j] Build completed in 46.9 seconds.
      [gzip] Building: /Users/ponder/ffe/build/kits/build_8.7.11.log.gz
      [gzip] Building: /Users/ponder/ffe/build/kits/error_8.7.11.log.gz
    [delete] Deleting: /Users/ponder/ffe/build/kits/build_8.7.11.log
@@ -2061,4 +2063,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 18 minutes 2 seconds
+Total time: 17 minutes 52 seconds
