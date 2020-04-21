@@ -125,8 +125,8 @@
           <versionLine x="20" y="40" text="version ${compiler:sys.version}" fontSize="8" fontColor="0,0,0" bold="false" />
         </text>
       </splashScreen>
-      <java mainClass="ffe.Main" vmParameters="&quot;-Xmx512M&quot; 
-&quot;-Xms256M&quot; &quot;-Dj3d.rend=jogl&quot; &quot;-Dffe.tinker.dir=../tinker&quot; &quot;-Dffe.dir=.&quot; &quot;-Dj3d.optimizeForSpace=false&quot; &quot;-Dj3d.docompaction=false&quot;" arguments="" allowVMPassthroughParameters="false" preferredVM="server" bundleRuntime="true">
+      <java mainClass="ffe.Main" vmParameters="&quot;-Xmx4096M&quot; 
+&quot;-Xms2048M&quot; &quot;-Dj3d.rend=jogl&quot; &quot;-Dffe.tinker.dir=../tinker&quot; &quot;-Dffe.dir=.&quot; &quot;-Dj3d.optimizeForSpace=false&quot; &quot;-Dj3d.docompaction=false&quot;" arguments="" allowVMPassthroughParameters="false" preferredVM="server" bundleRuntime="true">
         <classPath>
           <scanDirectory location="ffe/lib" failOnError="false" />
         </classPath>

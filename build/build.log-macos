@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Wed Nov 27 20:25:37 CST 2019
-[echoproperties] DSTAMP=20191127
-[echoproperties] TODAY=November 27 2019
-[echoproperties] TSTAMP=2025
+[echoproperties] #Sat Apr 18 22:12:40 CDT 2020
+[echoproperties] DSTAMP=20200418
+[echoproperties] TODAY=April 18 2020
+[echoproperties] TSTAMP=2212
 [echoproperties] ant.core.lib=/Users/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/Users/ponder/ffe/build/macos.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ MacOS=/Users/ponder/ffe/build/macos.ant.xml
@@ -72,15 +72,13 @@ init:
 [echoproperties] env.ANT_ARGS=
 [echoproperties] env.ANT_HOME=/Users/ponder/ffe/build/buildtools/ant
 [echoproperties] env.ANT_OPTS=-Xms512M -Xmx1G
-[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.NEMKYRdU5X/Render
+[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ndaecAf1T9/Render
 [echoproperties] env.BLD=/Users/ponder/ffe/build
-[echoproperties] env.CC=gcc
 [echoproperties] env.CMAKE_OSX_DEPLOYMENT_TARGET=
 [echoproperties] env.COPYFILES_DISABLE=true
 [echoproperties] env.CPATH=/opt/intel/composer_xe_2015.3.187/mkl/include
 [echoproperties] env.DISPLAY=0\:
 [echoproperties] env.DYLD_LIBRARY_PATH=/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/compiler/lib/intel64\:/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/mkl/lib\:\:/opt/intel/lib\:/usr/local/cuda/lib\:/usr/local/openmm/lib
-[echoproperties] env.F77=gfortran
 [echoproperties] env.G09BASIS=/Applications/gaussian/g09/basis
 [echoproperties] env.GAUSS_ARCHDIR=/Applications/gaussian/g09/arch
 [echoproperties] env.GAUSS_EXEDIR=/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09
@@ -96,18 +94,19 @@ init:
 [echoproperties] env.INTEL_LICENSE_FILE=/opt/intel/composer_xe_2015.3.187/licenses\:/opt/intel/licenses\:/Users/ponder/intel/licenses\:/Users/Shared/Library/Application Support/Intel/Licenses
 [echoproperties] env.INTEL_PYTHONHOME=/opt/intel/composer_xe_2015.3.187/debugger/python/intel64/
 [echoproperties] env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
-[echoproperties] env.JAVA_MAIN_CLASS_97822=org.apache.tools.ant.launch.Launcher
+[echoproperties] env.JAVA_MAIN_CLASS_71942=org.apache.tools.ant.launch.Launcher
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LD_LIBRARY_PATH=/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/gaussian/gv/lib
 [echoproperties] env.LIBRARY_PATH=/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/mkl/lib
+[echoproperties] env.LM_LICENSE_FILE=/opt/pgi/license.dat
 [echoproperties] env.LOGNAME=ponder
 [echoproperties] env.MACHTYPE=x86_64
-[echoproperties] env.MANPATH=/Applications/gaussian/g09/bsd\:/opt/intel/composer_xe_2015.3.187/man/en_US\:/opt/intel/composer_xe_2015.3.187/man/en_US\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/share/man/\:
+[echoproperties] env.MANPATH=/Applications/gaussian/g09/bsd\:/opt/intel/composer_xe_2015.3.187/man/en_US\:/opt/intel/composer_xe_2015.3.187/man/en_US\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/share/man/\:\:/opt/pgi/osx86-64/19.10/man
 [echoproperties] env.MKLROOT=/opt/intel/composer_xe_2015.3.187/mkl
 [echoproperties] env.NLSPATH=/opt/intel/composer_xe_2015.3.187/compiler/lib/locale/en_US/%N\:/opt/intel/composer_xe_2015.3.187/mkl/lib/locale/%l_%t/%N\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/share/locale/%l_%t/%N
 [echoproperties] env.OPENMM_PLUGIN_DIR=/usr/local/openmm/lib/plugins
 [echoproperties] env.OSTYPE=darwin
-[echoproperties] env.PATH=/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/Library/Frameworks/Python.framework/Versions/3.6/bin\:/opt/intel/composer_xe_2015.3.187/bin/intel64\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/opt/X11/bin\:/usr/X11R6/bin\:.\:/Applications/bin\:/Users/ponder/Applications\:/Users/ponder/tinker/bin\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/bin\:/opt/pgi/osx86-64/18.10/bin\:/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/groovy-2.4.4/bin\:/usr/local/cuda/bin
+[echoproperties] env.PATH=/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/Library/Frameworks/Python.framework/Versions/3.6/bin\:/opt/intel/composer_xe_2015.3.187/bin/intel64\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/opt/X11/bin\:/usr/X11R6/bin\:.\:/Applications/bin\:/Users/ponder/Applications\:/Users/ponder/tinker/bin\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/bin\:/opt/pgi/osx86-64/19.10/bin\:/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/groovy-2.4.4/bin\:/usr/local/cuda/bin
 [echoproperties] env.PERLLIB=/Applications/gaussian/g09/bsd
 [echoproperties] env.PGI=/opt/pgi
 [echoproperties] env.PGIDIR=/opt/pgi/unknown
@@ -115,11 +114,11 @@ init:
 [echoproperties] env.PWD=/Users/ponder/ffe/build
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] env.SHLVL=1
-[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.UdGop7lJTC/Listeners
+[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.y3bg4YAsrz/Listeners
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TERM_PROGRAM=Apple_Terminal
 [echoproperties] env.TERM_PROGRAM_VERSION=404.1
-[echoproperties] env.TERM_SESSION_ID=371993CB-B317-4001-BE0A-47A2D2672052
+[echoproperties] env.TERM_SESSION_ID=9F7B8B7A-0E15-4A06-B87D-4BD8F2D32C81
 [echoproperties] env.TLS=/Users/ponder/ffe/build/buildtools
 [echoproperties] env.TMPDIR=/var/folders/2p/kc8wx8rj6555t37q5f2tklfh0000z8/T/
 [echoproperties] env.USER=ponder
@@ -2046,15 +2045,15 @@ kits:
 [install4j]   Generating VM options file vmoptions.txt.
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_macos_8.7.11.dmg.
-[install4j]   The size of the media file is 263.2 MB
+[install4j]   The size of the media file is 246.5 MB
 [install4j] 
 [install4j] Compressed media file 'MacOS Archive':
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_macos_8.7.11.tgz.
-[install4j]   The size of the media file is 246.2 MB
+[install4j]   The size of the media file is 230.8 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 46.9 seconds.
+[install4j] Build completed in 49.2 seconds.
      [gzip] Building: /Users/ponder/ffe/build/kits/build_8.7.11.log.gz
      [gzip] Building: /Users/ponder/ffe/build/kits/error_8.7.11.log.gz
    [delete] Deleting: /Users/ponder/ffe/build/kits/build_8.7.11.log
@@ -2063,4 +2062,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 17 minutes 52 seconds
+Total time: 27 minutes 50 seconds

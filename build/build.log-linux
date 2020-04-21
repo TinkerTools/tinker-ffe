@@ -28,9 +28,12 @@ info:
 
 init:
    [delete] Directory does not exist: /home/ponder/ffe/build/ffe
-   [delete] Directory does not exist: /home/ponder/ffe/build/tinker
+   [delete] Deleting /home/ponder/ffe/build/tinker/bin
+   [delete] Deleting /home/ponder/ffe/build/tinker
    [delete] Directory does not exist: /home/ponder/ffe/build/fftw
-   [delete] Directory does not exist: /home/ponder/ffe/build/apbs
+   [delete] Deleting /home/ponder/ffe/build/apbs/include/maloc
+   [delete] Deleting /home/ponder/ffe/build/apbs/include
+   [delete] Deleting /home/ponder/ffe/build/apbs
    [delete] Directory does not exist: /home/ponder/ffe/build/apbs_src
      [echo] Create Tinker Directories
     [mkdir] Created dir: /home/ponder/ffe/build/tinker
@@ -40,10 +43,10 @@ init:
     [mkdir] Created dir: /home/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /home/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Wed Nov 27 21:05:31 CST 2019
-[echoproperties] DSTAMP=20191127
-[echoproperties] TODAY=November 27 2019
-[echoproperties] TSTAMP=2105
+[echoproperties] #Sun Apr 19 18:12:07 CDT 2020
+[echoproperties] DSTAMP=20200419
+[echoproperties] TODAY=April 19 2020
+[echoproperties] TSTAMP=1812
 [echoproperties] ant.core.lib=/home/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
@@ -75,13 +78,13 @@ init:
 [echoproperties] env.BLD=/home/ponder/ffe/build
 [echoproperties] env.COLORTERM=
 [echoproperties] env.CVS_RSH=ssh
-[echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:abstract\=/tmp/dbus-z3XDMYNE5c,guid\=195e157e4289b46dbf980f005ddf35b0
+[echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:abstract\=/tmp/dbus-Mw07vVO3EK,guid\=9b60845b4212f4c21ea341005e9cd812
 [echoproperties] env.DESKTOP_SESSION=default
 [echoproperties] env.DISPLAY=\:0.0
 [echoproperties] env.GDMSESSION=default
 [echoproperties] env.GDM_XSERVER_LOCATION=local
 [echoproperties] env.GNOME_DESKTOP_SESSION_ID=Default
-[echoproperties] env.GNOME_KEYRING_SOCKET=/tmp/keyring-J6FY6g/socket
+[echoproperties] env.GNOME_KEYRING_SOCKET=/tmp/keyring-wlz0UN/socket
 [echoproperties] env.GROUP=users
 [echoproperties] env.GTK_RC_FILES=/etc/gtk/gtkrc\:/home/ponder/.gtkrc-1.2-gnome2
 [echoproperties] env.G_BROKEN_FILENAMES=1
@@ -92,8 +95,8 @@ init:
 [echoproperties] env.INPUTRC=/etc/inputrc
 [echoproperties] env.KDEDIR=/usr
 [echoproperties] env.KDE_IS_PRELINKED=1
-[echoproperties] env.KONSOLE_DCOP=DCOPRef(konsole-4115,konsole)
-[echoproperties] env.KONSOLE_DCOP_SESSION=DCOPRef(konsole-4115,session-1)
+[echoproperties] env.KONSOLE_DCOP=DCOPRef(konsole-6503,konsole)
+[echoproperties] env.KONSOLE_DCOP_SESSION=DCOPRef(konsole-6503,session-1)
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LD_LIBRARY_PATH=/opt/gcc-4.9.2/lib64\:/opt/gcc-4.9.2/lib\:
 [echoproperties] env.LESSOPEN=|/usr/bin/lesspipe.sh %s
@@ -105,19 +108,19 @@ init:
 [echoproperties] env.OSTYPE=linux
 [echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/opt/gcc-4.9.2/bin\:/opt/gcc-4.9.2/bin\:/usr/kerberos/bin\:/usr/local/bin\:/usr/bin\:/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin\:/opt/install4j6/bin\:.\:/home/ponder/tinker/bin\:/opt/install4j6/bin
 [echoproperties] env.PWD=/home/ponder/ffe/build
-[echoproperties] env.SESSION_MANAGER=local/CentOS\:/tmp/.ICE-unix/3863
+[echoproperties] env.SESSION_MANAGER=local/CentOS\:/tmp/.ICE-unix/6252
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] env.SHLVL=2
-[echoproperties] env.SSH_AGENT_PID=3851
+[echoproperties] env.SSH_AGENT_PID=6240
 [echoproperties] env.SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
-[echoproperties] env.SSH_AUTH_SOCK=/tmp/ssh-eKNbYO3815/agent.3815
+[echoproperties] env.SSH_AUTH_SOCK=/tmp/ssh-FNzuBm6204/agent.6204
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
 [echoproperties] env.USER=ponder
 [echoproperties] env.USERNAME=ponder
 [echoproperties] env.VENDOR=unknown
 [echoproperties] env.WINDOWID=27262983
-[echoproperties] env.XAUTHORITY=/tmp/.gdmRE9FB0
+[echoproperties] env.XAUTHORITY=/tmp/.gdmI1UCJ0
 [echoproperties] env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
 [echoproperties] env.XMODIFIERS=@im\=none
 [echoproperties] error.log=kits/error_8.7.21.log
@@ -2037,20 +2040,20 @@ kits:
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_unix_8.7.21.sh.
-[install4j]   The size of the media file is 276.0 MB
+[install4j]   The size of the media file is 259.3 MB
 [install4j] 
 [install4j] Compressed media file 'Unix Archive':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_unix_8.7.21.tar.gz.
-[install4j]   The size of the media file is 261.3 MB
+[install4j]   The size of the media file is 245.9 MB
 [install4j] 
 [install4j] Compressed media file 'Linux RPM':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_linux_8.7.21.rpm.
-[install4j]   The size of the media file is 262.0 MB
+[install4j]   The size of the media file is 246.6 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 64.5 seconds.
+[install4j] Build completed in 64.0 seconds.
      [gzip] Building: /home/ponder/ffe/build/kits/build_8.7.21.log.gz
      [gzip] Building: /home/ponder/ffe/build/kits/error_8.7.21.log.gz
    [delete] Deleting: /home/ponder/ffe/build/kits/build_8.7.21.log
@@ -2059,4 +2062,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 5 minutes 22 seconds
+Total time: 5 minutes 24 seconds

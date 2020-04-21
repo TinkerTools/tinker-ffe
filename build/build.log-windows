@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc
 [echoproperties] #Ant properties
-[echoproperties] #Wed Nov 27 21:26:31 CST 2019
-[echoproperties] DSTAMP=20191127
-[echoproperties] TODAY=November 27 2019
-[echoproperties] TSTAMP=2126
+[echoproperties] #Mon Apr 20 00:04:09 COT 2020
+[echoproperties] DSTAMP=20200420
+[echoproperties] TODAY=April 20 2020
+[echoproperties] TSTAMP=0004
 [echoproperties] ant.core.lib=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar
 [echoproperties] ant.file=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Windows=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
@@ -110,7 +110,7 @@ init:
 [echoproperties] env.OS=Windows_NT
 [echoproperties] env.OSTYPE=cygwin
 [echoproperties] env.OneDrive=C\:\\Users\\ponder\\OneDrive
-[echoproperties] env.PATH=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\bin;.;C\:\\cygwin64\\home\\ponder\\ffe\\;C\:\\cygwin64\\usr\\local\\bin;C\:\\cygwin64\\bin;C\:\\cygwin64\\bin;C\:\\Program;Files;(x86)\\Common;Files\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Parallels\\Parallels;Tools\\Applications;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\mpirt;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\compiler;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C\:\\Program;Files;(x86)\\QuickTime\\QTSystem;C\:\\WINDOWS\\System32\\OpenSSH;C\:\\Users\\ponder\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\cygwin64\\home\\ponder\\tinker\\bin;C\:\\cygwin64\\home\\ponder\\install4j6\\bin;C\:\\Program;Files\\Java\\jdk1.8.0_112\\bin
+[echoproperties] env.PATH=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\bin;.;C\:\\cygwin64\\home\\ponder\\ffe\\;C\:\\cygwin64\\usr\\local\\bin;C\:\\cygwin64\\bin;C\:\\cygwin64\\bin;C\:\\Program;Files;(x86)\\Common;Files\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Parallels\\Parallels;Tools\\Applications;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\mpirt;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\compiler;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C\:\\WINDOWS\\System32\\OpenSSH;C\:\\Program;Files\\dotnet;C\:\\Users\\ponder\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\cygwin64\\home\\ponder\\tinker\\bin;C\:\\cygwin64\\home\\ponder\\install4j6\\bin;C\:\\Program;Files\\Java\\jdk1.8.0_112\\bin
 [echoproperties] env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 [echoproperties] env.PROCESSOR_ARCHITECTURE=AMD64
 [echoproperties] env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 70 Stepping 1, GenuineIntel
@@ -131,7 +131,7 @@ init:
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TINKER=C\:\\Users\\ponder\\MolecularTools\\tinker
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
-[echoproperties] env.TZ=America/Guatemala
+[echoproperties] env.TZ=America/Bogota
 [echoproperties] env.USER=ponder
 [echoproperties] env.USERDOMAIN=WIN10-64
 [echoproperties] env.USERDOMAIN_ROAMINGPROFILE=WIN10-64
@@ -140,7 +140,6 @@ init:
 [echoproperties] env.VENDOR=unknown
 [echoproperties] env.VS100COMNTOOLS=c\:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\
 [echoproperties] env.WINDIR=C\:\\WINDOWS
-[echoproperties] env.asl.log=Destination\=file
 [echoproperties] error.log=kits/error_8.7.31.log
 [echoproperties] fc=gfortran
 [echoproperties] ffe.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/ffe
@@ -158,7 +157,7 @@ init:
 [echoproperties] java.ext.dirs=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\ext;C\:\\WINDOWS\\Sun\\Java\\lib\\ext
 [echoproperties] java.home=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre
 [echoproperties] java.io.tmpdir=C\:\\Users\\ponder\\
-[echoproperties] java.library.path=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\bin;C\:\\WINDOWS\\Sun\\Java\\bin;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\bin;.;C\:\\cygwin64\\home\\ponder\\ffe\\;C\:\\cygwin64\\usr\\local\\bin;C\:\\cygwin64\\bin;C\:\\cygwin64\\bin;C\:\\Program;Files;(x86)\\Common;Files\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Parallels\\Parallels;Tools\\Applications;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\mpirt;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\compiler;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C\:\\Program;Files;(x86)\\QuickTime\\QTSystem;C\:\\WINDOWS\\System32\\OpenSSH;C\:\\Users\\ponder\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\cygwin64\\home\\ponder\\tinker\\bin;C\:\\cygwin64\\home\\ponder\\install4j6\\bin;C\:\\Program;Files\\Java\\jdk1.8.0_112\\bin;.
+[echoproperties] java.library.path=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\bin;C\:\\WINDOWS\\Sun\\Java\\bin;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\bin;.;C\:\\cygwin64\\home\\ponder\\ffe\\;C\:\\cygwin64\\usr\\local\\bin;C\:\\cygwin64\\bin;C\:\\cygwin64\\bin;C\:\\Program;Files;(x86)\\Common;Files\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Parallels\\Parallels;Tools\\Applications;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\mpirt;C\:\\Program;Files;(x86)\\Common;Files\\Intel\\Shared;Libraries\\redist\\intel64\\compiler;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0;C\:\\WINDOWS\\System32\\OpenSSH;C\:\\Program;Files\\dotnet;C\:\\Users\\ponder\\AppData\\Local\\Microsoft\\WindowsApps;C\:\\cygwin64\\home\\ponder\\tinker\\bin;C\:\\cygwin64\\home\\ponder\\install4j6\\bin;C\:\\Program;Files\\Java\\jdk1.8.0_112\\bin;.
 [echoproperties] java.runtime.name=Java(TM) SE Runtime Environment
 [echoproperties] java.runtime.version=1.8.0_112-b15
 [echoproperties] java.specification.name=Java Platform API Specification
@@ -2048,16 +2047,16 @@ kits:
 [install4j] Compressed media file 'Windows Archive':
 [install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
 [install4j]   The name of the media file is Tinker-FFE_windows-x64_8.7.31.zip.
-[install4j]   The size of the media file is 266.8 MB
+[install4j]   The size of the media file is 250.1 MB
 [install4j] 
 [install4j] Compressed media file 'Windows':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
 [install4j]   The name of the media file is Tinker-FFE_windows-x64_8.7.31.exe.
-[install4j]   The size of the media file is 266.3 MB
+[install4j]   The size of the media file is 249.6 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 37.6 seconds.
+[install4j] Build completed in 34.4 seconds.
      [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\build_8.7.31.log.gz
      [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\error_8.7.31.log.gz
    [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\build_8.7.31.log
@@ -2066,4 +2065,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 25 minutes 4 seconds
+Total time: 25 minutes 30 seconds
