@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Sat Apr 18 22:12:40 CDT 2020
-[echoproperties] DSTAMP=20200418
-[echoproperties] TODAY=April 18 2020
-[echoproperties] TSTAMP=2212
+[echoproperties] #Thu May 28 21:18:58 CDT 2020
+[echoproperties] DSTAMP=20200528
+[echoproperties] TODAY=May 28 2020
+[echoproperties] TSTAMP=2118
 [echoproperties] ant.core.lib=/Users/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/Users/ponder/ffe/build/macos.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ MacOS=/Users/ponder/ffe/build/macos.ant.xml
@@ -65,16 +65,15 @@ init:
 [echoproperties] apbs_src.dir=/Users/ponder/ffe/build/apbs_src
 [echoproperties] awt.toolkit=sun.lwawt.macosx.LWCToolkit
 [echoproperties] basedir=/Users/ponder/ffe/build
-[echoproperties] build.log=kits/build_8.7.11.log
+[echoproperties] build.log=kits/build_8.8.11.log
 [echoproperties] build.number=11
 [echoproperties] c.flags=-Ofast -mssse3
 [echoproperties] cc=gcc
 [echoproperties] env.ANT_ARGS=
 [echoproperties] env.ANT_HOME=/Users/ponder/ffe/build/buildtools/ant
 [echoproperties] env.ANT_OPTS=-Xms512M -Xmx1G
-[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ndaecAf1T9/Render
+[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.oaqCXmsdrB/Render
 [echoproperties] env.BLD=/Users/ponder/ffe/build
-[echoproperties] env.CMAKE_OSX_DEPLOYMENT_TARGET=
 [echoproperties] env.COPYFILES_DISABLE=true
 [echoproperties] env.CPATH=/opt/intel/composer_xe_2015.3.187/mkl/include
 [echoproperties] env.DISPLAY=0\:
@@ -94,7 +93,7 @@ init:
 [echoproperties] env.INTEL_LICENSE_FILE=/opt/intel/composer_xe_2015.3.187/licenses\:/opt/intel/licenses\:/Users/ponder/intel/licenses\:/Users/Shared/Library/Application Support/Intel/Licenses
 [echoproperties] env.INTEL_PYTHONHOME=/opt/intel/composer_xe_2015.3.187/debugger/python/intel64/
 [echoproperties] env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
-[echoproperties] env.JAVA_MAIN_CLASS_71942=org.apache.tools.ant.launch.Launcher
+[echoproperties] env.JAVA_MAIN_CLASS_60488=org.apache.tools.ant.launch.Launcher
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LD_LIBRARY_PATH=/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/gaussian/gv/lib
 [echoproperties] env.LIBRARY_PATH=/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/mkl/lib
@@ -106,19 +105,21 @@ init:
 [echoproperties] env.NLSPATH=/opt/intel/composer_xe_2015.3.187/compiler/lib/locale/en_US/%N\:/opt/intel/composer_xe_2015.3.187/mkl/lib/locale/%l_%t/%N\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/share/locale/%l_%t/%N
 [echoproperties] env.OPENMM_PLUGIN_DIR=/usr/local/openmm/lib/plugins
 [echoproperties] env.OSTYPE=darwin
-[echoproperties] env.PATH=/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/Library/Frameworks/Python.framework/Versions/3.6/bin\:/opt/intel/composer_xe_2015.3.187/bin/intel64\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/opt/X11/bin\:/usr/X11R6/bin\:.\:/Applications/bin\:/Users/ponder/Applications\:/Users/ponder/tinker/bin\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/bin\:/opt/pgi/osx86-64/19.10/bin\:/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/groovy-2.4.4/bin\:/usr/local/cuda/bin
+[echoproperties] env.PATH=/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/Applications/psi4-zw/bin\:/opt/intel/composer_xe_2015.3.187/bin/intel64\:/Library/Frameworks/Python.framework/Versions/3.8/bin\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/Library/TeX/texbin\:/opt/X11/bin\:/usr/X11R6/bin\:.\:/Applications/bin\:/Users/ponder/Applications\:/Users/ponder/tinker/bin\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/bin\:/opt/pgi/osx86-64/19.10/bin\:/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/groovy-2.4.4/bin\:/usr/local/cuda/bin
 [echoproperties] env.PERLLIB=/Applications/gaussian/g09/bsd
 [echoproperties] env.PGI=/opt/pgi
 [echoproperties] env.PGIDIR=/opt/pgi/unknown
 [echoproperties] env.PGI_TERM=trace,abort
+[echoproperties] env.PSI=/Applications/psi4-zw
+[echoproperties] env.PSI_SCRATCH=/scratch
 [echoproperties] env.PWD=/Users/ponder/ffe/build
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] env.SHLVL=1
-[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.y3bg4YAsrz/Listeners
+[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.IfwOhNPY7q/Listeners
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TERM_PROGRAM=Apple_Terminal
 [echoproperties] env.TERM_PROGRAM_VERSION=404.1
-[echoproperties] env.TERM_SESSION_ID=9F7B8B7A-0E15-4A06-B87D-4BD8F2D32C81
+[echoproperties] env.TERM_SESSION_ID=99F09ADD-D4C9-488D-808C-2DEEAFAAF401
 [echoproperties] env.TLS=/Users/ponder/ffe/build/buildtools
 [echoproperties] env.TMPDIR=/var/folders/2p/kc8wx8rj6555t37q5f2tklfh0000z8/T/
 [echoproperties] env.USER=ponder
@@ -129,7 +130,7 @@ init:
 [echoproperties] env._RLD_ARGS=-log /dev/null
 [echoproperties] env.__CF_USER_TEXT_ENCODING=0x3E8\:0x0\:0x0
 [echoproperties] env.g09root=/Applications/gaussian
-[echoproperties] error.log=kits/error_8.7.11.log
+[echoproperties] error.log=kits/error_8.8.11.log
 [echoproperties] fc=gfortran
 [echoproperties] ffe.dir=/Users/ponder/ffe/build/ffe
 [echoproperties] fftw.dir=/Users/ponder/ffe/build/fftw
@@ -200,7 +201,7 @@ init:
 [echoproperties] user.language=en
 [echoproperties] user.name=ponder
 [echoproperties] user.timezone=
-[echoproperties] version=8.7
+[echoproperties] version=8.8
 
 sync-source:
      [echo] Syncing Source Files
@@ -1813,68 +1814,68 @@ maketinker:
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(units.o) has no symbols
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o alchemy.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib alchemy.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip alchemy.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o analyze.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib analyze.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip analyze.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o anneal.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib anneal.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip anneal.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o archive.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib archive.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip archive.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o bar.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib bar.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip bar.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o correlate.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib correlate.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip correlate.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o crystal.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib crystal.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip crystal.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o diffuse.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib diffuse.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip diffuse.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o distgeom.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib distgeom.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip distgeom.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o document.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib document.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip document.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o dynamic.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib dynamic.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip dynamic.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o gda.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib gda.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip gda.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o intedit.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib intedit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip intedit.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o intxyz.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib intxyz.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip intxyz.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o minimize.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib minimize.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip minimize.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o minirot.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib minirot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip minirot.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o minrigid.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib minrigid.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip minrigid.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o mol2xyz.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib mol2xyz.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip mol2xyz.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o molxyz.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib molxyz.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip molxyz.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o monte.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib monte.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip monte.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o newton.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib newton.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip newton.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o newtrot.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib newtrot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip newtrot.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o nucleic.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib nucleic.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip nucleic.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o optimize.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib optimize.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip optimize.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o optirot.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib optirot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip optirot.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o optrigid.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib optrigid.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip optrigid.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o path.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib path.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip path.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o pdbxyz.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib pdbxyz.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip pdbxyz.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o polarize.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib polarize.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip polarize.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o poledit.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib poledit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip poledit.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o potential.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib potential.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip potential.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o prmedit.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib prmedit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip prmedit.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o protein.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib protein.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip protein.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o pss.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib pss.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip pss.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o pssrigid.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib pssrigid.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip pssrigid.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o pssrot.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib pssrot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip pssrot.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o radial.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib radial.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip radial.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o saddle.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib saddle.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip saddle.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o scan.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib scan.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip scan.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o sniffer.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib sniffer.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip sniffer.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o spacefill.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib spacefill.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip spacefill.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o spectrum.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib spectrum.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip spectrum.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o superpose.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib superpose.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip superpose.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testgrad.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib testgrad.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testgrad.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testhess.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib testhess.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testhess.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testpair.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib testpair.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testpair.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testpol.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib testpol.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testpol.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testrot.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib testrot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testrot.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testvir.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib testvir.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testvir.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o timer.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib timer.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip timer.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o timerot.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib timerot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip timerot.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o torsfit.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib torsfit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip torsfit.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o valence.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib valence.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip valence.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o vibbig.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib vibbig.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip vibbig.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o vibrate.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib vibrate.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip vibrate.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o vibrot.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib vibrot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip vibrot.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xtalfit.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib xtalfit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xtalfit.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xtalmin.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib xtalmin.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xtalmin.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzedit.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib xyzedit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzedit.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzint.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib xyzint.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzint.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzmol2.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib xyzmol2.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzmol2.x
-     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzpdb.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib xyzpdb.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzpdb.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o alchemy.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos alchemy.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip alchemy.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o analyze.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos analyze.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip analyze.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o anneal.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos anneal.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip anneal.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o archive.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos archive.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip archive.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o bar.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos bar.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip bar.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o correlate.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos correlate.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip correlate.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o crystal.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos crystal.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip crystal.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o diffuse.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos diffuse.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip diffuse.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o distgeom.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos distgeom.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip distgeom.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o document.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos document.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip document.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o dynamic.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos dynamic.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip dynamic.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o gda.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos gda.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip gda.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o intedit.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos intedit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip intedit.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o intxyz.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos intxyz.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip intxyz.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o minimize.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos minimize.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip minimize.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o minirot.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos minirot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip minirot.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o minrigid.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos minrigid.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip minrigid.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o mol2xyz.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos mol2xyz.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip mol2xyz.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o molxyz.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos molxyz.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip molxyz.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o monte.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos monte.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip monte.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o newton.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos newton.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip newton.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o newtrot.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos newtrot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip newtrot.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o nucleic.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos nucleic.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip nucleic.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o optimize.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos optimize.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip optimize.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o optirot.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos optirot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip optirot.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o optrigid.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos optrigid.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip optrigid.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o path.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos path.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip path.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o pdbxyz.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos pdbxyz.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip pdbxyz.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o polarize.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos polarize.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip polarize.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o poledit.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos poledit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip poledit.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o potential.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos potential.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip potential.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o prmedit.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos prmedit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip prmedit.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o protein.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos protein.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip protein.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o pss.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos pss.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip pss.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o pssrigid.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos pssrigid.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip pssrigid.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o pssrot.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos pssrot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip pssrot.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o radial.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos radial.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip radial.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o saddle.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos saddle.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip saddle.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o scan.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos scan.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip scan.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o sniffer.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos sniffer.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip sniffer.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o spacefill.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos spacefill.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip spacefill.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o spectrum.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos spectrum.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip spectrum.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o superpose.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos superpose.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip superpose.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testgrad.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos testgrad.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testgrad.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testhess.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos testhess.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testhess.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testpair.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos testpair.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testpair.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testpol.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos testpol.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testpol.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testrot.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos testrot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testrot.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o testvir.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos testvir.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip testvir.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o timer.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos timer.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip timer.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o timerot.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos timerot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip timerot.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o torsfit.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos torsfit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip torsfit.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o valence.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos valence.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip valence.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o vibbig.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos vibbig.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip vibbig.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o vibrate.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos vibrate.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip vibrate.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o vibrot.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos vibrot.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip vibrot.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xtalfit.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xtalfit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xtalfit.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xtalmin.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xtalmin.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xtalmin.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzedit.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xyzedit.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzedit.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzint.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xyzint.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzint.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzmol2.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xyzmol2.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzmol2.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzpdb.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xyzpdb.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzpdb.x
      [copy] Copying 62 files to /Users/ponder/ffe/build/tinker/bin
 
 ffe:
@@ -1884,131 +1885,13 @@ init:
 
 compile:
     [javac] /Users/ponder/ffe/build/ffe/build.xml:189: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
-    [javac] Compiling 110 source files to /Users/ponder/ffe/build/ffe/target/classes
+    [javac] Compiling 14 source files to /Users/ponder/ffe/build/ffe/target/classes
     [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.Signal;
-    [javac]                ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.SignalHandler;
-    [javac]                ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.Signal;
-    [javac]                ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.SignalHandler;
-    [javac]                ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.Signal;
-    [javac]                ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.SignalHandler;
-    [javac]                ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] 		SignalHandler handler = new SignalHandler() {
-    [javac] 		^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] 		SignalHandler handler = new SignalHandler() {
-    [javac] 		                            ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:145: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] 			public void handle(Signal sig) {
-    [javac] 			                   ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] 		Signal.handle(new Signal("INT"), handler);
-    [javac] 		                  ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] 		Signal.handle(new Signal("INT"), handler);
-    [javac] 		^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] public class OSXAdapter extends ApplicationAdapter {
-    [javac]                                 ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:37: warning: [deprecation] Application() in Application has been deprecated
-    [javac] 			osxApplication = new Application();
-    [javac] 			                 ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:42: warning: [deprecation] addApplicationListener(ApplicationListener) in Application has been deprecated
-    [javac] 		osxApplication.addApplicationListener(osxAdapter);
-    [javac] 		              ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:43: warning: [deprecation] setEnabledPreferencesMenu(boolean) in Application has been deprecated
-    [javac] 		osxApplication.setEnabledPreferencesMenu(true);
-    [javac] 		              ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:44: warning: [deprecation] setEnabledAboutMenu(boolean) in Application has been deprecated
-    [javac] 		osxApplication.setEnabledAboutMenu(true);
-    [javac] 		              ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:94: warning: [deprecation] handleAbout(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleAbout(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:94: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleAbout(ApplicationEvent ae) {
-    [javac] 	                        ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:96: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:99: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:103: warning: [deprecation] handleOpenFile(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:103: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
-    [javac] 	                           ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:105: warning: [deprecation] getFilename() in ApplicationEvent has been deprecated
-    [javac] 			mainPanel.open(ae.getFilename());
-    [javac] 			                 ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:106: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:108: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:112: warning: [deprecation] handlePreferences(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handlePreferences(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:112: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handlePreferences(ApplicationEvent ae) {
-    [javac] 	                              ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:115: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:117: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:121: warning: [deprecation] handleQuit(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleQuit(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:121: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleQuit(ApplicationEvent ae) {
-    [javac] 	                       ^
-    [javac] /Users/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:123: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] Note: Some input files use unchecked or unsafe operations.
-    [javac] Note: Recompile with -Xlint:unchecked for details.
-    [javac] 38 warnings
 
 resource:
-     [copy] Copying 5 files to /Users/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /Users/ponder/ffe/build/ffe/lib/ffe-8.7.jar
+      [jar] Building jar: /Users/ponder/ffe/build/ffe/lib/ffe-8.8.jar
 
 make:
 
@@ -2044,22 +1927,22 @@ kits:
 [install4j]   Compressing files
 [install4j]   Generating VM options file vmoptions.txt.
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_macos_8.7.11.dmg.
-[install4j]   The size of the media file is 246.5 MB
+[install4j]   The name of the media file is Tinker-FFE_macos_8.8.11.dmg.
+[install4j]   The size of the media file is 251.0 MB
 [install4j] 
 [install4j] Compressed media file 'MacOS Archive':
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_macos_8.7.11.tgz.
-[install4j]   The size of the media file is 230.8 MB
+[install4j]   The name of the media file is Tinker-FFE_macos_8.8.11.tgz.
+[install4j]   The size of the media file is 235.3 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 49.2 seconds.
-     [gzip] Building: /Users/ponder/ffe/build/kits/build_8.7.11.log.gz
-     [gzip] Building: /Users/ponder/ffe/build/kits/error_8.7.11.log.gz
-   [delete] Deleting: /Users/ponder/ffe/build/kits/build_8.7.11.log
-   [delete] Deleting: /Users/ponder/ffe/build/kits/error_8.7.11.log
+[install4j] Build completed in 51.4 seconds.
+     [gzip] Building: /Users/ponder/ffe/build/kits/build_8.8.11.log.gz
+     [gzip] Building: /Users/ponder/ffe/build/kits/error_8.8.11.log.gz
+   [delete] Deleting: /Users/ponder/ffe/build/kits/build_8.8.11.log
+   [delete] Deleting: /Users/ponder/ffe/build/kits/error_8.8.11.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 27 minutes 50 seconds
+Total time: 27 minutes 32 seconds

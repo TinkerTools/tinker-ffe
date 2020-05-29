@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc
 [echoproperties] #Ant properties
-[echoproperties] #Mon Apr 20 00:04:09 COT 2020
-[echoproperties] DSTAMP=20200420
-[echoproperties] TODAY=April 20 2020
-[echoproperties] TSTAMP=0004
+[echoproperties] #Thu May 28 22:26:08 COT 2020
+[echoproperties] DSTAMP=20200528
+[echoproperties] TODAY=May 28 2020
+[echoproperties] TSTAMP=2226
 [echoproperties] ant.core.lib=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar
 [echoproperties] ant.file=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Windows=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
@@ -65,7 +65,7 @@ init:
 [echoproperties] apbs_src.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/apbs_src
 [echoproperties] awt.toolkit=sun.awt.windows.WToolkit
 [echoproperties] basedir=C\:\\cygwin64\\home\\ponder\\ffe\\build
-[echoproperties] build.log=kits/build_8.7.31.log
+[echoproperties] build.log=kits/build_8.8.31.log
 [echoproperties] build.number=31
 [echoproperties] c.flags=-Ofast -msse3
 [echoproperties] cc=gcc
@@ -76,16 +76,14 @@ init:
 [echoproperties] env.ANT_OPTS=-Xms512M -Xmx1G
 [echoproperties] env.APPDATA=C\:\\Users\\ponder\\AppData\\Roaming
 [echoproperties] env.BLD=/home/ponder/ffe/build
-[echoproperties] env.CLASSPATH=C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.4.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;\=
+[echoproperties] env.CLASSPATH=C\:/Users/ponder/Tinker-FFE/ffe/lib/ffe-8.8.jar;C\:/Users/ponder/Tinker-FFE/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.4.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;\=
 [echoproperties] env.COMMONPROGRAMFILES=C\:\\Program Files\\Common Files
 [echoproperties] env.COMPUTERNAME=WIN10-64
 [echoproperties] env.COMSPEC=C\:\\WINDOWS\\system32\\cmd.exe
 [echoproperties] env.CommonProgramFiles(x86)=C\:\\Program Files (x86)\\Common Files
 [echoproperties] env.CommonProgramW6432=C\:\\Program Files\\Common Files
 [echoproperties] env.DriverData=C\:\\Windows\\System32\\Drivers\\DriverData
-[echoproperties] env.FFEHOME=C\:\\Users\\ponder\\MolecularTools\\ffe
-[echoproperties] env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
-[echoproperties] env.FPS_BROWSER_USER_PROFILE_STRING=Default
+[echoproperties] env.FFEHOME=C\:\\Users\\ponder\\Tinker-FFE\\ffe
 [echoproperties] env.FP_NO_HOST_CHECK=NO
 [echoproperties] env.GROUP=None
 [echoproperties] env.HOME=C\:\\cygwin64\\home\\ponder
@@ -129,7 +127,7 @@ init:
 [echoproperties] env.SYSTEMDRIVE=C\:
 [echoproperties] env.SYSTEMROOT=C\:\\WINDOWS
 [echoproperties] env.TERM=xterm
-[echoproperties] env.TINKER=C\:\\Users\\ponder\\MolecularTools\\tinker
+[echoproperties] env.TINKER=C\:\\Users\\ponder\\Tinker-FFE\\tinker
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
 [echoproperties] env.TZ=America/Bogota
 [echoproperties] env.USER=ponder
@@ -140,7 +138,7 @@ init:
 [echoproperties] env.VENDOR=unknown
 [echoproperties] env.VS100COMNTOOLS=c\:\\Program Files (x86)\\Microsoft Visual Studio 10.0\\Common7\\Tools\\
 [echoproperties] env.WINDIR=C\:\\WINDOWS
-[echoproperties] error.log=kits/error_8.7.31.log
+[echoproperties] error.log=kits/error_8.8.31.log
 [echoproperties] fc=gfortran
 [echoproperties] ffe.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/ffe
 [echoproperties] fftw.dir=C\:\\cygwin64\\home\\ponder\\ffe\\build/fftw
@@ -151,7 +149,7 @@ init:
 [echoproperties] fortran.flags=-Ofast -msse3 -fopenmp
 [echoproperties] java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
 [echoproperties] java.awt.printerjob=sun.awt.windows.WPrinterJob
-[echoproperties] java.class.path=C\:/cygwin64/home/ponder/ffe/build/buildtools/ant/lib/ant-launcher.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.4.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\cygwin64\\home\\ponder\\ffe\\build\\\=;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-antlr.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-bcel.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-bsf.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-log4j.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-oro.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-regexp.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-resolver.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-xalan2.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-commons-logging.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-commons-net.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jai.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-javamail.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jdepend.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jmf.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jsch.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-junit.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-junit4.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-launcher.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-netrexx.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-swing.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-testutil.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\lib\\tools.jar
+[echoproperties] java.class.path=C\:/cygwin64/home/ponder/ffe/build/buildtools/ant/lib/ant-launcher.jar;C\:\\Users\\ponder\\Tinker-FFE\\ffe\\lib\\ffe-8.8.jar;C\:\\Users\\ponder\\Tinker-FFE\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.4.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\ffe\\native\\windows\\ffe.dll;C\:\\Users\\ponder\\MolecularTools\\ffe\\lib\\ffe-8.2.jar;C\:\\Users\\ponder\\MolecularTools\\ffe\\native\\windows\\ffe.dll;C\:\\cygwin64\\home\\ponder\\ffe\\build\\\=;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-antlr.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-bcel.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-bsf.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-log4j.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-oro.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-regexp.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-resolver.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-apache-xalan2.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-commons-logging.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-commons-net.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jai.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-javamail.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jdepend.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jmf.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-jsch.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-junit.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-junit4.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-launcher.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-netrexx.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-swing.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant-testutil.jar;C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar;C\:\\Program Files\\Java\\jdk1.8.0_112\\lib\\tools.jar
 [echoproperties] java.class.version=52.0
 [echoproperties] java.endorsed.dirs=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\endorsed
 [echoproperties] java.ext.dirs=C\:\\Program Files\\Java\\jdk1.8.0_112\\jre\\lib\\ext;C\:\\WINDOWS\\Sun\\Java\\lib\\ext
@@ -192,7 +190,7 @@ init:
 [echoproperties] sun.cpu.isalist=amd64
 [echoproperties] sun.desktop=windows
 [echoproperties] sun.io.unicode.encoding=UnicodeLittle
-[echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.4.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;\= -f windows.ant.xml
+[echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp C\:/Users/ponder/Tinker-FFE/ffe/lib/ffe-8.8.jar;C\:/Users/ponder/Tinker-FFE/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.4.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;C\:/Users/ponder/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/ffe/native/windows/ffe.dll;C\:/Users/ponder/MolecularTools/ffe/lib/ffe-8.2.jar;C\:/Users/ponder/MolecularTools/ffe/native/windows/ffe.dll;\= -f windows.ant.xml
 [echoproperties] sun.java.launcher=SUN_STANDARD
 [echoproperties] sun.jnu.encoding=Cp1252
 [echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
@@ -211,7 +209,7 @@ init:
 [echoproperties] user.script=
 [echoproperties] user.timezone=
 [echoproperties] user.variant=
-[echoproperties] version=8.7
+[echoproperties] version=8.8
 
 sync-source:
      [echo] Syncing Source Files
@@ -1817,68 +1815,68 @@ maketinker:
      [exec] a - zclose.o
      [exec] a - zcoord.o
      [exec] ranlib libtinker.a
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o alchemy.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib alchemy.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip alchemy.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o analyze.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib analyze.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip analyze.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o anneal.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib anneal.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip anneal.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o archive.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib archive.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip archive.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o bar.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib bar.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip bar.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o correlate.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib correlate.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip correlate.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o crystal.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib crystal.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip crystal.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o diffuse.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib diffuse.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip diffuse.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o distgeom.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib distgeom.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip distgeom.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o document.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib document.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip document.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o dynamic.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib dynamic.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip dynamic.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o gda.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib gda.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip gda.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o intedit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib intedit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip intedit.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o intxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib intxyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip intxyz.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minimize.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib minimize.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip minimize.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minirot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib minirot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip minirot.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib minrigid.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip minrigid.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o mol2xyz.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib mol2xyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip mol2xyz.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o molxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib molxyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip molxyz.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o monte.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib monte.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip monte.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o newton.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib newton.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip newton.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o newtrot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib newtrot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip newtrot.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o nucleic.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib nucleic.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip nucleic.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optimize.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib optimize.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip optimize.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optirot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib optirot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip optirot.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib optrigid.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip optrigid.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o path.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib path.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip path.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pdbxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib pdbxyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip pdbxyz.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o polarize.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib polarize.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip polarize.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o poledit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib poledit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip poledit.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o potential.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib potential.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip potential.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o prmedit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib prmedit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip prmedit.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o protein.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib protein.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip protein.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pss.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib pss.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip pss.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pssrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib pssrigid.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip pssrigid.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pssrot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib pssrot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip pssrot.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o radial.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib radial.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip radial.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o saddle.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib saddle.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip saddle.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o scan.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib scan.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip scan.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o sniffer.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib sniffer.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip sniffer.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o spacefill.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib spacefill.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip spacefill.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o spectrum.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib spectrum.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip spectrum.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o superpose.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib superpose.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip superpose.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testgrad.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testgrad.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testgrad.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testhess.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testhess.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testhess.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testpair.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testpair.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testpair.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testpol.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testpol.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testpol.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testrot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testrot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testrot.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testvir.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib testvir.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testvir.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o timer.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib timer.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip timer.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o timerot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib timerot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip timerot.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o torsfit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib torsfit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip torsfit.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o valence.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib valence.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip valence.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibbig.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib vibbig.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip vibbig.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibrate.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib vibrate.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip vibrate.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibrot.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib vibrot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip vibrot.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xtalfit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xtalfit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xtalfit.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xtalmin.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xtalmin.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xtalmin.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzedit.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xyzedit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xyzedit.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzint.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xyzint.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xyzint.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzmol2.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xyzmol2.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xyzmol2.x
-     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzpdb.x -L. -L/home/ponder/ffe/build/tinker/lib/windows -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib xyzpdb.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xyzpdb.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o alchemy.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows alchemy.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip alchemy.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o analyze.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows analyze.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip analyze.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o anneal.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows anneal.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip anneal.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o archive.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows archive.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip archive.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o bar.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows bar.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip bar.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o correlate.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows correlate.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip correlate.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o crystal.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows crystal.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip crystal.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o diffuse.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows diffuse.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip diffuse.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o distgeom.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows distgeom.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip distgeom.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o document.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows document.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip document.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o dynamic.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows dynamic.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip dynamic.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o gda.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows gda.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip gda.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o intedit.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows intedit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip intedit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o intxyz.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows intxyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip intxyz.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minimize.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows minimize.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip minimize.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minirot.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows minirot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip minirot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o minrigid.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows minrigid.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip minrigid.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o mol2xyz.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows mol2xyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip mol2xyz.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o molxyz.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows molxyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip molxyz.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o monte.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows monte.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip monte.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o newton.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows newton.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip newton.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o newtrot.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows newtrot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip newtrot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o nucleic.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows nucleic.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip nucleic.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optimize.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows optimize.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip optimize.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optirot.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows optirot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip optirot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o optrigid.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows optrigid.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip optrigid.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o path.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows path.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip path.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pdbxyz.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows pdbxyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip pdbxyz.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o polarize.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows polarize.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip polarize.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o poledit.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows poledit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip poledit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o potential.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows potential.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip potential.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o prmedit.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows prmedit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip prmedit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o protein.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows protein.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip protein.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pss.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows pss.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip pss.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pssrigid.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows pssrigid.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip pssrigid.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o pssrot.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows pssrot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip pssrot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o radial.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows radial.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip radial.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o saddle.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows saddle.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip saddle.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o scan.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows scan.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip scan.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o sniffer.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows sniffer.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip sniffer.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o spacefill.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows spacefill.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip spacefill.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o spectrum.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows spectrum.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip spectrum.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o superpose.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows superpose.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip superpose.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testgrad.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows testgrad.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testgrad.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testhess.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows testhess.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testhess.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testpair.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows testpair.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testpair.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testpol.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows testpol.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testpol.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testrot.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows testrot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testrot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o testvir.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows testvir.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip testvir.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o timer.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows timer.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip timer.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o timerot.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows timerot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip timerot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o torsfit.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows torsfit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip torsfit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o valence.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows valence.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip valence.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibbig.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows vibbig.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip vibbig.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibrate.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows vibrate.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip vibrate.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o vibrot.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows vibrot.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip vibrot.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xtalfit.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows xtalfit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xtalfit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xtalmin.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows xtalmin.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xtalmin.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzedit.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows xyzedit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xyzedit.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzint.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows xyzint.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xyzint.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzmol2.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows xyzmol2.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xyzmol2.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static -o xyzpdb.x -L"C:\Program Files\Java\jdk1.8.0_112\lib" -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/windows xyzpdb.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++ -lwsock32; strip xyzpdb.x
      [copy] Copying 62 files to C:\cygwin64\home\ponder\ffe\build\tinker\bin
      [copy] Copying 1 file to C:\cygwin64\home\ponder\ffe\build\tinker\bin
 
@@ -1889,131 +1887,13 @@ init:
 
 compile:
     [javac] C:\cygwin64\home\ponder\ffe\build\ffe\build.xml:189: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
-    [javac] Compiling 110 source files to C:\cygwin64\home\ponder\ffe\build\ffe\target\classes
+    [javac] Compiling 14 source files to C:\cygwin64\home\ponder\ffe\build\ffe\target\classes
     [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.Signal;
-    [javac]                ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.SignalHandler;
-    [javac]                ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.Signal;
-    [javac]                ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.SignalHandler;
-    [javac]                ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.Signal;
-    [javac]                ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] import sun.misc.SignalHandler;
-    [javac]                ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] 		SignalHandler handler = new SignalHandler() {
-    [javac] 		^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
-    [javac] 		SignalHandler handler = new SignalHandler() {
-    [javac] 		                            ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:145: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] 			public void handle(Signal sig) {
-    [javac] 			                   ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] 		Signal.handle(new Signal("INT"), handler);
-    [javac] 		                  ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
-    [javac] 		Signal.handle(new Signal("INT"), handler);
-    [javac] 		^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] public class OSXAdapter extends ApplicationAdapter {
-    [javac]                                 ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:37: warning: [deprecation] Application() in Application has been deprecated
-    [javac] 			osxApplication = new Application();
-    [javac] 			                 ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:42: warning: [deprecation] addApplicationListener(ApplicationListener) in Application has been deprecated
-    [javac] 		osxApplication.addApplicationListener(osxAdapter);
-    [javac] 		              ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:43: warning: [deprecation] setEnabledPreferencesMenu(boolean) in Application has been deprecated
-    [javac] 		osxApplication.setEnabledPreferencesMenu(true);
-    [javac] 		              ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:44: warning: [deprecation] setEnabledAboutMenu(boolean) in Application has been deprecated
-    [javac] 		osxApplication.setEnabledAboutMenu(true);
-    [javac] 		              ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:94: warning: [deprecation] handleAbout(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleAbout(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:94: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleAbout(ApplicationEvent ae) {
-    [javac] 	                        ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:96: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:99: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:103: warning: [deprecation] handleOpenFile(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:103: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
-    [javac] 	                           ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:105: warning: [deprecation] getFilename() in ApplicationEvent has been deprecated
-    [javac] 			mainPanel.open(ae.getFilename());
-    [javac] 			                 ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:106: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:108: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:112: warning: [deprecation] handlePreferences(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handlePreferences(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:112: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handlePreferences(ApplicationEvent ae) {
-    [javac] 	                              ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:115: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:117: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:121: warning: [deprecation] handleQuit(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleQuit(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:121: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleQuit(ApplicationEvent ae) {
-    [javac] 	                       ^
-    [javac] C:\cygwin64\home\ponder\ffe\build\ffe\src\main\java\ffe\macos\OSXAdapter.java:123: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] Note: Some input files use unchecked or unsafe operations.
-    [javac] Note: Recompile with -Xlint:unchecked for details.
-    [javac] 38 warnings
 
 resource:
-     [copy] Copying 5 files to C:\cygwin64\home\ponder\ffe\build\ffe\target\classes
 
 package:
-      [jar] Building jar: C:\cygwin64\home\ponder\ffe\build\ffe\lib\ffe-8.7.jar
+      [jar] Building jar: C:\cygwin64\home\ponder\ffe\build\ffe\lib\ffe-8.8.jar
 
 make:
 
@@ -2046,23 +1926,23 @@ kits:
 [install4j] 
 [install4j] Compressed media file 'Windows Archive':
 [install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
-[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.7.31.zip.
-[install4j]   The size of the media file is 250.1 MB
+[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.8.31.zip.
+[install4j]   The size of the media file is 254.6 MB
 [install4j] 
 [install4j] Compressed media file 'Windows':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory C:\cygwin64\home\ponder\ffe\build\kits
-[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.7.31.exe.
-[install4j]   The size of the media file is 249.6 MB
+[install4j]   The name of the media file is Tinker-FFE_windows-x64_8.8.31.exe.
+[install4j]   The size of the media file is 254.2 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 34.4 seconds.
-     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\build_8.7.31.log.gz
-     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\error_8.7.31.log.gz
-   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\build_8.7.31.log
-   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\error_8.7.31.log
+[install4j] Build completed in 33.9 seconds.
+     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\build_8.8.31.log.gz
+     [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\error_8.8.31.log.gz
+   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\build_8.8.31.log
+   [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\error_8.8.31.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 25 minutes 30 seconds
+Total time: 24 minutes 50 seconds

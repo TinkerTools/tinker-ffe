@@ -1,2 +1,10 @@
 *.java linguist-language=Java
+source/*.tgz linguist-language=Java
 other/* linguist-documentation
+*.java linguist-detectable=true
+*.sh linguist-detectable=false
+*.csh linguist-detectable=false
+*.xml linguist-detectable=false
+*.gz linguist-detectable=false
+*.install4j linguist-detectable=false
+*.number linguist-detectable=false
