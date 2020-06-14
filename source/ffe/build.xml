@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="make" name="Force Field Explorer">
+
+	<description>
+
+	This is the Force Field Explorer Ant build file "build.xml".
+	It is meant to be located and executed in the root FFE directory
+	and expects Tinker, FFTW and APBS to exist along side it.
+
+	A successful build of the Tinker-FFE molecular modeling program
+	currently requires:
+
+	(1) FFE, Tinker, FFTW and APBS source code
+	(2) Java JDK (currently using 1.8.0_112)
+	(3) Apache Ant (currently using 1.9.6)
+	(4) GNU or Intel Compilers
+
+	The Tinker-FFE package can be built for the following systems:
+
+	(1) Linux
+	(2) MacOS
+	(3) Windows
+
+	Tinker, FFTW and APBS require C and Fortran compilers; FFE uses 
+	Java Native Interface (JNI) routines that require a C compiler.
+
+	Currently, GNU compilers are used in platform specific Ant build
+	files based on the following expected directory structure.
+
+	|-apbs
+	|-ffe
+	    |-native
+	        |-linux
+	        |-macos
+	        |-windows
+	|-fftw
+	|-tinker
+		
+	</description>
+
+	<property name="ffe.version" value="8.8" />
+	<property name="src.dir" value="src/main/java" />
+	<property name="build.dir" value="target/classes" />
+	<property name="jar.dir" value="${basedir}/lib" />
+	<property name="tinker.dir" value="../tinker" />
+	<property name="apbs.dir" value="../apbs" />
+	<property environment="env" />
+
+	<!-- Figure out what platform we are on. -->
+	<condition property="platform.target" value="windows">
+		<os family="windows" />
+	</condition>
+	<condition property="platform.target" value="macos">
+		<and>
+			<os family="mac" />
+			<os family="unix" />
+		</and>
+	</condition>
+	<condition property="platform.target" value="linux">
+		<and>
+			<os family="unix" />
+			<not>
+				<isset property="platform.target" />
+			</not>
+		</and>
+	</condition>
+
+	<!-- Figure out what native compiler to use. -->
+	<!-- On MacOS, use GCC to create universal binaries -->
+	<condition property="CC" value="gcc">
+		<and>
+			<os family="mac" />
+			<os family="unix" />
+		</and>
+	</condition>
+	<!-- On Windows, use the Intel C compiler (icl) if available -->
+	<condition property="CC" value="icl">
+		<available file="icl.exe">
+			<filepath>
+				<pathelement path="${env.PATH}" />
+			</filepath>
+		</available>
+	</condition>
+	<!-- On Linux, use the Intel C compiler (icc) if available -->
+	<condition property="CC" value="icc">
+		<and>
+			<available file="icc">
+				<filepath>
+					<pathelement path="${env.PATH}" />
+				</filepath>
+			</available>
+			<not>
+				<isset property="CC" />
+			</not>
+		</and>
+	</condition>
+	<!-- Fall back to gcc if CC isn't set -->
+	<condition property="CC" value="gcc">
+		<and>
+			<available file="gcc">
+				<filepath>
+					<pathelement path="${env.PATH}" />
+				</filepath>
+			</available>
+			<not>
+				<isset property="CC" />
+			</not>
+		</and>
+	</condition>
+
+	<path id="project.class.path">
+		<pathelement location="${jar.dir}/AppleJavaExtensions-1.6.jar" />
+		<pathelement location="${jar.dir}/commons-io-2.6.jar" />
+		<pathelement location="${jar.dir}/commons-lang-2.7.jar" />
+		<pathelement location="${jar.dir}/commons-logging-1.3.jar" />
+		<pathelement location="${jar.dir}/ffe-${ffe.version}.jar" />
+		<pathelement location="${jar.dir}/gluegen-rt-android-natives-linux-amd64.jar" />
+		<pathelement location="${jar.dir}/gluegen-rt-android-natives-macosx-universal.jar" />
+		<pathelement location="${jar.dir}/gluegen-rt-android-natives-windows-amd64.jar" />
+		<pathelement location="${jar.dir}/gluegen-rt.jar" />
+		<pathelement location="${jar.dir}/gluegen.jar" />
+		<pathelement location="${jar.dir}/groovy-all-2.4.4.jar" />
+		<pathelement location="${jar.dir}/j3dcore-1.7.jar" />
+		<pathelement location="${jar.dir}/j3dutils-1.7.jar" />
+		<pathelement location="${jar.dir}/jh-2.0.5.jar" />
+		<pathelement location="${jar.dir}/joal-natives-linux-amd64.jar" />
+		<pathelement location="${jar.dir}/joal-natives-macosx-universal.jar" />
+		<pathelement location="${jar.dir}/joal-natives-windows-amd64.jar" />
+		<pathelement location="${jar.dir}/joal.jar" />
+		<pathelement location="${jar.dir}/jogl-all-noawt-natives-linux-amd64.jar" />
+		<pathelement location="${jar.dir}/jogl-all-noawt-natives-macosx-universal.jar" />
+		<pathelement location="${jar.dir}/jogl-all-noawt-natives-windows-amd64.jar" />
+		<pathelement location="${jar.dir}/jogl-all.jar" />
+		<pathelement location="${jar.dir}/sunjce_provider.jar" />
+		<pathelement location="${jar.dir}/vecmath-1.7.jar" />
+	</path>
+
+	<target name="info" description="Print Platform Details">
+		<echo message="Hello ${user.name}!" />
+		<echo message="Build File: ${ant.file.Force Field Explorer}" />
+		<echo message="Force Field Explorer version: ${ffe.version}" />
+		<echo message="OS: ${os.name} version ${os.version} on ${os.arch}" />
+		<echo message="JVM: ${java.vendor} ${java.vm.name} version ${java.version}" />
+		<echo message="C Compiler: ${CC}" />
+		<echo message="Tinker: ${tinker.dir}" />
+		<echo message="APBS: ${apbs.dir}" />
+		<echo message="PWD: ${env.PWD}" />
+		<echo message="PATH: ${env.PATH}" />
+		<echo message="CLASSPATH: ${sun.boot.class.path}" />
+	</target>
+
+	<target name="init" description="Create Directories">
+		<mkdir dir="${build.dir}" />
+	</target>
+
+	<target name="resource" description="Copy Resources">
+		<copy todir="${build.dir}">
+			<fileset dir="${src.dir}">
+				<include name="**/*.html" />
+				<include name="**/*.c" />
+				<include name="**/*.h" />
+				<include name="**/*.gif" />
+				<include name="**/*.xml" />
+				<include name="**/*.properties" />
+				<include name="**/*.jpe" />
+				<include name="**/*.jpeg" />
+				<include name="**/*.dtd" />
+				<include name="**/*.png" />
+				<include name="**/*.jpg" />
+				<include name="**/*.htm" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="compile"
+	        depends="init"
+	        description="Compile FFE Source Code"
+	>
+		<javac debug="true"
+		       failonerror="true"
+		       deprecation="true"
+		       srcdir="${src.dir}"
+		       destdir="${build.dir}"
+		       nowarn="false"
+		       optimize="true"
+		       source="1.6"
+		       target="1.6"
+		       includes="**/*.java"
+		>
+			<classpath>
+				<path refid="project.class.path" />
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="package"
+	        depends="resource,compile"
+	        description="Create ffe.jar"
+	>
+		<jar jarfile="${jar.dir}/ffe-${ffe.version}.jar"
+		     basedir="${build.dir}"
+		     manifest="src/main/java/manifest.mf"
+		     includes="ffe/**"
+		/>
+	</target>
+
+	<target name="run" depends="compile,package" description="Run FFE">
+		<java classname="ffe.Main" maxmemory="4G" fork="true">
+			<classpath>
+				<path refid="project.class.path" />
+			</classpath>
+			<jvmarg value="-Djava.library.path=${basedir}/native/${platform.target}" />
+			<jvmarg value="-ms1024M" />
+			<jvmarg value="-mx4096M" />
+			<jvmarg value="-server" />
+			<jvmarg value="-Dffe.timer=false" />
+			<jvmarg value="-Dffe.tinker.dir=${tinker.dir}" />
+			<jvmarg value="-Dj3d.rend=jogl" />
+			<jvmarg value="-Dj3d.optimizeForSpace=false" />
+			<jvmarg value="-Dj3d.docompaction=false" />
+			<jvmarg value="-Dapple.mrj.application.apple.menu.about.name=Force Field Explorer" />
+			<jvmarg value="-Dapple.laf.useScreenMenuBar=true" />
+			<jvmarg value="-Dapple.awt.showGrowBox=true" />
+			<jvmarg value="-Dapple.mrj.application.growbox.intrudes=false" />
+			<jvmarg value="-Dapple.awt.brushMetalLook=true" />
+			<jvmarg value="-Dapple.mrj.application.live-resize=true" />
+			<jvmarg value="-Dapple.macos.smallTabs=true" />
+			<jvmarg value="-Xdock:name=Force Field Explorer" />
+			<jvmarg value="-Xdock:icon=src/main/java/ffe/icons/icon.icns" />
+		</java>
+	</target>
+
+	<!-- Call the platform-dependent buildjni target -->
+	<target name="jni"
+	        description="Build the native JNI library for ${platform.target} using ${CC}."
+	>
+		<fail unless="platform.target" message="Unknown Target Platform" />
+		<echo message="JNI Target: ${platform.target}" />
+		<fail unless="CC" message="No recognized C Compiler" />
+		<echo message="C Compiler: ${CC}" />
+		<antcall target="jni_${platform.target}_${CC}" />
+	</target>
+	<target name="jni_windows_icl">
+		<exec dir="${basedir}/native/${platform.target}" executable="${CC}">
+			<arg line="/LD /w nativeExec.c /o ffe.dll /I. /I..\jni" />
+		</exec>
+		<delete>
+			<fileset dir="${platform.target}" includes="*.obj, *.lib, *.exp" />
+		</delete>
+	</target>
+	<target name="jni_windows_gcc">
+		<exec dir="${basedir}/native/${platform.target}" executable="${CC}">
+			<arg line=" -mno-cygwin -c nativeExec.c -I. -I../jni" />
+		</exec>
+		<exec dir="${basedir}/native/${platform.target}" executable="dlltool">
+			<arg line=" nativeExec.o -A --export-all-symbols --output-def ffe.def"
+			/>
+		</exec>
+		<exec dir="${basedir}/native/${platform.target}" executable="dllwrap">
+			<arg line=" nativeExec.o -static --def ffe.def -o ffe.dll" />
+		</exec>
+	</target>
+	<target name="jni_macos">
+		<exec dir="${basedir}/native/${platform.target}" executable="${CC}">
+			<arg line=" -arch x86_64 -arch i386 -arch ppc -fPIC -c nativeExec.c -I /Library/Java/Home/include"
+			/>
+		</exec>
+		<exec dir="${basedir}/native/${platform.target}" executable="${CC}">
+			<arg line="-arch x86_64 -arch i386 -arch ppc -dynamiclib nativeExec.o -o libffe.jnilib"
+			/>
+		</exec>
+		<delete>
+			<fileset dir="${basedir}/native/${platform.target}"
+				includes="nativeExec.o"
+			/>
+		</delete>
+	</target>
+
+	<target name="make"
+		depends="compile,package"
+		description="Compile and Package FFE"
+	>
+	</target>
+
+</project>
