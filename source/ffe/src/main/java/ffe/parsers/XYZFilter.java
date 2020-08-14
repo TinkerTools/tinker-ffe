@@ -485,21 +485,19 @@ public class XYZFilter extends SystemFilter {
 				} catch (Exception e) {
 					Logger
 							.getLogger("ffe")
-							.severe(
-									"Their was an unexpected error "
-											+ "writing to "
-											+ getMolecularSystem().toString()
-											+ "\n"
-											+ e
-											+ "\nForce Field Explorer will continue...");
+							.severe("There was an unexpected error "
+								+ "writing to "
+								+ getMolecularSystem().toString()
+								+ "\n"
+								+ e
+								+ "\nForce Field Explorer will continue...");
 					return false;
 				}
 			}
 			bw.close();
 			fw.close();
 		} catch (IOException e) {
-			Logger.getLogger("ffe").severe(
-					"Their was an unexpected error " + "writing to "
+			Logger.getLogger("ffe").severe("There was an unexpected error " + "writing to "
 							+ getMolecularSystem().toString() + "\n" + e
 							+ "\nForce Field Explorer will continue...");
 			return false;

@@ -1,16 +1,27 @@
 
-                ###############################################
-                Java JDK and JRE for Use in Building Tinker-FFE
-                ###############################################
+                    ########################################
+                    Java JDK and JRE for Building Tinker-FFE
+                    ########################################
 
-        This directory contains Java JRE kits downloaded from Oracle and
-        the install4j web site during November 2016. The JDK kits are to
-        be installed prior to building FFE, and are needed to run the ant
-        script and install4j.
+        This directory contains Java JDK kits downloaded from Oracle in
+        June 2020. The JDK kits are to be installed prior to building FFE,
+        and are needed to run the ant sicript and install4j. For building
+        and running the FFE, the version used is Java 8, update 251, as
+        denoted by Java 1.8.0_251.
 
-        The "macosx" and "windows" kits are JREs from the install4j site,
-        and are to be bundled with the FFE installation kits. install4j
-        does not provide pre-bundled JRE kits for Linux, so the "linux"
-        JRE kit found here was created from the original Oracle JRE via
-        the "createbundle" program provided with install4j.
+        On Linux, the jdk-8u251-linux-x64.tar.gz file should be expanded
+        in the directory /usr/java, which may need to be created first.
+        On MacOS, jdk-8u1251-macos-x64.dmg will install the JDK in the
+        directory /Library/Java/JavaVirtualMachines. On Windows, the file
+        jdk-8u251-windows-x64.exe will install the JDK in the directory
+        C:\Program Files\Java.
+
+        The 32-bit Windows JRE, jre-8u251-windows-i586.tar.gz, is for
+        inclusion under the installation directory for Install4j 6.1.6.
+
+        The "linux", "macos" and "windows" kits are JREs constructed by
+        the "Create a JRE Bundle" option from the Install4j GUI, or the
+        createbundle executable included with Install4j. On Linux, this
+        is done by unpacking the gzipped tar file with the JRE, then in
+        that directory run "createbundle -o <current dir> jre1.8.0_251".
 

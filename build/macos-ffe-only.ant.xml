@@ -2,7 +2,6 @@
 <project basedir="." default="make" name="Force Field Explorer for MacOS">
 
 	<tstamp />
-	<property file="tools.properties" />
 	<property name="platform" value="macos" />
 	<buildnumber file="${platform}.build.number" />
 	<property name="version" value="8.8" />

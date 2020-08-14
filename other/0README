@@ -8,7 +8,7 @@
          FFE build scripts, Groovy is used to implement and compile the
          FFE Shell, j3d is Java 3D API used by the FFE graphics engine,
          the Java directory contains the JREs to be bundled with FFE on
-         Linux, MacOS & Windows platforms, Mesa is an OpenGL compatible
+         Linux, MacOS & Windows platforms, Mesa is an OpenGL emulation
          library for systems without hardware OpenGL support, and Sun
          JCE has Java libraries to enable 2048-bit DH keypairs.
 

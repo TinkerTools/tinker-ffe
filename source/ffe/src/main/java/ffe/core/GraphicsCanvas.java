@@ -61,28 +61,28 @@ import ffe.lang.MolecularAssembly;
 import ffe.lang.RendererCache;
 
 /*
- * The GraphicsCanvas class provides a Canvas on which to render 3D Graphics.
- * The following display types are currently supported: Wireframe, Ball & Stick,
- * Spacefill/CPK, RMIN and Tube.
+ * The GraphicsCanvas class provides a Canvas on which to render 3D Graphics;
+ * The following display types are currently supported: Wireframe, Tube,
+ * Spacefill, Ball & Stick, Invisible and RMIN
  */
 @SuppressWarnings("serial")
 public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	/*
-	 * The ImageFormat enum lists supported image formats.
+	 * The ImageFormat enum lists supported image formats
 	 */
 	public enum ImageFormat {
 		BMP, GIF, JPEG, PNG, WBMP;
 	}
 
 	/*
-	 * The MouseMode enum describes what system is affected by mouse drags.
+	 * The MouseMode enum describes what system is affected by mouse drags
 	 */
 	public enum MouseMode {
 		SYSTEMBELOWMOUSE, ACTIVESYSTEM;
 	}
 	
 	/*
-	 * The LeftButtonMode enum describes what the left mouse button does.
+	 * The LeftButtonMode enum describes what the left mouse button does
 	 */
 	public enum LeftButtonMode {
 		ROTATE, TRANSLATE, ZOOM;
@@ -140,7 +140,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 
 	/*
 	 * The GraphicsCanvas constructor initializes the Java3D Universe and
-	 * Behaviors.
+	 * Behaviors
 	 */
 	public GraphicsCanvas(GraphicsConfiguration config, MainPanel f) {
 		super(config);
@@ -160,7 +160,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 
 	/*
 	 * Handles ActionEvents from the Selection, Display, Color, Options, and
-	 * Picking Menus.
+	 * Picking Menus
 	 */
 	public void actionPerformed(ActionEvent evt) {
 		String arg = evt.getActionCommand();
@@ -240,10 +240,10 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/*
-	 * This attaches a MolecularAssembly to the Scene BranchGroup.
+	 * This attaches a MolecularAssembly to the Scene BranchGroup
 	 * 
 	 * @param s
-	 *            MolecularAssembly to attach.
+	 *            MolecularAssembly to attach
 	 */
 	public void attachModel(MolecularAssembly s) {
 		if (s == null) {
@@ -337,7 +337,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/*
-	 * Initialization of the GraphisCanvas.
+	 * Initialization of the GraphisCanvas
 	 */
 	private void initialize() {
 		setBackground(Color.black);
@@ -452,12 +452,12 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/*
-	 * Load preferences from the user node.
+	 * Load preferences from the user node
 	 */
 	public void loadPrefs() {
 		Preferences prefs = Preferences.userNodeForPackage(MainPanel.class);
 		RendererCache.bondwidth = prefs.getInt("Graphics_bondwidth", 3);
-		RendererCache.detail = prefs.getInt("Graphics_detail", 3);
+		RendererCache.detail = prefs.getInt("Graphics_detail", 10);
 		RendererCache.radius = prefs.getDouble("Graphics_radius", 1.0d);
 		String s = prefs.get("Graphics_mouse", MouseMode.ACTIVESYSTEM.name());
 		if (s.equalsIgnoreCase("ACTIVESYSTEM")
@@ -520,14 +520,14 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/* ***************************************************************** */
-	// The following three methods modify default Canvas3D methods.
+	// The following three methods modify default Canvas3D methods
 	public void paint(java.awt.Graphics g) {
 		super.paint(g);
 		Toolkit.getDefaultToolkit().sync();
 	}
 
 	/*
-	 * Labels are drawn in postRender.
+	 * Labels are drawn in postRender
 	 */
 	public void postRender() {
 		if (RendererCache.labelAtoms || RendererCache.labelResidues) {
@@ -554,7 +554,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/*
-	 * Image capture from the 3D Canvas is done in postSwap.
+	 * Image capture from the 3D Canvas is done in postSwap
 	 */
 	public void postSwap() {
 		if (!imageCapture || mainPanel.getHierarchy().getActive() == null) {
@@ -608,7 +608,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/*
-	 * This functions centers the scene.
+	 * This functions centers the scene
 	 */
 	public void resetGlobalView() {
 		double radius = mainPanel.getDataRoot().getExtent();
@@ -665,9 +665,9 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/* ***************************************************************** */
-	// The following three methods modidfy default Canvas3D methods.
+	// The following three methods modidfy default Canvas3D methods
 	/*
-	 * Save preferences to the user node.
+	 * Save preferences to the user node
 	 */
 	public void savePrefs() {
 		Preferences prefs = Preferences.userNodeForPackage(MainPanel.class);
@@ -739,7 +739,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	/* ***************************************************************** */
 	// Color Commands
 	/*
-	 * Operates on the Active nodes.
+	 * Operates on the Active nodes
 	 * 
 	 * @param model
 	 *            String
@@ -758,7 +758,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/*
-	 * Operates on the Active nodes.
+	 * Operates on the Active nodes
 	 * 
 	 * @param model
 	 *            String
@@ -840,7 +840,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/* ***************************************************************** */
-	// Misc. get and set methods.
+	// Miscellaneous get and set methods
 	public void setLabelsUpdated() {
 		repaint();
 	}
@@ -919,7 +919,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	/* ***************************************************************** */
 	// Display Commands
 	/*
-	 * Operates on the active nodes.
+	 * Operates on the active nodes
 	 * 
 	 * @param model
 	 *            String
@@ -943,7 +943,7 @@ public class GraphicsCanvas extends Canvas3D implements ActionListener {
 	}
 
 	/*
-	 * Operates on the supplied node.
+	 * Operates on the supplied node
 	 * 
 	 * @param model
 	 *            String

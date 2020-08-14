@@ -4,6 +4,9 @@
                        ###################################
 
         In order to build the FFE shell, run the commands in the script
-        "make.console" after setting up the groovy compiler. The groovy
+        "console.make" after setting up the groovy compiler. The groovy
         distribution is in other/groovy.
+
+        Note that the Console classes must be built and install in the
+        "target" subdirectory before building the rest of FFE.
 

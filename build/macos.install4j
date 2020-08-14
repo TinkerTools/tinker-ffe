@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<install4j version="6.1.3" transformSequenceNumber="5">
+<install4j version="6.1.6" transformSequenceNumber="5">
   <directoryPresets config="." />
-  <application name="Tinker-FFE" distributionSourceDir="" applicationId="4247-8783-3069-7883" mediaDir="kits" mediaFilePattern="${compiler:sys.shortName}_${compiler:sys.platform}_${compiler:sys.version}" compression="3" lzmaCompression="false" pack200Compression="false" excludeSignedFromPacking="true" commonExternalFiles="false" createMd5Sums="true" shrinkRuntime="true" shortName="Tinker-FFE" publisher="Jay Ponder Lab" publisherWeb="http://dasher.wustl.edu" version="8.8.${compiler:build.number}" allPathsRelative="true" backupOnSave="false" autoSave="true" convertDotsToUnderscores="false" macSignature="????" macVolumeId="9b7e5608bc366cbf" javaMinVersion="1.6" javaMaxVersion="1.8" allowBetaVM="true" jdkMode="runtimeJre" jdkName="JDK 1.8">
+  <application name="Tinker-FFE" distributionSourceDir="" applicationId="4247-8783-3069-7883" mediaDir="kits" mediaFilePattern="${compiler:sys.shortName}_${compiler:sys.platform}_${compiler:sys.version}" compression="3" lzmaCompression="false" pack200Compression="false" excludeSignedFromPacking="true" commonExternalFiles="false" createMd5Sums="true" shrinkRuntime="true" shortName="Tinker-FFE" publisher="TinkerTools Organization" publisherWeb="https://github.com/TinkerTools/" version="8.8.${compiler:build.number}" allPathsRelative="true" backupOnSave="false" autoSave="true" convertDotsToUnderscores="false" macSignature="????" macVolumeId="9b7e5608bc366cbf" javaMinVersion="1.6" javaMaxVersion="1.8" allowBetaVM="true" jdkMode="runtimeJre" jdkName="JDK 1.8">
     <languages skipLanguageSelection="false" languageSelectionInPrincipalLanguage="false">
       <principalLanguage id="en" customLocalizationFile="" />
       <additionalLanguages />
@@ -612,7 +612,7 @@
     </applications>
   </installerGui>
   <mediaSets>
-    <macosFolder name="MacOS Installer" id="176" customizedId="" mediaFileName="" installDir="Tinker-FFE" overridePrincipalLanguage="false" jreBitType="all" runPostProcessor="false" postProcessor="" failOnPostProcessorError="false" useLegacyMediaFileIds="false" legacyMediaFileIds="" downloadURL="" includeAllDownloadableComponents="false" includedJRE="../other/java/macosx-amd64-1.8.0_112.tar.gz" manualJREEntry="true" bundleType="1" jreURL="" jreShared="false" directDownload="false" installOnlyIfNecessary="false" appleJre="false" requiredVmIdPrefix="" customInstallBaseDir="~" contentFilesType="1" installerName="${i18n:InstallerName(${compiler:sys.fullName})}" volumeName="${compiler:sys.shortName}" compressDmg="false" signLaunchers="true">
+    <macosFolder name="MacOS Installer" id="176" customizedId="" mediaFileName="" installDir="Tinker-FFE" overridePrincipalLanguage="false" jreBitType="all" runPostProcessor="false" postProcessor="" failOnPostProcessorError="false" useLegacyMediaFileIds="false" legacyMediaFileIds="" downloadURL="" includeAllDownloadableComponents="false" includedJRE="../other/java/macos-amd64-1.8.0_251.tar.gz" manualJREEntry="true" bundleType="1" jreURL="" jreShared="false" directDownload="false" installOnlyIfNecessary="false" appleJre="false" requiredVmIdPrefix="" customInstallBaseDir="~" contentFilesType="1" installerName="${i18n:InstallerName(${compiler:sys.fullName})}" volumeName="${compiler:sys.shortName}" compressDmg="false" signLaunchers="true">
       <excludedComponents />
       <includedDownloadableComponents />
       <excludedLaunchers />
@@ -620,7 +620,7 @@
       <overriddenPrincipalLanguage id="en" customLocalizationFile="" />
       <exclude />
       <variables>
-        <variable name="java3dDLLsVMOption" value="-Djava.ext.dirs=.install4j/jre.bundle/Contents/Home/jre/lib/ext:ffe/lib:/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/jre/lib/ext" description="" category="" />
+        <variable name="java3dDLLsVMOption" value="-Djava.ext.dirs=.install4j/jre.bundle/Contents/Home/jre/lib/ext:ffe/lib:/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/lib/ext" description="" category="" />
       </variables>
       <autoUpdate useMinUpdatableVersion="false" minUpdatableVersion="" useMaxUpdatableVersion="false" maxUpdatableVersion="">
         <commentFiles />
@@ -628,7 +628,7 @@
       </autoUpdate>
       <topLevelFiles />
     </macosFolder>
-    <macosFolderArchive name="MacOS Archive" id="42689" customizedId="" mediaFileName="" installDir="Tinker-FFE" overridePrincipalLanguage="false" jreBitType="all" runPostProcessor="false" postProcessor="" failOnPostProcessorError="false" useLegacyMediaFileIds="false" legacyMediaFileIds="" downloadURL="" includeAllDownloadableComponents="false" includedJRE="../other/java/macosx-amd64-1.8.0_112.tar.gz" manualJREEntry="true" appleJre="false" archiveType="tgz" volumeName="${compiler:sys.shortName}">
+    <macosFolderArchive name="MacOS Archive" id="42689" customizedId="" mediaFileName="" installDir="Tinker-FFE" overridePrincipalLanguage="false" jreBitType="all" runPostProcessor="false" postProcessor="" failOnPostProcessorError="false" useLegacyMediaFileIds="false" legacyMediaFileIds="" downloadURL="" includeAllDownloadableComponents="false" includedJRE="../other/java/macos-amd64-1.8.0_251.tar.gz" manualJREEntry="true" appleJre="false" archiveType="tgz" volumeName="${compiler:sys.shortName}">
       <excludedComponents />
       <includedDownloadableComponents />
       <excludedLaunchers />

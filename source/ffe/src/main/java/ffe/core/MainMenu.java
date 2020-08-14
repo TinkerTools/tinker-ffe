@@ -366,11 +366,8 @@ public class MainMenu extends JMenuBar {
 		skinButtonGroup = new ButtonGroup();
 		javaRBMI = addBGMI(skinButtonGroup, windowMenu, "java",
 				"OceanLookAndFeel", 'J', -1, mainPanel);
-
 			if (SystemUtils.IS_OS_LINUX) {
 				/*
-				javaRBMI = addBGMI(skinButtonGroup, windowMenu, "java",
-						"OceanLookAndFeel", 'J', -1, mainPanel);
 				nativeRBMI = addBGMI(skinButtonGroup, windowMenu, "tux",
 						"MotifLookAndFeel", 'M', -1, mainPanel);
 				javaRBMI.setSelected(true); */
@@ -380,8 +377,6 @@ public class MainMenu extends JMenuBar {
 						"MacOSXLookAndFeel", 'W', -1, mainPanel);
 				nativeRBMI.setSelected(true); */
 			} else if (SystemUtils.IS_OS_WINDOWS) {
-				javaRBMI = addBGMI(skinButtonGroup, windowMenu, "java",
-						"OceanLookAndFeel", 'J', -1, mainPanel);
 				nativeRBMI = addBGMI(skinButtonGroup, windowMenu, "win",
 						"WindowsLookAndFeel", 'W', -1, mainPanel);
 				javaRBMI.setSelected(true);

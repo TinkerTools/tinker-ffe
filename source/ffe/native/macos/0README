@@ -10,6 +10,6 @@
              the shared.make script
 
         (2)  jni_md.h, the system-dependent Java Native Interface (JNI)
-             header file, should be taken from the JRE bundled with FFE,
-             the current version is from Java 1.8.0_112
+             header file, should be taken from the Java version whose
+             JRE is bundled with FFE, current Java 1.8.0_251
 

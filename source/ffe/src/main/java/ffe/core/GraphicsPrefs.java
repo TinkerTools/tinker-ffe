@@ -103,7 +103,7 @@ public class GraphicsPrefs extends JDialog implements ActionListener {
 		bondwidth.setValue(RendererCache.bondwidth);
 		addSlider(bondwidth, " Wireframe Thickness", 3);
 		// Slider for detail
-		JSlider detail = new JSlider(0, 10, 3);
+		JSlider detail = new JSlider(0, 10, 10);
 		detail.setMajorTickSpacing(1);
 		detail.setMinorTickSpacing(1);
 		detail.setPaintLabels(true);

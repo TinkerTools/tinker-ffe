@@ -2,16 +2,14 @@
 <project basedir="." default="make" name="Force Field Explorer for Windows">
 
 	<tstamp />
-	<property file="tools.properties" />
 	<property name="platform" value="windows" />
-	<property name="compiler" value="intel" />
 	<buildnumber file="${platform}.build.number" />
 	<property name="version" value="8.8" />
 	<property name="kit.dir" value="kits" />
 	<property name="build.log"
-	          value="${kit.dir}/build_${version}.${build.number}.log" />
+		value="${kit.dir}/build_${version}.${build.number}.log" />
 	<property name="error.log"
-	          value="${kit.dir}/error_${version}.${build.number}.log" />
+		value="${kit.dir}/error_${version}.${build.number}.log" />
 
 	<property name="ffe.dir" value="${basedir}/ffe" />
 	<property name="jni.dir" value="${ffe.dir}/native" />
@@ -41,12 +39,12 @@
 	</target>
 
 	<target name="sync-source"
-	        depends="init"
-	        description="Sync Local Sources with Remote Repositories" >
+		depends="init"
+		description="Sync Local Sources with Remote Repositories" >
 
 		<echo level="info" message="Syncing Source Files" />
-		<copy file="../source/ffe.tgz" todir="." />
-		<untar src="ffe.tgz" dest="." compression="gzip" />
+		<copy file="../source/ffe.tgz" todir="."/>
+		<untar src="ffe.tgz" dest="." compression="gzip"/>
 	</target>
 
 	<target name="ffe">
@@ -55,15 +53,15 @@
 	</target>
 
 	<taskdef name="install4j"
-	         classname="com.install4j.Install4JTask"
-	         classpath="C:/Program Files/install4j6/bin/ant.jar" />
+		classname="com.install4j.Install4JTask"
+		classpath="C:/Program Files/install4j6/bin/ant.jar" />
 
 	<target name="kits"
-	        depends="ffe"
-	        description="Build an FFE Installer Kit" >
+		depends="ffe"
+		description="Build an FFE Installer Kit" >
 
 		<echo level="info" message="Kit Build Number ${build.number}" />
-		<install4j projectfile="windows.install4j" verbose="false">
+		<install4j projectfile="${platform}.install4j" verbose="false">
 			<variable name="date.stamp" value="${DSTAMP}" />
 			<variable name="time.stamp" value="${TSTAMP}" />
 			<variable name="build.number" value="${build.number}" />

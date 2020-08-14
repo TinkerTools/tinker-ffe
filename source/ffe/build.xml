@@ -11,7 +11,7 @@
 	currently requires:
 
 	(1) FFE, Tinker, FFTW and APBS source code
-	(2) Java JDK (currently using 1.8.0_112)
+	(2) Java JDK (currently using 1.8.0_251)
 	(3) Apache Ant (currently using 1.9.6)
 	(4) GNU or Intel Compilers
 
@@ -177,15 +177,15 @@
 	        description="Compile FFE Source Code"
 	>
 		<javac debug="true"
-		       failonerror="true"
-		       deprecation="true"
-		       srcdir="${src.dir}"
-		       destdir="${build.dir}"
-		       nowarn="false"
-		       optimize="true"
-		       source="1.6"
-		       target="1.6"
-		       includes="**/*.java"
+			failonerror="true"
+			deprecation="true"
+			srcdir="${src.dir}"
+			destdir="${build.dir}"
+			nowarn="false"
+			optimize="true"
+			source="1.6"
+			target="1.8"
+			includes="**/*.java"
 		>
 			<classpath>
 				<path refid="project.class.path" />
@@ -194,13 +194,13 @@
 	</target>
 
 	<target name="package"
-	        depends="resource,compile"
-	        description="Create ffe.jar"
+		depends="resource,compile"
+		description="Create ffe.jar"
 	>
 		<jar jarfile="${jar.dir}/ffe-${ffe.version}.jar"
-		     basedir="${build.dir}"
-		     manifest="src/main/java/manifest.mf"
-		     includes="ffe/**"
+			basedir="${build.dir}"
+			manifest="src/main/java/manifest.mf"
+			includes="ffe/**"
 		/>
 	</target>
 

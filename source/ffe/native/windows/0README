@@ -11,9 +11,10 @@
             which work correctly
 
        (2)  jni_md.h, the system-dependent Java Native Interface (JNI)
-            header file, should be taken from the JRE bundled with FFE,
-            the current version of which is Java 1.8.0_112
+            header file, should be taken from the Java version whose
+            JRE is bundled with FFE, currently Java 1.8.0_251
 
        (3)  jvm.dll, the main Java virtual machine dynamic library from
-            the current version, which is Java 1.8.0_112
+            the current bundled version, Java 1.8.0_251; this library
+            will must be present in the Tinker executables directory
 

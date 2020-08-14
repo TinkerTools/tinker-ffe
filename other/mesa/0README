@@ -1,12 +1,19 @@
 
-                   ###########################################
-                   Mesa Shared Library for Tinker-FFE on Linux
-                   ###########################################
+                #################################################
+                Mesa Shared Library for OpenGL Emulation on Linux
+                #################################################
 
-         The libGL.so file in this directory is a Mesa 64-bit version
-         that runs under CentOS Linux and probably other distributions.
-         It can be placed in the ffe/native/linux directory of the FFE
-         source to allow FFE to run on systems needing Mesa graphics
-         emulation and missing this library. It is found in the Linux
-         mesa-libGL package; i.e., mesa-libGL-6.5.1-7.11.e15_9.x86_64.
+          The libGL.so file in this directory is a Mesa 64-bit library
+          that runs under older Ubuntu and CentOS Linux distributions.
+          It is from the mesa-libGL-6.5.1-7.11.e15_9.x86_64 package.
+
+          The libEGL.so.1 file found here is the Mesa library version
+          needed for Ubuntu 20.04 and other newer Linux distributions.
+          If mesa is installed, the library is named libEGL_mesa.so.0
+          in the directory /usr/lib/x86_64-linux-gnu. It should be
+          copied here as a replacement for the system's libEGL.so.1.
+
+          Both libraries can be placed in ffe/native/linux of the FFE
+          source to allow FFE to run on systems missing Mesa graphics
+          emulation or with OpenGL libraries incompatible with FFE.
 
