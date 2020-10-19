@@ -6,7 +6,7 @@ The Tinker-FFE ("Force Field Explorer") software is a Java-based GUI for molecul
 
 <H2><B>Installation Kits</B></H2>
 
-Pre-built installation kits for the Tinker-FFE package can be found at https://dasher.wustl.edu/tinker/, and are available for Linux, Macintosh and Windows computers. Tinker-FFE contains an embedded version of the full Tinker software package, modified to provide for socket communication between Tinker and the Tinker-FFE GUI via Java sockets. Unless you wish to develop Tinker-FFE, we recommend use of these kits since the build process is rather involved.
+Pre-built installation kits for the Tinker-FFE package can be found at https://dasher.wustl.edu/tinker/, and are available for Linux, Macintosh and Windows computers. Tinker-FFE contains an embedded version of the full Tinker software package, modified to provide for socket communication between Tinker and the Tinker-FFE GUI via Java sockets. Unless you wish to develop Tinker-FFE, we recommend use of the prebuilt kits since the build process is rather involved.
 
 <H2><B>Build Process</B></H2>
 
