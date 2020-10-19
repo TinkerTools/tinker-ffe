@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: /home/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /home/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Thu Aug 13 08:00:14 PDT 2020
-[echoproperties] DSTAMP=20200813
-[echoproperties] TODAY=August 13 2020
-[echoproperties] TSTAMP=0800
+[echoproperties] #Sat Aug 15 22:57:28 PDT 2020
+[echoproperties] DSTAMP=20200815
+[echoproperties] TODAY=August 15 2020
+[echoproperties] TSTAMP=2257
 [echoproperties] ant.core.lib=/home/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
@@ -83,34 +83,34 @@ init:
 [echoproperties] env.GJS_DEBUG_TOPICS=JS ERROR;JS LOG
 [echoproperties] env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated
 [echoproperties] env.GNOME_SHELL_SESSION_MODE=ubuntu
-[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/0c22b789_3411_4dbb_bda6_67fc01f2e6b9
-[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.88
+[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/d47c4d21_3f03_4927_8505_09bea5a69b2c
+[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.86
 [echoproperties] env.GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent\:0\:1
 [echoproperties] env.GROOVY_HOME=/opt/groovy-2.4.4
 [echoproperties] env.GTK_IM_MODULE=ibus
 [echoproperties] env.GTK_MODULES=gail\:atk-bridge
 [echoproperties] env.HOME=/home/ponder
 [echoproperties] env.IM_CONFIG_PHASE=1
-[echoproperties] env.INVOCATION_ID=448c25c2b7f34330a6217bb6d06d30a6
+[echoproperties] env.INVOCATION_ID=ebbc9ad9aa2d40ebadca840a4a1098e6
 [echoproperties] env.JAVA_HOME=/usr/lib/jvm/jdk1.8.0_251
-[echoproperties] env.JOURNAL_STREAM=9\:44784
+[echoproperties] env.JOURNAL_STREAM=9\:54668
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LESSCLOSE=/usr/bin/lesspipe %s %s
 [echoproperties] env.LESSOPEN=| /usr/bin/lesspipe %s
 [echoproperties] env.LOGNAME=ponder
 [echoproperties] env.LS_COLORS=rs\=0\:di\=01;34\:ln\=01;36\:mh\=00\:pi\=40;33\:so\=01;35\:do\=01;35\:bd\=40;33;01\:cd\=40;33;01\:or\=40;31;01\:mi\=00\:su\=37;41\:sg\=30;43\:ca\=30;41\:tw\=30;42\:ow\=34;42\:st\=37;44\:ex\=01;32\:*.tar\=01;31\:*.tgz\=01;31\:*.arc\=01;31\:*.arj\=01;31\:*.taz\=01;31\:*.lha\=01;31\:*.lz4\=01;31\:*.lzh\=01;31\:*.lzma\=01;31\:*.tlz\=01;31\:*.txz\=01;31\:*.tzo\=01;31\:*.t7z\=01;31\:*.zip\=01;31\:*.z\=01;31\:*.dz\=01;31\:*.gz\=01;31\:*.lrz\=01;31\:*.lz\=01;31\:*.lzo\=01;31\:*.xz\=01;31\:*.zst\=01;31\:*.tzst\=01;31\:*.bz2\=01;31\:*.bz\=01;31\:*.tbz\=01;31\:*.tbz2\=01;31\:*.tz\=01;31\:*.deb\=01;31\:*.rpm\=01;31\:*.jar\=01;31\:*.war\=01;31\:*.ear\=01;31\:*.sar\=01;31\:*.rar\=01;31\:*.alz\=01;31\:*.ace\=01;31\:*.zoo\=01;31\:*.cpio\=01;31\:*.7z\=01;31\:*.rz\=01;31\:*.cab\=01;31\:*.wim\=01;31\:*.swm\=01;31\:*.dwm\=01;31\:*.esd\=01;31\:*.jpg\=01;35\:*.jpeg\=01;35\:*.mjpg\=01;35\:*.mjpeg\=01;35\:*.gif\=01;35\:*.bmp\=01;35\:*.pbm\=01;35\:*.pgm\=01;35\:*.ppm\=01;35\:*.tga\=01;35\:*.xbm\=01;35\:*.xpm\=01;35\:*.tif\=01;35\:*.tiff\=01;35\:*.png\=01;35\:*.svg\=01;35\:*.svgz\=01;35\:*.mng\=01;35\:*.pcx\=01;35\:*.mov\=01;35\:*.mpg\=01;35\:*.mpeg\=01;35\:*.m2v\=01;35\:*.mkv\=01;35\:*.webm\=01;35\:*.ogm\=01;35\:*.mp4\=01;35\:*.m4v\=01;35\:*.mp4v\=01;35\:*.vob\=01;35\:*.qt\=01;35\:*.nuv\=01;35\:*.wmv\=01;35\:*.asf\=01;35\:*.rm\=01;35\:*.rmvb\=01;35\:*.flc\=01;35\:*.avi\=01;35\:*.fli\=01;35\:*.flv\=01;35\:*.gl\=01;35\:*.dl\=01;35\:*.xcf\=01;35\:*.xwd\=01;35\:*.yuv\=01;35\:*.cgm\=01;35\:*.emf\=01;35\:*.ogv\=01;35\:*.ogx\=01;35\:*.aac\=00;36\:*.au\=00;36\:*.flac\=00;36\:*.m4a\=00;36\:*.mid\=00;36\:*.midi\=00;36\:*.mka\=00;36\:*.mp3\=00;36\:*.mpc\=00;36\:*.ogg\=00;36\:*.ra\=00;36\:*.wav\=00;36\:*.oga\=00;36\:*.opus\=00;36\:*.spx\=00;36\:*.xspf\=00;36\:
-[echoproperties] env.MANAGERPID=2655
-[echoproperties] env.OLDPWD=/home/ponder/ffe
-[echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/usr/local/psi4/bin\:/usr/local/psi4/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/usr/lib/jvm/jdk1.8.0_251/bin\:/opt/groovy-2.4.4/bin\:/home/ponder/tinker/bin\:/usr/lib/jvm/jdk1.8.0_251/bin\:/opt/groovy-2.4.4/bin
+[echoproperties] env.MANAGERPID=6028
+[echoproperties] env.OLDPWD=/home/ponder/tinker/example
+[echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/usr/local/psi4/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/home/ponder/tinker/bin\:/usr/lib/jvm/jdk1.8.0_251/bin\:/opt/groovy-2.4.4/bin
 [echoproperties] env.PSI_SCRATCH=/scratch
 [echoproperties] env.PWD=/home/ponder/ffe/build
 [echoproperties] env.QT4_IM_MODULE=ibus
 [echoproperties] env.QT_ACCESSIBILITY=1
 [echoproperties] env.QT_IM_MODULE=ibus
-[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/2913,unix/ubuntu\:/tmp/.ICE-unix/2913
+[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/6309,unix/ubuntu\:/tmp/.ICE-unix/6309
 [echoproperties] env.SHELL=/usr/bin/bash
 [echoproperties] env.SHLVL=0
-[echoproperties] env.SSH_AGENT_PID=2833
+[echoproperties] env.SSH_AGENT_PID=6225
 [echoproperties] env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
 [echoproperties] env.TERM=xterm-256color
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
@@ -810,7 +810,6 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp xyzmol2.f -o xyzmol2.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp xyzpdb.f -o xyzpdb.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp zatom.f -o zatom.o 
-     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] ar -crusv libtinker.a \
      [exec] action.o \
      [exec] active.o \
@@ -1167,6 +1166,7 @@ maketinker:
      [exec] mplpot.o \
      [exec] mpole.o \
      [exec] mrecip.o \
+     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] mutant.o \
      [exec] mutate.o \
      [exec] nblist.o \
@@ -2078,7 +2078,7 @@ kits:
 [install4j]   The size of the media file is 317.5 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 68.6 seconds.
+[install4j] Build completed in 69.0 seconds.
      [gzip] Building: /home/ponder/ffe/build/kits/build_8.8.21.log.gz
      [gzip] Building: /home/ponder/ffe/build/kits/error_8.8.21.log.gz
    [delete] Deleting: /home/ponder/ffe/build/kits/build_8.8.21.log
@@ -2087,4 +2087,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 5 minutes 19 seconds
+Total time: 5 minutes 20 seconds

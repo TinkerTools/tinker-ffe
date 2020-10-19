@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /Users/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Thu Aug 13 09:12:57 CDT 2020
-[echoproperties] DSTAMP=20200813
-[echoproperties] TODAY=August 13 2020
-[echoproperties] TSTAMP=0912
+[echoproperties] #Sun Oct 18 14:08:50 CDT 2020
+[echoproperties] DSTAMP=20201018
+[echoproperties] TODAY=October 18 2020
+[echoproperties] TSTAMP=1408
 [echoproperties] ant.core.lib=/Users/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/Users/ponder/ffe/build/macos.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ MacOS=/Users/ponder/ffe/build/macos.ant.xml
@@ -72,7 +72,7 @@ init:
 [echoproperties] env.ANT_ARGS=
 [echoproperties] env.ANT_HOME=/Users/ponder/ffe/build/buildtools/ant
 [echoproperties] env.ANT_OPTS=-Xms512M -Xmx1G
-[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.ahTy7J1Gtd/Render
+[echoproperties] env.Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.kq401ysPan/Render
 [echoproperties] env.BLD=/Users/ponder/ffe/build
 [echoproperties] env.COPYFILES_DISABLE=true
 [echoproperties] env.CPATH=/opt/intel/composer_xe_2015.3.187/mkl/include
@@ -93,7 +93,7 @@ init:
 [echoproperties] env.INTEL_LICENSE_FILE=/opt/intel/composer_xe_2015.3.187/licenses\:/opt/intel/licenses\:/Users/ponder/intel/licenses\:/Users/Shared/Library/Application Support/Intel/Licenses
 [echoproperties] env.INTEL_PYTHONHOME=/opt/intel/composer_xe_2015.3.187/debugger/python/intel64/
 [echoproperties] env.JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home
-[echoproperties] env.JAVA_MAIN_CLASS_80813=org.apache.tools.ant.launch.Launcher
+[echoproperties] env.JAVA_MAIN_CLASS_5270=org.apache.tools.ant.launch.Launcher
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LD_LIBRARY_PATH=/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/gaussian/gv/lib
 [echoproperties] env.LIBRARY_PATH=/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/compiler/lib\:/opt/intel/composer_xe_2015.3.187/mkl/lib
@@ -105,7 +105,7 @@ init:
 [echoproperties] env.NLSPATH=/opt/intel/composer_xe_2015.3.187/compiler/lib/locale/en_US/%N\:/opt/intel/composer_xe_2015.3.187/mkl/lib/locale/%l_%t/%N\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/share/locale/%l_%t/%N
 [echoproperties] env.OPENMM_PLUGIN_DIR=/usr/local/openmm/lib/plugins
 [echoproperties] env.OSTYPE=darwin
-[echoproperties] env.PATH=/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/usr/local/psi4/bin\:/opt/intel/composer_xe_2015.3.187/bin/intel64\:/Library/Frameworks/Python.framework/Versions/3.8/bin\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/Library/TeX/texbin\:/opt/X11/bin\:/usr/X11R6/bin\:.\:/Applications/bin\:/Users/ponder/Applications\:/Users/ponder/tinker/bin\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/bin\:/opt/pgi/osx86-64/19.10/bin\:/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/groovy-2.4.4/bin\:/usr/local/cuda/bin
+[echoproperties] env.PATH=/Users/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/usr/local/psi4/bin\:/opt/intel/composer_xe_2015.3.187/bin/intel64\:/Library/Frameworks/Python.framework/Versions/3.8/bin\:/usr/local/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/Library/TeX/texbin\:/opt/X11/bin\:/usr/X11R6/bin\:.\:/Applications/bin\:/Users/ponder/Applications\:/Users/ponder/tinker/bin\:/opt/intel/composer_xe_2015.3.187/debugger/gdb/intel64/bin\:/opt/pgi/osx86-64/19.10/bin\:/Applications/gaussian/g09/bin\:/Applications/gaussian/g09/bsd\:/Applications/gaussian/g09\:/Applications/groovy-2.4.4/bin\:/usr/local/cuda/bin
 [echoproperties] env.PERLLIB=/Applications/gaussian/g09/bsd
 [echoproperties] env.PGI=/opt/pgi
 [echoproperties] env.PGIDIR=/opt/pgi/unknown
@@ -114,11 +114,11 @@ init:
 [echoproperties] env.PWD=/Users/ponder/ffe/build
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] env.SHLVL=1
-[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.Z1vfOK9z0L/Listeners
+[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.ZrDwhpYKqz/Listeners
 [echoproperties] env.TERM=xterm
 [echoproperties] env.TERM_PROGRAM=Apple_Terminal
 [echoproperties] env.TERM_PROGRAM_VERSION=404.1
-[echoproperties] env.TERM_SESSION_ID=E371C379-CE75-4461-9A8A-EA5492352DA7
+[echoproperties] env.TERM_SESSION_ID=BB5367B7-1CCB-48A7-9DB7-0D0D5CAA5789
 [echoproperties] env.TLS=/Users/ponder/ffe/build/buildtools
 [echoproperties] env.TMPDIR=/var/folders/2p/kc8wx8rj6555t37q5f2tklfh0000z8/T/
 [echoproperties] env.USER=ponder
@@ -367,6 +367,8 @@ maketinker:
      [exec] gfortran -c -Ofast -mssse3 -fopenmp connolly.f -o connolly.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp control.f -o control.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp correlate.f -o correlate.o 
+     [exec] gfortran -c -Ofast -mssse3 -fopenmp minima.f -o minima.o 
+     [exec] gfortran -c -Ofast -mssse3 -fopenmp critical.f -o critical.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp crystal.f -o crystal.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp cspline.f -o cspline.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp ctrpot.f -o ctrpot.o 
@@ -458,7 +460,6 @@ maketinker:
      [exec] gfortran -c -Ofast -mssse3 -fopenmp elj1.f -o elj1.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp elj2.f -o elj2.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp elj3.f -o elj3.o 
-     [exec] gfortran -c -Ofast -mssse3 -fopenmp minima.f -o minima.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp embed.f -o embed.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp kchrge.f -o kchrge.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp emetal.f -o emetal.o 
@@ -669,6 +670,7 @@ maketinker:
      [exec] gfortran -c -Ofast -mssse3 -fopenmp lattice.f -o lattice.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp lbfgs.f -o lbfgs.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp lights.f -o lights.o 
+     [exec] gfortran -c -Ofast -mssse3 -fopenmp lusolve.f -o lusolve.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp makeint.f -o makeint.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp makeref.f -o makeref.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp makexyz.f -o makexyz.o 
@@ -721,6 +723,7 @@ maketinker:
      [exec] gfortran -c -Ofast -mssse3 -fopenmp poledit.f -o poledit.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp polymer.f -o polymer.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp potential.f -o potential.o 
+     [exec] gfortran -c -Ofast -mssse3 -fopenmp predict.f -o predict.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp pressure.f -o pressure.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp prmedit.f -o prmedit.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp prmkey.f -o prmkey.o 
@@ -738,7 +741,7 @@ maketinker:
      [exec] gfortran -c -Ofast -mssse3 -fopenmp pss.f -o pss.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp pssrigid.f -o pssrigid.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp pssrot.f -o pssrot.o 
-     [exec] gfortran -c -Ofast -mssse3 -fopenmp qrfact.f -o qrfact.o 
+     [exec] gfortran -c -Ofast -mssse3 -fopenmp qrsolve.f -o qrsolve.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp quatfit.f -o quatfit.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp radial.f -o radial.o 
      [exec] gfortran -c -Ofast -mssse3 -fopenmp random.f -o random.o 
@@ -1147,6 +1150,7 @@ maketinker:
      [exec] 	lights.o \
      [exec] 	limits.o \
      [exec] 	linmin.o \
+     [exec] 	lusolve.o \
      [exec] 	makeint.o \
      [exec] 	makeref.o \
      [exec] 	makexyz.o \
@@ -1217,6 +1221,7 @@ maketinker:
      [exec] 	polymer.o \
      [exec] 	potent.o \
      [exec] 	potfit.o \
+     [exec] 	predict.o \
      [exec] 	pressure.o \
      [exec] 	prmkey.o \
      [exec] 	promo.o \
@@ -1230,7 +1235,7 @@ maketinker:
      [exec] 	prtxyz.o \
      [exec] 	ptable.o \
      [exec] 	qmstuf.o \
-     [exec] 	qrfact.o \
+     [exec] 	qrsolve.o \
      [exec] 	quatfit.o \
      [exec] 	random.o \
      [exec] 	rattle.o \
@@ -1656,6 +1661,7 @@ maketinker:
      [exec] a - lights.o
      [exec] a - limits.o
      [exec] a - linmin.o
+     [exec] a - lusolve.o
      [exec] a - makeint.o
      [exec] a - makeref.o
      [exec] a - makexyz.o
@@ -1726,6 +1732,7 @@ maketinker:
      [exec] a - polymer.o
      [exec] a - potent.o
      [exec] a - potfit.o
+     [exec] a - predict.o
      [exec] a - pressure.o
      [exec] a - prmkey.o
      [exec] a - promo.o
@@ -1739,7 +1746,7 @@ maketinker:
      [exec] a - prtxyz.o
      [exec] a - ptable.o
      [exec] a - qmstuf.o
-     [exec] a - qrfact.o
+     [exec] a - qrsolve.o
      [exec] a - quatfit.o
      [exec] a - random.o
      [exec] a - rattle.o
@@ -1839,6 +1846,7 @@ maketinker:
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o archive.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos archive.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip archive.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o bar.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos bar.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip bar.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o correlate.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos correlate.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip correlate.x
+     [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o critical.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos critical.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip critical.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o crystal.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos crystal.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip crystal.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o diffuse.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos diffuse.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip diffuse.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o distgeom.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos distgeom.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip distgeom.x
@@ -1895,7 +1903,7 @@ maketinker:
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzint.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xyzint.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzint.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzmol2.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xyzmol2.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzmol2.x
      [exec] gfortran -Ofast -mssse3 -fopenmp -static-libgcc -framework JavaVM -framework CoreFoundation -o xyzpdb.x -L/Users/ponder/ffe/build/fftw/lib -L/Users/ponder/ffe/build/apbs/lib -L. -L/Users/ponder/ffe/build/tinker/lib/macos xyzpdb.o libtinker.a -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzpdb.x
-     [copy] Copying 62 files to /Users/ponder/ffe/build/tinker/bin
+     [copy] Copying 63 files to /Users/ponder/ffe/build/tinker/bin
 
 ffe:
      [echo] Build Force Field Explorer
@@ -2064,15 +2072,15 @@ kits:
 [install4j]   Generating VM options file vmoptions.txt.
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_macos_8.8.11.dmg.
-[install4j]   The size of the media file is 270.7 MB
+[install4j]   The size of the media file is 272.5 MB
 [install4j] 
 [install4j] Compressed media file 'MacOS Archive':
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
 [install4j]   The name of the media file is Tinker-FFE_macos_8.8.11.tgz.
-[install4j]   The size of the media file is 254.7 MB
+[install4j]   The size of the media file is 256.4 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 47.6 seconds.
+[install4j] Build completed in 50.5 seconds.
      [gzip] Building: /Users/ponder/ffe/build/kits/build_8.8.11.log.gz
      [gzip] Building: /Users/ponder/ffe/build/kits/error_8.8.11.log.gz
    [delete] Deleting: /Users/ponder/ffe/build/kits/build_8.8.11.log
@@ -2081,4 +2089,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 21 minutes 1 second
+Total time: 21 minutes 0 seconds

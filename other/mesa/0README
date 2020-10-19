@@ -13,7 +13,7 @@
           in the directory /usr/lib/x86_64-linux-gnu. It should be
           copied here as a replacement for the system's libEGL.so.1.
 
-          Both libraries can be placed in ffe/native/linux of the FFE
+          Both libraries must be placed in ffe/native/linux of the FFE
           source to allow FFE to run on systems missing Mesa graphics
           emulation or with OpenGL libraries incompatible with FFE.
 

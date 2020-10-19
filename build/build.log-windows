@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include
     [mkdir] Created dir: C:\cygwin64\home\ponder\ffe\build\apbs\include\maloc
 [echoproperties] #Ant properties
-[echoproperties] #Thu Aug 13 10:51:15 COT 2020
-[echoproperties] DSTAMP=20200813
-[echoproperties] TODAY=August 13 2020
-[echoproperties] TSTAMP=1051
+[echoproperties] #Sun Aug 16 11:04:16 COT 2020
+[echoproperties] DSTAMP=20200816
+[echoproperties] TODAY=August 16 2020
+[echoproperties] TSTAMP=1104
 [echoproperties] ant.core.lib=C\:\\cygwin64\\home\\ponder\\ffe\\build\\buildtools\\ant\\lib\\ant.jar
 [echoproperties] ant.file=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Windows=C\:\\cygwin64\\home\\ponder\\ffe\\build\\windows.ant.xml
@@ -2077,7 +2077,7 @@ kits:
 [install4j]   The size of the media file is 267.8 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 36.2 seconds.
+[install4j] Build completed in 35.5 seconds.
      [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\build_8.8.31.log.gz
      [gzip] Building: C:\cygwin64\home\ponder\ffe\build\kits\error_8.8.31.log.gz
    [delete] Deleting: C:\cygwin64\home\ponder\ffe\build\kits\build_8.8.31.log
@@ -2086,4 +2086,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 27 minutes 14 seconds
+Total time: 25 minutes 31 seconds
