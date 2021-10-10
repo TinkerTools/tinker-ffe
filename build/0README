@@ -3,9 +3,9 @@
                Protocol for Building Tinker-FFE Installation Kits
                ##################################################
 
-         In order to build a Tinker-FFE installation kit, perform each
-         step listed below. For steps 2 and 3, OSNAME should be replaced
-         with one of "linux", "macos" or "windows".
+         In order to build a Tinker-FFE installation kit, perform the
+         steps below. For steps 2 and 3, OSNAME should be replaced with
+         one of "linux", "macos" or "windows".
  
          (1) Invoke "source build-setup.sh" or "source build-setup.csh"
              for bash/sh or tcsh/csh shells, respectively.

@@ -1,10 +1,10 @@
 /*
  * <p>Title: Force Field Explorer</p>
  * <p>Description: Force Field Explorer Molecular Modeling Program</p>
- * <p>Copyright: Copyright (c) 2004-2020 Jay William Ponder</p>
+ * <p>Copyright: Copyright (c) 2004-2021 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in Saint Louis</p>
  * @author Michael J. Schnieders
- * @version 8.8
+ * @version 8.10
  */
 
 package ffe.shell
@@ -237,7 +237,7 @@ class Console implements CaretListener {
 
 		frame.show()
 		SwingUtilities.invokeLater({inputArea.requestFocus()});
-		appendOutput("\n Force Field Explorer\n Version 8.8, June 2020\n" + " Copyright (c) Michael Schnieders, Jay Ponder, 2004-2020,\n All Rights Reserved\n" + " Email to: ponder@dasher.wustl.edu\n\n", commandStyle);
+		appendOutput("\n Force Field Explorer\n Version 8.10, October 2021\n" + " Copyright (c) Michael Schnieders, Jay Ponder, 2004-2021,\n All Rights Reserved\n" + " Email to: ponder@dasher.wustl.edu\n\n", commandStyle);
 	}
 
 	void addStylesToDocument(JTextPane outputArea) {

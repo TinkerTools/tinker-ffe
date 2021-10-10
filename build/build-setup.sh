@@ -5,7 +5,7 @@ export TLS
 
 ANT_HOME="$TLS/ant"
 export ANT_HOME
-ANT_OPTS="-Xms512M -Xmx1G"
+ANT_OPTS="-Xms2048M -Xmx4096M"
 export ANT_OPTS
 ANT_ARGS=""
 export ANT_ARGS

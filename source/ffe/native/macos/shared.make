@@ -3,7 +3,7 @@
 #  #################################################################
 #  ##                                                             ##
 #  ##  shared.make  --  create shared object library for FFE GUI  ##
-#  ##              (Intel Compiler for MacOS Version)             ##
+#  ##              (Intel Compiler for macOS Version)             ##
 #  ##                                                             ##
 #  #################################################################
 #
@@ -17,7 +17,7 @@
 #  #################################################################
 #  ##                                                             ##
 #  ##  shared.make  --  create shared object library for FFE GUI  ##
-#  ##              (GNU Compiler for MacOS Version)               ##
+#  ##              (GNU Compiler for macOS Version)               ##
 #  ##                                                             ##
 #  #################################################################
 #

@@ -1,10 +1,10 @@
 /*
  * <p>Title: Force Field Explorer</p>
  * <p>Description: Force Field Explorer Molecular Modeling Program</p>
- * <p>Copyright: Copyright (c) 2004-2020 Jay William Ponder</p>
+ * <p>Copyright: Copyright (c) 2004-2021 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in Saint Louis</p>
  * @author Michael J. Schnieders
- * @version 8.8
+ * @version 8.10
  */
 
 package ffe.core;
@@ -756,7 +756,7 @@ public final class MainPanel extends JPanel implements ActionListener,
 
 	private void initAbout() {
 		aboutTextArea = new JTextArea(
-				"  Copyright (c) M. Schnieders & J. Ponder, 2004-2020\n"
+				"  Copyright (c) M. Schnieders & J. Ponder, 2004-2021\n"
 					+ "  All Rights Reserved\n"
 					+ "  Email to: ponder@dasher.wustl.edu\n");
 		aboutTextArea.setBorder(BorderFactory
@@ -1732,7 +1732,7 @@ public final class MainPanel extends JPanel implements ActionListener,
 			// Modify Keyfile Directory for Windows, JWP July 2017
 			PRMDir = PRMDir.replaceAll("/C:", "C:");
 			keyoutput.append("\n# Force Field Selection\nPARAMETERS        "
-				+ PRMDir + "tiny.prm\n");
+				+ PRMDir + "basic.prm\n");
 			keyoutput.close();
             
 			File file=new File(NIHDir+moleculeName+".xyz");

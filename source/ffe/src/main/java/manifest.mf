@@ -1,4 +1,4 @@
-Build-Jdk: 1.8.0_112
+Build-Jdk: 1.8.0_251
 Implementation-Title: ffe
-Implementation-Version: 8.8
+Implementation-Version: 8.10
 Main-Class: ffe.Main

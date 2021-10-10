@@ -18,7 +18,7 @@
 	The Tinker-FFE package can be built for the following systems:
 
 	(1) Linux
-	(2) MacOS
+	(2) macOS
 	(3) Windows
 
 	Tinker, FFTW and APBS require C and Fortran compilers; FFE uses 
@@ -38,7 +38,7 @@
 		
 	</description>
 
-	<property name="ffe.version" value="8.8" />
+	<property name="ffe.version" value="8.10" />
 	<property name="src.dir" value="src/main/java" />
 	<property name="build.dir" value="target/classes" />
 	<property name="jar.dir" value="${basedir}/lib" />
@@ -66,7 +66,7 @@
 	</condition>
 
 	<!-- Figure out what native compiler to use. -->
-	<!-- On MacOS, use GCC to create universal binaries -->
+	<!-- On macOS, use GCC to create universal binaries -->
 	<condition property="CC" value="gcc">
 		<and>
 			<os family="mac" />

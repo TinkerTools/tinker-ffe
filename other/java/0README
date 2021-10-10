@@ -11,7 +11,7 @@
 
         On Linux, the jdk-8u251-linux-x64.tar.gz file should be expanded
         in the directory /usr/java, which may need to be created first.
-        On MacOS, jdk-8u1251-macos-x64.dmg will install the JDK in the
+        On macOS, jdk-8u1251-macos-x64.dmg will install the JDK in the
         directory /Library/Java/JavaVirtualMachines. On Windows, the file
         jdk-8u251-windows-x64.exe will install the JDK in the directory
         C:\Program Files\Java.

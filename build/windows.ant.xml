@@ -4,7 +4,7 @@
 	<tstamp />
 	<property name="platform" value="windows" />
 	<buildnumber file="${platform}.build.number" />
-	<property name="version" value="8.8" />
+	<property name="version" value="8.10" />
 	<property name="kit.dir" value="kits" />
 	<property name="build.log"
 		value="${kit.dir}/build_${version}.${build.number}.log" />

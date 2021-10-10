@@ -1,9 +1,9 @@
 
                ##################################################
-               System-Dependent "Native" FFE Components for MacOS
+               System-Dependent "Native" FFE Components for macOS
                ##################################################
 
-        This directory contains native components for MacOS, including:
+        This directory contains native components for macOS, including:
 
         (1)  libffe.jnilib, to let Force Field Explorer launch native
              executables, this library is built from nativeExec.c via

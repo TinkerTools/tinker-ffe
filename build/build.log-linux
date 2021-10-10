@@ -4,7 +4,7 @@ info:
      [echo] General Build Information:
      [echo] Developer: ponder
      [echo] Build File: /home/ponder/ffe/build/linux.ant.xml
-     [echo] OS: Linux version 5.4.0-37-generic on amd64
+     [echo] OS: Linux version 5.8.0-63-generic on amd64
      [echo] JVM: Oracle Corporation Java HotSpot(TM) 64-Bit Server VM version 1.8.0_251
      [echo] Compiler Information:
      [echo] Fortran Compiler: gfortran
@@ -40,10 +40,10 @@ init:
     [mkdir] Created dir: /home/ponder/ffe/build/apbs/include
     [mkdir] Created dir: /home/ponder/ffe/build/apbs/include/maloc
 [echoproperties] #Ant properties
-[echoproperties] #Sat Aug 15 22:57:28 PDT 2020
-[echoproperties] DSTAMP=20200815
-[echoproperties] TODAY=August 15 2020
-[echoproperties] TSTAMP=2257
+[echoproperties] #Sat Oct 09 16:25:46 PDT 2021
+[echoproperties] DSTAMP=20211009
+[echoproperties] TODAY=October 9 2021
+[echoproperties] TSTAMP=1625
 [echoproperties] ant.core.lib=/home/ponder/ffe/build/buildtools/ant/lib/ant.jar
 [echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
@@ -65,58 +65,55 @@ init:
 [echoproperties] apbs_src.dir=/home/ponder/ffe/build/apbs_src
 [echoproperties] awt.toolkit=sun.awt.X11.XToolkit
 [echoproperties] basedir=/home/ponder/ffe/build
-[echoproperties] build.log=kits/build_8.8.21.log
+[echoproperties] build.log=kits/build_8.10.21.log
 [echoproperties] build.number=21
 [echoproperties] c.flags=-Ofast -msse3
 [echoproperties] cc=gcc
 [echoproperties] env.ANT_ARGS=
 [echoproperties] env.ANT_HOME=/home/ponder/ffe/build/buildtools/ant
-[echoproperties] env.ANT_OPTS=-Xms512M -Xmx1G
+[echoproperties] env.ANT_OPTS=-Xms2048M -Xmx4096M
 [echoproperties] env.BLD=/home/ponder/ffe/build
-[echoproperties] env.CLUTTER_IM_MODULE=ibus
 [echoproperties] env.COLORTERM=truecolor
 [echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:path\=/run/user/1000/bus
 [echoproperties] env.DESKTOP_SESSION=ubuntu
-[echoproperties] env.DISPLAY=\:1
+[echoproperties] env.DISPLAY=\:0
 [echoproperties] env.GDMSESSION=ubuntu
 [echoproperties] env.GJS_DEBUG_OUTPUT=stderr
 [echoproperties] env.GJS_DEBUG_TOPICS=JS ERROR;JS LOG
 [echoproperties] env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated
 [echoproperties] env.GNOME_SHELL_SESSION_MODE=ubuntu
-[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/d47c4d21_3f03_4927_8505_09bea5a69b2c
-[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.86
+[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/225b481b_0997_4db8_9c36_742617b46d72
+[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.85
 [echoproperties] env.GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent\:0\:1
 [echoproperties] env.GROOVY_HOME=/opt/groovy-2.4.4
-[echoproperties] env.GTK_IM_MODULE=ibus
 [echoproperties] env.GTK_MODULES=gail\:atk-bridge
 [echoproperties] env.HOME=/home/ponder
 [echoproperties] env.IM_CONFIG_PHASE=1
-[echoproperties] env.INVOCATION_ID=ebbc9ad9aa2d40ebadca840a4a1098e6
+[echoproperties] env.INVOCATION_ID=76de431cf26349b883fe90f236d277cf
 [echoproperties] env.JAVA_HOME=/usr/lib/jvm/jdk1.8.0_251
-[echoproperties] env.JOURNAL_STREAM=9\:54668
+[echoproperties] env.JOURNAL_STREAM=8\:46191
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.LESSCLOSE=/usr/bin/lesspipe %s %s
 [echoproperties] env.LESSOPEN=| /usr/bin/lesspipe %s
 [echoproperties] env.LOGNAME=ponder
 [echoproperties] env.LS_COLORS=rs\=0\:di\=01;34\:ln\=01;36\:mh\=00\:pi\=40;33\:so\=01;35\:do\=01;35\:bd\=40;33;01\:cd\=40;33;01\:or\=40;31;01\:mi\=00\:su\=37;41\:sg\=30;43\:ca\=30;41\:tw\=30;42\:ow\=34;42\:st\=37;44\:ex\=01;32\:*.tar\=01;31\:*.tgz\=01;31\:*.arc\=01;31\:*.arj\=01;31\:*.taz\=01;31\:*.lha\=01;31\:*.lz4\=01;31\:*.lzh\=01;31\:*.lzma\=01;31\:*.tlz\=01;31\:*.txz\=01;31\:*.tzo\=01;31\:*.t7z\=01;31\:*.zip\=01;31\:*.z\=01;31\:*.dz\=01;31\:*.gz\=01;31\:*.lrz\=01;31\:*.lz\=01;31\:*.lzo\=01;31\:*.xz\=01;31\:*.zst\=01;31\:*.tzst\=01;31\:*.bz2\=01;31\:*.bz\=01;31\:*.tbz\=01;31\:*.tbz2\=01;31\:*.tz\=01;31\:*.deb\=01;31\:*.rpm\=01;31\:*.jar\=01;31\:*.war\=01;31\:*.ear\=01;31\:*.sar\=01;31\:*.rar\=01;31\:*.alz\=01;31\:*.ace\=01;31\:*.zoo\=01;31\:*.cpio\=01;31\:*.7z\=01;31\:*.rz\=01;31\:*.cab\=01;31\:*.wim\=01;31\:*.swm\=01;31\:*.dwm\=01;31\:*.esd\=01;31\:*.jpg\=01;35\:*.jpeg\=01;35\:*.mjpg\=01;35\:*.mjpeg\=01;35\:*.gif\=01;35\:*.bmp\=01;35\:*.pbm\=01;35\:*.pgm\=01;35\:*.ppm\=01;35\:*.tga\=01;35\:*.xbm\=01;35\:*.xpm\=01;35\:*.tif\=01;35\:*.tiff\=01;35\:*.png\=01;35\:*.svg\=01;35\:*.svgz\=01;35\:*.mng\=01;35\:*.pcx\=01;35\:*.mov\=01;35\:*.mpg\=01;35\:*.mpeg\=01;35\:*.m2v\=01;35\:*.mkv\=01;35\:*.webm\=01;35\:*.ogm\=01;35\:*.mp4\=01;35\:*.m4v\=01;35\:*.mp4v\=01;35\:*.vob\=01;35\:*.qt\=01;35\:*.nuv\=01;35\:*.wmv\=01;35\:*.asf\=01;35\:*.rm\=01;35\:*.rmvb\=01;35\:*.flc\=01;35\:*.avi\=01;35\:*.fli\=01;35\:*.flv\=01;35\:*.gl\=01;35\:*.dl\=01;35\:*.xcf\=01;35\:*.xwd\=01;35\:*.yuv\=01;35\:*.cgm\=01;35\:*.emf\=01;35\:*.ogv\=01;35\:*.ogx\=01;35\:*.aac\=00;36\:*.au\=00;36\:*.flac\=00;36\:*.m4a\=00;36\:*.mid\=00;36\:*.midi\=00;36\:*.mka\=00;36\:*.mp3\=00;36\:*.mpc\=00;36\:*.ogg\=00;36\:*.ra\=00;36\:*.wav\=00;36\:*.oga\=00;36\:*.opus\=00;36\:*.spx\=00;36\:*.xspf\=00;36\:
-[echoproperties] env.MANAGERPID=6028
-[echoproperties] env.OLDPWD=/home/ponder/tinker/example
+[echoproperties] env.MANAGERPID=2237
+[echoproperties] env.OLDPWD=/home/ponder
 [echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/usr/local/psi4/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/home/ponder/tinker/bin\:/usr/lib/jvm/jdk1.8.0_251/bin\:/opt/groovy-2.4.4/bin
 [echoproperties] env.PSI_SCRATCH=/scratch
 [echoproperties] env.PWD=/home/ponder/ffe/build
-[echoproperties] env.QT4_IM_MODULE=ibus
 [echoproperties] env.QT_ACCESSIBILITY=1
 [echoproperties] env.QT_IM_MODULE=ibus
-[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/6309,unix/ubuntu\:/tmp/.ICE-unix/6309
+[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/2504,unix/ubuntu\:/tmp/.ICE-unix/2504
 [echoproperties] env.SHELL=/usr/bin/bash
 [echoproperties] env.SHLVL=0
-[echoproperties] env.SSH_AGENT_PID=6225
+[echoproperties] env.SSH_AGENT_PID=2469
 [echoproperties] env.SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
 [echoproperties] env.TERM=xterm-256color
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
 [echoproperties] env.USER=ponder
 [echoproperties] env.USERNAME=ponder
-[echoproperties] env.VTE_VERSION=6001
+[echoproperties] env.VTE_VERSION=6003
 [echoproperties] env.WINDOWPATH=2
 [echoproperties] env.XAUTHORITY=/run/user/1000/gdm/Xauthority
 [echoproperties] env.XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu\:/etc/xdg
@@ -129,7 +126,7 @@ init:
 [echoproperties] env.XDG_SESSION_TYPE=x11
 [echoproperties] env.XMODIFIERS=@im\=ibus
 [echoproperties] env._=/home/ponder/ffe/build/buildtools/ant/bin/ant
-[echoproperties] error.log=kits/error_8.8.21.log
+[echoproperties] error.log=kits/error_8.10.21.log
 [echoproperties] fc=gfortran
 [echoproperties] ffe.dir=/home/ponder/ffe/build/ffe
 [echoproperties] fftw.dir=/home/ponder/ffe/build/fftw
@@ -169,7 +166,7 @@ init:
 [echoproperties] line.separator=\n
 [echoproperties] os.arch=amd64
 [echoproperties] os.name=Linux
-[echoproperties] os.version=5.4.0-37-generic
+[echoproperties] os.version=5.8.0-63-generic
 [echoproperties] path.separator=\:
 [echoproperties] platform=linux
 [echoproperties] sun.arch.data.model=64
@@ -196,7 +193,7 @@ init:
 [echoproperties] user.language=en
 [echoproperties] user.name=ponder
 [echoproperties] user.timezone=
-[echoproperties] version=8.8
+[echoproperties] version=8.10
 
 sync-source:
      [echo] Syncing Source Files
@@ -262,13 +259,11 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp align.f -o align.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp angbnd.f -o angbnd.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp atmlst.f -o atmlst.o 
-     [exec] gfortran -c -Ofast -msse3 -fopenmp atomid.f -o atomid.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp bndstr.f -o bndstr.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp bound.f -o bound.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp cflux.f -o cflux.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp charge.f -o charge.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp chgpen.f -o chgpen.o 
-     [exec] gfortran -c -Ofast -msse3 -fopenmp couple.f -o couple.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp math.f -o math.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp mplpot.f -o mplpot.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp mpole.f -o mpole.o 
@@ -281,11 +276,13 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp angang.f -o angang.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp angpot.f -o angpot.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp angtor.f -o angtor.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp atomid.f -o atomid.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp bath.f -o bath.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp bitor.f -o bitor.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp boxes.f -o boxes.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp chgpot.f -o chgpot.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp chgtrn.f -o chgtrn.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp couple.f -o couple.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp deriv.f -o deriv.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp dipole.f -o dipole.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp disp.f -o disp.o 
@@ -364,6 +361,8 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp connolly.f -o connolly.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp control.f -o control.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp correlate.f -o correlate.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp minima.f -o minima.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp critical.f -o critical.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp crystal.f -o crystal.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp cspline.f -o cspline.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp ctrpot.f -o ctrpot.o 
@@ -455,7 +454,6 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp elj1.f -o elj1.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp elj2.f -o elj2.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp elj3.f -o elj3.o 
-     [exec] gfortran -c -Ofast -msse3 -fopenmp minima.f -o minima.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp embed.f -o embed.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp kchrge.f -o kchrge.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp emetal.f -o emetal.o 
@@ -567,6 +565,7 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp vibs.f -o vibs.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp final.f -o final.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp flatten.f -o flatten.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp freefix.f -o freefix.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp freeunit.f -o freeunit.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp gda.f -o gda.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp geometry.f -o geometry.o 
@@ -666,6 +665,7 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp lattice.f -o lattice.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp lbfgs.f -o lbfgs.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp lights.f -o lights.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp lusolve.f -o lusolve.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp makeint.f -o makeint.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp makeref.f -o makeref.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp makexyz.f -o makexyz.o 
@@ -718,6 +718,7 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp poledit.f -o poledit.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp polymer.f -o polymer.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp potential.f -o potential.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp predict.f -o predict.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp pressure.f -o pressure.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp prmedit.f -o prmedit.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp prmkey.f -o prmkey.o 
@@ -735,7 +736,7 @@ maketinker:
      [exec] gfortran -c -Ofast -msse3 -fopenmp pss.f -o pss.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp pssrigid.f -o pssrigid.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp pssrot.f -o pssrot.o 
-     [exec] gfortran -c -Ofast -msse3 -fopenmp qrfact.f -o qrfact.o 
+     [exec] gfortran -c -Ofast -msse3 -fopenmp qrsolve.f -o qrsolve.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp quatfit.f -o quatfit.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp radial.f -o radial.o 
      [exec] gfortran -c -Ofast -msse3 -fopenmp random.f -o random.o 
@@ -1144,6 +1145,7 @@ maketinker:
      [exec] lights.o \
      [exec] limits.o \
      [exec] linmin.o \
+     [exec] lusolve.o \
      [exec] makeint.o \
      [exec] makeref.o \
      [exec] makexyz.o \
@@ -1166,7 +1168,6 @@ maketinker:
      [exec] mplpot.o \
      [exec] mpole.o \
      [exec] mrecip.o \
-     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] mutant.o \
      [exec] mutate.o \
      [exec] nblist.o \
@@ -1215,6 +1216,7 @@ maketinker:
      [exec] polymer.o \
      [exec] potent.o \
      [exec] potfit.o \
+     [exec] predict.o \
      [exec] pressure.o \
      [exec] prmkey.o \
      [exec] promo.o \
@@ -1228,7 +1230,7 @@ maketinker:
      [exec] prtxyz.o \
      [exec] ptable.o \
      [exec] qmstuf.o \
-     [exec] qrfact.o \
+     [exec] qrsolve.o \
      [exec] quatfit.o \
      [exec] random.o \
      [exec] rattle.o \
@@ -1623,6 +1625,7 @@ maketinker:
      [exec] a - kopdst.o
      [exec] a - korbit.o
      [exec] a - korbs.o
+     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] a - kpitor.o
      [exec] a - kpitors.o
      [exec] a - kpolar.o
@@ -1650,6 +1653,7 @@ maketinker:
      [exec] a - lights.o
      [exec] a - limits.o
      [exec] a - linmin.o
+     [exec] a - lusolve.o
      [exec] a - makeint.o
      [exec] a - makeref.o
      [exec] a - makexyz.o
@@ -1720,6 +1724,7 @@ maketinker:
      [exec] a - polymer.o
      [exec] a - potent.o
      [exec] a - potfit.o
+     [exec] a - predict.o
      [exec] a - pressure.o
      [exec] a - prmkey.o
      [exec] a - promo.o
@@ -1733,7 +1738,7 @@ maketinker:
      [exec] a - prtxyz.o
      [exec] a - ptable.o
      [exec] a - qmstuf.o
-     [exec] a - qrfact.o
+     [exec] a - qrsolve.o
      [exec] a - quatfit.o
      [exec] a - random.o
      [exec] a - rattle.o
@@ -1829,11 +1834,13 @@ maketinker:
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o archive.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl archive.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip archive.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o bar.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl bar.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip bar.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o correlate.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl correlate.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip correlate.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o critical.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl critical.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip critical.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o crystal.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl crystal.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip crystal.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o diffuse.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl diffuse.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip diffuse.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o distgeom.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl distgeom.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip distgeom.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o document.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl document.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip document.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o dynamic.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl dynamic.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip dynamic.x
+     [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o freefix.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl freefix.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip freefix.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o gda.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl gda.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip gda.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o intedit.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl intedit.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip intedit.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o intxyz.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl intxyz.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip intxyz.x
@@ -1885,7 +1892,7 @@ maketinker:
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o xyzint.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl xyzint.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzint.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o xyzmol2.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl xyzmol2.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzmol2.x
      [exec] gfortran -Ofast -msse3 -fopenmp -static-libgcc -o xyzpdb.x -L/usr/lib/jvm/jdk1.8.0_251/jre/lib/amd64/server -L/home/ponder/ffe/build/fftw/lib -L/home/ponder/ffe/build/apbs/lib -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl xyzpdb.o libtinker.a -ljvm -lfftw3_threads -lfftw3 -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lstdc++; strip xyzpdb.x
-     [copy] Copying 62 files to /home/ponder/ffe/build/tinker/bin
+     [copy] Copying 64 files to /home/ponder/ffe/build/tinker/bin
 
 ffe:
      [echo] Build Force Field Explorer
@@ -2018,7 +2025,7 @@ resource:
      [copy] Copying 148 files to /home/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-8.8.jar
+      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-8.10.jar
 
 make:
 
@@ -2064,27 +2071,27 @@ kits:
 [install4j] Compressed media file 'Unix Installer':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_8.8.21.sh.
-[install4j]   The size of the media file is 329.8 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_8.10.21.sh.
+[install4j]   The size of the media file is 333.0 MB
 [install4j] 
 [install4j] Compressed media file 'Unix Archive':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_8.8.21.tar.gz.
-[install4j]   The size of the media file is 316.7 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_8.10.21.tar.gz.
+[install4j]   The size of the media file is 319.9 MB
 [install4j] 
 [install4j] Compressed media file 'Linux RPM':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_linux_8.8.21.rpm.
-[install4j]   The size of the media file is 317.5 MB
+[install4j]   The name of the media file is Tinker-FFE_linux_8.10.21.rpm.
+[install4j]   The size of the media file is 320.6 MB
 [install4j] Writing md5sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 69.0 seconds.
-     [gzip] Building: /home/ponder/ffe/build/kits/build_8.8.21.log.gz
-     [gzip] Building: /home/ponder/ffe/build/kits/error_8.8.21.log.gz
-   [delete] Deleting: /home/ponder/ffe/build/kits/build_8.8.21.log
-   [delete] Deleting: /home/ponder/ffe/build/kits/error_8.8.21.log
+[install4j] Build completed in 67.8 seconds.
+     [gzip] Building: /home/ponder/ffe/build/kits/build_8.10.21.log.gz
+     [gzip] Building: /home/ponder/ffe/build/kits/error_8.10.21.log.gz
+   [delete] Deleting: /home/ponder/ffe/build/kits/build_8.10.21.log
+   [delete] Deleting: /home/ponder/ffe/build/kits/error_8.10.21.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 5 minutes 20 seconds
+Total time: 6 minutes 7 seconds

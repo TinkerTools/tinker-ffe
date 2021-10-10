@@ -18,17 +18,17 @@
         http://jogamp.org/deployment/jogamp-current/archive \
                          /jogamp-all-platforms.7z
 
-        The directory provided here contains jar files for Linux, MacOS
+        The directory provided here contains jar files for Linux, macOS
         and Windows extracted from the above download.
 
         These versions of Java3D, JOGL, JOAL and GLUEGEN work on Linux,
-        MacOS and Windows.
+        macOS and Windows.
 
         The file macos-install-java3d.pdf contains installation info
         for these packages, and how to configure them under Eclipse.
 
         The file macos-override-java3d.pdf contains info on overriding
-        the old Java3D 1.3 installed as system software with MacOS. In
+        the old Java3D 1.3 installed as system software with macOS. In
         the current FFE build, the override is performed by bundling
         the Java3d jars with the build and specifying the jars to be
         used in the Install4j build configuration (see ffe/build.xml).

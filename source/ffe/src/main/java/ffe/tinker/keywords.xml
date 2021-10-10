@@ -3,10 +3,10 @@
 
  Title: Force Field Explorer</p>
  Description: Force Field Explorer Molecular Modeling Program</p>
- Copyright: Copyright (c) 2004-2020 Jay William Ponder</p>
+ Copyright: Copyright (c) 2004-2021 Jay William Ponder</p>
  Institution: Jay Ponder Lab, Washington University in Saint Louis</p>
  Author: Michael J. Schnieders
- Version: 8.8
+ Version: 8.10
  
 -->
 <document>
@@ -31,7 +31,7 @@
       <subsection name="EXIT-PAUSE" rep="CHECKBOX">This keyword causes Tinker programs to pause and wait for a carriage
  return at the end of execution prior to returning control to the operating system. This is
  useful to keep the execution window open following termination on machines running
- Microsoft Windows or Apple MacOS. The default in the absence of the EXIT-PAUSE
+ Microsoft Windows or Apple macOS. The default in the absence of the EXIT-PAUSE
  keyword, is to return control to the operating system immediately at program termination.
 		</subsection>
       <subsection name="NOVERSION" rep="CHECKBOX">Turns off the use of version numbers appended to the end of filenames as
