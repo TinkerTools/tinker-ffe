@@ -10,7 +10,7 @@ Pre-built installation kits for the Tinker-FFE package can be found at https://d
 
 <H2><B>Build Process</B></H2>
 
-The Tinker-FFE project builds installer kits using the Install4j multi-platform Java installer builder. The developers thank ej-technologies for providing Install4j for use in building our Tinker-FFE installation kits.
+The Tinker-FFE project builds installer kits using the install4j multi-platform Java installer builder. The developers thank ej-technologies for providing install4j for use in building our Tinker-FFE installation kits. You can check out install4j by clicking on the icon below:
 
 ![install4j-large](https://user-images.githubusercontent.com/4680892/232339896-6f3fd5c9-b90b-4778-ab5e-1c9e948a058a.png) Multi-Platform Java Installer Builder
 
