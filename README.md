@@ -12,7 +12,7 @@ Pre-built installation kits for the Tinker-FFE package can be found at https://d
 
 The Tinker-FFE project builds installer kits using the Install4j multi-platform Java installer builder. The developers thank ej-technologies for providing Install4j for use in building our Tinker-FFE installation kits.
 
-![install4j-large](https://user-images.githubusercontent.com/4680892/232339896-6f3fd5c9-b90b-4778-ab5e-1c9e948a058a.png)
+![install4j-large](https://user-images.githubusercontent.com/4680892/232339896-6f3fd5c9-b90b-4778-ab5e-1c9e948a058a.png) Multi-Platform Java Installer Builder
 
 Other requirements include a Java 8 JRE to embed with the installer, Ant, and C/C++/Fortran compilers (the GNU compiler suite is recommended). The graphics engine for FFE uses Java3D and the FFE console requires groovy; both packages are provided with this development repository. To begin the build procedure, see the 0README file in the /build directory of the repository. Additional information is available from https://dasher.wustl.edu/tinker/.
 
