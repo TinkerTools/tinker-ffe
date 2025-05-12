@@ -4,5 +4,6 @@
                ##################################################
 
        Provided in this directory is an installation of Apache ant 1.9.6
-       used with the Install4j scripts that build Force Field Explorer.
+       used with the Install4j scripts that build Force Field Explorer,
+       and groovy 2.4.4 used to compiler the Tinker-FFE terminal window.
 

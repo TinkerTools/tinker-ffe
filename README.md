@@ -6,9 +6,9 @@ The Tinker-FFE ("Force Field Explorer") software is a Java-based GUI for molecul
 
 <H2><B>Installation Kits</B></H2>
 
-Pre-built installation kits for the Tinker-FFE package can be found at https://dasher.wustl.edu/tinker/, and are available for Linux, Macintosh and Windows computers. Tinker-FFE contains an embedded version of the full Tinker software package, modified to provide for socket communication between Tinker and the Tinker-FFE GUI via Java sockets. Unless you wish to develop Tinker-FFE, we recommend use of the prebuilt kits since the build process is rather involved.
+Pre-built installation kits for the Tinker-FFE package can be found at https://dasher.wustl.edu/tinker/, and are available for Linux, macOS and Windows computers. Tinker-FFE contains an embedded version of the full Tinker software package, modified to provide for socket communication between Tinker and the Tinker-FFE GUI via Java sockets. Unless you wish to develop Tinker-FFE, we recommend use of the prebuilt kits since the build process is rather involved.
 
 <H2><B>Build Process</B></H2>
 
-The Tinker-FFE project builds installer kits using the Install4j multi-platform Java installer builder. Other requirements include a Java 8 JRE to embed with the installer, Ant, and C/C++/Fortran compilers (the GNU compiler suite is recommended). The graphics engine for FFE uses Java3D and the FFE console requires groovy; both packages are provided with this development repository. To begin the build procedure, see the 0README file in the /build directory of the repository.
+The Tinker-FFE project builds installer kits using the install4j multi-platform Java installer builder. Other requirements include a Java 8 JRE to embed with the installer, ant, and C/C++/Fortran compilers (the GNU compiler suite is recommended). The graphics engine for FFE uses Java3D and the FFE console requires groovy; both packages are provided with this development repository. To begin the build procedure, see the 0README file in the /build directory of the repository.
 
