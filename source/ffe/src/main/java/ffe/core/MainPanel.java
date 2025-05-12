@@ -1,10 +1,10 @@
 /*
  * <p>Title: Force Field Explorer</p>
  * <p>Description: Force Field Explorer Molecular Modeling Program</p>
- * <p>Copyright: Copyright (c) 2004-2021 Jay William Ponder</p>
- * <p>Institution: Jay Ponder Lab, Washington University in Saint Louis</p>
+ * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
+ * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 8.10
+ * @version 25.2
  */
 
 package ffe.core;
@@ -756,7 +756,7 @@ public final class MainPanel extends JPanel implements ActionListener,
 
 	private void initAbout() {
 		aboutTextArea = new JTextArea(
-				"  Copyright (c) M. Schnieders & J. Ponder, 2004-2021\n"
+				"  Copyright (c) M. Schnieders & J. Ponder, 2004-2025\n"
 					+ "  All Rights Reserved\n"
 					+ "  Email to: ponder@dasher.wustl.edu\n");
 		aboutTextArea.setBorder(BorderFactory
@@ -1593,7 +1593,7 @@ public final class MainPanel extends JPanel implements ActionListener,
 
 		System.out.println("Request: "+code);
 		System.out.println("Database: PDB");
-		String pdbAddress = "http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId="
+		String pdbAddress = "https://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId="
 				+ code;
 		logger.log(Level.INFO, pdbAddress);
 

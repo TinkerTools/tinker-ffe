@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <install4j version="6.1.6" transformSequenceNumber="5">
   <directoryPresets config="ffe/FFESetupWin.bat" />
-  <application name="Tinker-FFE" distributionSourceDir="" applicationId="4247-8783-3069-7883" mediaDir="kits" mediaFilePattern="${compiler:sys.shortName}_${compiler:sys.platform}_${compiler:sys.version}" compression="3" lzmaCompression="false" pack200Compression="false" excludeSignedFromPacking="true" commonExternalFiles="false" createMd5Sums="true" shrinkRuntime="true" shortName="Tinker-FFE" publisher="TinkerTools Organization" publisherWeb="https://github.com/TinkerTools/" version="8.10.${compiler:build.number}" allPathsRelative="true" backupOnSave="false" autoSave="true" convertDotsToUnderscores="false" macSignature="????" macVolumeId="baea8932708593ec" javaMinVersion="1.6" javaMaxVersion="1.8" allowBetaVM="false" jdkMode="jdk" jdkName="JDK 1.8">
+  <application name="Tinker-FFE" distributionSourceDir="" applicationId="4247-8783-3069-7883" mediaDir="kits" mediaFilePattern="${compiler:sys.shortName}_${compiler:sys.platform}_${compiler:sys.version}" compression="3" lzmaCompression="false" pack200Compression="false" excludeSignedFromPacking="true" commonExternalFiles="false" createMd5Sums="true" shrinkRuntime="true" shortName="Tinker-FFE" publisher="TinkerTools Organization" publisherWeb="https://github.com/TinkerTools/" version="25.2.${compiler:build.number}" allPathsRelative="true" backupOnSave="false" autoSave="true" convertDotsToUnderscores="false" macSignature="????" macVolumeId="baea8932708593ec" javaMinVersion="1.6" javaMaxVersion="1.8" allowBetaVM="false" jdkMode="jdk" jdkName="JDK 1.8">
     <languages skipLanguageSelection="false" languageSelectionInPrincipalLanguage="false">
       <principalLanguage id="en" customLocalizationFile="" />
       <additionalLanguages />
@@ -27,8 +27,6 @@
       <mountPoint id="284" root="" location="ffe" mode="755" />
       <mountPoint id="283" root="" location="tinker" mode="755" />
       <mountPoint id="42665" root="" location="tinker/bin" mode="755" />
-      <mountPoint id="282" root="" location="apbs" mode="755" />
-      <mountPoint id="42666" root="" location="apbs/bin" mode="755" />
       <mountPoint id="42919" root="" location="" mode="755" />
     </mountPoints>
     <entries>
@@ -51,24 +49,9 @@
           <entry location="build-macos" fileType="regular" />
         </exclude>
       </dirEntry>
-      <dirEntry mountPoint="42666" file="apbs/bin" overwriteMode="2" shared="false" fileMode="755" uninstallMode="0" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" entryMode="direct" subDirectory="" excludeSuffixes="" dirMode="755" overrideDirMode="true">
-        <exclude />
-      </dirEntry>
-      <dirEntry mountPoint="282" file="apbs" overwriteMode="2" shared="false" fileMode="644" uninstallMode="0" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" entryMode="direct" subDirectory="" excludeSuffixes="*.o, *.obj" dirMode="755" overrideDirMode="true">
-        <exclude>
-          <entry location="bin" fileType="regular" />
-        </exclude>
-      </dirEntry>
       <fileEntry mountPoint="42919" file="ffe/FFESetupWin.bat" overwriteMode="5" shared="false" fileMode="644" uninstallMode="0" overrideFileMode="false" overrideOverwriteMode="true" overrideUninstallMode="false" />
     </entries>
     <components>
-      <component name="APBS" id="279" customizedId="" displayDescription="true" hideHelpButton="false" selected="false" changeable="true" downloadable="false" hidden="false">
-        <description>Adaptive Poisson-Boltzmann Solver (APBS)</description>
-        <include all="false">
-          <entry location="apbs" fileType="regular" />
-        </include>
-        <dependencies />
-      </component>
       <component name="Tinker" id="280" customizedId="" displayDescription="true" hideHelpButton="false" selected="true" changeable="true" downloadable="false" hidden="false">
         <description>Tinker Molecular Modeling Package</description>
         <include all="false">

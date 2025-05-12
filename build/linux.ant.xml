@@ -4,7 +4,7 @@
 	<tstamp />
 	<property name="platform" value="linux" />
 	<buildnumber file="${platform}.build.number" />
-	<property name="version" value="8.10" />
+	<property name="version" value="25.2" />
 	<property name="kit.dir" value="kits" />
 	<property name="build.log"
 		value="${kit.dir}/build_${version}.${build.number}.log" />
@@ -22,24 +22,16 @@
 	<property name="fftw.dir" value="${basedir}/fftw" />
 	<property name="fftw.lib.dir" value="${fftw.dir}/lib" />
 
-	<property name="apbs.dir" value="${basedir}/apbs" />
-	<property name="apbs_src.dir" value="${basedir}/apbs_src" />
-	<property name="apbs.bin.dir" value="${apbs.dir}/bin" />
-	<property name="apbs.lib.dir" value="${apbs.dir}/lib" />
-	<property name="apbs.include.dir" value="${apbs.dir}/include" />
-
 	<property name="fc" value="gfortran" />
 	<property name="fortran.flags" value="-Ofast -msse3 -fopenmp" />
 	<property name="cc" value="gcc" />
 	<property name="c.flags" value="-Ofast -msse3" />
 	<property name="tinker.libs"
-		value="-ltinker -lapbsmainroutines -lapbs -lmaloc -lapbsblas -lfftw3 -lfftw3_threads" />
+		value="-ltinker -lfftw3 -lfftw3_threads" />
 	<property name="tinker.include.flags"
-		value="-I${tinker.src.dir} -I${apbs.include.dir} -I${jni.dir} -I${jni_md.dir}" />
+		value="-I${tinker.src.dir} -I${jni.dir} -I${jni_md.dir}" />
 	<property name="tinker.link.flags"
-		value="-Ofast -msse3 -fopenmp -static-libgcc -L. -L${apbs.lib.dir} -L${fftw.lib.dir} ${tinker.libs}" />
-	<property name="apbs.c.flags" value="${c.flags} -DVAPBSQUIET" />
-	<property name="apbs.f.flags" value="${fortran.flags} -DVAPBSQUIET" />
+		value="-Ofast -fopenmp -static-libgcc -L. -L${fftw.lib.dir} ${tinker.libs}" />
 	<property environment="env" />
 
 	<target name="info" description="Print Platform Details">
@@ -65,11 +57,6 @@
 		<echo message="FFTW Build Information:" />
 		<echo message="Directory: ${fftw.dir}" />
 
-		<echo message="APBS Build Information:" />
-		<echo message="Directory: ${apbs.dir}" />
-		<echo message="C Flags: ${apbs.c.flags}" />
-		<echo message="Fortran Flags: ${apbs.f.flags}" />
-
 		<echo message="FFE Build Information:" />
 		<echo message="Directory: ${ffe.dir}" />
 	</target>
@@ -90,24 +77,11 @@
 			failonerror="false" >
 			<fileset dir="${fftw.dir}" defaultexcludes="no" />
 		</delete>
-		<delete verbose="true"
-			includeemptydirs="true"
-			failonerror="false" >
-			<fileset dir="${apbs.dir}" defaultexcludes="no" />
-		</delete>
-		<delete verbose="true"
-			includeemptydirs="true"
-			failonerror="false" >
-			<fileset dir="${apbs_src.dir}" defaultexcludes="no" />
-		</delete>
 
 		<echo level="info" message="Create Tinker Directories" />
 		<mkdir dir="${tinker.dir}" />
 		<mkdir dir="${tinker.bin.dir}" />
 		<echo level="info" message="Create APBS Directories" />
-		<mkdir dir="${apbs.dir}" />
-		<mkdir dir="${apbs.include.dir}" />
-		<mkdir dir="${apbs.include.dir}/maloc" />
 		<mkdir dir="${kit.dir}" />
 		<echoproperties destfile="${build.log}" format="text" />
 		<echoproperties format="text" />
@@ -121,11 +95,9 @@
 		<copy file="../source/ffe.tgz" todir="." />
 		<copy file="../source/tinker.tgz" todir="." />
 		<copy file="../source/fftw.tgz" todir="." />
-		<copy file="../source/apbs.tgz" todir="." />
 		<untar src="ffe.tgz" dest="." compression="gzip" />
 		<untar src="tinker.tgz" dest="." compression="gzip" />
 		<untar src="fftw.tgz" dest="." compression="gzip" />
-		<untar src="apbs.tgz" dest="." compression="gzip" />
 	</target>
 
 	<target name="configfftw"
@@ -139,8 +111,8 @@
 			newenvironment="false"
 			failonerror="true"
 			output="${build.log}"
-			error="${error.log}"
-			append="true" >
+			append="true"
+			error="${error.log}" >
 
 			<env key="BASH_ENV" value="/etc/bashrc" />
 			<env key="CC" value="${cc}" />
@@ -185,79 +157,8 @@
 		</exec>
 	</target>
 
-	<target name="configapbs"
-		description="Configure APBS" >
-
-		<echo level="info" message="Configuring APBS" />
-		<chmod file="apbs_src/configure" perm="+x" />
-		<chmod file="apbs_src/config/install-sh" perm="+x" />
-		<chmod file="apbs_src/contrib/maloc/configure" perm="+x" />
-		<chmod file="apbs_src/contrib/maloc/config/install-sh" perm="+x" />
-		<exec dir="${apbs_src.dir}"
-			executable="/bin/bash"
-			newenvironment="false"
-			failonerror="true"
-			output="${build.log}"
-			error="${error.log}"
-			append="true" >
-
-			<env key="BASH_ENV" value="/etc/bashrc" />
-			<env key="CC" value="${cc}" />
-			<env key="CXX" value="${cc}" />
-			<env key="F77" value="${fc}" />
-			<env key="LDFLAGS" value="" />
-			<env key="FFLAGS" value="${apbs.f.flags}" />
-			<env key="CFLAGS" value="${apbs.c.flags}" />
-			<env key="CXXFLAGS" value="${apbs.c.flags}" />
-			<arg value="-c" />
-			<arg value="./configure --prefix=${apbs.dir} --enable-tinker --disable-zlib" />
-		</exec>
-	</target>
-
-	<target name="makeapbs"
-		depends="configapbs"
-		description="Compile, Link and Install APBS" >
-
-		<echo level="info" message="Making APBS" />
-		<exec dir="${apbs_src.dir}"
-			executable="/bin/bash"
-			newenvironment="false"
-			failonerror="true"
-			output="${build.log}"
-			append="true"
-			error="${error.log}" >
-
-			<env key="BASH_ENV" value="/etc/bashrc" />
-			<arg value="-c" />
-			<arg value="make" />
-		</exec>
-
-		<echo level="info" message="Installing APBS" />
-		<exec dir="${apbs_src.dir}"
-			executable="/bin/bash"
-			newenvironment="false"
-			failonerror="true"
-			output="${build.log}"
-			append="true"
-			error="${error.log}" >
-
-			<env key="BASH_ENV" value="/etc/bashrc" />
-			<arg value="-c" />
-			<arg value="make install" />
-		</exec>
-		<copy todir="${apbs.include.dir}/maloc" overwrite="true" verbose="true">
-			<fileset dir="${apbs_src.dir}/contrib/include/maloc" includes="*.h" />
-		</copy>
-		<copy todir="${apbs.lib.dir}" overwrite="true" verbose="true">
-			<fileset dir="${apbs_src.dir}/contrib/lib" includes="libmaloc.a" />
-		</copy>
-		<copy todir="${apbs.lib.dir}" overwrite="true" verbose="true">
-			<fileset dir="${apbs_src.dir}/contrib/lib" includes="libapbsblas.a" />
-		</copy>
-	</target>
-
 	<target name="maketinker"
-		depends="makefftw,makeapbs"
+		depends="makefftw"
 		description="Compile and Link Tinker" >
 
 		<echo level="info" message="Compiling Tinker" />
@@ -281,7 +182,7 @@
 
 	<taskdef name="install4j"
 		classname="com.install4j.Install4JTask"
-		classpath="/opt/install4j6/bin/ant.jar" />
+		classpath="/opt/install4j10/bin/ant.jar" />
 
 	<target name="kits"
 		depends="ffe"

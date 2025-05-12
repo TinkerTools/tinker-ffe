@@ -1,10 +1,10 @@
 /*
  * <p>Title: Force Field Explorer</p>
  * <p>Description: Force Field Explorer Molecular Modeling Program</p>
- * <p>Copyright: Copyright (c) 2004-2021 Jay William Ponder</p>
- * <p>Institution: Jay Ponder Lab, Washington University in Saint Louis</p>
+ * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
+ * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 8.10
+ * @version 25.2
  */
 
 package ffe;
@@ -91,7 +91,7 @@ public class Main extends JFrame {
 	 * Create an instance of Force Field Explorer
 	 */
 	public static void main(String[] args) throws Exception {
-		// MacOS specific features to help FFE look native;
+		// macOS specific features to help FFE look native;
 		// These need to be set before the MainPanel is created
 		if (SystemUtils.IS_OS_MAC) {
 			OSXAdapter.setOSXProperties();

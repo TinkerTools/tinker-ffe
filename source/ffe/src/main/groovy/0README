@@ -5,7 +5,7 @@
 
         In order to build the FFE shell, run the commands in the script
         "console.make" after setting up the groovy compiler. The groovy
-        distribution is in other/groovy.
+        distribution for version 2.2.4 is in other/groovy.
 
         Note the Console classes must be compiled and installed in the
         "target" subdirectory before building the rest of FFE.

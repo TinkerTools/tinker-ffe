@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updateDescriptor baseUrl="">
+  <entry targetMediaFileId="42743" updatableVersionMin="" updatableVersionMax="" fileName="Tinker-FFE_unix_25.2.21.sh" newVersion="25.2.21" newMediaFileId="42743" fileSize="324619951" md5Sum="bf67ee83740d6a5c6b63f9e294557766" sha256Sum="e81c897e4487ac333654684b8e8843ffe9f460696d6360d6d75ac11e600488c0" bundledJre="linux-amd64-1.8.0_251.tar.gz" archive="false" singleBundle="false">
+    <comment language="en" />
+  </entry>
+  <entry targetMediaFileId="42744" updatableVersionMin="" updatableVersionMax="" fileName="Tinker-FFE_unix_25.2.21.tar.gz" newVersion="25.2.21" newMediaFileId="42744" fileSize="311806868" md5Sum="90a025dac240b9364d6b2a47866677c1" sha256Sum="4a0bd76c66730ed9326b4a8f09b8869adce6833f59e1ebe29657174a4152684a" bundledJre="linux-amd64-1.8.0_251.tar.gz" archive="true" singleBundle="false">
+    <comment language="en" />
+  </entry>
+  <entry targetMediaFileId="42745" updatableVersionMin="" updatableVersionMax="" fileName="Tinker-FFE_linux_25.2.21.rpm" newVersion="25.2.21" newMediaFileId="42745" fileSize="312526174" md5Sum="c1af5321529604fa5eb45aaacf6a80b3" sha256Sum="de0bcf3b70f57d8d56681fc8598536c7b942e515ad7c8f08cde4a265ec557cf0" bundledJre="linux-amd64-1.8.0_251.tar.gz" archive="true" singleBundle="false">
+    <comment language="en" />
+  </entry>
+</updateDescriptor>

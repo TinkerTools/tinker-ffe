@@ -1,10 +1,10 @@
 /*
  * <p>Title: Force Field Explorer</p>
  * <p>Description: Force Field Explorer Molecular Modeling Program</p>
- * <p>Copyright: Copyright (c) 2004-2021 Jay William Ponder</p>
- * <p>Institution: Jay Ponder Lab, Washington University in Saint Louis</p>
+ * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
+ * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 8.10
+ * @version 25.2
  */
 
 package ffe.shell
@@ -31,8 +31,8 @@ import javax.swing.event.*
 import org.codehaus.groovy.runtime.InvokerHelper
 
 /*
- * Force Field Explorer shell; based on the Groovy Swing console. Allows
- * users to interactively enter and execute Force Field Explorer commands. 
+ * Force Field Explorer shell; based on the Groovy Swing console; allows
+ * users to interactively enter and execute Force Field Explorer commands
  *
  * @author Michael J. Schnieders
  * @author Danno Ferrin (Groovy Console)
@@ -237,7 +237,7 @@ class Console implements CaretListener {
 
 		frame.show()
 		SwingUtilities.invokeLater({inputArea.requestFocus()});
-		appendOutput("\n Force Field Explorer\n Version 8.10, October 2021\n" + " Copyright (c) Michael Schnieders, Jay Ponder, 2004-2021,\n All Rights Reserved\n" + " Email to: ponder@dasher.wustl.edu\n\n", commandStyle);
+		appendOutput("\n Force Field Explorer\n Version 25.2, May 2025\n" + " Copyright (c) Michael Schnieders, Jay Ponder, 2004-2025,\n All Rights Reserved\n" + " Email to: ponder@dasher.wustl.edu\n\n", commandStyle);
 	}
 
 	void addStylesToDocument(JTextPane outputArea) {
@@ -565,7 +565,7 @@ class Console implements CaretListener {
 		def version = "6.0"
 		def pane = swing.optionPane()
 		// work around GROOVY-1048
-		pane.setMessage('Welcome to the Force Field Explorer Shell for evaluating scripts.\nVersion ' + version + '.')
+		pane.setMessage('Welcome to the Force Field Explorer Shell for script evaluation.\nVersion ' + version + '.')
 		def dialog = pane.createDialog(frame, 'About the Force Field Explorer Shell')
 		dialog.show()
 	}

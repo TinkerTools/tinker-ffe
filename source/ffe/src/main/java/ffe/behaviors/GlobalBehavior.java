@@ -1,10 +1,10 @@
 /*
  * <p>Title: Force Field Explorer</p>
  * <p>Description: Force Field Explorer Molecular Modeling Program</p>
- * <p>Copyright: Copyright (c) 2004-2021 Jay William Ponder</p>
- * <p>Company: Jay Ponder Lab, Washington University in Saint Louis</p>
+ * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
+ * <p>Company: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 8.10
+ * @version 25.2
  */
 
 package ffe.behaviors;

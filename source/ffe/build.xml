@@ -3,15 +3,15 @@
 
 	<description>
 
-	This is the Force Field Explorer Ant build file "build.xml".
+	This is the Force Field Explorer Ant build file "build.xml";
 	It is meant to be located and executed in the root FFE directory
-	and expects Tinker, FFTW and APBS to exist along side it.
+	and expects Tinker, FFTW and APBS to exist along side it
 
 	A successful build of the Tinker-FFE molecular modeling program
 	currently requires:
 
 	(1) FFE, Tinker, FFTW and APBS source code
-	(2) Java JDK (currently using 1.8.0_251)
+	(2) Java JDK (currently 1.8.0_251)
 	(3) Apache Ant (currently using 1.9.6)
 	(4) GNU or Intel Compilers
 
@@ -21,13 +21,12 @@
 	(2) macOS
 	(3) Windows
 
-	Tinker, FFTW and APBS require C and Fortran compilers; FFE uses 
-	Java Native Interface (JNI) routines that require a C compiler.
+	Tinker and FFTW require C and Fortran compilers, while FFE uses 
+	Java Native Interface (JNI) routines that require a C compiler
 
 	Currently, GNU compilers are used in platform specific Ant build
-	files based on the following expected directory structure.
+	files based on the following expected directory structure
 
-	|-apbs
 	|-ffe
 	    |-native
 	        |-linux
@@ -38,12 +37,11 @@
 		
 	</description>
 
-	<property name="ffe.version" value="8.10" />
+	<property name="ffe.version" value="25.2" />
 	<property name="src.dir" value="src/main/java" />
 	<property name="build.dir" value="target/classes" />
 	<property name="jar.dir" value="${basedir}/lib" />
 	<property name="tinker.dir" value="../tinker" />
-	<property name="apbs.dir" value="../apbs" />
 	<property environment="env" />
 
 	<!-- Figure out what platform we are on. -->
@@ -143,7 +141,6 @@
 		<echo message="JVM: ${java.vendor} ${java.vm.name} version ${java.version}" />
 		<echo message="C Compiler: ${CC}" />
 		<echo message="Tinker: ${tinker.dir}" />
-		<echo message="APBS: ${apbs.dir}" />
 		<echo message="PWD: ${env.PWD}" />
 		<echo message="PATH: ${env.PATH}" />
 		<echo message="CLASSPATH: ${sun.boot.class.path}" />
