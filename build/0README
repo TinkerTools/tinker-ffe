@@ -16,5 +16,5 @@
 
          (3) To build FFE only, assuming that Tinker, FFTW and APBS are
              already compiled and present in the current directory, use
-             "ant -f OSNAME-ffe-only.ant.xml" in place of step 2.
+             "ant -f OSNAME.ant.xml-ffe-only" in place of step 2.
 
