@@ -4,8 +4,8 @@ info:
      [echo] General Build Information:
      [echo] Developer: ponder
      [echo] Build File: /home/ponder/ffe/build/linux.ant.xml
-     [echo] OS: Linux version 6.8.0-58-generic on amd64
-     [echo] JVM: Private Build OpenJDK 64-Bit Server VM version 1.8.0_442
+     [echo] OS: Linux version 6.8.0-62-generic on amd64
+     [echo] JVM: Amazon.com Inc. OpenJDK 64-Bit Server VM version 11.0.27
      [echo] Compiler Information:
      [echo] Fortran Compiler: gfortran
      [echo] Fortran Flags: -Ofast -msse3 -fopenmp
@@ -31,155 +31,156 @@ init:
     [mkdir] Created dir: /home/ponder/ffe/build/tinker/bin
      [echo] Create APBS Directories
 [echoproperties] #Ant properties
-[echoproperties] #Mon May 12 16:52:56 EDT 2025
-[echoproperties] DSTAMP=20250512
-[echoproperties] TODAY=May 12 2025
-[echoproperties] TSTAMP=1652
-[echoproperties] ant.core.lib=/home/ponder/ffe/build/buildtools/ant/lib/ant.jar
-[echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
-[echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
-[echoproperties] ant.file.type=file
-[echoproperties] ant.file.type.Force\ Field\ Explorer\ for\ Linux=file
-[echoproperties] ant.home=/home/ponder/ffe/build/buildtools/ant
-[echoproperties] ant.java.version=1.8
-[echoproperties] ant.library.dir=/home/ponder/ffe/build/buildtools/ant/lib
-[echoproperties] ant.project.default-target=make
-[echoproperties] ant.project.invoked-targets=make
-[echoproperties] ant.project.name=Force Field Explorer for Linux
-[echoproperties] ant.version=Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+[echoproperties] #Mon Jun 23 17:54:29 EDT 2025
 [echoproperties] awt.toolkit=sun.awt.X11.XToolkit
-[echoproperties] basedir=/home/ponder/ffe/build
-[echoproperties] build.log=kits/build_25.2.21.log
-[echoproperties] build.number=21
-[echoproperties] c.flags=-Ofast -msse3
-[echoproperties] cc=gcc
-[echoproperties] env.ANT_ARGS=
-[echoproperties] env.ANT_HOME=/home/ponder/ffe/build/buildtools/ant
-[echoproperties] env.ANT_OPTS=-Xms2048M -Xmx4096M
-[echoproperties] env.BLD=/home/ponder/ffe/build
-[echoproperties] env.CLUTTER_DISABLE_MIPMAPPED_TEXT=1
-[echoproperties] env.COLORTERM=truecolor
-[echoproperties] env.COPYFILES_DISABLE=true
-[echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:path\=/run/user/1001/bus
-[echoproperties] env.DESKTOP_SESSION=ubuntu
-[echoproperties] env.DISPLAY=\:0
-[echoproperties] env.DYLD_LIBRARY_PATH=
-[echoproperties] env.GDMSESSION=ubuntu
-[echoproperties] env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated
-[echoproperties] env.GNOME_SETUP_DISPLAY=\:1
-[echoproperties] env.GNOME_SHELL_SESSION_MODE=ubuntu
-[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/447c787a_24c2_42c1_81f6_ec20de3ad111
-[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.98
-[echoproperties] env.GROUP=ponder
-[echoproperties] env.GSM_SKIP_SSH_AGENT_WORKAROUND=true
-[echoproperties] env.GTK_MODULES=gail\:atk-bridge
-[echoproperties] env.HOME=/home/ponder
-[echoproperties] env.HOST=ubuntu
-[echoproperties] env.HOSTTYPE=x86_64-linux
-[echoproperties] env.INSTALL4J_HOME=/opt/install4j10
-[echoproperties] env.JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
-[echoproperties] env.LANG=en_US.UTF-8
-[echoproperties] env.LD_LIBRARY_PATH=
-[echoproperties] env.LOGNAME=ponder
-[echoproperties] env.MACHTYPE=x86_64
-[echoproperties] env.MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure
-[echoproperties] env.MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA\=
-[echoproperties] env.NLSPATH=/usr/share/locale/%L/LC_MESSAGES/%N.cat\:/usr/share/locale/%l/LC_MESSAGES/%N.cat
-[echoproperties] env.OSTYPE=linux
-[echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant/bin\:.\:..\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/opt/install4j10/bin\:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin\:/usr/local/bin\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/opt/install4j10/bin\:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin\:/usr/local/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/snap/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin
-[echoproperties] env.PWD=/home/ponder/ffe/build
-[echoproperties] env.QT_ACCESSIBILITY=1
-[echoproperties] env.QT_IM_MODULE=ibus
-[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/2321,unix/ubuntu\:/tmp/.ICE-unix/2321
-[echoproperties] env.SHELL=/bin/tcsh
-[echoproperties] env.SHLVL=1
-[echoproperties] env.SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
-[echoproperties] env.SYSTEMD_EXEC_PID=2346
+[echoproperties] ant.library.dir=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] env.TERM=xterm-256color
-[echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
-[echoproperties] env.USER=ponder
-[echoproperties] env.USERNAME=ponder
-[echoproperties] env.VENDOR=unknown
-[echoproperties] env.VTE_VERSION=7600
-[echoproperties] env.WAYLAND_DISPLAY=wayland-0
-[echoproperties] env.XAUTHORITY=/run/user/1001/.mutter-Xwaylandauth.WI6J62
-[echoproperties] env.XDG_CURRENT_DESKTOP=ubuntu\:GNOME
-[echoproperties] env.XDG_DATA_DIRS=/usr/local/share/\:/usr/share/\:/var/lib/snapd/desktop
-[echoproperties] env.XDG_MENU_PREFIX=gnome-
-[echoproperties] env.XDG_RUNTIME_DIR=/run/user/1001
-[echoproperties] env.XDG_SESSION_CLASS=user
-[echoproperties] env.XDG_SESSION_DESKTOP=ubuntu
-[echoproperties] env.XDG_SESSION_TYPE=wayland
-[echoproperties] env.XMODIFIERS=@im\=ibus
-[echoproperties] error.log=kits/error_25.2.21.log
-[echoproperties] fc=gfortran
-[echoproperties] ffe.dir=/home/ponder/ffe/build/ffe
-[echoproperties] fftw.dir=/home/ponder/ffe/build/fftw
-[echoproperties] fftw.lib.dir=/home/ponder/ffe/build/fftw/lib
-[echoproperties] file.encoding=UTF-8
-[echoproperties] file.encoding.pkg=sun.io
-[echoproperties] file.separator=/
-[echoproperties] fortran.flags=-Ofast -msse3 -fopenmp
-[echoproperties] java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
-[echoproperties] java.awt.printerjob=sun.print.PSPrinterJob
-[echoproperties] java.class.path=/home/ponder/ffe/build/buildtools/ant/lib/ant-launcher.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-apache-xalan2.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-jmf.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-javamail.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-commons-logging.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-apache-bcel.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-testutil.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-apache-regexp.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-apache-oro.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-swing.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-antlr.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-apache-bsf.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-jai.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-junit4.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-jdepend.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-commons-net.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-junit.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-apache-log4j.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-jsch.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-netrexx.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-apache-resolver.jar\:/home/ponder/ffe/build/buildtools/ant/lib/ant-launcher.jar\:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar
-[echoproperties] java.class.version=52.0
-[echoproperties] java.endorsed.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
-[echoproperties] java.ext.dirs=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext\:/usr/java/packages/lib/ext
-[echoproperties] java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
-[echoproperties] java.io.tmpdir=/tmp
-[echoproperties] java.library.path=\:/usr/java/packages/lib/amd64\:/usr/lib/x86_64-linux-gnu/jni\:/lib/x86_64-linux-gnu\:/usr/lib/x86_64-linux-gnu\:/usr/lib/jni\:/lib\:/usr/lib
-[echoproperties] java.runtime.name=OpenJDK Runtime Environment
-[echoproperties] java.runtime.version=1.8.0_442-8u442-b06~us1-0ubuntu1~24.04-b06
-[echoproperties] java.specification.maintenance.version=6
-[echoproperties] java.specification.name=Java Platform API Specification
-[echoproperties] java.specification.vendor=Oracle Corporation
-[echoproperties] java.specification.version=1.8
-[echoproperties] java.vendor=Private Build
-[echoproperties] java.vendor.url=http\://java.oracle.com/
-[echoproperties] java.vendor.url.bug=http\://bugreport.sun.com/bugreport/
-[echoproperties] java.version=1.8.0_442
-[echoproperties] java.vm.info=mixed mode
-[echoproperties] java.vm.name=OpenJDK 64-Bit Server VM
-[echoproperties] java.vm.specification.name=Java Virtual Machine Specification
-[echoproperties] java.vm.specification.vendor=Oracle Corporation
-[echoproperties] java.vm.specification.version=1.8
-[echoproperties] java.vm.vendor=Private Build
-[echoproperties] java.vm.version=25.442-b06
-[echoproperties] jni.dir=/home/ponder/ffe/build/ffe/native
-[echoproperties] jni_md.dir=/home/ponder/ffe/build/ffe/native/linux
-[echoproperties] kit.dir=kits
-[echoproperties] line.separator=\n
-[echoproperties] os.arch=amd64
-[echoproperties] os.name=Linux
-[echoproperties] os.version=6.8.0-58-generic
-[echoproperties] path.separator=\:
-[echoproperties] platform=linux
-[echoproperties] sun.arch.data.model=64
-[echoproperties] sun.boot.class.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar\:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar\:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar\:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar\:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar\:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar\:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar\:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
-[echoproperties] sun.boot.library.path=/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
-[echoproperties] sun.cpu.endian=little
+[echoproperties] java.specification.version=11
+[echoproperties] ant.project.name=Force Field Explorer for Linux
 [echoproperties] sun.cpu.isalist=
-[echoproperties] sun.desktop=gnome
-[echoproperties] sun.io.unicode.encoding=UnicodeLittle
-[echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp  -f linux.ant.xml
-[echoproperties] sun.java.launcher=SUN_STANDARD
 [echoproperties] sun.jnu.encoding=UTF-8
-[echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
-[echoproperties] sun.os.patch.level=unknown
-[echoproperties] tinker.bin.dir=/home/ponder/ffe/build/tinker/bin
-[echoproperties] tinker.dir=/home/ponder/ffe/build/tinker
-[echoproperties] tinker.include.flags=-I/home/ponder/ffe/build/tinker/source -I/home/ponder/ffe/build/ffe/native -I/home/ponder/ffe/build/ffe/native/linux
-[echoproperties] tinker.libs=-ltinker -lfftw3 -lfftw3_threads
-[echoproperties] tinker.link.flags=-Ofast -fopenmp -static-libgcc -L. -L/home/ponder/ffe/build/fftw/lib -ltinker -lfftw3 -lfftw3_threads
+[echoproperties] sun.arch.data.model=64
+[echoproperties] env.INSTALL4J_HOME=/opt/install4j10
+[echoproperties] java.vendor.url=https\://aws.amazon.com/corretto/
+[echoproperties] env.GNOME_SETUP_DISPLAY=\:1
+[echoproperties] env.CLUTTER_DISABLE_MIPMAPPED_TEXT=1
+[echoproperties] DSTAMP=20250623
+[echoproperties] sun.boot.library.path=/usr/lib/jvm/java-11-amazon-corretto/lib
+[echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp  -f linux.ant.xml
+[echoproperties] env.MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA\=
+[echoproperties] jdk.debug=release
+[echoproperties] jni.dir=/home/ponder/ffe/build/ffe/native
 [echoproperties] tinker.src.dir=/home/ponder/ffe/build/tinker/source
-[echoproperties] user.country=US
-[echoproperties] user.dir=/home/ponder/ffe/build
-[echoproperties] user.home=/home/ponder
-[echoproperties] user.language=en
+[echoproperties] java.specification.vendor=Oracle Corporation
+[echoproperties] env.JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto
+[echoproperties] java.version.date=2025-04-15
+[echoproperties] env.GDMSESSION=ubuntu
+[echoproperties] env.OSTYPE=linux
+[echoproperties] java.home=/usr/lib/jvm/java-11-amazon-corretto
+[echoproperties] version=25.3
+[echoproperties] basedir=/home/ponder/ffe/build
+[echoproperties] file.separator=/
+[echoproperties] java.vm.compressedOopsMode=Zero based
+[echoproperties] line.separator=\n
+[echoproperties] java.specification.name=Java Platform API Specification
+[echoproperties] java.vm.specification.vendor=Oracle Corporation
+[echoproperties] tinker.dir=/home/ponder/ffe/build/tinker
+[echoproperties] env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+[echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
+[echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+[echoproperties] java.runtime.version=11.0.27+6-LTS
 [echoproperties] user.name=ponder
+[echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant-1.9.6/bin\:.\:..\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/opt/install4j10/bin\:/usr/lib/jvm/java-11-amazon-corretto/bin\:/usr/local/bin\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/opt/install4j10/bin\:/usr/lib/jvm/java-11-amazon-corretto/bin\:/usr/local/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/snap/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin
+[echoproperties] env.LOGNAME=ponder
+[echoproperties] file.encoding=UTF-8
+[echoproperties] env.VENDOR=unknown
+[echoproperties] java.vendor.version=Corretto-11.0.27.6.1
+[echoproperties] env.SHLVL=1
+[echoproperties] env.XDG_SESSION_DESKTOP=ubuntu
+[echoproperties] cc=gcc
+[echoproperties] java.io.tmpdir=/tmp
+[echoproperties] env.GSM_SKIP_SSH_AGENT_WORKAROUND=true
+[echoproperties] java.version=11.0.27
+[echoproperties] env.SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+[echoproperties] env.XDG_RUNTIME_DIR=/run/user/1001
+[echoproperties] fftw.dir=/home/ponder/ffe/build/fftw
+[echoproperties] java.vm.specification.name=Java Virtual Machine Specification
+[echoproperties] c.flags=-Ofast -msse3
+[echoproperties] env.XMODIFIERS=@im\=ibus
+[echoproperties] java.awt.printerjob=sun.print.PSPrinterJob
+[echoproperties] ant.home=/home/ponder/ffe/build/buildtools/ant-1.9.6
+[echoproperties] sun.os.patch.level=unknown
+[echoproperties] ant.file.type.Force\ Field\ Explorer\ for\ Linux=file
+[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/369679d5_e2d6_41f2_9440_1d054a192e6c
+[echoproperties] env.GROUP=ponder
+[echoproperties] ant.version=Apache Ant(TM) version 1.9.6 compiled on June 29 2015
+[echoproperties] java.library.path=\:/usr/java/packages/lib\:/usr/lib64\:/lib64\:/lib\:/usr/lib
+[echoproperties] java.vendor=Amazon.com Inc.
+[echoproperties] env.XDG_SESSION_TYPE=wayland
+[echoproperties] java.specification.maintenance.version=3
+[echoproperties] sun.io.unicode.encoding=UnicodeLittle
+[echoproperties] env.XDG_SESSION_CLASS=user
+[echoproperties] env.XAUTHORITY=/run/user/1001/.mutter-Xwaylandauth.XQ1872
+[echoproperties] sun.desktop=gnome
+[echoproperties] ant.file.type=file
+[echoproperties] env.PWD=/home/ponder/ffe/build
+[echoproperties] env.LANG=en_US.UTF-8
+[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/2852,unix/ubuntu\:/tmp/.ICE-unix/2852
+[echoproperties] env.HOSTTYPE=x86_64-linux
+[echoproperties] java.class.path=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-xalan2.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jmf.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-javamail.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-logging.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bcel.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-testutil.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-regexp.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-oro.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-swing.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-antlr.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bsf.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jai.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit4.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jdepend.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-net.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-log4j.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jsch.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-netrexx.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-resolver.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar
+[echoproperties] env.HOME=/home/ponder
+[echoproperties] env.QT_IM_MODULE=ibus
+[echoproperties] java.vm.vendor=Amazon.com Inc.
+[echoproperties] env.XDG_DATA_DIRS=/usr/local/share/\:/usr/share/\:/var/lib/snapd/desktop
+[echoproperties] kit.dir=kits
 [echoproperties] user.timezone=
-[echoproperties] version=25.2
+[echoproperties] java.vm.specification.version=11
+[echoproperties] os.name=Linux
+[echoproperties] env.DISPLAY=\:0
+[echoproperties] sun.java.launcher=SUN_STANDARD
+[echoproperties] user.country=US
+[echoproperties] env.LD_LIBRARY_PATH=
+[echoproperties] env.QT_ACCESSIBILITY=1
+[echoproperties] jni_md.dir=/home/ponder/ffe/build/ffe/native/linux
+[echoproperties] tinker.libs=-ltinker -lfftw3 -lfftw3_threads
+[echoproperties] sun.cpu.endian=little
+[echoproperties] env.BLD=/home/ponder/ffe/build
+[echoproperties] user.home=/home/ponder
+[echoproperties] env.DYLD_LIBRARY_PATH=
+[echoproperties] user.language=en
+[echoproperties] build.log=kits/build_25.3.21.log
+[echoproperties] env.WAYLAND_DISPLAY=wayland-0
+[echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
+[echoproperties] ffe.dir=/home/ponder/ffe/build/ffe
+[echoproperties] env.NLSPATH=/usr/share/locale/%L/LC_MESSAGES/%N.cat\:/usr/share/locale/%l/LC_MESSAGES/%N.cat
+[echoproperties] env.ANT_ARGS=
+[echoproperties] env.COLORTERM=truecolor
+[echoproperties] ant.java.version=1.9
+[echoproperties] env.MACHTYPE=x86_64
+[echoproperties] java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+[echoproperties] fc=gfortran
+[echoproperties] env.GROOVY_HOME=/Applications/groovy-2.4.4
+[echoproperties] env.ANT_HOME=/home/ponder/ffe/build/buildtools/ant-1.9.6
+[echoproperties] TSTAMP=1754
+[echoproperties] env.XDG_MENU_PREFIX=gnome-
+[echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:path\=/run/user/1001/bus
+[echoproperties] env.HOST=ubuntu
+[echoproperties] fftw.lib.dir=/home/ponder/ffe/build/fftw/lib
+[echoproperties] tinker.link.flags=-Ofast -fopenmp -static-libgcc -L. -L/home/ponder/ffe/build/fftw/lib -ltinker -lfftw3 -lfftw3_threads
+[echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
+[echoproperties] path.separator=\:
+[echoproperties] error.log=kits/error_25.3.21.log
+[echoproperties] platform=linux
+[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.125
+[echoproperties] os.version=6.8.0-62-generic
+[echoproperties] tinker.include.flags=-I/home/ponder/ffe/build/tinker/source -I/home/ponder/ffe/build/ffe/native -I/home/ponder/ffe/build/ffe/native/linux
+[echoproperties] java.runtime.name=OpenJDK Runtime Environment
+[echoproperties] tinker.bin.dir=/home/ponder/ffe/build/tinker/bin
+[echoproperties] ant.project.invoked-targets=make
+[echoproperties] env.COPYFILES_DISABLE=true
+[echoproperties] java.vm.name=OpenJDK 64-Bit Server VM
+[echoproperties] env.SHELL=/bin/tcsh
+[echoproperties] ant.core.lib=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar
+[echoproperties] env.GTK_MODULES=gail\:atk-bridge
+[echoproperties] java.vendor.url.bug=https\://github.com/corretto/corretto-11/issues/
+[echoproperties] env.VTE_VERSION=7600
+[echoproperties] TODAY=June 23 2025
+[echoproperties] user.dir=/home/ponder/ffe/build
+[echoproperties] env.USERNAME=ponder
+[echoproperties] os.arch=amd64
+[echoproperties] env.MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-1001.slice/user@1001.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure
+[echoproperties] fortran.flags=-Ofast -msse3 -fopenmp
+[echoproperties] env.DESKTOP_SESSION=ubuntu
+[echoproperties] env.XDG_CURRENT_DESKTOP=ubuntu\:GNOME
+[echoproperties] env.ANT_OPTS=-Xms2048M -Xmx4096M
+[echoproperties] java.vm.info=mixed mode
+[echoproperties] java.vm.version=11.0.27+6-LTS
+[echoproperties] env.SYSTEMD_EXEC_PID=2884
+[echoproperties] build.number=21
+[echoproperties] env.GNOME_SHELL_SESSION_MODE=ubuntu
+[echoproperties] env.USER=ponder
+[echoproperties] java.class.version=55.0
+[echoproperties] ant.project.default-target=make
 
 sync-source:
      [echo] Syncing Source Files
@@ -804,6 +805,7 @@ maketinker:
      [exec] gfortran -c -Ofast -fopenmp xyzint.f -o xyzint.o 
      [exec] gfortran -c -Ofast -fopenmp xyzmol2.f -o xyzmol2.o 
      [exec] gfortran -c -Ofast -fopenmp xyzpdb.f -o xyzpdb.o 
+     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] gfortran -c -Ofast -fopenmp zatom.f -o zatom.o 
      [exec] ar -crusv libtinker.a \
      [exec] action.o \
@@ -1008,7 +1010,6 @@ maketinker:
      [exec] eurey1.o \
      [exec] eurey2.o \
      [exec] eurey3.o \
-     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] evcorr.o \
      [exec] ewald.o \
      [exec] exfield.o \
@@ -1962,44 +1963,25 @@ init:
 
 compile:
     [javac] /home/ponder/ffe/build/ffe/build.xml:186: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
-    [javac] Compiling 110 source files to /home/ponder/ffe/build/ffe/target/classes
-    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+    [javac] Compiling 109 source files to /home/ponder/ffe/build/ffe/target/classes
     [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] import sun.misc.Signal;
     [javac]                ^
     [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
     [javac] import sun.misc.SignalHandler;
     [javac]                ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
     [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] import sun.misc.Signal;
     [javac]                ^
     [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
     [javac] import sun.misc.SignalHandler;
     [javac]                ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
     [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:33: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] import sun.misc.Signal;
     [javac]                ^
     [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:34: warning: SignalHandler is internal proprietary API and may be removed in a future release
     [javac] import sun.misc.SignalHandler;
     [javac]                ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:18: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationAdapter;
-    [javac]                      ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:19: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] import com.apple.eawt.ApplicationEvent;
-    [javac]                      ^
     [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:144: warning: SignalHandler is internal proprietary API and may be removed in a future release
     [javac] 		SignalHandler handler = new SignalHandler() {
     [javac] 		^
@@ -2015,78 +1997,57 @@ compile:
     [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/Main.java:159: warning: Signal is internal proprietary API and may be removed in a future release
     [javac] 		Signal.handle(new Signal("INT"), handler);
     [javac] 		^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:28: warning: [deprecation] ApplicationAdapter in com.apple.eawt has been deprecated
-    [javac] public class OSXAdapter extends ApplicationAdapter {
-    [javac]                                 ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:37: warning: [deprecation] Application() in Application has been deprecated
-    [javac] 			osxApplication = new Application();
-    [javac] 			                 ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:42: warning: [deprecation] addApplicationListener(ApplicationListener) in Application has been deprecated
-    [javac] 		osxApplication.addApplicationListener(osxAdapter);
-    [javac] 		              ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:43: warning: [deprecation] setEnabledPreferencesMenu(boolean) in Application has been deprecated
-    [javac] 		osxApplication.setEnabledPreferencesMenu(true);
-    [javac] 		              ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:44: warning: [deprecation] setEnabledAboutMenu(boolean) in Application has been deprecated
-    [javac] 		osxApplication.setEnabledAboutMenu(true);
-    [javac] 		              ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:94: warning: [deprecation] handleAbout(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleAbout(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:94: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleAbout(ApplicationEvent ae) {
-    [javac] 	                        ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:96: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:99: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:103: warning: [deprecation] handleOpenFile(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:103: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleOpenFile(ApplicationEvent ae) {
-    [javac] 	                           ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:105: warning: [deprecation] getFilename() in ApplicationEvent has been deprecated
-    [javac] 			mainPanel.open(ae.getFilename());
-    [javac] 			                 ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:106: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:108: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:112: warning: [deprecation] handlePreferences(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handlePreferences(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:112: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handlePreferences(ApplicationEvent ae) {
-    [javac] 	                              ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:115: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(true);
-    [javac] 			  ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:117: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:121: warning: [deprecation] handleQuit(ApplicationEvent) in ApplicationAdapter has been deprecated
-    [javac] 	public void handleQuit(ApplicationEvent ae) {
-    [javac] 	            ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:121: warning: [deprecation] ApplicationEvent in com.apple.eawt has been deprecated
-    [javac] 	public void handleQuit(ApplicationEvent ae) {
-    [javac] 	                       ^
-    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/macos/OSXAdapter.java:123: warning: [deprecation] setHandled(boolean) in ApplicationEvent has been deprecated
-    [javac] 			ae.setHandled(false);
-    [javac] 			  ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/MainMenu.java:43: warning: [deprecation] getMenuShortcutKeyMask() in Toolkit has been deprecated
+    [javac] 	private static int keyMask = Toolkit.getDefaultToolkit().getMenuShortcutKeyMask();
+    [javac] 	                                                        ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsEvents.java:168: warning: [deprecation] Event in java.awt has been deprecated
+    [javac] 		awtCriterion[0] = new WakeupOnAWTEvent(Event.MOUSE_DOWN);
+    [javac] 		                                       ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsEvents.java:169: warning: [deprecation] Event in java.awt has been deprecated
+    [javac] 		awtCriterion[1] = new WakeupOnAWTEvent(Event.MOUSE_UP);
+    [javac] 		                                       ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/behaviors/PickMouseBehavior.java:67: warning: [deprecation] Event in java.awt has been deprecated
+    [javac] 		conditions[0] = new WakeupOnAWTEvent(Event.MOUSE_DOWN);
+    [javac] 		                                     ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:85: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(1), new JLabel("0%"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:86: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(50), new JLabel("50%"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:87: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(100), new JLabel("100%"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:88: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(150), new JLabel("150%"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:89: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(200), new JLabel("200%"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:99: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(1), new JLabel("1"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:100: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(3), new JLabel("3"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:101: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(5), new JLabel("5"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:113: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(0), new JLabel("Performance"));
+    [javac] 		               ^
+    [javac] /home/ponder/ffe/build/ffe/src/main/java/ffe/core/GraphicsPrefs.java:114: warning: [deprecation] Integer(int) in Integer has been deprecated
+    [javac] 		labelTable.put(new Integer(10), new JLabel("Quality"));
+    [javac] 		               ^
     [javac] Note: Some input files use unchecked or unsafe operations.
     [javac] Note: Recompile with -Xlint:unchecked for details.
-    [javac] 38 warnings
+    [javac] 25 warnings
 
 resource:
      [copy] Copying 148 files to /home/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-25.2.jar
+      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-25.3.jar
 
 make:
 
@@ -2096,8 +2057,6 @@ kits:
 [install4j] Registered to Jay Ponder
 [install4j] 
 [install4j] Loading config file /home/ponder/ffe/build/linux.install4j
-[install4j] [WARNING] The JDK with name "JDK 1.8" has not been configured in this install4j installation (config file /home/ponder/.config/install4j/v10/config.xml).
-[install4j]           As a fallback, a suitable JDK will be downloaded with the settings from the "General Settings->JRE Bundles" step.
 [install4j] Creating media file 'Unix Installer':
 [install4j]   Collecting files:
 [install4j]   Compiling launchers:
@@ -2107,7 +2066,7 @@ kits:
 [install4j]     Generating launcher script file
 [install4j]     Zipping custom code & resources JAR file
 [install4j]     Identifying components
-[install4j]     Adding JRE (linux-amd64-1.8.0_251.tar.gz)
+[install4j]     Adding JRE (linux-amd64-11.0.27.tar.gz)
 [install4j]     Shrinking runtime
 [install4j]   
 [install4j] Creating media file 'Unix Archive':
@@ -2117,7 +2076,7 @@ kits:
 [install4j]       Generating launcher script file
 [install4j]   Creating media file: 
 [install4j]       Shrinking runtime
-[install4j]       Adding JRE (linux-amd64-1.8.0_251.tar.gz)
+[install4j]       Adding JRE (linux-amd64-11.0.27.tar.gz)
 [install4j]   
 [install4j] Creating media file 'Linux RPM':
 [install4j]   Collecting files:
@@ -2126,36 +2085,35 @@ kits:
 [install4j]       Generating launcher script file
 [install4j]   Creating media file: 
 [install4j]       Shrinking runtime
-[install4j]       Adding JRE (linux-amd64-1.8.0_251.tar.gz)
+[install4j]       Adding JRE (linux-amd64-11.0.27.tar.gz)
 [install4j]   
 [install4j] Compressing 3 media files with 2 threads:
 [install4j] 
 [install4j] Compressed media file 'Unix Installer':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_25.2.21.sh.
-[install4j]   The size of the media file is 309.6 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_25.3.21.sh.
+[install4j]   The size of the media file is 264.4 MB
 [install4j] 
 [install4j] Compressed media file 'Unix Archive':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_25.2.21.tar.gz.
-[install4j]   The size of the media file is 297.4 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_25.3.21.tar.gz.
+[install4j]   The size of the media file is 251.8 MB
 [install4j] 
 [install4j] Compressed media file 'Linux RPM':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_linux_25.2.21.rpm.
-[install4j]   The size of the media file is 298.0 MB
+[install4j]   The name of the media file is Tinker-FFE_linux_25.3.21.rpm.
+[install4j]   The size of the media file is 252.5 MB
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 87.5 seconds at 2025-05-12 16:58:46 with 1 warning.
-[install4j] Run the build in verbose mode to get instructions on how to suppress selected warnings.
-     [gzip] Building: /home/ponder/ffe/build/kits/build_25.2.21.log.gz
-     [gzip] Building: /home/ponder/ffe/build/kits/error_25.2.21.log.gz
-   [delete] Deleting: /home/ponder/ffe/build/kits/build_25.2.21.log
-   [delete] Deleting: /home/ponder/ffe/build/kits/error_25.2.21.log
+[install4j] Build completed in 99.5 seconds at 2025-06-23 18:02:36.
+     [gzip] Building: /home/ponder/ffe/build/kits/build_25.3.21.log.gz
+     [gzip] Building: /home/ponder/ffe/build/kits/error_25.3.21.log.gz
+   [delete] Deleting: /home/ponder/ffe/build/kits/build_25.3.21.log
+   [delete] Deleting: /home/ponder/ffe/build/kits/error_25.3.21.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 5 minutes 50 seconds
+Total time: 8 minutes 7 seconds

@@ -1,5 +1,0 @@
-# List of generated media files. The columns are tab-separated:
-# id | media file type | display name | media file path
-42743	unix	Unix Installer	/home/ponder/ffe/build/kits/Tinker-FFE_unix_25.2.21.sh
-42744	unix	Unix Archive	/home/ponder/ffe/build/kits/Tinker-FFE_unix_25.2.21.tar.gz
-42745	unix	Linux RPM	/home/ponder/ffe/build/kits/Tinker-FFE_linux_25.2.21.rpm

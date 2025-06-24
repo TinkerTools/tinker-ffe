@@ -7,6 +7,6 @@
         "console.make" after setting up the groovy compiler. The groovy
         distribution for version 2.2.4 is in other/groovy.
 
-        Note the Console classes must be compiled and installed in the
-        "target" subdirectory before building the rest of FFE.
+        Console classes must be compiled and installed in the "target"
+        directory via "console.make" before building the rest of FFE.
 

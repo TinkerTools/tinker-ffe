@@ -22,7 +22,7 @@
         source distribution. Make sure the file ffe/build.xml file points
         to the correct groovy version.
 
-        Note Groovy 2.4.7 was tested during December 2016. The FFE shell
-        compiles under 2.4.7, but gives an error when run. Code changes
-        would likely be needed to use this newer Groovy version.
+        Note Groovy 2.4.4 gives warnings when used under Java 11. But the
+        newer Groovy 3 and Groovy 4 versions require code changes to the
+        FFE terminal for it to be fully functional.
 

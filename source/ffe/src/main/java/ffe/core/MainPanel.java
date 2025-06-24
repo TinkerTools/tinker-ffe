@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 25.2
+ * @version 25.3
  */
 
 package ffe.core;
@@ -1676,7 +1676,7 @@ public final class MainPanel extends JPanel implements ActionListener,
 			// switch to NCI database if it was requested
 			if (databaseName == "NCI") {
 				url=new URL("https://cactus.nci.nih.gov/chemical/structure/"
-					+ moleculeName + "/file?format=sdf");
+					+ moleculeName + "/sdf");
 			}
 
 			BufferedReader in=new BufferedReader(new InputStreamReader(url.openStream()));

@@ -1,9 +1,6 @@
 build/buildtools/ant
 build/buildtools/groovy
 build/kits/Tinker-FFE*
-other/java/jdk*
-other/java/jre*
-other/java/linux*
-other/java/macos*
-other/java/windows*
+other/java/amazon*
+other/java/java*
 source/tinker

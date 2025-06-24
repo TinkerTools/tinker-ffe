@@ -8,7 +8,7 @@
 
         (1)  jni.h, the machine-independent Java Native Interface (JNI)
              header file, should be taken from Java version whose JRE is
-             bundled with FFE, currently Java 1.8.0_251
+             bundled with FFE, currently Java 11.0.27
 
         (2)  ffe_core_FFEExec.h, a header file needed for execution of
              native Tinker programs

@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 25.2
+ * @version 25.3
  */
 
 package ffe.core;
@@ -920,7 +920,7 @@ public class ModelingPanel extends JPanel implements ActionListener,
 				+ "\nDIR: " + dir);
 
 		synchronized (this) {
-			// Check that the Tinker program exists in TINKER/bin
+			// Check that the Tinker programs exist in tinker/bin
 			String path = (new File(MainPanel.tinkerDir.getAbsolutePath()
 					+ File.separator + "bin")).getAbsolutePath();
 			File exe = new File(path + File.separator

@@ -4,15 +4,15 @@
 	<description>
 
 	This is the Force Field Explorer Ant build file "build.xml";
-	It is meant to be located and executed in the root FFE directory
-	and expects Tinker, FFTW and APBS to exist along side it
+	It is intended to be located and executed in the root FFE
+	directory and expects Tinker and FFTW to exist along side
 
 	A successful build of the Tinker-FFE molecular modeling program
 	currently requires:
 
-	(1) FFE, Tinker, FFTW and APBS source code
-	(2) Java JDK (currently 1.8.0_251)
-	(3) Apache Ant (currently using 1.9.6)
+	(1) FFE, Tinker and FFTW source code
+	(2) Java JDK (currently Amazon Corretto 11.0.27)
+	(3) Apache ant (currently 1.9.6)
 	(4) GNU or Intel Compilers
 
 	The Tinker-FFE package can be built for the following systems:
@@ -24,7 +24,7 @@
 	Tinker and FFTW require C and Fortran compilers, while FFE uses 
 	Java Native Interface (JNI) routines that require a C compiler
 
-	Currently, GNU compilers are used in platform specific Ant build
+	Currently, GNU compilers are used in platform specific ant build
 	files based on the following expected directory structure
 
 	|-ffe
@@ -37,14 +37,14 @@
 		
 	</description>
 
-	<property name="ffe.version" value="25.2" />
+	<property name="ffe.version" value="25.3" />
 	<property name="src.dir" value="src/main/java" />
 	<property name="build.dir" value="target/classes" />
 	<property name="jar.dir" value="${basedir}/lib" />
 	<property name="tinker.dir" value="../tinker" />
 	<property environment="env" />
 
-	<!-- Figure out what platform we are on. -->
+	<!-- Figure out what platform we are on -->
 	<condition property="platform.target" value="windows">
 		<os family="windows" />
 	</condition>
@@ -63,7 +63,7 @@
 		</and>
 	</condition>
 
-	<!-- Figure out what native compiler to use. -->
+	<!-- Figure out what native compiler to use -->
 	<!-- On macOS, use GCC to create universal binaries -->
 	<condition property="CC" value="gcc">
 		<and>
@@ -118,8 +118,8 @@
 		<pathelement location="${jar.dir}/gluegen-rt.jar" />
 		<pathelement location="${jar.dir}/gluegen.jar" />
 		<pathelement location="${jar.dir}/groovy-all-2.4.4.jar" />
-		<pathelement location="${jar.dir}/j3dcore-1.7.jar" />
-		<pathelement location="${jar.dir}/j3dutils-1.7.jar" />
+		<pathelement location="${jar.dir}/j3dcore-1.7.1.jar" />
+		<pathelement location="${jar.dir}/j3dutils-1.7.1.jar" />
 		<pathelement location="${jar.dir}/jh-2.0.5.jar" />
 		<pathelement location="${jar.dir}/joal-natives-linux-amd64.jar" />
 		<pathelement location="${jar.dir}/joal-natives-macosx-universal.jar" />
@@ -130,7 +130,7 @@
 		<pathelement location="${jar.dir}/jogl-all-noawt-natives-windows-amd64.jar" />
 		<pathelement location="${jar.dir}/jogl-all.jar" />
 		<pathelement location="${jar.dir}/sunjce_provider.jar" />
-		<pathelement location="${jar.dir}/vecmath-1.7.jar" />
+		<pathelement location="${jar.dir}/vecmath-1.7.1.jar" />
 	</path>
 
 	<target name="info" description="Print Platform Details">
@@ -180,8 +180,8 @@
 			destdir="${build.dir}"
 			nowarn="false"
 			optimize="true"
-			source="1.6"
-			target="1.8"
+			source="11"
+			target="11"
 			includes="**/*.java"
 		>
 			<classpath>
@@ -259,11 +259,11 @@
 	</target>
 	<target name="jni_macos">
 		<exec dir="${basedir}/native/${platform.target}" executable="${CC}">
-			<arg line=" -arch x86_64 -arch i386 -arch ppc -fPIC -c nativeExec.c -I /Library/Java/Home/include"
+			<arg line=" -arch x86_64 -fPIC -c nativeExec.c -I /Library/Java/Home/include"
 			/>
 		</exec>
 		<exec dir="${basedir}/native/${platform.target}" executable="${CC}">
-			<arg line="-arch x86_64 -arch i386 -arch ppc -dynamiclib nativeExec.o -o libffe.jnilib"
+			<arg line="-arch x86_64 -dynamiclib nativeExec.o -o libffe.jnilib"
 			/>
 		</exec>
 		<delete>

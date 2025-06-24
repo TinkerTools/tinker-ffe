@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 25.2
+ * @version 25.3
  */
 
 package ffe;
@@ -34,7 +34,6 @@ import sun.misc.Signal;
 import sun.misc.SignalHandler;
 
 import ffe.core.MainPanel;
-import ffe.macos.OSXAdapter;
 
 /*
  * The Main class is the entry point to Force Field Explorer
@@ -93,8 +92,9 @@ public class Main extends JFrame {
 	public static void main(String[] args) throws Exception {
 		// macOS specific features to help FFE look native;
 		// These need to be set before the MainPanel is created
+
 		if (SystemUtils.IS_OS_MAC) {
-			OSXAdapter.setOSXProperties();
+			System.setProperty("apple.laf.useScreenMenuBar", "true");
 		}
 
 		// Start the clock
@@ -185,12 +185,6 @@ public class Main extends JFrame {
 		mainPanel.setPanel(MainPanel.LOGS);
 		setVisible(true);
 		mainPanel.setPanel(MainPanel.GRAPHICS);
-
-		// MacOS specific features to help FFE look native on Macs;
-		// This needs to be done after the MainPanel is created
-		if (SystemUtils.IS_OS_MAC_OSX) {
-			OSXAdapter.macOSXRegistration(mainPanel);
-		}
 
 		// Finally, open the supplied file if necessary
 		if (commandLineFile != null) {

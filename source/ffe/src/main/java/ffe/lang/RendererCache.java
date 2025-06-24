@@ -4,12 +4,13 @@
  * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 25.2
+ * @version 25.3
  */
 
 package ffe.lang;
 
 import java.awt.Color;
+import java.awt.geom.AffineTransform;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Hashtable;
@@ -474,13 +475,12 @@ public class RendererCache {
 		localToVworld.transform(point3d);
 		// Transform into imageplate coordinates
 		worldToImagePlate.transform(point3d);
-		// Final step to the 2D Screen.
+		// Final step to the 2D Screen
 		canvas.getPixelLocationFromImagePlate(point3d, point);
 		/*
 		 * Now we have the location where the point will be rendered on the
-		 * screen depending on resize, placement, size, and eye point policies.
-		 * This should only be called on points that reside within the clipping
-		 * planes.
+		 * screen depending on resize, placement, size, and eye point policies;
+		 * Should only be called on points residing within the clipping planes
 		 */
 	}
 

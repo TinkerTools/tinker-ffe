@@ -3,26 +3,12 @@
 #  #################################################################
 #  ##                                                             ##
 #  ##  shared.make  --  create shared object library for FFE GUI  ##
-#  ##              (Intel Compiler for macOS Version)             ##
-#  ##                                                             ##
-#  #################################################################
-#
-#
-#icc -c -O3 -fPIC -static-intel -w nativeExec.c -I /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/include -I /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/include/darwin
-#icc -c -O3 -fPIC -static-intel -w nativeExec.c -I.. -I.
-#icc -shared nativeExec.o -o libffe.jnilib
-#rm nativeExec.o
-#
-#
-#  #################################################################
-#  ##                                                             ##
-#  ##  shared.make  --  create shared object library for FFE GUI  ##
 #  ##              (GNU Compiler for macOS Version)               ##
 #  ##                                                             ##
 #  #################################################################
 #
 #
-gcc -c -fPIC nativeExec.c -I /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/include -I /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/include/darwin
-#gcc -c -fPIC nativeExec.c -I.. -I.
+#gcc -c -fPIC nativeExec.c -I /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/include -I /Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/include/darwin
+gcc -c -fPIC nativeExec.c -I.. -I.
 gcc -dynamiclib nativeExec.o -o libffe.jnilib
 rm nativeExec.o

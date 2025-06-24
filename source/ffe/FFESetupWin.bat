@@ -4,7 +4,7 @@ set location=%~dp0
 set tinkerdir=%location%tinker
 set ffedir=%location%ffe
 
-set ffejardir=%ffedir%\lib\ffe-25.2.jar
+set ffejardir=%ffedir%\lib\ffe-25.3.jar
 set ffedlldir=%ffedir%\native\windows\ffe.dll
 set tclasspath=%ffejardir%;%ffedlldir%;
 

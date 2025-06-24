@@ -3,12 +3,13 @@
                    Other Components Needed to Build Tinker-FFE                 
                    ###########################################
 
-         This directory contains additional pieces needed for building
-         Force Field Explorer (FFE). Ant is needed for running the main
-         FFE build scripts, Groovy is used to implement and compile the
-         FFE Shell, j3d is Java 3D API used by the FFE graphics engine,
-         the Java directory contains the JREs to be bundled with FFE on
-         Linux, macOS & Windows platforms, Mesa is an OpenGL emulation
-         library for systems without hardware OpenGL support, and Sun
-         JCE has Java libraries to enable 2048-bit DH keypairs.
+      This directory contains additional pieces needed for building Force
+      Field Explorer (FFE). Ant is needed for running the main FFE build
+      scripts. Groovy is used to implement and compile the FFE Shell. J3D
+      is the Java 3D API used by the FFE graphics engine.
+
+      The Java directory contains the JREs to be bundled with FFE on Linux,
+      macOS and Windows platforms, Mesa is an OpenGL emulation library for
+      systems without hardware OpenGL support, and Sun JCE has a jar file
+      with code to enable 2048-bit DH keypairs.
 

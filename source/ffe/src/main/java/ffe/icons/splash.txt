@@ -3,8 +3,9 @@
                       Editing the FFE Splash Screen Image
                       ###################################
 
-    The splash screen image for FFE should be 372W x 400H pixels. To make
-    changes to version and date: (1) first edit the PDF file in Affinity
-    Designer or Adobe Illustrator and save the new PDF, then (2) open the
-    PDF in Affinity Photo, resize to 372 x 400 and save as a PNG image.
+     The splash screen image for FFE should be 372W x 400H pixels. To make
+     changes to version and date: (1) first edit the PDF file in Affinity
+     Designer, Adobe Illustrator or Adobe Acrobat and save the new PDF,
+     then (2) open the PDF in Affinity Photo or Adobe Photoshop, resize to
+     372 x 400 pixels and save as a PNG image.
 

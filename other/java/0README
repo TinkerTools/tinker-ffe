@@ -3,22 +3,24 @@
                     Java JDK and JRE for Building Tinker-FFE
                     ########################################
 
-        This directory contains Java JDK kits downloaded from Oracle in
-        June 2020. The JDK kits are to be installed prior to building FFE,
-        and are needed to runant scripts and install4j. For building and
-        running the FFE, the version used is Java 8 update 251 as denoted
-        by Java 1.8.0_251 or Java 8u251.
+        This directory contains Java JDK kits downloaded in May 2025 from
+        the site:
 
-        On Linux, the jdk-8u251-linux-x64.tar.gz file should be expanded
-        in the directory /usr/java, which may need to be created first.
-        On macOS, jdk-8u251-macosx-x64.dmg will install the JDK into
-        /Library/Java/JavaVirtualMachines. On Windows machines, the file
-        jdk-8u251-windows-x64.exe will install the JDK in the directory
+           https://docs.aws.amazon.com/corretto/latest/corretto-11-ug \
+                     /downloads-list.html
+
+        The JDK kits are to be installed prior to building FFE, and are
+        needed to run ant scripts and install4j. For building and running
+        the FFE, the version used is Amazon Corretto Java 11.0.27.
+
+        On Linux, the provided "deb" or "rpm" file can be used depending
+        on the Linux version. On macOS, the provided "pkg" file installs
+        the JDK to /Library/Java/JavaVirtualMachines. On Windows machines,
+        the file provided "msi" file installs the JDK into the directory
         C:\Program Files\Java.
 
-        The "linux", "macos" and "windows" kits are JREs constructed by
-        the "Create a JRE Bundle" option from the install4j GUI, or the
-        createbundle executable included with install4j. On Linux, this
-        is done by unpacking the gzipped JRE tar file JRE, then in that
-        directory run "createbundle -o <current dir> jre1.8.0_251.jre".
+        The "linux", "macos" and "windows" files are JREs constructed by
+        using the "Create a JRE Bundle" option from the install4j GUI, or
+        the "createbundle" executable included with install4j. These are
+        the JREs that will be included in the FFE installation kits.
 

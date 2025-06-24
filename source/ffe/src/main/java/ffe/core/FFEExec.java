@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 25.2
+ * @version 25.3
  */
 
 package ffe.core;
@@ -34,7 +34,7 @@ public class FFEExec implements Runnable {
 
 	private static Logger logger = Logger.getLogger("ffe");
 
-	// Set PATH (as TINKER/bin), CLASSPATH and LD_LIBRARY_PATH variables
+	// Set PATH (as tinker/bin), CLASSPATH and LD_LIBRARY_PATH variables
 	private void setEnv() {
 		path = (new File(MainPanel.tinkerDir + File.separator + "bin"))
 				.getAbsolutePath();
