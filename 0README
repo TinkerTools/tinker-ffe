@@ -17,7 +17,7 @@
          groovy, Mesa and Sun JCE routines.
 
          The /build directory has a build environment for constructing
-         FFE install kits for Linux, MacOS and Windows. Scripts provided
+         FFE install kits for Linux, macOS and Windows. Scripts provided
          allowing building of FFE installers via the install4j program.
          See /build/0README for the exact procedure for building full
          Tinker-FFE installer kits.
