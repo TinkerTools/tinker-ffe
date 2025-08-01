@@ -46,7 +46,7 @@
       <dirEntry mountPoint="283" file="tinker" overwriteMode="2" shared="false" fileMode="644" uninstallMode="0" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" entryMode="direct" subDirectory="" excludeSuffixes="*.o, *.a, *.obj" dirMode="755" overrideDirMode="true">
         <exclude>
           <entry location="bin" fileType="regular" />
-          <entry location="build-macos" fileType="regular" />
+          <entry location="build-windows" fileType="regular" />
         </exclude>
       </dirEntry>
       <fileEntry mountPoint="42919" file="ffe/FFESetupWin.bat" overwriteMode="5" shared="false" fileMode="644" uninstallMode="0" overrideFileMode="false" overrideOverwriteMode="true" overrideUninstallMode="false" />

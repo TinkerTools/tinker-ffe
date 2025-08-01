@@ -3,17 +3,17 @@
                 Mesa Shared Library for OpenGL Emulation on Linux
                 #################################################
 
-          The libGL.so file in this directory is a Mesa 64-bit library
-          that runs under older Ubuntu and CentOS Linux distributions.
-          It is from the mesa-libGL-6.5.1-7.11.e15_9.x86_64 package.
+       The libGL.so file in this directory is a Mesa 64-bit library that
+       runs under older Ubuntu and CentOS Linux distributions. It is from
+       the mesa-libGL-6.5.1-7.11.e15_9.x86_64 package.
 
-          The libEGL.so.1 file found here is the Mesa library version
-          needed for Ubuntu 20.04 and other newer Linux distributions.
-          If mesa is installed, the library is named libEGL_mesa.so.0
-          in the directory /usr/lib/x86_64-linux-gnu. It should be
-          copied here as a replacement for the system's libEGL.so.1.
+       The libEGL.so.1 file found here is the Mesa library version needed
+       for Ubuntu 20.04 and other newer Linux distributions. If mesa is
+       installed, the library is named libEGL_mesa.so.0 in the directory
+       /usr/lib/x86_64-linux-gnu. It should be copied here to replace the
+       system's libEGL.so.1.
 
-          Both libraries must be placed in ffe/native/linux of the FFE
-          source to allow FFE to run on systems missing Mesa graphics
-          emulation or with OpenGL libraries incompatible with FFE.
+       Both libraries must be placed in ffe/native/linux of the FFE source
+       to allow FFE to run on systems missing Mesa graphics emulation or
+       with OpenGL libraries incompatible with FFE.
 

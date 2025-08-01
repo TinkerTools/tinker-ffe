@@ -3,7 +3,7 @@
                      Master Source Directory for Tinker-FFE
                      ######################################
 
-         This directory contains gzipped tar files with source code for
-         FFE, FFTW and Tinker needed to build Tinker-FFE installation
-         kits for Linux, macOS and Windows machines.
+       This directory contains gzipped tar files with source code for FFE,
+       FFTW and Tinker needed to build Tinker-FFE installation kits for
+       Linux, macOS and Windows machines.
 
