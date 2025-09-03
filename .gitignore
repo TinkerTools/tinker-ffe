@@ -1,5 +1,4 @@
 build/buildtools/ant
-build/buildtools/groovy
 build/kits/Tinker-FFE*
 other/java/amazon*
 other/java/java*
