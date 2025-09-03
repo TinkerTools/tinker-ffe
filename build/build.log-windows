@@ -30,7 +30,7 @@ init:
     [mkdir] Created dir: C:\Users\ponder\ffe\build\tinker
     [mkdir] Created dir: C:\Users\ponder\ffe\build\tinker\bin
 [echoproperties] #Ant properties
-[echoproperties] #Mon Jun 23 16:16:45 BOT 2025
+[echoproperties] #Thu Jul 31 14:40:53 BOT 2025
 [echoproperties] ant.library.dir=C\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] awt.toolkit=sun.awt.windows.WToolkit
 [echoproperties] env.NUMBER_OF_PROCESSORS=4
@@ -48,9 +48,10 @@ init:
 [echoproperties] env.CommonProgramW6432=C\:\\Program Files\\Common Files
 [echoproperties] env.INSTALL4J_HOME=/cygdrive/c/Progra~1/install4j10
 [echoproperties] java.vendor.url=https\://aws.amazon.com/corretto/
+[echoproperties] env.EFC_6472_2283032206=1
 [echoproperties] env.OS=Windows_NT
 [echoproperties] env.Profile=C\:\\Users\\ponder\\.profile.ps1
-[echoproperties] DSTAMP=20250623
+[echoproperties] DSTAMP=20250731
 [echoproperties] sun.boot.library.path=C\:\\Progra~1\\Amazon~1\\jdk11.0.27_6\\bin
 [echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp  -f windows.ant.xml
 [echoproperties] env.SYSTEMROOT=C\:\\WINDOWS
@@ -71,9 +72,7 @@ init:
 [echoproperties] java.specification.name=Java Platform API Specification
 [echoproperties] java.vm.specification.vendor=Oracle Corporation
 [echoproperties] tinker.dir=C\:\\Users\\ponder\\ffe\\build/tinker
-[echoproperties] env.EFC_4244_2283032206=1
 [echoproperties] env.LOCALAPPDATA=C\:\\Users\\ponder\\AppData\\Local
-[echoproperties] env.EFC_4244_1262719628=1
 [echoproperties] env.USERDOMAIN_ROAMINGPROFILE=VIXEN-WIN11
 [echoproperties] env.PROCESSOR_REVISION=9e0a
 [echoproperties] env.PSModulePath=C\:\\Program Files\\WindowsPowerShell\\Modules;C\:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules
@@ -91,6 +90,7 @@ init:
 [echoproperties] env.PUBLIC=C\:\\Users\\Public
 [echoproperties] file.encoding=Cp1252
 [echoproperties] env.VENDOR=unknown
+[echoproperties] env.EFC_6472_1262719628=1
 [echoproperties] java.vendor.version=Corretto-11.0.27.6.1
 [echoproperties] env.COMPUTERNAME=VIXEN-WIN11
 [echoproperties] env.HOMEPATH=\\Users\\ponder
@@ -130,16 +130,17 @@ init:
 [echoproperties] env.HOME=C\:\\Users\\ponder
 [echoproperties] java.vm.vendor=Amazon.com Inc.
 [echoproperties] env.PROCESSOR_ARCHITECTURE=AMD64
+[echoproperties] env.EFC_6472_1592913036=1
 [echoproperties] user.variant=
 [echoproperties] kit.dir=kits
 [echoproperties] user.timezone=
 [echoproperties] env.COMMONPROGRAMFILES=C\:\\Program Files\\Common Files
+[echoproperties] env.EFC_6472_2775293581=1
 [echoproperties] java.vm.specification.version=11
 [echoproperties] os.name=Windows 11
 [echoproperties] sun.java.launcher=SUN_STANDARD
 [echoproperties] user.country=US
 [echoproperties] env.USERDOMAIN=VIXEN-WIN11
-[echoproperties] env.EFC_4244_1592913036=1
 [echoproperties] env.\=\:\:=\:\:\\
 [echoproperties] jni_md.dir=C\:\\Users\\ponder\\ffe\\build/ffe/native/windows
 [echoproperties] tinker.libs=-ltinker -lfftw3 -lfftw3_threads
@@ -153,14 +154,13 @@ init:
 [echoproperties] env.NLSPATH=/usr/share/locale/%L/LC_MESSAGES/%N.cat\:/usr/share/locale/%l/LC_MESSAGES/%N.cat
 [echoproperties] env.ALLUSERSPROFILE=C\:\\ProgramData
 [echoproperties] ant.java.version=1.9
-[echoproperties] env.EFC_4244_2775293581=1
 [echoproperties] env.SESSIONNAME=Console
 [echoproperties] env.MACHTYPE=x86_64
 [echoproperties] java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
 [echoproperties] env.TZ=America/La_Paz
 [echoproperties] fc=gfortran
 [echoproperties] env.ANT_HOME=C\:/Users/ponder/ffe/build/buildtools/ant-1.9.6
-[echoproperties] TSTAMP=1616
+[echoproperties] TSTAMP=1440
 [echoproperties] env.HOST=vixen-win11
 [echoproperties] fftw.lib.dir=C\:\\Users\\ponder\\ffe\\build/fftw/lib
 [echoproperties] tinker.link.flags=-Ofast -msse3 -fopenmp -static -L. -LC\:\\Users\\ponder\\ffe\\build/fftw/lib -ltinker -lfftw3 -lfftw3_threads
@@ -177,10 +177,11 @@ init:
 [echoproperties] ant.project.invoked-targets=make
 [echoproperties] env.COPYFILES_DISABLE=true
 [echoproperties] java.vm.name=OpenJDK 64-Bit Server VM
+[echoproperties] env.EFC_6472_3789132940=1
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] ant.core.lib=C\:\\Users\\ponder\\ffe\\build\\buildtools\\ant-1.9.6\\lib\\ant.jar
 [echoproperties] java.vendor.url.bug=https\://github.com/corretto/corretto-11/issues/
-[echoproperties] TODAY=June 23 2025
+[echoproperties] TODAY=July 31 2025
 [echoproperties] user.dir=C\:\\Users\\ponder\\ffe\\build
 [echoproperties] env.USERNAME=ponder
 [echoproperties] os.arch=amd64
@@ -191,7 +192,6 @@ init:
 [echoproperties] java.vm.info=mixed mode
 [echoproperties] java.vm.version=11.0.27+6-LTS
 [echoproperties] env.FPS_BROWSER_USER_PROFILE_STRING=Default
-[echoproperties] env.EFC_4244_3789132940=1
 [echoproperties] build.number=31
 [echoproperties] env.USER=ponder
 [echoproperties] java.class.version=55.0
@@ -2095,17 +2095,17 @@ kits:
 [install4j] Compressed media file 'Windows Archive':
 [install4j]   Moving media files to media directory C:\Users\ponder\ffe\build\kits
 [install4j]   The name of the media file is Tinker-FFE_windows-x64_25.3.31.zip.
-[install4j]   The size of the media file is 248.2 MB
+[install4j]   The size of the media file is 255.0 MB
 [install4j] 
 [install4j] Compressed media file 'Windows':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory C:\Users\ponder\ffe\build\kits
 [install4j]   The name of the media file is Tinker-FFE_windows-x64_25.3.31.exe.
-[install4j]   The size of the media file is 246.6 MB
+[install4j]   The size of the media file is 253.4 MB
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 56.3 seconds at 2025-06-23 16:33:41.
+[install4j] Build completed in 56.1 seconds at 2025-07-31 14:56:18.
      [gzip] Building: C:\Users\ponder\ffe\build\kits\build_25.3.31.log.gz
      [gzip] Building: C:\Users\ponder\ffe\build\kits\error_25.3.31.log.gz
    [delete] Deleting: C:\Users\ponder\ffe\build\kits\build_25.3.31.log
@@ -2114,4 +2114,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 16 minutes 57 seconds
+Total time: 15 minutes 24 seconds

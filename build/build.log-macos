@@ -30,7 +30,7 @@ init:
     [mkdir] Created dir: /Users/ponder/ffe/build/tinker
     [mkdir] Created dir: /Users/ponder/ffe/build/tinker/bin
 [echoproperties] #Ant properties
-[echoproperties] #Mon Jun 23 14:21:44 EDT 2025
+[echoproperties] #Wed Jul 30 21:14:27 EDT 2025
 [echoproperties] ant.library.dir=/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] awt.toolkit=sun.lwawt.macosx.LWCToolkit
 [echoproperties] env.TERM=xterm-256color
@@ -41,8 +41,7 @@ init:
 [echoproperties] sun.arch.data.model=64
 [echoproperties] env.INSTALL4J_HOME=/Applications/install4j.app
 [echoproperties] java.vendor.url=https\://aws.amazon.com/corretto/
-[echoproperties] env.JAVA_MAIN_CLASS_82080=org.apache.tools.ant.launch.Launcher
-[echoproperties] DSTAMP=20250623
+[echoproperties] DSTAMP=20250730
 [echoproperties] sun.boot.library.path=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib
 [echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp  -f macos.ant.xml
 [echoproperties] ant.file.type.Force\ Field\ Explorer\ for\ macOS=file
@@ -61,26 +60,22 @@ init:
 [echoproperties] line.separator=\n
 [echoproperties] java.specification.name=Java Platform API Specification
 [echoproperties] java.vm.specification.vendor=Oracle Corporation
+[echoproperties] env.SSH_TTY=/dev/ttys000
 [echoproperties] tinker.dir=/Users/ponder/ffe/build/tinker
 [echoproperties] env.TLS=/Users/ponder/ffe/build/buildtools
 [echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
-[echoproperties] env.TERM_PROGRAM_VERSION=455.1
 [echoproperties] java.runtime.version=11.0.27+6-LTS
 [echoproperties] user.name=ponder
 [echoproperties] env.PATH=/Users/ponder/ffe/build/buildtools/ant-1.9.6/bin\:.\:..\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/Applications/install4j.app/Contents/Resources/app/bin\:/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/bin\:/usr/local/bin\:/usr/local/bin\:/System/Cryptexes/App/usr/bin\:/usr/bin\:/bin\:/usr/sbin\:/sbin\:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin\:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin\:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin\:/Library/Apple/usr/bin\:/usr/X11R6/bin\:.\:/Applications/bin\:/Users/ponder/Applications\:/Users/ponder/tinker/bin
-[echoproperties] env.XPC_FLAGS=0x0
 [echoproperties] env.LOGNAME=ponder
 [echoproperties] env.__CF_USER_TEXT_ENCODING=0x1F5\:0x0\:0x0
-[echoproperties] env.__CFBundleIdentifier=com.apple.Terminal
 [echoproperties] file.encoding=UTF-8
 [echoproperties] env.VENDOR=apple
-[echoproperties] env.TERM_SESSION_ID=437D8672-4857-4A99-A6ED-CE1C28C70118
 [echoproperties] java.vendor.version=Corretto-11.0.27.6.1
 [echoproperties] env.SHLVL=1
 [echoproperties] cc=gcc
 [echoproperties] java.io.tmpdir=/var/folders/28/gkvk6tl10llf5tbrccddrjm00000gn/T/
 [echoproperties] java.version=11.0.27
-[echoproperties] env.SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.cM6oIq5WDg/Listeners
 [echoproperties] fftw.dir=/Users/ponder/ffe/build/fftw
 [echoproperties] java.vm.specification.name=Java Virtual Machine Specification
 [echoproperties] c.flags=-Ofast -mssse3
@@ -95,23 +90,22 @@ init:
 [echoproperties] java.vendor=Amazon.com Inc.
 [echoproperties] java.specification.maintenance.version=3
 [echoproperties] sun.io.unicode.encoding=UnicodeBig
-[echoproperties] env.TERM_PROGRAM=Apple_Terminal
 [echoproperties] socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
 [echoproperties] gopherProxySet=false
+[echoproperties] env.JAVA_MAIN_CLASS_43866=org.apache.tools.ant.launch.Launcher
 [echoproperties] ant.file.type=file
 [echoproperties] env.PWD=/Users/ponder/ffe/build
 [echoproperties] env.LANG=en_US.UTF-8
 [echoproperties] env.HOSTTYPE=amd
 [echoproperties] java.class.path=/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-net.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit4.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jai.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-resolver.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jdepend.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-regexp.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-log4j.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-javamail.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bcel.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-netrexx.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-swing.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jsch.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-antlr.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-testutil.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-oro.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jmf.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-xalan2.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bsf.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-logging.jar
 [echoproperties] env.HOME=/Users/ponder
-[echoproperties] env.SECURITYSESSIONID=186a3
 [echoproperties] java.vm.vendor=Amazon.com Inc.
+[echoproperties] env.SSH_CLIENT=fe80\:\:1c23\:5d89\:8029\:686e%en1 56617 22
 [echoproperties] kit.dir=kits
 [echoproperties] user.timezone=
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ macOS=/Users/ponder/ffe/build/macos.ant.xml
 [echoproperties] java.vm.specification.version=11
 [echoproperties] os.name=Mac OS X
-[echoproperties] env.LaunchInstanceID=D13CD7F1-1D07-4773-8CE1-3E109B9E9F57
 [echoproperties] sun.java.launcher=SUN_STANDARD
 [echoproperties] user.country=US
 [echoproperties] env.LD_LIBRARY_PATH=
@@ -126,16 +120,17 @@ init:
 [echoproperties] build.log=kits/build_25.3.11.log
 [echoproperties] env.HOMEBREW_NO_ANALYTICS=1
 [echoproperties] ffe.dir=/Users/ponder/ffe/build/ffe
+[echoproperties] env.SSH_CONNECTION=fe80\:\:1c23\:5d89\:8029\:686e%en1 56617 fe80\:\:4fd\:bf2\:5277\:bef4%en1 22
 [echoproperties] env.ANT_ARGS=
 [echoproperties] ant.java.version=1.9
 [echoproperties] env.MACHTYPE=x86_64
 [echoproperties] java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+[echoproperties] java.awt.headless=true
 [echoproperties] fc=gfortran
 [echoproperties] env.GROOVY_HOME=/Applications/groovy-2.4.4
 [echoproperties] env.ANT_HOME=/Users/ponder/ffe/build/buildtools/ant-1.9.6
-[echoproperties] TSTAMP=1421
+[echoproperties] TSTAMP=2114
 [echoproperties] env.HOST=vixen
-[echoproperties] env.XPC_SERVICE_NAME=0
 [echoproperties] fftw.lib.dir=/Users/ponder/ffe/build/fftw/lib
 [echoproperties] ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
 [echoproperties] tinker.link.flags=-Ofast -fopenmp -static-libgcc -L. -L/Users/ponder/ffe/build/fftw/lib -ltinker -lfftw3 -lfftw3_threads -framework JavaNativeFoundation -framework CoreFoundation
@@ -153,7 +148,7 @@ init:
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] ant.core.lib=/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar
 [echoproperties] java.vendor.url.bug=https\://github.com/corretto/corretto-11/issues/
-[echoproperties] TODAY=June 23 2025
+[echoproperties] TODAY=July 30 2025
 [echoproperties] user.dir=/Users/ponder/ffe/build
 [echoproperties] env.TM_PROJECT_UUID=00000000-0000-0000-0000-000000000000
 [echoproperties] os.arch=x86_64
@@ -2085,7 +2080,7 @@ kits:
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 42.5 seconds at 2025-06-23 14:30:33.
+[install4j] Build completed in 41.9 seconds at 2025-07-30 21:22:54.
      [gzip] Building: /Users/ponder/ffe/build/kits/build_25.3.11.log.gz
      [gzip] Building: /Users/ponder/ffe/build/kits/error_25.3.11.log.gz
    [delete] Deleting: /Users/ponder/ffe/build/kits/build_25.3.11.log
@@ -2094,4 +2089,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 8 minutes 49 seconds
+Total time: 8 minutes 28 seconds
