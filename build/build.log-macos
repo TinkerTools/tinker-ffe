@@ -30,7 +30,7 @@ init:
     [mkdir] Created dir: /Users/ponder/ffe/build/tinker
     [mkdir] Created dir: /Users/ponder/ffe/build/tinker/bin
 [echoproperties] #Ant properties
-[echoproperties] #Tue Sep 02 14:29:35 EDT 2025
+[echoproperties] #Tue Sep 02 22:00:46 EDT 2025
 [echoproperties] ant.library.dir=/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] awt.toolkit=sun.lwawt.macosx.LWCToolkit
 [echoproperties] env.TERM=xterm-256color
@@ -60,7 +60,7 @@ init:
 [echoproperties] line.separator=\n
 [echoproperties] java.specification.name=Java Platform API Specification
 [echoproperties] java.vm.specification.vendor=Oracle Corporation
-[echoproperties] env.SSH_TTY=/dev/ttys002
+[echoproperties] env.SSH_TTY=/dev/ttys000
 [echoproperties] tinker.dir=/Users/ponder/ffe/build/tinker
 [echoproperties] env.TLS=/Users/ponder/ffe/build/buildtools
 [echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
@@ -76,6 +76,7 @@ init:
 [echoproperties] cc=gcc
 [echoproperties] java.io.tmpdir=/var/folders/28/gkvk6tl10llf5tbrccddrjm00000gn/T/
 [echoproperties] java.version=11.0.27
+[echoproperties] env.JAVA_MAIN_CLASS_81594=org.apache.tools.ant.launch.Launcher
 [echoproperties] fftw.dir=/Users/ponder/ffe/build/fftw
 [echoproperties] java.vm.specification.name=Java Virtual Machine Specification
 [echoproperties] c.flags=-Ofast -mssse3
@@ -99,7 +100,7 @@ init:
 [echoproperties] java.class.path=/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-net.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit4.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jai.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-resolver.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jdepend.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-regexp.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-log4j.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-javamail.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bcel.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-netrexx.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-swing.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jsch.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-antlr.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-testutil.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-oro.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jmf.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-xalan2.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bsf.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-logging.jar
 [echoproperties] env.HOME=/Users/ponder
 [echoproperties] java.vm.vendor=Amazon.com Inc.
-[echoproperties] env.SSH_CLIENT=fe80\:\:1812\:e532\:f029\:f6a4%en1 55084 22
+[echoproperties] env.SSH_CLIENT=fe80\:\:1812\:e532\:f029\:f6a4%en1 56098 22
 [echoproperties] kit.dir=kits
 [echoproperties] user.timezone=
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ macOS=/Users/ponder/ffe/build/macos.ant.xml
@@ -119,7 +120,7 @@ init:
 [echoproperties] build.log=kits/build_25.4.11.log
 [echoproperties] env.HOMEBREW_NO_ANALYTICS=1
 [echoproperties] ffe.dir=/Users/ponder/ffe/build/ffe
-[echoproperties] env.SSH_CONNECTION=fe80\:\:1812\:e532\:f029\:f6a4%en1 55084 fe80\:\:18ba\:fe3e\:a937\:3a3a%en1 22
+[echoproperties] env.SSH_CONNECTION=fe80\:\:1812\:e532\:f029\:f6a4%en1 56098 fe80\:\:18ba\:fe3e\:a937\:3a3a%en1 22
 [echoproperties] env.ANT_ARGS=
 [echoproperties] ant.java.version=1.9
 [echoproperties] env.MACHTYPE=x86_64
@@ -128,7 +129,7 @@ init:
 [echoproperties] fc=gfortran
 [echoproperties] env.GROOVY_HOME=/Applications/groovy-2.4.4
 [echoproperties] env.ANT_HOME=/Users/ponder/ffe/build/buildtools/ant-1.9.6
-[echoproperties] TSTAMP=1429
+[echoproperties] TSTAMP=2200
 [echoproperties] env.HOST=vixen
 [echoproperties] fftw.lib.dir=/Users/ponder/ffe/build/fftw/lib
 [echoproperties] ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
@@ -152,7 +153,6 @@ init:
 [echoproperties] env.TM_PROJECT_UUID=00000000-0000-0000-0000-000000000000
 [echoproperties] os.arch=x86_64
 [echoproperties] fortran.flags=-Ofast -mssse3 -fopenmp
-[echoproperties] env.JAVA_MAIN_CLASS_29109=org.apache.tools.ant.launch.Launcher
 [echoproperties] env.ANT_OPTS=-Xms2048M -Xmx4096M
 [echoproperties] java.vm.info=mixed mode
 [echoproperties] java.vm.version=11.0.27+6-LTS
@@ -1868,11 +1868,11 @@ maketinker:
      [exec] a - zclose.o
      [exec] a - zcoord.o
      [exec] ranlib -c libtinker.a
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o alchemy.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib alchemy.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip alchemy.x
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(ascii.o) has no symbols
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(units.o) has no symbols
+     [exec] gfortran -Ofast -fopenmp -static-libgcc -o alchemy.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib alchemy.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip alchemy.x
      [exec] gfortran -Ofast -fopenmp -static-libgcc -o analyze.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib analyze.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip analyze.x
      [exec] gfortran -Ofast -fopenmp -static-libgcc -o anneal.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib anneal.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip anneal.x
      [exec] gfortran -Ofast -fopenmp -static-libgcc -o arcedit.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib arcedit.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip arcedit.x
@@ -2077,7 +2077,7 @@ kits:
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 42.0 seconds at 2025-09-02 14:38:12.
+[install4j] Build completed in 41.1 seconds at 2025-09-02 22:09:14.
      [gzip] Building: /Users/ponder/ffe/build/kits/build_25.4.11.log.gz
      [gzip] Building: /Users/ponder/ffe/build/kits/error_25.4.11.log.gz
    [delete] Deleting: /Users/ponder/ffe/build/kits/build_25.4.11.log
@@ -2086,4 +2086,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 8 minutes 37 seconds
+Total time: 8 minutes 28 seconds

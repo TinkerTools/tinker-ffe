@@ -30,7 +30,7 @@ init:
     [mkdir] Created dir: C:\Users\ponder\ffe\build\tinker
     [mkdir] Created dir: C:\Users\ponder\ffe\build\tinker\bin
 [echoproperties] #Ant properties
-[echoproperties] #Tue Sep 02 15:06:11 BOT 2025
+[echoproperties] #Tue Sep 02 23:33:52 BOT 2025
 [echoproperties] ant.library.dir=C\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] awt.toolkit=sun.awt.windows.WToolkit
 [echoproperties] env.NUMBER_OF_PROCESSORS=4
@@ -44,7 +44,6 @@ init:
 [echoproperties] env.MINTTY_SHORTCUT=/cygdrive/c/Users/Public/Desktop/Cygwin64 Terminal.lnk
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Windows=C\:\\Users\\ponder\\ffe\\build\\windows.ant.xml
 [echoproperties] sun.arch.data.model=64
-[echoproperties] env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
 [echoproperties] env.CommonProgramW6432=C\:\\Program Files\\Common Files
 [echoproperties] env.INSTALL4J_HOME=/cygdrive/c/Progra~1/install4j10
 [echoproperties] java.vendor.url=https\://aws.amazon.com/corretto/
@@ -72,8 +71,6 @@ init:
 [echoproperties] java.vm.specification.vendor=Oracle Corporation
 [echoproperties] tinker.dir=C\:\\Users\\ponder\\ffe\\build/tinker
 [echoproperties] env.LOCALAPPDATA=C\:\\Users\\ponder\\AppData\\Local
-[echoproperties] env.EFC_6932_1262719628=1
-[echoproperties] env.EFC_6932_2283032206=1
 [echoproperties] env.USERDOMAIN_ROAMINGPROFILE=VIXEN-WIN11
 [echoproperties] env.PROCESSOR_REVISION=9e0a
 [echoproperties] env.PSModulePath=C\:\\Program Files\\WindowsPowerShell\\Modules;C\:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules
@@ -121,8 +118,8 @@ init:
 [echoproperties] sun.io.unicode.encoding=UnicodeLittle
 [echoproperties] env.WINDIR=C\:\\WINDOWS
 [echoproperties] env.TERM_PROGRAM=mintty
-[echoproperties] env.EFC_6932_3789132940=1
 [echoproperties] sun.desktop=windows
+[echoproperties] env.EFC_6716_2775293581=1
 [echoproperties] ant.file.type=file
 [echoproperties] env.PWD=/cygdrive/c/Users/ponder/ffe/build
 [echoproperties] env.LC_CTYPE=en_US.UTF-8
@@ -131,6 +128,7 @@ init:
 [echoproperties] env.HOME=C\:\\Users\\ponder
 [echoproperties] java.vm.vendor=Amazon.com Inc.
 [echoproperties] env.PROCESSOR_ARCHITECTURE=AMD64
+[echoproperties] env.EFC_6716_1592913036=1
 [echoproperties] user.variant=
 [echoproperties] kit.dir=kits
 [echoproperties] user.timezone=
@@ -148,7 +146,6 @@ init:
 [echoproperties] env.BLD=/cygdrive/c/Users/ponder/ffe/build
 [echoproperties] user.home=C\:\\Users\\ponder
 [echoproperties] user.language=en
-[echoproperties] env.EFC_6932_1592913036=1
 [echoproperties] build.log=kits/build_25.4.31.log
 [echoproperties] ffe.dir=C\:\\Users\\ponder\\ffe\\build/ffe
 [echoproperties] env.NLSPATH=/usr/share/locale/%L/LC_MESSAGES/%N.cat\:/usr/share/locale/%l/LC_MESSAGES/%N.cat
@@ -157,11 +154,11 @@ init:
 [echoproperties] env.SESSIONNAME=Console
 [echoproperties] env.MACHTYPE=x86_64
 [echoproperties] java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
-[echoproperties] env.EFC_6932_2775293581=1
+[echoproperties] env.EFC_6716_3789132940=1
 [echoproperties] env.TZ=America/La_Paz
 [echoproperties] fc=gfortran
 [echoproperties] env.ANT_HOME=C\:/Users/ponder/ffe/build/buildtools/ant-1.9.6
-[echoproperties] TSTAMP=1506
+[echoproperties] TSTAMP=2333
 [echoproperties] env.HOST=vixen-win11
 [echoproperties] fftw.lib.dir=C\:\\Users\\ponder\\ffe\\build/fftw/lib
 [echoproperties] tinker.link.flags=-Ofast -msse3 -fopenmp -static -L. -LC\:\\Users\\ponder\\ffe\\build/fftw/lib -ltinker -lfftw3 -lfftw3_threads
@@ -191,10 +188,11 @@ init:
 [echoproperties] env.ANT_OPTS=-Xms2048M -Xmx4096M
 [echoproperties] java.vm.info=mixed mode
 [echoproperties] java.vm.version=11.0.27+6-LTS
-[echoproperties] env.FPS_BROWSER_USER_PROFILE_STRING=Default
 [echoproperties] build.number=31
+[echoproperties] env.EFC_6716_1262719628=1
 [echoproperties] env.USER=ponder
 [echoproperties] java.class.version=55.0
+[echoproperties] env.EFC_6716_2283032206=1
 [echoproperties] ant.project.default-target=make
 
 sync-source:
@@ -2102,7 +2100,7 @@ kits:
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 50.7 seconds at 2025-09-02 15:20:58.
+[install4j] Build completed in 52.5 seconds at 2025-09-02 23:48:54.
      [gzip] Building: C:\Users\ponder\ffe\build\kits\build_25.4.31.log.gz
      [gzip] Building: C:\Users\ponder\ffe\build\kits\error_25.4.31.log.gz
    [delete] Deleting: C:\Users\ponder\ffe\build\kits\build_25.4.31.log
@@ -2111,4 +2109,4 @@ kits:
 make:
 
 BUILD SUCCESSFUL
-Total time: 14 minutes 47 seconds
+Total time: 15 minutes 2 seconds
