@@ -1,4 +1,4 @@
 Build-Jdk: 11.0.27
 Implementation-Title: ffe
-Implementation-Version: 25.3
+Implementation-Version: 25.4
 Main-Class: ffe.Main

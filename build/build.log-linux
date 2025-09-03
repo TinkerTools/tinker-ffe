@@ -4,8 +4,8 @@ info:
      [echo] General Build Information:
      [echo] Developer: ponder
      [echo] Build File: /home/ponder/ffe/build/linux.ant.xml
-     [echo] OS: Linux version 6.8.0-62-generic on amd64
-     [echo] JVM: Amazon.com Inc. OpenJDK 64-Bit Server VM version 11.0.27
+     [echo] OS: Linux version 6.8.0-79-generic on amd64
+     [echo] JVM: Amazon.com Inc. OpenJDK 64-Bit Server VM version 11.0.28
      [echo] Compiler Information:
      [echo] Fortran Compiler: gfortran
      [echo] Fortran Flags: -Ofast -msse3 -fopenmp
@@ -31,7 +31,7 @@ init:
     [mkdir] Created dir: /home/ponder/ffe/build/tinker/bin
      [echo] Create APBS Directories
 [echoproperties] #Ant properties
-[echoproperties] #Thu Jul 31 12:07:48 EDT 2025
+[echoproperties] #Tue Sep 02 14:47:21 EDT 2025
 [echoproperties] awt.toolkit=sun.awt.X11.XToolkit
 [echoproperties] ant.library.dir=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] env.TERM=xterm-256color
@@ -44,7 +44,7 @@ init:
 [echoproperties] java.vendor.url=https\://aws.amazon.com/corretto/
 [echoproperties] env.GNOME_SETUP_DISPLAY=\:1
 [echoproperties] env.CLUTTER_DISABLE_MIPMAPPED_TEXT=1
-[echoproperties] DSTAMP=20250731
+[echoproperties] DSTAMP=20250902
 [echoproperties] sun.boot.library.path=/usr/lib/jvm/java-11-amazon-corretto/lib
 [echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp  -f linux.ant.xml
 [echoproperties] env.MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA\=
@@ -53,11 +53,11 @@ init:
 [echoproperties] tinker.src.dir=/home/ponder/ffe/build/tinker/source
 [echoproperties] java.specification.vendor=Oracle Corporation
 [echoproperties] env.JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto
-[echoproperties] java.version.date=2025-04-15
+[echoproperties] java.version.date=2025-07-15
 [echoproperties] env.GDMSESSION=ubuntu
 [echoproperties] env.OSTYPE=linux
 [echoproperties] java.home=/usr/lib/jvm/java-11-amazon-corretto
-[echoproperties] version=25.3
+[echoproperties] version=25.4
 [echoproperties] basedir=/home/ponder/ffe/build
 [echoproperties] file.separator=/
 [echoproperties] java.vm.compressedOopsMode=Zero based
@@ -68,19 +68,19 @@ init:
 [echoproperties] env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
 [echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
-[echoproperties] java.runtime.version=11.0.27+6-LTS
+[echoproperties] java.runtime.version=11.0.28+6-LTS
 [echoproperties] user.name=ponder
 [echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant-1.9.6/bin\:.\:..\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/opt/install4j10/bin\:/usr/lib/jvm/java-11-amazon-corretto/bin\:/usr/local/bin\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/opt/install4j10/bin\:/usr/lib/jvm/java-11-amazon-corretto/bin\:/usr/local/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/snap/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin
 [echoproperties] env.LOGNAME=ponder
 [echoproperties] file.encoding=UTF-8
 [echoproperties] env.VENDOR=unknown
-[echoproperties] java.vendor.version=Corretto-11.0.27.6.1
+[echoproperties] java.vendor.version=Corretto-11.0.28.6.1
 [echoproperties] env.SHLVL=1
 [echoproperties] env.XDG_SESSION_DESKTOP=ubuntu
 [echoproperties] cc=gcc
 [echoproperties] java.io.tmpdir=/tmp
 [echoproperties] env.GSM_SKIP_SSH_AGENT_WORKAROUND=true
-[echoproperties] java.version=11.0.27
+[echoproperties] java.version=11.0.28
 [echoproperties] env.SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
 [echoproperties] env.XDG_RUNTIME_DIR=/run/user/1001
 [echoproperties] fftw.dir=/home/ponder/ffe/build/fftw
@@ -91,7 +91,7 @@ init:
 [echoproperties] ant.home=/home/ponder/ffe/build/buildtools/ant-1.9.6
 [echoproperties] sun.os.patch.level=unknown
 [echoproperties] ant.file.type.Force\ Field\ Explorer\ for\ Linux=file
-[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/345af601_90a3_4249_b34c_c868f5fbe545
+[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/40eef519_3955_4281_92c5_1275c2aac108
 [echoproperties] env.GROUP=ponder
 [echoproperties] ant.version=Apache Ant(TM) version 1.9.6 compiled on June 29 2015
 [echoproperties] java.library.path=\:/usr/java/packages/lib\:/usr/lib64\:/lib64\:/lib\:/usr/lib
@@ -100,12 +100,12 @@ init:
 [echoproperties] java.specification.maintenance.version=3
 [echoproperties] sun.io.unicode.encoding=UnicodeLittle
 [echoproperties] env.XDG_SESSION_CLASS=user
-[echoproperties] env.XAUTHORITY=/run/user/1001/.mutter-Xwaylandauth.29TBA3
+[echoproperties] env.XAUTHORITY=/run/user/1001/.mutter-Xwaylandauth.DJ4ZB3
 [echoproperties] sun.desktop=gnome
 [echoproperties] ant.file.type=file
 [echoproperties] env.PWD=/home/ponder/ffe/build
 [echoproperties] env.LANG=en_US.UTF-8
-[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/2913,unix/ubuntu\:/tmp/.ICE-unix/2913
+[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/2648,unix/ubuntu\:/tmp/.ICE-unix/2648
 [echoproperties] env.HOSTTYPE=x86_64-linux
 [echoproperties] java.class.path=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-xalan2.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jmf.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-javamail.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-logging.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bcel.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-testutil.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-regexp.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-oro.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-swing.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-antlr.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bsf.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jai.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit4.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jdepend.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-net.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-log4j.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jsch.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-netrexx.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-resolver.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar
 [echoproperties] env.HOME=/home/ponder
@@ -128,7 +128,7 @@ init:
 [echoproperties] user.home=/home/ponder
 [echoproperties] env.DYLD_LIBRARY_PATH=
 [echoproperties] user.language=en
-[echoproperties] build.log=kits/build_25.3.21.log
+[echoproperties] build.log=kits/build_25.4.21.log
 [echoproperties] env.WAYLAND_DISPLAY=wayland-0
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] ffe.dir=/home/ponder/ffe/build/ffe
@@ -141,7 +141,7 @@ init:
 [echoproperties] fc=gfortran
 [echoproperties] env.GROOVY_HOME=/Applications/groovy-2.4.4
 [echoproperties] env.ANT_HOME=/home/ponder/ffe/build/buildtools/ant-1.9.6
-[echoproperties] TSTAMP=1207
+[echoproperties] TSTAMP=1447
 [echoproperties] env.XDG_MENU_PREFIX=gnome-
 [echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:path\=/run/user/1001/bus
 [echoproperties] env.HOST=ubuntu
@@ -149,10 +149,10 @@ init:
 [echoproperties] tinker.link.flags=-Ofast -fopenmp -static-libgcc -L. -L/home/ponder/ffe/build/fftw/lib -ltinker -lfftw3 -lfftw3_threads
 [echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] path.separator=\:
-[echoproperties] error.log=kits/error_25.3.21.log
+[echoproperties] error.log=kits/error_25.4.21.log
 [echoproperties] platform=linux
-[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.102
-[echoproperties] os.version=6.8.0-62-generic
+[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.121
+[echoproperties] os.version=6.8.0-79-generic
 [echoproperties] tinker.include.flags=-I/home/ponder/ffe/build/tinker/source -I/home/ponder/ffe/build/ffe/native -I/home/ponder/ffe/build/ffe/native/linux
 [echoproperties] java.runtime.name=OpenJDK Runtime Environment
 [echoproperties] tinker.bin.dir=/home/ponder/ffe/build/tinker/bin
@@ -164,7 +164,7 @@ init:
 [echoproperties] env.GTK_MODULES=gail\:atk-bridge
 [echoproperties] java.vendor.url.bug=https\://github.com/corretto/corretto-11/issues/
 [echoproperties] env.VTE_VERSION=7600
-[echoproperties] TODAY=July 31 2025
+[echoproperties] TODAY=September 2 2025
 [echoproperties] user.dir=/home/ponder/ffe/build
 [echoproperties] env.USERNAME=ponder
 [echoproperties] os.arch=amd64
@@ -174,8 +174,8 @@ init:
 [echoproperties] env.XDG_CURRENT_DESKTOP=ubuntu\:GNOME
 [echoproperties] env.ANT_OPTS=-Xms2048M -Xmx4096M
 [echoproperties] java.vm.info=mixed mode
-[echoproperties] java.vm.version=11.0.27+6-LTS
-[echoproperties] env.SYSTEMD_EXEC_PID=2957
+[echoproperties] java.vm.version=11.0.28+6-LTS
+[echoproperties] env.SYSTEMD_EXEC_PID=2682
 [echoproperties] build.number=21
 [echoproperties] env.GNOME_SHELL_SESSION_MODE=ubuntu
 [echoproperties] env.USER=ponder
@@ -307,7 +307,6 @@ maketinker:
      [exec] gfortran -c -Ofast -fopenmp pbstuf.f -o pbstuf.o 
      [exec] gfortran -c -Ofast -fopenmp born.f -o born.o 
      [exec] gfortran -c -Ofast -fopenmp bounds.f -o bounds.o 
-     [exec] gfortran -c -Ofast -fopenmp bussi.f -o bussi.o 
      [exec] gfortran -c -Ofast -fopenmp calendar.f -o calendar.o 
      [exec] gfortran -c -Ofast -fopenmp center.f -o center.o 
      [exec] gfortran -c -Ofast -fopenmp chkpole.f -o chkpole.o 
@@ -806,7 +805,6 @@ maketinker:
      [exec] gfortran -c -Ofast -fopenmp xyzmol2.f -o xyzmol2.o 
      [exec] gfortran -c -Ofast -fopenmp xyzpdb.f -o xyzpdb.o 
      [exec] gfortran -c -Ofast -fopenmp zatom.f -o zatom.o 
-     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] ar -crusv libtinker.a \
      [exec] action.o \
      [exec] active.o \
@@ -841,7 +839,6 @@ maketinker:
      [exec] bound.o \
      [exec] bounds.o \
      [exec] boxes.o \
-     [exec] bussi.o \
      [exec] calendar.o \
      [exec] cell.o \
      [exec] center.o \
@@ -1247,6 +1244,7 @@ maketinker:
      [exec] prtvel.o \
      [exec] prtxyz.o \
      [exec] ptable.o \
+     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] qmstuf.o \
      [exec] qrsolve.o \
      [exec] quatfit.o \
@@ -1381,7 +1379,6 @@ maketinker:
      [exec] a - bound.o
      [exec] a - bounds.o
      [exec] a - boxes.o
-     [exec] a - bussi.o
      [exec] a - calendar.o
      [exec] a - cell.o
      [exec] a - center.o
@@ -2047,7 +2044,7 @@ resource:
      [copy] Copying 148 files to /home/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-25.3.jar
+      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-25.4.jar
 
 make:
 
@@ -2092,28 +2089,28 @@ kits:
 [install4j] Compressed media file 'Unix Installer':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_25.3.21.sh.
-[install4j]   The size of the media file is 264.4 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_25.4.21.sh.
+[install4j]   The size of the media file is 264.1 MB
 [install4j] 
 [install4j] Compressed media file 'Unix Archive':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_25.3.21.tar.gz.
-[install4j]   The size of the media file is 251.8 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_25.4.21.tar.gz.
+[install4j]   The size of the media file is 251.6 MB
 [install4j] 
 [install4j] Compressed media file 'Linux RPM':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_linux_25.3.21.rpm.
-[install4j]   The size of the media file is 252.5 MB
+[install4j]   The name of the media file is Tinker-FFE_linux_25.4.21.rpm.
+[install4j]   The size of the media file is 252.2 MB
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 72.9 seconds at 2025-07-31 12:13:25.
-     [gzip] Building: /home/ponder/ffe/build/kits/build_25.3.21.log.gz
-     [gzip] Building: /home/ponder/ffe/build/kits/error_25.3.21.log.gz
-   [delete] Deleting: /home/ponder/ffe/build/kits/build_25.3.21.log
-   [delete] Deleting: /home/ponder/ffe/build/kits/error_25.3.21.log
+[install4j] Build completed in 72.7 seconds at 2025-09-02 14:52:55.
+     [gzip] Building: /home/ponder/ffe/build/kits/build_25.4.21.log.gz
+     [gzip] Building: /home/ponder/ffe/build/kits/error_25.4.21.log.gz
+   [delete] Deleting: /home/ponder/ffe/build/kits/build_25.4.21.log
+   [delete] Deleting: /home/ponder/ffe/build/kits/error_25.4.21.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 5 minutes 37 seconds
+Total time: 5 minutes 34 seconds
