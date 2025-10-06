@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 25.4
+ * @version 25.5
  */
 
 package ffe.parsers;

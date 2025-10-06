@@ -4,7 +4,7 @@ info:
      [echo] General Build Information:
      [echo] Developer: ponder
      [echo] Build File: /home/ponder/ffe/build/linux.ant.xml
-     [echo] OS: Linux version 6.8.0-79-generic on amd64
+     [echo] OS: Linux version 6.8.0-85-generic on amd64
      [echo] JVM: Amazon.com Inc. OpenJDK 64-Bit Server VM version 11.0.28
      [echo] Compiler Information:
      [echo] Fortran Compiler: gfortran
@@ -31,7 +31,7 @@ init:
     [mkdir] Created dir: /home/ponder/ffe/build/tinker/bin
      [echo] Create APBS Directories
 [echoproperties] #Ant properties
-[echoproperties] #Tue Sep 02 23:19:27 EDT 2025
+[echoproperties] #Fri Oct 03 11:21:02 EDT 2025
 [echoproperties] awt.toolkit=sun.awt.X11.XToolkit
 [echoproperties] ant.library.dir=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] env.TERM=xterm-256color
@@ -44,7 +44,7 @@ init:
 [echoproperties] java.vendor.url=https\://aws.amazon.com/corretto/
 [echoproperties] env.GNOME_SETUP_DISPLAY=\:1
 [echoproperties] env.CLUTTER_DISABLE_MIPMAPPED_TEXT=1
-[echoproperties] DSTAMP=20250902
+[echoproperties] DSTAMP=20251003
 [echoproperties] sun.boot.library.path=/usr/lib/jvm/java-11-amazon-corretto/lib
 [echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp  -f linux.ant.xml
 [echoproperties] env.MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA\=
@@ -57,7 +57,7 @@ init:
 [echoproperties] env.GDMSESSION=ubuntu
 [echoproperties] env.OSTYPE=linux
 [echoproperties] java.home=/usr/lib/jvm/java-11-amazon-corretto
-[echoproperties] version=25.4
+[echoproperties] version=25.5
 [echoproperties] basedir=/home/ponder/ffe/build
 [echoproperties] file.separator=/
 [echoproperties] java.vm.compressedOopsMode=Zero based
@@ -91,7 +91,7 @@ init:
 [echoproperties] ant.home=/home/ponder/ffe/build/buildtools/ant-1.9.6
 [echoproperties] sun.os.patch.level=unknown
 [echoproperties] ant.file.type.Force\ Field\ Explorer\ for\ Linux=file
-[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/51a9d367_ee35_439f_a78c_70aa23a97e98
+[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/a3129f4b_36f1_42a8_a06e_074e438a87bb
 [echoproperties] env.GROUP=ponder
 [echoproperties] ant.version=Apache Ant(TM) version 1.9.6 compiled on June 29 2015
 [echoproperties] java.library.path=\:/usr/java/packages/lib\:/usr/lib64\:/lib64\:/lib\:/usr/lib
@@ -100,12 +100,12 @@ init:
 [echoproperties] java.specification.maintenance.version=3
 [echoproperties] sun.io.unicode.encoding=UnicodeLittle
 [echoproperties] env.XDG_SESSION_CLASS=user
-[echoproperties] env.XAUTHORITY=/run/user/1001/.mutter-Xwaylandauth.NB82B3
+[echoproperties] env.XAUTHORITY=/run/user/1001/.mutter-Xwaylandauth.ELUCD3
 [echoproperties] sun.desktop=gnome
 [echoproperties] ant.file.type=file
 [echoproperties] env.PWD=/home/ponder/ffe/build
 [echoproperties] env.LANG=en_US.UTF-8
-[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/2810,unix/ubuntu\:/tmp/.ICE-unix/2810
+[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/3046,unix/ubuntu\:/tmp/.ICE-unix/3046
 [echoproperties] env.HOSTTYPE=x86_64-linux
 [echoproperties] java.class.path=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-xalan2.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jmf.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-javamail.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-logging.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bcel.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-testutil.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-regexp.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-oro.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-swing.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-antlr.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bsf.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jai.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit4.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jdepend.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-net.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-log4j.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jsch.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-netrexx.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-resolver.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar
 [echoproperties] env.HOME=/home/ponder
@@ -128,7 +128,7 @@ init:
 [echoproperties] user.home=/home/ponder
 [echoproperties] env.DYLD_LIBRARY_PATH=
 [echoproperties] user.language=en
-[echoproperties] build.log=kits/build_25.4.21.log
+[echoproperties] build.log=kits/build_25.5.21.log
 [echoproperties] env.WAYLAND_DISPLAY=wayland-0
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] ffe.dir=/home/ponder/ffe/build/ffe
@@ -141,7 +141,7 @@ init:
 [echoproperties] fc=gfortran
 [echoproperties] env.GROOVY_HOME=/Applications/groovy-2.4.4
 [echoproperties] env.ANT_HOME=/home/ponder/ffe/build/buildtools/ant-1.9.6
-[echoproperties] TSTAMP=2319
+[echoproperties] TSTAMP=1121
 [echoproperties] env.XDG_MENU_PREFIX=gnome-
 [echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:path\=/run/user/1001/bus
 [echoproperties] env.HOST=ubuntu
@@ -149,10 +149,10 @@ init:
 [echoproperties] tinker.link.flags=-Ofast -fopenmp -static-libgcc -L. -L/home/ponder/ffe/build/fftw/lib -ltinker -lfftw3 -lfftw3_threads
 [echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] path.separator=\:
-[echoproperties] error.log=kits/error_25.4.21.log
+[echoproperties] error.log=kits/error_25.5.21.log
 [echoproperties] platform=linux
 [echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.100
-[echoproperties] os.version=6.8.0-79-generic
+[echoproperties] os.version=6.8.0-85-generic
 [echoproperties] tinker.include.flags=-I/home/ponder/ffe/build/tinker/source -I/home/ponder/ffe/build/ffe/native -I/home/ponder/ffe/build/ffe/native/linux
 [echoproperties] java.runtime.name=OpenJDK Runtime Environment
 [echoproperties] tinker.bin.dir=/home/ponder/ffe/build/tinker/bin
@@ -164,7 +164,7 @@ init:
 [echoproperties] env.GTK_MODULES=gail\:atk-bridge
 [echoproperties] java.vendor.url.bug=https\://github.com/corretto/corretto-11/issues/
 [echoproperties] env.VTE_VERSION=7600
-[echoproperties] TODAY=September 2 2025
+[echoproperties] TODAY=October 3 2025
 [echoproperties] user.dir=/home/ponder/ffe/build
 [echoproperties] env.USERNAME=ponder
 [echoproperties] os.arch=amd64
@@ -175,7 +175,7 @@ init:
 [echoproperties] env.ANT_OPTS=-Xms2048M -Xmx4096M
 [echoproperties] java.vm.info=mixed mode
 [echoproperties] java.vm.version=11.0.28+6-LTS
-[echoproperties] env.SYSTEMD_EXEC_PID=2845
+[echoproperties] env.SYSTEMD_EXEC_PID=3082
 [echoproperties] build.number=21
 [echoproperties] env.GNOME_SHELL_SESSION_MODE=ubuntu
 [echoproperties] env.USER=ponder
@@ -201,610 +201,610 @@ makefftw:
 maketinker:
      [echo] Compiling Tinker
      [copy] Copying 1 file to /home/ponder/ffe/build/tinker/source
-     [exec] gfortran -c -Ofast -fopenmp analyz.f -o analyz.o 
-     [exec] gfortran -c -Ofast -fopenmp sizes.f -o sizes.o 
-     [exec] gfortran -c -Ofast -fopenmp atoms.f -o atoms.o 
-     [exec] gfortran -c -Ofast -fopenmp energi.f -o energi.o 
-     [exec] gfortran -c -Ofast -fopenmp files.f -o files.o 
-     [exec] gfortran -c -Ofast -fopenmp inform.f -o inform.o 
-     [exec] gfortran -c -Ofast -fopenmp iounit.f -o iounit.o 
-     [exec] gfortran -c -Ofast -fopenmp katoms.f -o katoms.o 
-     [exec] gfortran -c -Ofast -fopenmp mutant.f -o mutant.o 
-     [exec] gfortran -c -Ofast -fopenmp potent.f -o potent.o 
-     [exec] gfortran -c -Ofast -fopenmp units.f -o units.o 
-     [exec] gfortran -c -Ofast -fopenmp usage.f -o usage.o 
-     [exec] gfortran -c -Ofast -fopenmp alchemy.f -o alchemy.o 
-     [exec] gfortran -c -Ofast -fopenmp action.f -o action.o 
-     [exec] gfortran -c -Ofast -fopenmp keys.f -o keys.o 
-     [exec] gfortran -c -Ofast -fopenmp active.f -o active.o 
-     [exec] gfortran -c -Ofast -fopenmp alfmol.f -o alfmol.o 
-     [exec] gfortran -c -Ofast -fopenmp align.f -o align.o 
-     [exec] gfortran -c -Ofast -fopenmp angbnd.f -o angbnd.o 
-     [exec] gfortran -c -Ofast -fopenmp atmlst.f -o atmlst.o 
-     [exec] gfortran -c -Ofast -fopenmp bndstr.f -o bndstr.o 
-     [exec] gfortran -c -Ofast -fopenmp bound.f -o bound.o 
-     [exec] gfortran -c -Ofast -fopenmp cflux.f -o cflux.o 
-     [exec] gfortran -c -Ofast -fopenmp charge.f -o charge.o 
-     [exec] gfortran -c -Ofast -fopenmp chgpen.f -o chgpen.o 
-     [exec] gfortran -c -Ofast -fopenmp math.f -o math.o 
-     [exec] gfortran -c -Ofast -fopenmp mplpot.f -o mplpot.o 
-     [exec] gfortran -c -Ofast -fopenmp mpole.f -o mpole.o 
-     [exec] gfortran -c -Ofast -fopenmp alterchg.f -o alterchg.o 
-     [exec] gfortran -c -Ofast -fopenmp cell.f -o cell.o 
-     [exec] gfortran -c -Ofast -fopenmp couple.f -o couple.o 
-     [exec] gfortran -c -Ofast -fopenmp expol.f -o expol.o 
-     [exec] gfortran -c -Ofast -fopenmp limits.f -o limits.o 
-     [exec] gfortran -c -Ofast -fopenmp neigh.f -o neigh.o 
-     [exec] gfortran -c -Ofast -fopenmp polgrp.f -o polgrp.o 
-     [exec] gfortran -c -Ofast -fopenmp polpot.f -o polpot.o 
-     [exec] gfortran -c -Ofast -fopenmp shunt.f -o shunt.o 
-     [exec] gfortran -c -Ofast -fopenmp alterpol.f -o alterpol.o 
-     [exec] gfortran -c -Ofast -fopenmp group.f -o group.o 
-     [exec] gfortran -c -Ofast -fopenmp inter.f -o inter.o 
-     [exec] gfortran -c -Ofast -fopenmp vdwpot.f -o vdwpot.o 
-     [exec] gfortran -c -Ofast -fopenmp analysis.f -o analysis.o 
-     [exec] gfortran -c -Ofast -fopenmp angang.f -o angang.o 
-     [exec] gfortran -c -Ofast -fopenmp angpot.f -o angpot.o 
-     [exec] gfortran -c -Ofast -fopenmp angtor.f -o angtor.o 
-     [exec] gfortran -c -Ofast -fopenmp atomid.f -o atomid.o 
-     [exec] gfortran -c -Ofast -fopenmp bath.f -o bath.o 
-     [exec] gfortran -c -Ofast -fopenmp bitor.f -o bitor.o 
-     [exec] gfortran -c -Ofast -fopenmp boxes.f -o boxes.o 
-     [exec] gfortran -c -Ofast -fopenmp chgpot.f -o chgpot.o 
-     [exec] gfortran -c -Ofast -fopenmp chgtrn.f -o chgtrn.o 
-     [exec] gfortran -c -Ofast -fopenmp deriv.f -o deriv.o 
-     [exec] gfortran -c -Ofast -fopenmp dipole.f -o dipole.o 
-     [exec] gfortran -c -Ofast -fopenmp disp.f -o disp.o 
-     [exec] gfortran -c -Ofast -fopenmp ewald.f -o ewald.o 
-     [exec] gfortran -c -Ofast -fopenmp fields.f -o fields.o 
-     [exec] gfortran -c -Ofast -fopenmp improp.f -o improp.o 
-     [exec] gfortran -c -Ofast -fopenmp imptor.f -o imptor.o 
-     [exec] gfortran -c -Ofast -fopenmp korbs.f -o korbs.o 
-     [exec] gfortran -c -Ofast -fopenmp ktrtor.f -o ktrtor.o 
-     [exec] gfortran -c -Ofast -fopenmp kvdws.f -o kvdws.o 
-     [exec] gfortran -c -Ofast -fopenmp molcul.f -o molcul.o 
-     [exec] gfortran -c -Ofast -fopenmp moment.f -o moment.o 
-     [exec] gfortran -c -Ofast -fopenmp opbend.f -o opbend.o 
-     [exec] gfortran -c -Ofast -fopenmp opdist.f -o opdist.o 
-     [exec] gfortran -c -Ofast -fopenmp output.f -o output.o 
-     [exec] gfortran -c -Ofast -fopenmp piorbs.f -o piorbs.o 
-     [exec] gfortran -c -Ofast -fopenmp pistuf.f -o pistuf.o 
-     [exec] gfortran -c -Ofast -fopenmp pitors.f -o pitors.o 
-     [exec] gfortran -c -Ofast -fopenmp pme.f -o pme.o 
-     [exec] gfortran -c -Ofast -fopenmp polar.f -o polar.o 
-     [exec] gfortran -c -Ofast -fopenmp repel.f -o repel.o 
-     [exec] gfortran -c -Ofast -fopenmp solpot.f -o solpot.o 
-     [exec] gfortran -c -Ofast -fopenmp solute.f -o solute.o 
-     [exec] gfortran -c -Ofast -fopenmp strbnd.f -o strbnd.o 
-     [exec] gfortran -c -Ofast -fopenmp strtor.f -o strtor.o 
-     [exec] gfortran -c -Ofast -fopenmp titles.f -o titles.o 
-     [exec] gfortran -c -Ofast -fopenmp tors.f -o tors.o 
-     [exec] gfortran -c -Ofast -fopenmp tortor.f -o tortor.o 
-     [exec] gfortran -c -Ofast -fopenmp urey.f -o urey.o 
-     [exec] gfortran -c -Ofast -fopenmp vdw.f -o vdw.o 
-     [exec] gfortran -c -Ofast -fopenmp virial.f -o virial.o 
-     [exec] gfortran -c -Ofast -fopenmp analyze.f -o analyze.o 
-     [exec] gfortran -c -Ofast -fopenmp angles.f -o angles.o 
-     [exec] gfortran -c -Ofast -fopenmp mdstuf.f -o mdstuf.o 
-     [exec] gfortran -c -Ofast -fopenmp warp.f -o warp.o 
-     [exec] gfortran -c -Ofast -fopenmp anneal.f -o anneal.o 
-     [exec] gfortran -c -Ofast -fopenmp arcedit.f -o arcedit.o 
-     [exec] gfortran -c -Ofast -fopenmp argue.f -o argue.o 
-     [exec] gfortran -c -Ofast -fopenmp ascii.f -o ascii.o 
-     [exec] gfortran -c -Ofast -fopenmp attach.f -o attach.o 
-     [exec] gfortran -c -Ofast -fopenmp freeze.f -o freeze.o 
-     [exec] gfortran -c -Ofast -fopenmp moldyn.f -o moldyn.o 
-     [exec] gfortran -c -Ofast -fopenmp stodyn.f -o stodyn.o 
-     [exec] gfortran -c -Ofast -fopenmp baoab.f -o baoab.o 
-     [exec] gfortran -c -Ofast -fopenmp bar.f -o bar.o 
-     [exec] gfortran -c -Ofast -fopenmp basefile.f -o basefile.o 
-     [exec] gfortran -c -Ofast -fopenmp ielscf.f -o ielscf.o 
-     [exec] gfortran -c -Ofast -fopenmp beeman.f -o beeman.o 
-     [exec] gfortran -c -Ofast -fopenmp bicubic.f -o bicubic.o 
-     [exec] gfortran -c -Ofast -fopenmp bitors.f -o bitors.o 
-     [exec] gfortran -c -Ofast -fopenmp bndpot.f -o bndpot.o 
-     [exec] gfortran -c -Ofast -fopenmp bonds.f -o bonds.o 
-     [exec] gfortran -c -Ofast -fopenmp pbstuf.f -o pbstuf.o 
-     [exec] gfortran -c -Ofast -fopenmp born.f -o born.o 
-     [exec] gfortran -c -Ofast -fopenmp bounds.f -o bounds.o 
-     [exec] gfortran -c -Ofast -fopenmp calendar.f -o calendar.o 
-     [exec] gfortran -c -Ofast -fopenmp center.f -o center.o 
-     [exec] gfortran -c -Ofast -fopenmp chkpole.f -o chkpole.o 
-     [exec] gfortran -c -Ofast -fopenmp chkring.f -o chkring.o 
-     [exec] gfortran -c -Ofast -fopenmp chksymm.f -o chksymm.o 
-     [exec] gfortran -c -Ofast -fopenmp chkxyz.f -o chkxyz.o 
-     [exec] gfortran -c -Ofast -fopenmp cholesky.f -o cholesky.o 
-     [exec] gfortran -c -Ofast -fopenmp chrono.f -o chrono.o 
-     [exec] gfortran -c -Ofast -fopenmp chunks.f -o chunks.o 
-     [exec] gfortran -c -Ofast -fopenmp clock.f -o clock.o 
-     [exec] gfortran -c -Ofast -fopenmp cluster.f -o cluster.o 
-     [exec] gfortran -c -Ofast -fopenmp column.f -o column.o 
-     [exec] gfortran -c -Ofast -fopenmp command.f -o command.o 
-     [exec] gfortran -c -Ofast -fopenmp zclose.f -o zclose.o 
-     [exec] gfortran -c -Ofast -fopenmp zcoord.f -o zcoord.o 
-     [exec] gfortran -c -Ofast -fopenmp connect.f -o connect.o 
-     [exec] gfortran -c -Ofast -fopenmp faces.f -o faces.o 
-     [exec] gfortran -c -Ofast -fopenmp connolly.f -o connolly.o 
-     [exec] gfortran -c -Ofast -fopenmp control.f -o control.o 
-     [exec] gfortran -c -Ofast -fopenmp correlate.f -o correlate.o 
-     [exec] gfortran -c -Ofast -fopenmp minima.f -o minima.o 
-     [exec] gfortran -c -Ofast -fopenmp critical.f -o critical.o 
-     [exec] gfortran -c -Ofast -fopenmp crystal.f -o crystal.o 
-     [exec] gfortran -c -Ofast -fopenmp cspline.f -o cspline.o 
-     [exec] gfortran -c -Ofast -fopenmp ctrpot.f -o ctrpot.o 
-     [exec] gfortran -c -Ofast -fopenmp hescut.f -o hescut.o 
-     [exec] gfortran -c -Ofast -fopenmp tarray.f -o tarray.o 
-     [exec] gfortran -c -Ofast -fopenmp cutoffs.f -o cutoffs.o 
-     [exec] gfortran -c -Ofast -fopenmp damping.f -o damping.o 
-     [exec] gfortran -c -Ofast -fopenmp dcflux.f -o dcflux.o 
-     [exec] gfortran -c -Ofast -fopenmp deflate.f -o deflate.o 
-     [exec] gfortran -c -Ofast -fopenmp delete.f -o delete.o 
-     [exec] gfortran -c -Ofast -fopenmp dexpol.f -o dexpol.o 
-     [exec] gfortran -c -Ofast -fopenmp diagq.f -o diagq.o 
-     [exec] gfortran -c -Ofast -fopenmp diffeq.f -o diffeq.o 
-     [exec] gfortran -c -Ofast -fopenmp diffuse.f -o diffuse.o 
-     [exec] gfortran -c -Ofast -fopenmp disgeo.f -o disgeo.o 
-     [exec] gfortran -c -Ofast -fopenmp refer.f -o refer.o 
-     [exec] gfortran -c -Ofast -fopenmp restrn.f -o restrn.o 
-     [exec] gfortran -c -Ofast -fopenmp distgeom.f -o distgeom.o 
-     [exec] gfortran -c -Ofast -fopenmp dma.f -o dma.o 
-     [exec] gfortran -c -Ofast -fopenmp document.f -o document.o 
-     [exec] gfortran -c -Ofast -fopenmp domega.f -o domega.o 
-     [exec] gfortran -c -Ofast -fopenmp dsppot.f -o dsppot.o 
-     [exec] gfortran -c -Ofast -fopenmp dynamic.f -o dynamic.o 
-     [exec] gfortran -c -Ofast -fopenmp eangang.f -o eangang.o 
-     [exec] gfortran -c -Ofast -fopenmp eangang1.f -o eangang1.o 
-     [exec] gfortran -c -Ofast -fopenmp hessn.f -o hessn.o 
-     [exec] gfortran -c -Ofast -fopenmp eangang2.f -o eangang2.o 
-     [exec] gfortran -c -Ofast -fopenmp eangang3.f -o eangang3.o 
-     [exec] gfortran -c -Ofast -fopenmp eangle.f -o eangle.o 
-     [exec] gfortran -c -Ofast -fopenmp eangle1.f -o eangle1.o 
-     [exec] gfortran -c -Ofast -fopenmp eangle2.f -o eangle2.o 
-     [exec] gfortran -c -Ofast -fopenmp eangle3.f -o eangle3.o 
-     [exec] gfortran -c -Ofast -fopenmp torpot.f -o torpot.o 
-     [exec] gfortran -c -Ofast -fopenmp eangtor.f -o eangtor.o 
-     [exec] gfortran -c -Ofast -fopenmp eangtor1.f -o eangtor1.o 
-     [exec] gfortran -c -Ofast -fopenmp eangtor2.f -o eangtor2.o 
-     [exec] gfortran -c -Ofast -fopenmp eangtor3.f -o eangtor3.o 
-     [exec] gfortran -c -Ofast -fopenmp ebond.f -o ebond.o 
-     [exec] gfortran -c -Ofast -fopenmp ebond1.f -o ebond1.o 
-     [exec] gfortran -c -Ofast -fopenmp ebond2.f -o ebond2.o 
-     [exec] gfortran -c -Ofast -fopenmp ebond3.f -o ebond3.o 
-     [exec] gfortran -c -Ofast -fopenmp light.f -o light.o 
-     [exec] gfortran -c -Ofast -fopenmp ebuck.f -o ebuck.o 
-     [exec] gfortran -c -Ofast -fopenmp ebuck1.f -o ebuck1.o 
-     [exec] gfortran -c -Ofast -fopenmp ebuck2.f -o ebuck2.o 
-     [exec] gfortran -c -Ofast -fopenmp ebuck3.f -o ebuck3.o 
-     [exec] gfortran -c -Ofast -fopenmp extfld.f -o extfld.o 
-     [exec] gfortran -c -Ofast -fopenmp echarge.f -o echarge.o 
-     [exec] gfortran -c -Ofast -fopenmp echarge1.f -o echarge1.o 
-     [exec] gfortran -c -Ofast -fopenmp echarge2.f -o echarge2.o 
-     [exec] gfortran -c -Ofast -fopenmp echarge3.f -o echarge3.o 
-     [exec] gfortran -c -Ofast -fopenmp echgdpl.f -o echgdpl.o 
-     [exec] gfortran -c -Ofast -fopenmp echgdpl1.f -o echgdpl1.o 
-     [exec] gfortran -c -Ofast -fopenmp echgdpl2.f -o echgdpl2.o 
-     [exec] gfortran -c -Ofast -fopenmp echgdpl3.f -o echgdpl3.o 
-     [exec] gfortran -c -Ofast -fopenmp echgtrn.f -o echgtrn.o 
-     [exec] gfortran -c -Ofast -fopenmp echgtrn1.f -o echgtrn1.o 
-     [exec] gfortran -c -Ofast -fopenmp echgtrn2.f -o echgtrn2.o 
-     [exec] gfortran -c -Ofast -fopenmp echgtrn3.f -o echgtrn3.o 
-     [exec] gfortran -c -Ofast -fopenmp edipole.f -o edipole.o 
-     [exec] gfortran -c -Ofast -fopenmp edipole1.f -o edipole1.o 
-     [exec] gfortran -c -Ofast -fopenmp edipole2.f -o edipole2.o 
-     [exec] gfortran -c -Ofast -fopenmp edipole3.f -o edipole3.o 
-     [exec] gfortran -c -Ofast -fopenmp edisp.f -o edisp.o 
-     [exec] gfortran -c -Ofast -fopenmp edisp1.f -o edisp1.o 
-     [exec] gfortran -c -Ofast -fopenmp edisp2.f -o edisp2.o 
-     [exec] gfortran -c -Ofast -fopenmp edisp3.f -o edisp3.o 
-     [exec] gfortran -c -Ofast -fopenmp egauss.f -o egauss.o 
-     [exec] gfortran -c -Ofast -fopenmp egauss1.f -o egauss1.o 
-     [exec] gfortran -c -Ofast -fopenmp egauss2.f -o egauss2.o 
-     [exec] gfortran -c -Ofast -fopenmp egauss3.f -o egauss3.o 
-     [exec] gfortran -c -Ofast -fopenmp egeom.f -o egeom.o 
-     [exec] gfortran -c -Ofast -fopenmp egeom1.f -o egeom1.o 
-     [exec] gfortran -c -Ofast -fopenmp egeom2.f -o egeom2.o 
-     [exec] gfortran -c -Ofast -fopenmp egeom3.f -o egeom3.o 
-     [exec] gfortran -c -Ofast -fopenmp ehal.f -o ehal.o 
-     [exec] gfortran -c -Ofast -fopenmp ehal1.f -o ehal1.o 
-     [exec] gfortran -c -Ofast -fopenmp ehal2.f -o ehal2.o 
-     [exec] gfortran -c -Ofast -fopenmp ehal3.f -o ehal3.o 
-     [exec] gfortran -c -Ofast -fopenmp eimprop.f -o eimprop.o 
-     [exec] gfortran -c -Ofast -fopenmp eimprop1.f -o eimprop1.o 
-     [exec] gfortran -c -Ofast -fopenmp eimprop2.f -o eimprop2.o 
-     [exec] gfortran -c -Ofast -fopenmp eimprop3.f -o eimprop3.o 
-     [exec] gfortran -c -Ofast -fopenmp eimptor.f -o eimptor.o 
-     [exec] gfortran -c -Ofast -fopenmp eimptor1.f -o eimptor1.o 
-     [exec] gfortran -c -Ofast -fopenmp eimptor2.f -o eimptor2.o 
-     [exec] gfortran -c -Ofast -fopenmp eimptor3.f -o eimptor3.o 
-     [exec] gfortran -c -Ofast -fopenmp elj.f -o elj.o 
-     [exec] gfortran -c -Ofast -fopenmp elj1.f -o elj1.o 
-     [exec] gfortran -c -Ofast -fopenmp elj2.f -o elj2.o 
-     [exec] gfortran -c -Ofast -fopenmp elj3.f -o elj3.o 
-     [exec] gfortran -c -Ofast -fopenmp embed.f -o embed.o 
-     [exec] gfortran -c -Ofast -fopenmp kchrge.f -o kchrge.o 
-     [exec] gfortran -c -Ofast -fopenmp emetal.f -o emetal.o 
-     [exec] gfortran -c -Ofast -fopenmp emetal1.f -o emetal1.o 
-     [exec] gfortran -c -Ofast -fopenmp emetal2.f -o emetal2.o 
-     [exec] gfortran -c -Ofast -fopenmp emetal3.f -o emetal3.o 
-     [exec] gfortran -c -Ofast -fopenmp emm3hb.f -o emm3hb.o 
-     [exec] gfortran -c -Ofast -fopenmp emm3hb1.f -o emm3hb1.o 
-     [exec] gfortran -c -Ofast -fopenmp emm3hb2.f -o emm3hb2.o 
-     [exec] gfortran -c -Ofast -fopenmp emm3hb3.f -o emm3hb3.o 
-     [exec] gfortran -c -Ofast -fopenmp mrecip.f -o mrecip.o 
-     [exec] gfortran -c -Ofast -fopenmp empole.f -o empole.o 
-     [exec] gfortran -c -Ofast -fopenmp empole1.f -o empole1.o 
-     [exec] gfortran -c -Ofast -fopenmp empole2.f -o empole2.o 
-     [exec] gfortran -c -Ofast -fopenmp empole3.f -o empole3.o 
-     [exec] gfortran -c -Ofast -fopenmp energy.f -o energy.o 
-     [exec] gfortran -c -Ofast -fopenmp eopbend.f -o eopbend.o 
-     [exec] gfortran -c -Ofast -fopenmp eopbend1.f -o eopbend1.o 
-     [exec] gfortran -c -Ofast -fopenmp eopbend2.f -o eopbend2.o 
-     [exec] gfortran -c -Ofast -fopenmp eopbend3.f -o eopbend3.o 
-     [exec] gfortran -c -Ofast -fopenmp eopdist.f -o eopdist.o 
-     [exec] gfortran -c -Ofast -fopenmp eopdist1.f -o eopdist1.o 
-     [exec] gfortran -c -Ofast -fopenmp eopdist2.f -o eopdist2.o 
-     [exec] gfortran -c -Ofast -fopenmp eopdist3.f -o eopdist3.o 
-     [exec] gfortran -c -Ofast -fopenmp epitors.f -o epitors.o 
-     [exec] gfortran -c -Ofast -fopenmp epitors1.f -o epitors1.o 
-     [exec] gfortran -c -Ofast -fopenmp epitors2.f -o epitors2.o 
-     [exec] gfortran -c -Ofast -fopenmp epitors3.f -o epitors3.o 
-     [exec] gfortran -c -Ofast -fopenmp epolar.f -o epolar.o 
-     [exec] gfortran -c -Ofast -fopenmp polopt.f -o polopt.o 
-     [exec] gfortran -c -Ofast -fopenmp poltcg.f -o poltcg.o 
-     [exec] gfortran -c -Ofast -fopenmp epolar1.f -o epolar1.o 
-     [exec] gfortran -c -Ofast -fopenmp epolar2.f -o epolar2.o 
-     [exec] gfortran -c -Ofast -fopenmp epolar3.f -o epolar3.o 
-     [exec] gfortran -c -Ofast -fopenmp reppot.f -o reppot.o 
-     [exec] gfortran -c -Ofast -fopenmp erepel.f -o erepel.o 
-     [exec] gfortran -c -Ofast -fopenmp erepel1.f -o erepel1.o 
-     [exec] gfortran -c -Ofast -fopenmp erepel2.f -o erepel2.o 
-     [exec] gfortran -c -Ofast -fopenmp erepel3.f -o erepel3.o 
-     [exec] gfortran -c -Ofast -fopenmp erf.f -o erf.o 
-     [exec] gfortran -c -Ofast -fopenmp rxnfld.f -o rxnfld.o 
-     [exec] gfortran -c -Ofast -fopenmp rxnpot.f -o rxnpot.o 
-     [exec] gfortran -c -Ofast -fopenmp erxnfld.f -o erxnfld.o 
-     [exec] gfortran -c -Ofast -fopenmp erxnfld1.f -o erxnfld1.o 
-     [exec] gfortran -c -Ofast -fopenmp erxnfld2.f -o erxnfld2.o 
-     [exec] gfortran -c -Ofast -fopenmp erxnfld3.f -o erxnfld3.o 
-     [exec] gfortran -c -Ofast -fopenmp gkstuf.f -o gkstuf.o 
-     [exec] gfortran -c -Ofast -fopenmp hpmf.f -o hpmf.o 
-     [exec] gfortran -c -Ofast -fopenmp nonpol.f -o nonpol.o 
-     [exec] gfortran -c -Ofast -fopenmp esolv.f -o esolv.o 
-     [exec] gfortran -c -Ofast -fopenmp esolv1.f -o esolv1.o 
-     [exec] gfortran -c -Ofast -fopenmp esolv2.f -o esolv2.o 
-     [exec] gfortran -c -Ofast -fopenmp esolv3.f -o esolv3.o 
-     [exec] gfortran -c -Ofast -fopenmp estrbnd.f -o estrbnd.o 
-     [exec] gfortran -c -Ofast -fopenmp estrbnd1.f -o estrbnd1.o 
-     [exec] gfortran -c -Ofast -fopenmp estrbnd2.f -o estrbnd2.o 
-     [exec] gfortran -c -Ofast -fopenmp estrbnd3.f -o estrbnd3.o 
-     [exec] gfortran -c -Ofast -fopenmp estrtor.f -o estrtor.o 
-     [exec] gfortran -c -Ofast -fopenmp estrtor1.f -o estrtor1.o 
-     [exec] gfortran -c -Ofast -fopenmp estrtor2.f -o estrtor2.o 
-     [exec] gfortran -c -Ofast -fopenmp estrtor3.f -o estrtor3.o 
-     [exec] gfortran -c -Ofast -fopenmp etors.f -o etors.o 
-     [exec] gfortran -c -Ofast -fopenmp etors1.f -o etors1.o 
-     [exec] gfortran -c -Ofast -fopenmp etors2.f -o etors2.o 
-     [exec] gfortran -c -Ofast -fopenmp etors3.f -o etors3.o 
-     [exec] gfortran -c -Ofast -fopenmp etortor.f -o etortor.o 
-     [exec] gfortran -c -Ofast -fopenmp etortor1.f -o etortor1.o 
-     [exec] gfortran -c -Ofast -fopenmp etortor2.f -o etortor2.o 
-     [exec] gfortran -c -Ofast -fopenmp etortor3.f -o etortor3.o 
-     [exec] gfortran -c -Ofast -fopenmp urypot.f -o urypot.o 
-     [exec] gfortran -c -Ofast -fopenmp eurey.f -o eurey.o 
-     [exec] gfortran -c -Ofast -fopenmp eurey1.f -o eurey1.o 
-     [exec] gfortran -c -Ofast -fopenmp eurey2.f -o eurey2.o 
-     [exec] gfortran -c -Ofast -fopenmp eurey3.f -o eurey3.o 
-     [exec] gfortran -c -Ofast -fopenmp kdsp.f -o kdsp.o 
-     [exec] gfortran -c -Ofast -fopenmp evcorr.f -o evcorr.o 
-     [exec] gfortran -c -Ofast -fopenmp exfield.f -o exfield.o 
-     [exec] gfortran -c -Ofast -fopenmp extra.f -o extra.o 
-     [exec] gfortran -c -Ofast -fopenmp extra1.f -o extra1.o 
-     [exec] gfortran -c -Ofast -fopenmp extra2.f -o extra2.o 
-     [exec] gfortran -c -Ofast -fopenmp extra3.f -o extra3.o 
-     [exec] gfortran -c -Ofast -fopenmp fatal.f -o fatal.o 
-     [exec] gfortran -c -Ofast -fopenmp fft.f -o fft.o 
-     [exec] gfortran -c -Ofast -fopenmp openmp.f -o openmp.o 
-     [exec] gfortran -c -Ofast -fopenmp fft3d.f -o fft3d.o 
-     [exec] gfortran -c -Ofast -fopenmp fftpack.f -o fftpack.o 
-     [exec] gfortran -c -Ofast -fopenmp field.f -o field.o 
-     [exec] gfortran -c -Ofast -fopenmp fracs.f -o fracs.o 
-     [exec] gfortran -c -Ofast -fopenmp kanang.f -o kanang.o 
-     [exec] gfortran -c -Ofast -fopenmp kangs.f -o kangs.o 
-     [exec] gfortran -c -Ofast -fopenmp kantor.f -o kantor.o 
-     [exec] gfortran -c -Ofast -fopenmp kbonds.f -o kbonds.o 
-     [exec] gfortran -c -Ofast -fopenmp kcflux.f -o kcflux.o 
-     [exec] gfortran -c -Ofast -fopenmp kcpen.f -o kcpen.o 
-     [exec] gfortran -c -Ofast -fopenmp kctrn.f -o kctrn.o 
-     [exec] gfortran -c -Ofast -fopenmp kdipol.f -o kdipol.o 
-     [exec] gfortran -c -Ofast -fopenmp kexpl.f -o kexpl.o 
-     [exec] gfortran -c -Ofast -fopenmp khbond.f -o khbond.o 
-     [exec] gfortran -c -Ofast -fopenmp kiprop.f -o kiprop.o 
-     [exec] gfortran -c -Ofast -fopenmp kitors.f -o kitors.o 
-     [exec] gfortran -c -Ofast -fopenmp kmulti.f -o kmulti.o 
-     [exec] gfortran -c -Ofast -fopenmp kopbnd.f -o kopbnd.o 
-     [exec] gfortran -c -Ofast -fopenmp kopdst.f -o kopdst.o 
-     [exec] gfortran -c -Ofast -fopenmp kpitor.f -o kpitor.o 
-     [exec] gfortran -c -Ofast -fopenmp kpolpr.f -o kpolpr.o 
-     [exec] gfortran -c -Ofast -fopenmp kpolr.f -o kpolr.o 
-     [exec] gfortran -c -Ofast -fopenmp krepl.f -o krepl.o 
-     [exec] gfortran -c -Ofast -fopenmp ksolut.f -o ksolut.o 
-     [exec] gfortran -c -Ofast -fopenmp kstbnd.f -o kstbnd.o 
-     [exec] gfortran -c -Ofast -fopenmp ksttor.f -o ksttor.o 
-     [exec] gfortran -c -Ofast -fopenmp ktorsn.f -o ktorsn.o 
-     [exec] gfortran -c -Ofast -fopenmp kurybr.f -o kurybr.o 
-     [exec] gfortran -c -Ofast -fopenmp kvdwpr.f -o kvdwpr.o 
-     [exec] gfortran -c -Ofast -fopenmp merck.f -o merck.o 
-     [exec] gfortran -c -Ofast -fopenmp omega.f -o omega.o 
-     [exec] gfortran -c -Ofast -fopenmp orbits.f -o orbits.o 
-     [exec] gfortran -c -Ofast -fopenmp params.f -o params.o 
-     [exec] gfortran -c -Ofast -fopenmp paths.f -o paths.o 
-     [exec] gfortran -c -Ofast -fopenmp pdb.f -o pdb.o 
-     [exec] gfortran -c -Ofast -fopenmp polpcg.f -o polpcg.o 
-     [exec] gfortran -c -Ofast -fopenmp potfit.f -o potfit.o 
-     [exec] gfortran -c -Ofast -fopenmp qmstuf.f -o qmstuf.o 
-     [exec] gfortran -c -Ofast -fopenmp rgddyn.f -o rgddyn.o 
-     [exec] gfortran -c -Ofast -fopenmp rigid.f -o rigid.o 
-     [exec] gfortran -c -Ofast -fopenmp ring.f -o ring.o 
-     [exec] gfortran -c -Ofast -fopenmp rotbnd.f -o rotbnd.o 
-     [exec] gfortran -c -Ofast -fopenmp shapes.f -o shapes.o 
-     [exec] gfortran -c -Ofast -fopenmp socket.f -o socket.o 
-     [exec] gfortran -c -Ofast -fopenmp syntrn.f -o syntrn.o 
-     [exec] gfortran -c -Ofast -fopenmp tettor.f -o tettor.o 
-     [exec] gfortran -c -Ofast -fopenmp tritor.f -o tritor.o 
-     [exec] gfortran -c -Ofast -fopenmp uprior.f -o uprior.o 
-     [exec] gfortran -c -Ofast -fopenmp vibs.f -o vibs.o 
-     [exec] gfortran -c -Ofast -fopenmp final.f -o final.o 
-     [exec] gfortran -c -Ofast -fopenmp findnuc.f -o findnuc.o 
-     [exec] gfortran -c -Ofast -fopenmp findpro.f -o findpro.o 
-     [exec] gfortran -c -Ofast -fopenmp sequen.f -o sequen.o 
-     [exec] gfortran -c -Ofast -fopenmp findseq.f -o findseq.o 
-     [exec] gfortran -c -Ofast -fopenmp flatten.f -o flatten.o 
-     [exec] gfortran -c -Ofast -fopenmp freefix.f -o freefix.o 
-     [exec] gfortran -c -Ofast -fopenmp freeunit.f -o freeunit.o 
-     [exec] gfortran -c -Ofast -fopenmp gda.f -o gda.o 
-     [exec] gfortran -c -Ofast -fopenmp geometry.f -o geometry.o 
-     [exec] gfortran -c -Ofast -fopenmp getarc.f -o getarc.o 
-     [exec] gfortran -c -Ofast -fopenmp getcart.f -o getcart.o 
-     [exec] gfortran -c -Ofast -fopenmp getdcd.f -o getdcd.o 
-     [exec] gfortran -c -Ofast -fopenmp getint.f -o getint.o 
-     [exec] gfortran -c -Ofast -fopenmp getkey.f -o getkey.o 
-     [exec] gfortran -c -Ofast -fopenmp getmol.f -o getmol.o 
-     [exec] gfortran -c -Ofast -fopenmp getmol2.f -o getmol2.o 
-     [exec] gfortran -c -Ofast -fopenmp getnumb.f -o getnumb.o 
-     [exec] gfortran -c -Ofast -fopenmp getpdb.f -o getpdb.o 
-     [exec] gfortran -c -Ofast -fopenmp getprm.f -o getprm.o 
-     [exec] gfortran -c -Ofast -fopenmp getref.f -o getref.o 
-     [exec] gfortran -c -Ofast -fopenmp getstring.f -o getstring.o 
-     [exec] gfortran -c -Ofast -fopenmp gettext.f -o gettext.o 
-     [exec] gfortran -c -Ofast -fopenmp getword.f -o getword.o 
-     [exec] gfortran -c -Ofast -fopenmp getxyz.f -o getxyz.o 
-     [exec] gfortran -c -Ofast -fopenmp ghmcstep.f -o ghmcstep.o 
-     [exec] gfortran -c -Ofast -fopenmp gradient.f -o gradient.o 
-     [exec] gfortran -c -Ofast -fopenmp gradrgd.f -o gradrgd.o 
-     [exec] gfortran -c -Ofast -fopenmp gradrot.f -o gradrot.o 
-     [exec] gfortran -c -Ofast -fopenmp groups.f -o groups.o 
-     [exec] gfortran -c -Ofast -fopenmp grpline.f -o grpline.o 
-     [exec] gfortran -c -Ofast -fopenmp gyrate.f -o gyrate.o 
-     [exec] gfortran -c -Ofast -fopenmp hessian.f -o hessian.o 
-     [exec] gfortran -c -Ofast -fopenmp hessrgd.f -o hessrgd.o 
-     [exec] gfortran -c -Ofast -fopenmp hessrot.f -o hessrot.o 
-     [exec] gfortran -c -Ofast -fopenmp hybrid.f -o hybrid.o 
-     [exec] gfortran -c -Ofast -fopenmp image.f -o image.o 
-     [exec] gfortran -c -Ofast -fopenmp impose.f -o impose.o 
-     [exec] gfortran -c -Ofast -fopenmp induce.f -o induce.o 
-     [exec] gfortran -c -Ofast -fopenmp inertia.f -o inertia.o 
-     [exec] gfortran -c -Ofast -fopenmp ptable.f -o ptable.o 
-     [exec] gfortran -c -Ofast -fopenmp initatom.f -o initatom.o 
-     [exec] gfortran -c -Ofast -fopenmp linmin.f -o linmin.o 
-     [exec] gfortran -c -Ofast -fopenmp scales.f -o scales.o 
-     [exec] gfortran -c -Ofast -fopenmp initial.f -o initial.o 
-     [exec] gfortran -c -Ofast -fopenmp initneck.f -o initneck.o 
-     [exec] gfortran -c -Ofast -fopenmp initprm.f -o initprm.o 
-     [exec] gfortran -c -Ofast -fopenmp resdue.f -o resdue.o 
-     [exec] gfortran -c -Ofast -fopenmp initres.f -o initres.o 
-     [exec] gfortran -c -Ofast -fopenmp initrot.f -o initrot.o 
-     [exec] gfortran -c -Ofast -fopenmp insert.f -o insert.o 
-     [exec] gfortran -c -Ofast -fopenmp intedit.f -o intedit.o 
-     [exec] gfortran -c -Ofast -fopenmp intxyz.f -o intxyz.o 
-     [exec] gfortran -c -Ofast -fopenmp invbeta.f -o invbeta.o 
-     [exec] gfortran -c -Ofast -fopenmp invert.f -o invert.o 
-     [exec] gfortran -c -Ofast -fopenmp jacobi.f -o jacobi.o 
-     [exec] gfortran -c -Ofast -fopenmp kangang.f -o kangang.o 
-     [exec] gfortran -c -Ofast -fopenmp kangle.f -o kangle.o 
-     [exec] gfortran -c -Ofast -fopenmp kangtor.f -o kangtor.o 
-     [exec] gfortran -c -Ofast -fopenmp katom.f -o katom.o 
-     [exec] gfortran -c -Ofast -fopenmp kbond.f -o kbond.o 
-     [exec] gfortran -c -Ofast -fopenmp kcharge.f -o kcharge.o 
-     [exec] gfortran -c -Ofast -fopenmp kchgflx.f -o kchgflx.o 
-     [exec] gfortran -c -Ofast -fopenmp kchgtrn.f -o kchgtrn.o 
-     [exec] gfortran -c -Ofast -fopenmp kdipole.f -o kdipole.o 
-     [exec] gfortran -c -Ofast -fopenmp kdisp.f -o kdisp.o 
-     [exec] gfortran -c -Ofast -fopenmp kewald.f -o kewald.o 
-     [exec] gfortran -c -Ofast -fopenmp kexpol.f -o kexpol.o 
-     [exec] gfortran -c -Ofast -fopenmp kextra.f -o kextra.o 
-     [exec] gfortran -c -Ofast -fopenmp kgeom.f -o kgeom.o 
-     [exec] gfortran -c -Ofast -fopenmp kimprop.f -o kimprop.o 
-     [exec] gfortran -c -Ofast -fopenmp kimptor.f -o kimptor.o 
-     [exec] gfortran -c -Ofast -fopenmp kinetic.f -o kinetic.o 
-     [exec] gfortran -c -Ofast -fopenmp kmetal.f -o kmetal.o 
-     [exec] gfortran -c -Ofast -fopenmp kmpole.f -o kmpole.o 
-     [exec] gfortran -c -Ofast -fopenmp kopbend.f -o kopbend.o 
-     [exec] gfortran -c -Ofast -fopenmp kopdist.f -o kopdist.o 
-     [exec] gfortran -c -Ofast -fopenmp korbit.f -o korbit.o 
-     [exec] gfortran -c -Ofast -fopenmp kpitors.f -o kpitors.o 
-     [exec] gfortran -c -Ofast -fopenmp kpolar.f -o kpolar.o 
-     [exec] gfortran -c -Ofast -fopenmp krepel.f -o krepel.o 
-     [exec] gfortran -c -Ofast -fopenmp ksolv.f -o ksolv.o 
-     [exec] gfortran -c -Ofast -fopenmp kstrbnd.f -o kstrbnd.o 
-     [exec] gfortran -c -Ofast -fopenmp kstrtor.f -o kstrtor.o 
-     [exec] gfortran -c -Ofast -fopenmp ktors.f -o ktors.o 
-     [exec] gfortran -c -Ofast -fopenmp ktortor.f -o ktortor.o 
-     [exec] gfortran -c -Ofast -fopenmp kundrot.f -o kundrot.o 
-     [exec] gfortran -c -Ofast -fopenmp kurey.f -o kurey.o 
-     [exec] gfortran -c -Ofast -fopenmp kvdw.f -o kvdw.o 
-     [exec] gfortran -c -Ofast -fopenmp lattice.f -o lattice.o 
-     [exec] gfortran -c -Ofast -fopenmp lbfgs.f -o lbfgs.o 
-     [exec] gfortran -c -Ofast -fopenmp lights.f -o lights.o 
-     [exec] gfortran -c -Ofast -fopenmp lusolve.f -o lusolve.o 
-     [exec] gfortran -c -Ofast -fopenmp makeint.f -o makeint.o 
-     [exec] gfortran -c -Ofast -fopenmp makeref.f -o makeref.o 
-     [exec] gfortran -c -Ofast -fopenmp makexyz.f -o makexyz.o 
-     [exec] gfortran -c -Ofast -fopenmp maxwell.f -o maxwell.o 
-     [exec] gfortran -c -Ofast -fopenmp mdinit.f -o mdinit.o 
-     [exec] gfortran -c -Ofast -fopenmp mdrest.f -o mdrest.o 
-     [exec] gfortran -c -Ofast -fopenmp mdsave.f -o mdsave.o 
-     [exec] gfortran -c -Ofast -fopenmp mdstat.f -o mdstat.o 
-     [exec] gfortran -c -Ofast -fopenmp mechanic.f -o mechanic.o 
-     [exec] gfortran -c -Ofast -fopenmp merge.f -o merge.o 
-     [exec] gfortran -c -Ofast -fopenmp minimize.f -o minimize.o 
-     [exec] gfortran -c -Ofast -fopenmp minirot.f -o minirot.o 
-     [exec] gfortran -c -Ofast -fopenmp minrigid.f -o minrigid.o 
-     [exec] gfortran -c -Ofast -fopenmp mol2xyz.f -o mol2xyz.o 
-     [exec] gfortran -c -Ofast -fopenmp molecule.f -o molecule.o 
-     [exec] gfortran -c -Ofast -fopenmp molxyz.f -o molxyz.o 
-     [exec] gfortran -c -Ofast -fopenmp moments.f -o moments.o 
-     [exec] gfortran -c -Ofast -fopenmp monte.f -o monte.o 
-     [exec] gfortran -c -Ofast -fopenmp mutate.f -o mutate.o 
-     [exec] gfortran -c -Ofast -fopenmp nblist.f -o nblist.o 
-     [exec] gfortran -c -Ofast -fopenmp neck.f -o neck.o 
-     [exec] gfortran -c -Ofast -fopenmp newton.f -o newton.o 
-     [exec] gfortran -c -Ofast -fopenmp newtrot.f -o newtrot.o 
-     [exec] gfortran -c -Ofast -fopenmp nextarg.f -o nextarg.o 
-     [exec] gfortran -c -Ofast -fopenmp nexttext.f -o nexttext.o 
-     [exec] gfortran -c -Ofast -fopenmp nose.f -o nose.o 
-     [exec] gfortran -c -Ofast -fopenmp nspline.f -o nspline.o 
-     [exec] gfortran -c -Ofast -fopenmp nucleo.f -o nucleo.o 
-     [exec] gfortran -c -Ofast -fopenmp nucleic.f -o nucleic.o 
-     [exec] gfortran -c -Ofast -fopenmp number.f -o number.o 
-     [exec] gfortran -c -Ofast -fopenmp numeral.f -o numeral.o 
-     [exec] gfortran -c -Ofast -fopenmp numgrad.f -o numgrad.o 
-     [exec] gfortran -c -Ofast -fopenmp ocvm.f -o ocvm.o 
-     [exec] gfortran -c -Ofast -fopenmp openend.f -o openend.o 
-     [exec] gfortran -c -Ofast -fopenmp optimize.f -o optimize.o 
-     [exec] gfortran -c -Ofast -fopenmp optinit.f -o optinit.o 
-     [exec] gfortran -c -Ofast -fopenmp optirot.f -o optirot.o 
-     [exec] gfortran -c -Ofast -fopenmp optrigid.f -o optrigid.o 
-     [exec] gfortran -c -Ofast -fopenmp optsave.f -o optsave.o 
-     [exec] gfortran -c -Ofast -fopenmp orbital.f -o orbital.o 
-     [exec] gfortran -c -Ofast -fopenmp orient.f -o orient.o 
-     [exec] gfortran -c -Ofast -fopenmp orthog.f -o orthog.o 
-     [exec] gfortran -c -Ofast -fopenmp overlap.f -o overlap.o 
-     [exec] gfortran -c -Ofast -fopenmp path.f -o path.o 
-     [exec] gfortran -c -Ofast -fopenmp pdbxyz.f -o pdbxyz.o 
-     [exec] gfortran -c -Ofast -fopenmp phipsi.f -o phipsi.o 
-     [exec] gfortran -c -Ofast -fopenmp picalc.f -o picalc.o 
-     [exec] gfortran -c -Ofast -fopenmp pmestuf.f -o pmestuf.o 
-     [exec] gfortran -c -Ofast -fopenmp pmpb.f -o pmpb.o 
-     [exec] gfortran -c -Ofast -fopenmp polarize.f -o polarize.o 
-     [exec] gfortran -c -Ofast -fopenmp poledit.f -o poledit.o 
-     [exec] gfortran -c -Ofast -fopenmp polymer.f -o polymer.o 
-     [exec] gfortran -c -Ofast -fopenmp potential.f -o potential.o 
-     [exec] gfortran -c -Ofast -fopenmp predict.f -o predict.o 
-     [exec] gfortran -c -Ofast -fopenmp pressure.f -o pressure.o 
-     [exec] gfortran -c -Ofast -fopenmp prmedit.f -o prmedit.o 
-     [exec] gfortran -c -Ofast -fopenmp prmkey.f -o prmkey.o 
-     [exec] gfortran -c -Ofast -fopenmp promo.f -o promo.o 
-     [exec] gfortran -c -Ofast -fopenmp protein.f -o protein.o 
-     [exec] gfortran -c -Ofast -fopenmp prtarc.f -o prtarc.o 
-     [exec] gfortran -c -Ofast -fopenmp prtdyn.f -o prtdyn.o 
-     [exec] gfortran -c -Ofast -fopenmp prterr.f -o prterr.o 
-     [exec] gfortran -c -Ofast -fopenmp prtfrc.f -o prtfrc.o 
-     [exec] gfortran -c -Ofast -fopenmp prtint.f -o prtint.o 
-     [exec] gfortran -c -Ofast -fopenmp prtmol2.f -o prtmol2.o 
-     [exec] gfortran -c -Ofast -fopenmp prtpdb.f -o prtpdb.o 
-     [exec] gfortran -c -Ofast -fopenmp prtprm.f -o prtprm.o 
-     [exec] gfortran -c -Ofast -fopenmp prtseq.f -o prtseq.o 
-     [exec] gfortran -c -Ofast -fopenmp prtuind.f -o prtuind.o 
-     [exec] gfortran -c -Ofast -fopenmp prtvel.f -o prtvel.o 
-     [exec] gfortran -c -Ofast -fopenmp prtxyz.f -o prtxyz.o 
-     [exec] gfortran -c -Ofast -fopenmp tree.f -o tree.o 
-     [exec] gfortran -c -Ofast -fopenmp pss.f -o pss.o 
-     [exec] gfortran -c -Ofast -fopenmp pssrigid.f -o pssrigid.o 
-     [exec] gfortran -c -Ofast -fopenmp pssrot.f -o pssrot.o 
-     [exec] gfortran -c -Ofast -fopenmp qrsolve.f -o qrsolve.o 
-     [exec] gfortran -c -Ofast -fopenmp quatfit.f -o quatfit.o 
-     [exec] gfortran -c -Ofast -fopenmp radial.f -o radial.o 
-     [exec] gfortran -c -Ofast -fopenmp random.f -o random.o 
-     [exec] gfortran -c -Ofast -fopenmp rattle.f -o rattle.o 
-     [exec] gfortran -c -Ofast -fopenmp readcart.f -o readcart.o 
-     [exec] gfortran -c -Ofast -fopenmp readdcd.f -o readdcd.o 
-     [exec] gfortran -c -Ofast -fopenmp readdyn.f -o readdyn.o 
-     [exec] gfortran -c -Ofast -fopenmp readgau.f -o readgau.o 
-     [exec] gfortran -c -Ofast -fopenmp readgdma.f -o readgdma.o 
-     [exec] gfortran -c -Ofast -fopenmp readint.f -o readint.o 
-     [exec] gfortran -c -Ofast -fopenmp readmbis.f -o readmbis.o 
-     [exec] gfortran -c -Ofast -fopenmp readmol.f -o readmol.o 
-     [exec] gfortran -c -Ofast -fopenmp readmol2.f -o readmol2.o 
-     [exec] gfortran -c -Ofast -fopenmp readpdb.f -o readpdb.o 
-     [exec] gfortran -c -Ofast -fopenmp readprm.f -o readprm.o 
-     [exec] gfortran -c -Ofast -fopenmp readseq.f -o readseq.o 
-     [exec] gfortran -c -Ofast -fopenmp readxyz.f -o readxyz.o 
-     [exec] gfortran -c -Ofast -fopenmp replica.f -o replica.o 
-     [exec] gfortran -c -Ofast -fopenmp respa.f -o respa.o 
-     [exec] gfortran -c -Ofast -fopenmp rgdstep.f -o rgdstep.o 
-     [exec] gfortran -c -Ofast -fopenmp richmond.f -o richmond.o 
-     [exec] gfortran -c -Ofast -fopenmp rings.f -o rings.o 
-     [exec] gfortran -c -Ofast -fopenmp rmsfit.f -o rmsfit.o 
-     [exec] gfortran -c -Ofast -fopenmp rotlist.f -o rotlist.o 
-     [exec] gfortran -c -Ofast -fopenmp rotpole.f -o rotpole.o 
-     [exec] gfortran -c -Ofast -fopenmp saddle.f -o saddle.o 
-     [exec] gfortran -c -Ofast -fopenmp scan.f -o scan.o 
-     [exec] gfortran -c -Ofast -fopenmp sdstep.f -o sdstep.o 
-     [exec] gfortran -c -Ofast -fopenmp search.f -o search.o 
-     [exec] gfortran -c -Ofast -fopenmp server.f -o server.o 
-     [exec] gfortran -c -Ofast -fopenmp setprm.f -o setprm.o 
-     [exec] gfortran -c -Ofast -fopenmp shakeup.f -o shakeup.o 
-     [exec] gfortran -c -Ofast -fopenmp sigmoid.f -o sigmoid.o 
-     [exec] gfortran -c -Ofast -fopenmp simplex.f -o simplex.o 
-     [exec] gfortran -c -Ofast -fopenmp sktstuf.f -o sktstuf.o 
-     [exec] gfortran -c -Ofast -fopenmp sniffer.f -o sniffer.o 
-     [exec] gfortran -c -Ofast -fopenmp sort.f -o sort.o 
-     [exec] gfortran -c -Ofast -fopenmp spacefill.f -o spacefill.o 
-     [exec] gfortran -c -Ofast -fopenmp spectrum.f -o spectrum.o 
-     [exec] gfortran -c -Ofast -fopenmp square.f -o square.o 
-     [exec] gfortran -c -Ofast -fopenmp suffix.f -o suffix.o 
-     [exec] gfortran -c -Ofast -fopenmp superpose.f -o superpose.o 
-     [exec] gfortran -c -Ofast -fopenmp surface.f -o surface.o 
-     [exec] gfortran -c -Ofast -fopenmp surfatom.f -o surfatom.o 
-     [exec] gfortran -c -Ofast -fopenmp switch.f -o switch.o 
-     [exec] gfortran -c -Ofast -fopenmp tcgstuf.f -o tcgstuf.o 
-     [exec] gfortran -c -Ofast -fopenmp temper.f -o temper.o 
-     [exec] gfortran -c -Ofast -fopenmp testgrad.f -o testgrad.o 
-     [exec] gfortran -c -Ofast -fopenmp testhess.f -o testhess.o 
-     [exec] gfortran -c -Ofast -fopenmp testpair.f -o testpair.o 
-     [exec] gfortran -c -Ofast -fopenmp testpol.f -o testpol.o 
-     [exec] gfortran -c -Ofast -fopenmp testrot.f -o testrot.o 
-     [exec] gfortran -c -Ofast -fopenmp testsurf.f -o testsurf.o 
-     [exec] gfortran -c -Ofast -fopenmp testvir.f -o testvir.o 
-     [exec] gfortran -c -Ofast -fopenmp tettors.f -o tettors.o 
-     [exec] gfortran -c -Ofast -fopenmp timer.f -o timer.o 
-     [exec] gfortran -c -Ofast -fopenmp timerot.f -o timerot.o 
-     [exec] gfortran -c -Ofast -fopenmp tncg.f -o tncg.o 
-     [exec] gfortran -c -Ofast -fopenmp torphase.f -o torphase.o 
-     [exec] gfortran -c -Ofast -fopenmp torque.f -o torque.o 
-     [exec] gfortran -c -Ofast -fopenmp torsfit.f -o torsfit.o 
-     [exec] gfortran -c -Ofast -fopenmp torsions.f -o torsions.o 
-     [exec] gfortran -c -Ofast -fopenmp trimtext.f -o trimtext.o 
-     [exec] gfortran -c -Ofast -fopenmp tritors.f -o tritors.o 
-     [exec] gfortran -c -Ofast -fopenmp unionball.f -o unionball.o 
-     [exec] gfortran -c -Ofast -fopenmp unitcell.f -o unitcell.o 
-     [exec] gfortran -c -Ofast -fopenmp valfit.f -o valfit.o 
-     [exec] gfortran -c -Ofast -fopenmp valence.f -o valence.o 
-     [exec] gfortran -c -Ofast -fopenmp verlet.f -o verlet.o 
-     [exec] gfortran -c -Ofast -fopenmp version.f -o version.o 
-     [exec] gfortran -c -Ofast -fopenmp vibbig.f -o vibbig.o 
-     [exec] gfortran -c -Ofast -fopenmp vibrate.f -o vibrate.o 
-     [exec] gfortran -c -Ofast -fopenmp vibrot.f -o vibrot.o 
-     [exec] gfortran -c -Ofast -fopenmp volume.f -o volume.o 
-     [exec] gfortran -c -Ofast -fopenmp xtals.f -o xtals.o 
-     [exec] gfortran -c -Ofast -fopenmp xtalfit.f -o xtalfit.o 
-     [exec] gfortran -c -Ofast -fopenmp xtalmin.f -o xtalmin.o 
-     [exec] gfortran -c -Ofast -fopenmp xyzatm.f -o xyzatm.o 
-     [exec] gfortran -c -Ofast -fopenmp xyzedit.f -o xyzedit.o 
-     [exec] gfortran -c -Ofast -fopenmp xyzint.f -o xyzint.o 
-     [exec] gfortran -c -Ofast -fopenmp xyzmol2.f -o xyzmol2.o 
-     [exec] gfortran -c -Ofast -fopenmp xyzpdb.f -o xyzpdb.o 
-     [exec] gfortran -c -Ofast -fopenmp zatom.f -o zatom.o 
+     [exec] gfortran -c -O3 -fopenmp analyz.f -o analyz.o 
+     [exec] gfortran -c -O3 -fopenmp sizes.f -o sizes.o 
+     [exec] gfortran -c -O3 -fopenmp atoms.f -o atoms.o 
+     [exec] gfortran -c -O3 -fopenmp energi.f -o energi.o 
+     [exec] gfortran -c -O3 -fopenmp files.f -o files.o 
+     [exec] gfortran -c -O3 -fopenmp inform.f -o inform.o 
+     [exec] gfortran -c -O3 -fopenmp iounit.f -o iounit.o 
+     [exec] gfortran -c -O3 -fopenmp katoms.f -o katoms.o 
+     [exec] gfortran -c -O3 -fopenmp mutant.f -o mutant.o 
+     [exec] gfortran -c -O3 -fopenmp potent.f -o potent.o 
+     [exec] gfortran -c -O3 -fopenmp units.f -o units.o 
+     [exec] gfortran -c -O3 -fopenmp usage.f -o usage.o 
+     [exec] gfortran -c -O3 -fopenmp alchemy.f -o alchemy.o 
+     [exec] gfortran -c -O3 -fopenmp action.f -o action.o 
+     [exec] gfortran -c -O3 -fopenmp keys.f -o keys.o 
+     [exec] gfortran -c -O3 -fopenmp active.f -o active.o 
+     [exec] gfortran -c -O3 -fopenmp alfmol.f -o alfmol.o 
+     [exec] gfortran -c -O3 -fopenmp align.f -o align.o 
+     [exec] gfortran -c -O3 -fopenmp angbnd.f -o angbnd.o 
+     [exec] gfortran -c -O3 -fopenmp atmlst.f -o atmlst.o 
+     [exec] gfortran -c -O3 -fopenmp bndstr.f -o bndstr.o 
+     [exec] gfortran -c -O3 -fopenmp bound.f -o bound.o 
+     [exec] gfortran -c -O3 -fopenmp cflux.f -o cflux.o 
+     [exec] gfortran -c -O3 -fopenmp charge.f -o charge.o 
+     [exec] gfortran -c -O3 -fopenmp chgpen.f -o chgpen.o 
+     [exec] gfortran -c -O3 -fopenmp math.f -o math.o 
+     [exec] gfortran -c -O3 -fopenmp mplpot.f -o mplpot.o 
+     [exec] gfortran -c -O3 -fopenmp mpole.f -o mpole.o 
+     [exec] gfortran -c -O3 -fopenmp alterchg.f -o alterchg.o 
+     [exec] gfortran -c -O3 -fopenmp cell.f -o cell.o 
+     [exec] gfortran -c -O3 -fopenmp couple.f -o couple.o 
+     [exec] gfortran -c -O3 -fopenmp expol.f -o expol.o 
+     [exec] gfortran -c -O3 -fopenmp limits.f -o limits.o 
+     [exec] gfortran -c -O3 -fopenmp neigh.f -o neigh.o 
+     [exec] gfortran -c -O3 -fopenmp polgrp.f -o polgrp.o 
+     [exec] gfortran -c -O3 -fopenmp polpot.f -o polpot.o 
+     [exec] gfortran -c -O3 -fopenmp shunt.f -o shunt.o 
+     [exec] gfortran -c -O3 -fopenmp alterpol.f -o alterpol.o 
+     [exec] gfortran -c -O3 -fopenmp group.f -o group.o 
+     [exec] gfortran -c -O3 -fopenmp inter.f -o inter.o 
+     [exec] gfortran -c -O3 -fopenmp vdwpot.f -o vdwpot.o 
+     [exec] gfortran -c -O3 -fopenmp analysis.f -o analysis.o 
+     [exec] gfortran -c -O3 -fopenmp angang.f -o angang.o 
+     [exec] gfortran -c -O3 -fopenmp angpot.f -o angpot.o 
+     [exec] gfortran -c -O3 -fopenmp angtor.f -o angtor.o 
+     [exec] gfortran -c -O3 -fopenmp atomid.f -o atomid.o 
+     [exec] gfortran -c -O3 -fopenmp bath.f -o bath.o 
+     [exec] gfortran -c -O3 -fopenmp bitor.f -o bitor.o 
+     [exec] gfortran -c -O3 -fopenmp boxes.f -o boxes.o 
+     [exec] gfortran -c -O3 -fopenmp chgpot.f -o chgpot.o 
+     [exec] gfortran -c -O3 -fopenmp chgtrn.f -o chgtrn.o 
+     [exec] gfortran -c -O3 -fopenmp deriv.f -o deriv.o 
+     [exec] gfortran -c -O3 -fopenmp dipole.f -o dipole.o 
+     [exec] gfortran -c -O3 -fopenmp disp.f -o disp.o 
+     [exec] gfortran -c -O3 -fopenmp ewald.f -o ewald.o 
+     [exec] gfortran -c -O3 -fopenmp fields.f -o fields.o 
+     [exec] gfortran -c -O3 -fopenmp improp.f -o improp.o 
+     [exec] gfortran -c -O3 -fopenmp imptor.f -o imptor.o 
+     [exec] gfortran -c -O3 -fopenmp korbs.f -o korbs.o 
+     [exec] gfortran -c -O3 -fopenmp ktrtor.f -o ktrtor.o 
+     [exec] gfortran -c -O3 -fopenmp kvdws.f -o kvdws.o 
+     [exec] gfortran -c -O3 -fopenmp molcul.f -o molcul.o 
+     [exec] gfortran -c -O3 -fopenmp moment.f -o moment.o 
+     [exec] gfortran -c -O3 -fopenmp opbend.f -o opbend.o 
+     [exec] gfortran -c -O3 -fopenmp opdist.f -o opdist.o 
+     [exec] gfortran -c -O3 -fopenmp output.f -o output.o 
+     [exec] gfortran -c -O3 -fopenmp piorbs.f -o piorbs.o 
+     [exec] gfortran -c -O3 -fopenmp pistuf.f -o pistuf.o 
+     [exec] gfortran -c -O3 -fopenmp pitors.f -o pitors.o 
+     [exec] gfortran -c -O3 -fopenmp pme.f -o pme.o 
+     [exec] gfortran -c -O3 -fopenmp polar.f -o polar.o 
+     [exec] gfortran -c -O3 -fopenmp repel.f -o repel.o 
+     [exec] gfortran -c -O3 -fopenmp solpot.f -o solpot.o 
+     [exec] gfortran -c -O3 -fopenmp solute.f -o solute.o 
+     [exec] gfortran -c -O3 -fopenmp strbnd.f -o strbnd.o 
+     [exec] gfortran -c -O3 -fopenmp strtor.f -o strtor.o 
+     [exec] gfortran -c -O3 -fopenmp titles.f -o titles.o 
+     [exec] gfortran -c -O3 -fopenmp tors.f -o tors.o 
+     [exec] gfortran -c -O3 -fopenmp tortor.f -o tortor.o 
+     [exec] gfortran -c -O3 -fopenmp urey.f -o urey.o 
+     [exec] gfortran -c -O3 -fopenmp vdw.f -o vdw.o 
+     [exec] gfortran -c -O3 -fopenmp virial.f -o virial.o 
+     [exec] gfortran -c -O3 -fopenmp analyze.f -o analyze.o 
+     [exec] gfortran -c -O3 -fopenmp angles.f -o angles.o 
+     [exec] gfortran -c -O3 -fopenmp mdstuf.f -o mdstuf.o 
+     [exec] gfortran -c -O3 -fopenmp warp.f -o warp.o 
+     [exec] gfortran -c -O3 -fopenmp anneal.f -o anneal.o 
+     [exec] gfortran -c -O3 -fopenmp arcedit.f -o arcedit.o 
+     [exec] gfortran -c -O3 -fopenmp argue.f -o argue.o 
+     [exec] gfortran -c -O3 -fopenmp ascii.f -o ascii.o 
+     [exec] gfortran -c -O3 -fopenmp attach.f -o attach.o 
+     [exec] gfortran -c -O3 -fopenmp freeze.f -o freeze.o 
+     [exec] gfortran -c -O3 -fopenmp moldyn.f -o moldyn.o 
+     [exec] gfortran -c -O3 -fopenmp stodyn.f -o stodyn.o 
+     [exec] gfortran -c -O3 -fopenmp baoab.f -o baoab.o 
+     [exec] gfortran -c -O3 -fopenmp bar.f -o bar.o 
+     [exec] gfortran -c -O3 -fopenmp basefile.f -o basefile.o 
+     [exec] gfortran -c -O3 -fopenmp ielscf.f -o ielscf.o 
+     [exec] gfortran -c -O3 -fopenmp beeman.f -o beeman.o 
+     [exec] gfortran -c -O3 -fopenmp bicubic.f -o bicubic.o 
+     [exec] gfortran -c -O3 -fopenmp bitors.f -o bitors.o 
+     [exec] gfortran -c -O3 -fopenmp bndpot.f -o bndpot.o 
+     [exec] gfortran -c -O3 -fopenmp bonds.f -o bonds.o 
+     [exec] gfortran -c -O3 -fopenmp pbstuf.f -o pbstuf.o 
+     [exec] gfortran -c -O3 -fopenmp born.f -o born.o 
+     [exec] gfortran -c -O3 -fopenmp bounds.f -o bounds.o 
+     [exec] gfortran -c -O3 -fopenmp calendar.f -o calendar.o 
+     [exec] gfortran -c -O3 -fopenmp center.f -o center.o 
+     [exec] gfortran -c -O3 -fopenmp chkpole.f -o chkpole.o 
+     [exec] gfortran -c -O3 -fopenmp chkring.f -o chkring.o 
+     [exec] gfortran -c -O3 -fopenmp chksymm.f -o chksymm.o 
+     [exec] gfortran -c -O3 -fopenmp chkxyz.f -o chkxyz.o 
+     [exec] gfortran -c -O3 -fopenmp cholesky.f -o cholesky.o 
+     [exec] gfortran -c -O3 -fopenmp chrono.f -o chrono.o 
+     [exec] gfortran -c -O3 -fopenmp chunks.f -o chunks.o 
+     [exec] gfortran -c -O3 -fopenmp clock.f -o clock.o 
+     [exec] gfortran -c -O3 -fopenmp cluster.f -o cluster.o 
+     [exec] gfortran -c -O3 -fopenmp column.f -o column.o 
+     [exec] gfortran -c -O3 -fopenmp command.f -o command.o 
+     [exec] gfortran -c -O3 -fopenmp zclose.f -o zclose.o 
+     [exec] gfortran -c -O3 -fopenmp zcoord.f -o zcoord.o 
+     [exec] gfortran -c -O3 -fopenmp connect.f -o connect.o 
+     [exec] gfortran -c -O3 -fopenmp faces.f -o faces.o 
+     [exec] gfortran -c -O3 -fopenmp connolly.f -o connolly.o 
+     [exec] gfortran -c -O3 -fopenmp control.f -o control.o 
+     [exec] gfortran -c -O3 -fopenmp correlate.f -o correlate.o 
+     [exec] gfortran -c -O3 -fopenmp minima.f -o minima.o 
+     [exec] gfortran -c -O3 -fopenmp critical.f -o critical.o 
+     [exec] gfortran -c -O3 -fopenmp crystal.f -o crystal.o 
+     [exec] gfortran -c -O3 -fopenmp cspline.f -o cspline.o 
+     [exec] gfortran -c -O3 -fopenmp ctrpot.f -o ctrpot.o 
+     [exec] gfortran -c -O3 -fopenmp hescut.f -o hescut.o 
+     [exec] gfortran -c -O3 -fopenmp tarray.f -o tarray.o 
+     [exec] gfortran -c -O3 -fopenmp cutoffs.f -o cutoffs.o 
+     [exec] gfortran -c -O3 -fopenmp damping.f -o damping.o 
+     [exec] gfortran -c -O3 -fopenmp dcflux.f -o dcflux.o 
+     [exec] gfortran -c -O3 -fopenmp deflate.f -o deflate.o 
+     [exec] gfortran -c -O3 -fopenmp delete.f -o delete.o 
+     [exec] gfortran -c -O3 -fopenmp dexpol.f -o dexpol.o 
+     [exec] gfortran -c -O3 -fopenmp diagq.f -o diagq.o 
+     [exec] gfortran -c -O3 -fopenmp diffeq.f -o diffeq.o 
+     [exec] gfortran -c -O3 -fopenmp diffuse.f -o diffuse.o 
+     [exec] gfortran -c -O3 -fopenmp disgeo.f -o disgeo.o 
+     [exec] gfortran -c -O3 -fopenmp refer.f -o refer.o 
+     [exec] gfortran -c -O3 -fopenmp restrn.f -o restrn.o 
+     [exec] gfortran -c -O3 -fopenmp distgeom.f -o distgeom.o 
+     [exec] gfortran -c -O3 -fopenmp dma.f -o dma.o 
+     [exec] gfortran -c -O3 -fopenmp document.f -o document.o 
+     [exec] gfortran -c -O3 -fopenmp domega.f -o domega.o 
+     [exec] gfortran -c -O3 -fopenmp dsppot.f -o dsppot.o 
+     [exec] gfortran -c -O3 -fopenmp dynamic.f -o dynamic.o 
+     [exec] gfortran -c -O3 -fopenmp eangang.f -o eangang.o 
+     [exec] gfortran -c -O3 -fopenmp eangang1.f -o eangang1.o 
+     [exec] gfortran -c -O3 -fopenmp hessn.f -o hessn.o 
+     [exec] gfortran -c -O3 -fopenmp eangang2.f -o eangang2.o 
+     [exec] gfortran -c -O3 -fopenmp eangang3.f -o eangang3.o 
+     [exec] gfortran -c -O3 -fopenmp eangle.f -o eangle.o 
+     [exec] gfortran -c -O3 -fopenmp eangle1.f -o eangle1.o 
+     [exec] gfortran -c -O3 -fopenmp eangle2.f -o eangle2.o 
+     [exec] gfortran -c -O3 -fopenmp eangle3.f -o eangle3.o 
+     [exec] gfortran -c -O3 -fopenmp torpot.f -o torpot.o 
+     [exec] gfortran -c -O3 -fopenmp eangtor.f -o eangtor.o 
+     [exec] gfortran -c -O3 -fopenmp eangtor1.f -o eangtor1.o 
+     [exec] gfortran -c -O3 -fopenmp eangtor2.f -o eangtor2.o 
+     [exec] gfortran -c -O3 -fopenmp eangtor3.f -o eangtor3.o 
+     [exec] gfortran -c -O3 -fopenmp ebond.f -o ebond.o 
+     [exec] gfortran -c -O3 -fopenmp ebond1.f -o ebond1.o 
+     [exec] gfortran -c -O3 -fopenmp ebond2.f -o ebond2.o 
+     [exec] gfortran -c -O3 -fopenmp ebond3.f -o ebond3.o 
+     [exec] gfortran -c -O3 -fopenmp light.f -o light.o 
+     [exec] gfortran -c -O3 -fopenmp ebuck.f -o ebuck.o 
+     [exec] gfortran -c -O3 -fopenmp ebuck1.f -o ebuck1.o 
+     [exec] gfortran -c -O3 -fopenmp ebuck2.f -o ebuck2.o 
+     [exec] gfortran -c -O3 -fopenmp ebuck3.f -o ebuck3.o 
+     [exec] gfortran -c -O3 -fopenmp extfld.f -o extfld.o 
+     [exec] gfortran -c -O3 -fopenmp echarge.f -o echarge.o 
+     [exec] gfortran -c -O3 -fopenmp echarge1.f -o echarge1.o 
+     [exec] gfortran -c -O3 -fopenmp echarge2.f -o echarge2.o 
+     [exec] gfortran -c -O3 -fopenmp echarge3.f -o echarge3.o 
+     [exec] gfortran -c -O3 -fopenmp echgdpl.f -o echgdpl.o 
+     [exec] gfortran -c -O3 -fopenmp echgdpl1.f -o echgdpl1.o 
+     [exec] gfortran -c -O3 -fopenmp echgdpl2.f -o echgdpl2.o 
+     [exec] gfortran -c -O3 -fopenmp echgdpl3.f -o echgdpl3.o 
+     [exec] gfortran -c -O3 -fopenmp echgtrn.f -o echgtrn.o 
+     [exec] gfortran -c -O3 -fopenmp echgtrn1.f -o echgtrn1.o 
+     [exec] gfortran -c -O3 -fopenmp echgtrn2.f -o echgtrn2.o 
+     [exec] gfortran -c -O3 -fopenmp echgtrn3.f -o echgtrn3.o 
+     [exec] gfortran -c -O3 -fopenmp edipole.f -o edipole.o 
+     [exec] gfortran -c -O3 -fopenmp edipole1.f -o edipole1.o 
+     [exec] gfortran -c -O3 -fopenmp edipole2.f -o edipole2.o 
+     [exec] gfortran -c -O3 -fopenmp edipole3.f -o edipole3.o 
+     [exec] gfortran -c -O3 -fopenmp edisp.f -o edisp.o 
+     [exec] gfortran -c -O3 -fopenmp edisp1.f -o edisp1.o 
+     [exec] gfortran -c -O3 -fopenmp edisp2.f -o edisp2.o 
+     [exec] gfortran -c -O3 -fopenmp edisp3.f -o edisp3.o 
+     [exec] gfortran -c -O3 -fopenmp egauss.f -o egauss.o 
+     [exec] gfortran -c -O3 -fopenmp egauss1.f -o egauss1.o 
+     [exec] gfortran -c -O3 -fopenmp egauss2.f -o egauss2.o 
+     [exec] gfortran -c -O3 -fopenmp egauss3.f -o egauss3.o 
+     [exec] gfortran -c -O3 -fopenmp egeom.f -o egeom.o 
+     [exec] gfortran -c -O3 -fopenmp egeom1.f -o egeom1.o 
+     [exec] gfortran -c -O3 -fopenmp egeom2.f -o egeom2.o 
+     [exec] gfortran -c -O3 -fopenmp egeom3.f -o egeom3.o 
+     [exec] gfortran -c -O3 -fopenmp ehal.f -o ehal.o 
+     [exec] gfortran -c -O3 -fopenmp ehal1.f -o ehal1.o 
+     [exec] gfortran -c -O3 -fopenmp ehal2.f -o ehal2.o 
+     [exec] gfortran -c -O3 -fopenmp ehal3.f -o ehal3.o 
+     [exec] gfortran -c -O3 -fopenmp eimprop.f -o eimprop.o 
+     [exec] gfortran -c -O3 -fopenmp eimprop1.f -o eimprop1.o 
+     [exec] gfortran -c -O3 -fopenmp eimprop2.f -o eimprop2.o 
+     [exec] gfortran -c -O3 -fopenmp eimprop3.f -o eimprop3.o 
+     [exec] gfortran -c -O3 -fopenmp eimptor.f -o eimptor.o 
+     [exec] gfortran -c -O3 -fopenmp eimptor1.f -o eimptor1.o 
+     [exec] gfortran -c -O3 -fopenmp eimptor2.f -o eimptor2.o 
+     [exec] gfortran -c -O3 -fopenmp eimptor3.f -o eimptor3.o 
+     [exec] gfortran -c -O3 -fopenmp elj.f -o elj.o 
+     [exec] gfortran -c -O3 -fopenmp elj1.f -o elj1.o 
+     [exec] gfortran -c -O3 -fopenmp elj2.f -o elj2.o 
+     [exec] gfortran -c -O3 -fopenmp elj3.f -o elj3.o 
+     [exec] gfortran -c -O3 -fopenmp embed.f -o embed.o 
+     [exec] gfortran -c -O3 -fopenmp kchrge.f -o kchrge.o 
+     [exec] gfortran -c -O3 -fopenmp emetal.f -o emetal.o 
+     [exec] gfortran -c -O3 -fopenmp emetal1.f -o emetal1.o 
+     [exec] gfortran -c -O3 -fopenmp emetal2.f -o emetal2.o 
+     [exec] gfortran -c -O3 -fopenmp emetal3.f -o emetal3.o 
+     [exec] gfortran -c -O3 -fopenmp emm3hb.f -o emm3hb.o 
+     [exec] gfortran -c -O3 -fopenmp emm3hb1.f -o emm3hb1.o 
+     [exec] gfortran -c -O3 -fopenmp emm3hb2.f -o emm3hb2.o 
+     [exec] gfortran -c -O3 -fopenmp emm3hb3.f -o emm3hb3.o 
+     [exec] gfortran -c -O3 -fopenmp mrecip.f -o mrecip.o 
+     [exec] gfortran -c -O3 -fopenmp empole.f -o empole.o 
+     [exec] gfortran -c -O3 -fopenmp empole1.f -o empole1.o 
+     [exec] gfortran -c -O3 -fopenmp empole2.f -o empole2.o 
+     [exec] gfortran -c -O3 -fopenmp empole3.f -o empole3.o 
+     [exec] gfortran -c -O3 -fopenmp energy.f -o energy.o 
+     [exec] gfortran -c -O3 -fopenmp eopbend.f -o eopbend.o 
+     [exec] gfortran -c -O3 -fopenmp eopbend1.f -o eopbend1.o 
+     [exec] gfortran -c -O3 -fopenmp eopbend2.f -o eopbend2.o 
+     [exec] gfortran -c -O3 -fopenmp eopbend3.f -o eopbend3.o 
+     [exec] gfortran -c -O3 -fopenmp eopdist.f -o eopdist.o 
+     [exec] gfortran -c -O3 -fopenmp eopdist1.f -o eopdist1.o 
+     [exec] gfortran -c -O3 -fopenmp eopdist2.f -o eopdist2.o 
+     [exec] gfortran -c -O3 -fopenmp eopdist3.f -o eopdist3.o 
+     [exec] gfortran -c -O3 -fopenmp epitors.f -o epitors.o 
+     [exec] gfortran -c -O3 -fopenmp epitors1.f -o epitors1.o 
+     [exec] gfortran -c -O3 -fopenmp epitors2.f -o epitors2.o 
+     [exec] gfortran -c -O3 -fopenmp epitors3.f -o epitors3.o 
+     [exec] gfortran -c -O3 -fopenmp epolar.f -o epolar.o 
+     [exec] gfortran -c -O3 -fopenmp polopt.f -o polopt.o 
+     [exec] gfortran -c -O3 -fopenmp poltcg.f -o poltcg.o 
+     [exec] gfortran -c -O3 -fopenmp epolar1.f -o epolar1.o 
+     [exec] gfortran -c -O3 -fopenmp epolar2.f -o epolar2.o 
+     [exec] gfortran -c -O3 -fopenmp epolar3.f -o epolar3.o 
+     [exec] gfortran -c -O3 -fopenmp reppot.f -o reppot.o 
+     [exec] gfortran -c -O3 -fopenmp erepel.f -o erepel.o 
+     [exec] gfortran -c -O3 -fopenmp erepel1.f -o erepel1.o 
+     [exec] gfortran -c -O3 -fopenmp erepel2.f -o erepel2.o 
+     [exec] gfortran -c -O3 -fopenmp erepel3.f -o erepel3.o 
+     [exec] gfortran -c -O3 -fopenmp erf.f -o erf.o 
+     [exec] gfortran -c -O3 -fopenmp rxnfld.f -o rxnfld.o 
+     [exec] gfortran -c -O3 -fopenmp rxnpot.f -o rxnpot.o 
+     [exec] gfortran -c -O3 -fopenmp erxnfld.f -o erxnfld.o 
+     [exec] gfortran -c -O3 -fopenmp erxnfld1.f -o erxnfld1.o 
+     [exec] gfortran -c -O3 -fopenmp erxnfld2.f -o erxnfld2.o 
+     [exec] gfortran -c -O3 -fopenmp erxnfld3.f -o erxnfld3.o 
+     [exec] gfortran -c -O3 -fopenmp gkstuf.f -o gkstuf.o 
+     [exec] gfortran -c -O3 -fopenmp hpmf.f -o hpmf.o 
+     [exec] gfortran -c -O3 -fopenmp nonpol.f -o nonpol.o 
+     [exec] gfortran -c -O3 -fopenmp esolv.f -o esolv.o 
+     [exec] gfortran -c -O3 -fopenmp esolv1.f -o esolv1.o 
+     [exec] gfortran -c -O3 -fopenmp esolv2.f -o esolv2.o 
+     [exec] gfortran -c -O3 -fopenmp esolv3.f -o esolv3.o 
+     [exec] gfortran -c -O3 -fopenmp estrbnd.f -o estrbnd.o 
+     [exec] gfortran -c -O3 -fopenmp estrbnd1.f -o estrbnd1.o 
+     [exec] gfortran -c -O3 -fopenmp estrbnd2.f -o estrbnd2.o 
+     [exec] gfortran -c -O3 -fopenmp estrbnd3.f -o estrbnd3.o 
+     [exec] gfortran -c -O3 -fopenmp estrtor.f -o estrtor.o 
+     [exec] gfortran -c -O3 -fopenmp estrtor1.f -o estrtor1.o 
+     [exec] gfortran -c -O3 -fopenmp estrtor2.f -o estrtor2.o 
+     [exec] gfortran -c -O3 -fopenmp estrtor3.f -o estrtor3.o 
+     [exec] gfortran -c -O3 -fopenmp etors.f -o etors.o 
+     [exec] gfortran -c -O3 -fopenmp etors1.f -o etors1.o 
+     [exec] gfortran -c -O3 -fopenmp etors2.f -o etors2.o 
+     [exec] gfortran -c -O3 -fopenmp etors3.f -o etors3.o 
+     [exec] gfortran -c -O3 -fopenmp etortor.f -o etortor.o 
+     [exec] gfortran -c -O3 -fopenmp etortor1.f -o etortor1.o 
+     [exec] gfortran -c -O3 -fopenmp etortor2.f -o etortor2.o 
+     [exec] gfortran -c -O3 -fopenmp etortor3.f -o etortor3.o 
+     [exec] gfortran -c -O3 -fopenmp urypot.f -o urypot.o 
+     [exec] gfortran -c -O3 -fopenmp eurey.f -o eurey.o 
+     [exec] gfortran -c -O3 -fopenmp eurey1.f -o eurey1.o 
+     [exec] gfortran -c -O3 -fopenmp eurey2.f -o eurey2.o 
+     [exec] gfortran -c -O3 -fopenmp eurey3.f -o eurey3.o 
+     [exec] gfortran -c -O3 -fopenmp kdsp.f -o kdsp.o 
+     [exec] gfortran -c -O3 -fopenmp evcorr.f -o evcorr.o 
+     [exec] gfortran -c -O3 -fopenmp exfield.f -o exfield.o 
+     [exec] gfortran -c -O3 -fopenmp extra.f -o extra.o 
+     [exec] gfortran -c -O3 -fopenmp extra1.f -o extra1.o 
+     [exec] gfortran -c -O3 -fopenmp extra2.f -o extra2.o 
+     [exec] gfortran -c -O3 -fopenmp extra3.f -o extra3.o 
+     [exec] gfortran -c -O3 -fopenmp fatal.f -o fatal.o 
+     [exec] gfortran -c -O3 -fopenmp fft.f -o fft.o 
+     [exec] gfortran -c -O3 -fopenmp openmp.f -o openmp.o 
+     [exec] gfortran -c -O3 -fopenmp fft3d.f -o fft3d.o 
+     [exec] gfortran -c -O3 -fopenmp fftpack.f -o fftpack.o 
+     [exec] gfortran -c -O3 -fopenmp field.f -o field.o 
+     [exec] gfortran -c -O3 -fopenmp fracs.f -o fracs.o 
+     [exec] gfortran -c -O3 -fopenmp kanang.f -o kanang.o 
+     [exec] gfortran -c -O3 -fopenmp kangs.f -o kangs.o 
+     [exec] gfortran -c -O3 -fopenmp kantor.f -o kantor.o 
+     [exec] gfortran -c -O3 -fopenmp kbonds.f -o kbonds.o 
+     [exec] gfortran -c -O3 -fopenmp kcflux.f -o kcflux.o 
+     [exec] gfortran -c -O3 -fopenmp kcpen.f -o kcpen.o 
+     [exec] gfortran -c -O3 -fopenmp kctrn.f -o kctrn.o 
+     [exec] gfortran -c -O3 -fopenmp kdipol.f -o kdipol.o 
+     [exec] gfortran -c -O3 -fopenmp kexpl.f -o kexpl.o 
+     [exec] gfortran -c -O3 -fopenmp khbond.f -o khbond.o 
+     [exec] gfortran -c -O3 -fopenmp kiprop.f -o kiprop.o 
+     [exec] gfortran -c -O3 -fopenmp kitors.f -o kitors.o 
+     [exec] gfortran -c -O3 -fopenmp kmulti.f -o kmulti.o 
+     [exec] gfortran -c -O3 -fopenmp kopbnd.f -o kopbnd.o 
+     [exec] gfortran -c -O3 -fopenmp kopdst.f -o kopdst.o 
+     [exec] gfortran -c -O3 -fopenmp kpitor.f -o kpitor.o 
+     [exec] gfortran -c -O3 -fopenmp kpolpr.f -o kpolpr.o 
+     [exec] gfortran -c -O3 -fopenmp kpolr.f -o kpolr.o 
+     [exec] gfortran -c -O3 -fopenmp krepl.f -o krepl.o 
+     [exec] gfortran -c -O3 -fopenmp ksolut.f -o ksolut.o 
+     [exec] gfortran -c -O3 -fopenmp kstbnd.f -o kstbnd.o 
+     [exec] gfortran -c -O3 -fopenmp ksttor.f -o ksttor.o 
+     [exec] gfortran -c -O3 -fopenmp ktorsn.f -o ktorsn.o 
+     [exec] gfortran -c -O3 -fopenmp kurybr.f -o kurybr.o 
+     [exec] gfortran -c -O3 -fopenmp kvdwpr.f -o kvdwpr.o 
+     [exec] gfortran -c -O3 -fopenmp merck.f -o merck.o 
+     [exec] gfortran -c -O3 -fopenmp omega.f -o omega.o 
+     [exec] gfortran -c -O3 -fopenmp orbits.f -o orbits.o 
+     [exec] gfortran -c -O3 -fopenmp params.f -o params.o 
+     [exec] gfortran -c -O3 -fopenmp paths.f -o paths.o 
+     [exec] gfortran -c -O3 -fopenmp pdb.f -o pdb.o 
+     [exec] gfortran -c -O3 -fopenmp polpcg.f -o polpcg.o 
+     [exec] gfortran -c -O3 -fopenmp potfit.f -o potfit.o 
+     [exec] gfortran -c -O3 -fopenmp qmstuf.f -o qmstuf.o 
+     [exec] gfortran -c -O3 -fopenmp rgddyn.f -o rgddyn.o 
+     [exec] gfortran -c -O3 -fopenmp rigid.f -o rigid.o 
+     [exec] gfortran -c -O3 -fopenmp ring.f -o ring.o 
+     [exec] gfortran -c -O3 -fopenmp rotbnd.f -o rotbnd.o 
+     [exec] gfortran -c -O3 -fopenmp shapes.f -o shapes.o 
+     [exec] gfortran -c -O3 -fopenmp socket.f -o socket.o 
+     [exec] gfortran -c -O3 -fopenmp syntrn.f -o syntrn.o 
+     [exec] gfortran -c -O3 -fopenmp tettor.f -o tettor.o 
+     [exec] gfortran -c -O3 -fopenmp tritor.f -o tritor.o 
+     [exec] gfortran -c -O3 -fopenmp uprior.f -o uprior.o 
+     [exec] gfortran -c -O3 -fopenmp vibs.f -o vibs.o 
+     [exec] gfortran -c -O3 -fopenmp final.f -o final.o 
+     [exec] gfortran -c -O3 -fopenmp findnuc.f -o findnuc.o 
+     [exec] gfortran -c -O3 -fopenmp findpro.f -o findpro.o 
+     [exec] gfortran -c -O3 -fopenmp sequen.f -o sequen.o 
+     [exec] gfortran -c -O3 -fopenmp findseq.f -o findseq.o 
+     [exec] gfortran -c -O3 -fopenmp flatten.f -o flatten.o 
+     [exec] gfortran -c -O3 -fopenmp freefix.f -o freefix.o 
+     [exec] gfortran -c -O3 -fopenmp freeunit.f -o freeunit.o 
+     [exec] gfortran -c -O3 -fopenmp gda.f -o gda.o 
+     [exec] gfortran -c -O3 -fopenmp geometry.f -o geometry.o 
+     [exec] gfortran -c -O3 -fopenmp getarc.f -o getarc.o 
+     [exec] gfortran -c -O3 -fopenmp getcart.f -o getcart.o 
+     [exec] gfortran -c -O3 -fopenmp getdcd.f -o getdcd.o 
+     [exec] gfortran -c -O3 -fopenmp getint.f -o getint.o 
+     [exec] gfortran -c -O3 -fopenmp getkey.f -o getkey.o 
+     [exec] gfortran -c -O3 -fopenmp getmol.f -o getmol.o 
+     [exec] gfortran -c -O3 -fopenmp getmol2.f -o getmol2.o 
+     [exec] gfortran -c -O3 -fopenmp getnumb.f -o getnumb.o 
+     [exec] gfortran -c -O3 -fopenmp getpdb.f -o getpdb.o 
+     [exec] gfortran -c -O3 -fopenmp getprm.f -o getprm.o 
+     [exec] gfortran -c -O3 -fopenmp getref.f -o getref.o 
+     [exec] gfortran -c -O3 -fopenmp getstring.f -o getstring.o 
+     [exec] gfortran -c -O3 -fopenmp gettext.f -o gettext.o 
+     [exec] gfortran -c -O3 -fopenmp getword.f -o getword.o 
+     [exec] gfortran -c -O3 -fopenmp getxyz.f -o getxyz.o 
+     [exec] gfortran -c -O3 -fopenmp ghmcstep.f -o ghmcstep.o 
+     [exec] gfortran -c -O3 -fopenmp gradient.f -o gradient.o 
+     [exec] gfortran -c -O3 -fopenmp gradrgd.f -o gradrgd.o 
+     [exec] gfortran -c -O3 -fopenmp gradrot.f -o gradrot.o 
+     [exec] gfortran -c -O3 -fopenmp groups.f -o groups.o 
+     [exec] gfortran -c -O3 -fopenmp grpline.f -o grpline.o 
+     [exec] gfortran -c -O3 -fopenmp gyrate.f -o gyrate.o 
+     [exec] gfortran -c -O3 -fopenmp hessian.f -o hessian.o 
+     [exec] gfortran -c -O3 -fopenmp hessrgd.f -o hessrgd.o 
+     [exec] gfortran -c -O3 -fopenmp hessrot.f -o hessrot.o 
+     [exec] gfortran -c -O3 -fopenmp hybrid.f -o hybrid.o 
+     [exec] gfortran -c -O3 -fopenmp image.f -o image.o 
+     [exec] gfortran -c -O3 -fopenmp impose.f -o impose.o 
+     [exec] gfortran -c -O3 -fopenmp induce.f -o induce.o 
+     [exec] gfortran -c -O3 -fopenmp inertia.f -o inertia.o 
+     [exec] gfortran -c -O3 -fopenmp ptable.f -o ptable.o 
+     [exec] gfortran -c -O3 -fopenmp initatom.f -o initatom.o 
+     [exec] gfortran -c -O3 -fopenmp linmin.f -o linmin.o 
+     [exec] gfortran -c -O3 -fopenmp scales.f -o scales.o 
+     [exec] gfortran -c -O3 -fopenmp initial.f -o initial.o 
+     [exec] gfortran -c -O3 -fopenmp initneck.f -o initneck.o 
+     [exec] gfortran -c -O3 -fopenmp initprm.f -o initprm.o 
+     [exec] gfortran -c -O3 -fopenmp resdue.f -o resdue.o 
+     [exec] gfortran -c -O3 -fopenmp initres.f -o initres.o 
+     [exec] gfortran -c -O3 -fopenmp initrot.f -o initrot.o 
+     [exec] gfortran -c -O3 -fopenmp insert.f -o insert.o 
+     [exec] gfortran -c -O3 -fopenmp intedit.f -o intedit.o 
+     [exec] gfortran -c -O3 -fopenmp intxyz.f -o intxyz.o 
+     [exec] gfortran -c -O3 -fopenmp invbeta.f -o invbeta.o 
+     [exec] gfortran -c -O3 -fopenmp invert.f -o invert.o 
+     [exec] gfortran -c -O3 -fopenmp jacobi.f -o jacobi.o 
+     [exec] gfortran -c -O3 -fopenmp kangang.f -o kangang.o 
+     [exec] gfortran -c -O3 -fopenmp kangle.f -o kangle.o 
+     [exec] gfortran -c -O3 -fopenmp kangtor.f -o kangtor.o 
+     [exec] gfortran -c -O3 -fopenmp katom.f -o katom.o 
+     [exec] gfortran -c -O3 -fopenmp kbond.f -o kbond.o 
+     [exec] gfortran -c -O3 -fopenmp kcharge.f -o kcharge.o 
+     [exec] gfortran -c -O3 -fopenmp kchgflx.f -o kchgflx.o 
+     [exec] gfortran -c -O3 -fopenmp kchgtrn.f -o kchgtrn.o 
+     [exec] gfortran -c -O3 -fopenmp kdipole.f -o kdipole.o 
+     [exec] gfortran -c -O3 -fopenmp kdisp.f -o kdisp.o 
+     [exec] gfortran -c -O3 -fopenmp kewald.f -o kewald.o 
+     [exec] gfortran -c -O3 -fopenmp kexpol.f -o kexpol.o 
+     [exec] gfortran -c -O3 -fopenmp kextra.f -o kextra.o 
+     [exec] gfortran -c -O3 -fopenmp kgeom.f -o kgeom.o 
+     [exec] gfortran -c -O3 -fopenmp kimprop.f -o kimprop.o 
+     [exec] gfortran -c -O3 -fopenmp kimptor.f -o kimptor.o 
+     [exec] gfortran -c -O3 -fopenmp kinetic.f -o kinetic.o 
+     [exec] gfortran -c -O3 -fopenmp kmetal.f -o kmetal.o 
+     [exec] gfortran -c -O3 -fopenmp kmpole.f -o kmpole.o 
+     [exec] gfortran -c -O3 -fopenmp kopbend.f -o kopbend.o 
+     [exec] gfortran -c -O3 -fopenmp kopdist.f -o kopdist.o 
+     [exec] gfortran -c -O3 -fopenmp korbit.f -o korbit.o 
+     [exec] gfortran -c -O3 -fopenmp kpitors.f -o kpitors.o 
+     [exec] gfortran -c -O3 -fopenmp kpolar.f -o kpolar.o 
+     [exec] gfortran -c -O3 -fopenmp krepel.f -o krepel.o 
+     [exec] gfortran -c -O3 -fopenmp ksolv.f -o ksolv.o 
+     [exec] gfortran -c -O3 -fopenmp kstrbnd.f -o kstrbnd.o 
+     [exec] gfortran -c -O3 -fopenmp kstrtor.f -o kstrtor.o 
+     [exec] gfortran -c -O3 -fopenmp ktors.f -o ktors.o 
+     [exec] gfortran -c -O3 -fopenmp ktortor.f -o ktortor.o 
+     [exec] gfortran -c -O3 -fopenmp kundrot.f -o kundrot.o 
+     [exec] gfortran -c -O3 -fopenmp kurey.f -o kurey.o 
+     [exec] gfortran -c -O3 -fopenmp kvdw.f -o kvdw.o 
+     [exec] gfortran -c -O3 -fopenmp lattice.f -o lattice.o 
+     [exec] gfortran -c -O3 -fopenmp lbfgs.f -o lbfgs.o 
+     [exec] gfortran -c -O3 -fopenmp lights.f -o lights.o 
+     [exec] gfortran -c -O3 -fopenmp lusolve.f -o lusolve.o 
+     [exec] gfortran -c -O3 -fopenmp makeint.f -o makeint.o 
+     [exec] gfortran -c -O3 -fopenmp makeref.f -o makeref.o 
+     [exec] gfortran -c -O3 -fopenmp makexyz.f -o makexyz.o 
+     [exec] gfortran -c -O3 -fopenmp maxwell.f -o maxwell.o 
+     [exec] gfortran -c -O3 -fopenmp mdinit.f -o mdinit.o 
+     [exec] gfortran -c -O3 -fopenmp mdrest.f -o mdrest.o 
+     [exec] gfortran -c -O3 -fopenmp mdsave.f -o mdsave.o 
+     [exec] gfortran -c -O3 -fopenmp mdstat.f -o mdstat.o 
+     [exec] gfortran -c -O3 -fopenmp mechanic.f -o mechanic.o 
+     [exec] gfortran -c -O3 -fopenmp merge.f -o merge.o 
+     [exec] gfortran -c -O3 -fopenmp minimize.f -o minimize.o 
+     [exec] gfortran -c -O3 -fopenmp minirot.f -o minirot.o 
+     [exec] gfortran -c -O3 -fopenmp minrigid.f -o minrigid.o 
+     [exec] gfortran -c -O3 -fopenmp mol2xyz.f -o mol2xyz.o 
+     [exec] gfortran -c -O3 -fopenmp molecule.f -o molecule.o 
+     [exec] gfortran -c -O3 -fopenmp molxyz.f -o molxyz.o 
+     [exec] gfortran -c -O3 -fopenmp moments.f -o moments.o 
+     [exec] gfortran -c -O3 -fopenmp monte.f -o monte.o 
+     [exec] gfortran -c -O3 -fopenmp mutate.f -o mutate.o 
+     [exec] gfortran -c -O3 -fopenmp nblist.f -o nblist.o 
+     [exec] gfortran -c -O3 -fopenmp neck.f -o neck.o 
+     [exec] gfortran -c -O3 -fopenmp newton.f -o newton.o 
+     [exec] gfortran -c -O3 -fopenmp newtrot.f -o newtrot.o 
+     [exec] gfortran -c -O3 -fopenmp nextarg.f -o nextarg.o 
+     [exec] gfortran -c -O3 -fopenmp nexttext.f -o nexttext.o 
+     [exec] gfortran -c -O3 -fopenmp nose.f -o nose.o 
+     [exec] gfortran -c -O3 -fopenmp nspline.f -o nspline.o 
+     [exec] gfortran -c -O3 -fopenmp nucleo.f -o nucleo.o 
+     [exec] gfortran -c -O3 -fopenmp nucleic.f -o nucleic.o 
+     [exec] gfortran -c -O3 -fopenmp number.f -o number.o 
+     [exec] gfortran -c -O3 -fopenmp numeral.f -o numeral.o 
+     [exec] gfortran -c -O3 -fopenmp numgrad.f -o numgrad.o 
+     [exec] gfortran -c -O3 -fopenmp ocvm.f -o ocvm.o 
+     [exec] gfortran -c -O3 -fopenmp openend.f -o openend.o 
+     [exec] gfortran -c -O3 -fopenmp optimize.f -o optimize.o 
+     [exec] gfortran -c -O3 -fopenmp optinit.f -o optinit.o 
+     [exec] gfortran -c -O3 -fopenmp optirot.f -o optirot.o 
+     [exec] gfortran -c -O3 -fopenmp optrigid.f -o optrigid.o 
+     [exec] gfortran -c -O3 -fopenmp optsave.f -o optsave.o 
+     [exec] gfortran -c -O3 -fopenmp orbital.f -o orbital.o 
+     [exec] gfortran -c -O3 -fopenmp orient.f -o orient.o 
+     [exec] gfortran -c -O3 -fopenmp orthog.f -o orthog.o 
+     [exec] gfortran -c -O3 -fopenmp overlap.f -o overlap.o 
+     [exec] gfortran -c -O3 -fopenmp path.f -o path.o 
+     [exec] gfortran -c -O3 -fopenmp pdbxyz.f -o pdbxyz.o 
+     [exec] gfortran -c -O3 -fopenmp phipsi.f -o phipsi.o 
+     [exec] gfortran -c -O3 -fopenmp picalc.f -o picalc.o 
+     [exec] gfortran -c -O3 -fopenmp pmestuf.f -o pmestuf.o 
+     [exec] gfortran -c -O3 -fopenmp pmpb.f -o pmpb.o 
+     [exec] gfortran -c -O3 -fopenmp polarize.f -o polarize.o 
+     [exec] gfortran -c -O3 -fopenmp poledit.f -o poledit.o 
+     [exec] gfortran -c -O3 -fopenmp polymer.f -o polymer.o 
+     [exec] gfortran -c -O3 -fopenmp potential.f -o potential.o 
+     [exec] gfortran -c -O3 -fopenmp predict.f -o predict.o 
+     [exec] gfortran -c -O3 -fopenmp pressure.f -o pressure.o 
+     [exec] gfortran -c -O3 -fopenmp prmedit.f -o prmedit.o 
+     [exec] gfortran -c -O3 -fopenmp prmkey.f -o prmkey.o 
+     [exec] gfortran -c -O3 -fopenmp promo.f -o promo.o 
+     [exec] gfortran -c -O3 -fopenmp protein.f -o protein.o 
+     [exec] gfortran -c -O3 -fopenmp prtarc.f -o prtarc.o 
+     [exec] gfortran -c -O3 -fopenmp prtdyn.f -o prtdyn.o 
+     [exec] gfortran -c -O3 -fopenmp prterr.f -o prterr.o 
+     [exec] gfortran -c -O3 -fopenmp prtfrc.f -o prtfrc.o 
+     [exec] gfortran -c -O3 -fopenmp prtint.f -o prtint.o 
+     [exec] gfortran -c -O3 -fopenmp prtmol2.f -o prtmol2.o 
+     [exec] gfortran -c -O3 -fopenmp prtpdb.f -o prtpdb.o 
+     [exec] gfortran -c -O3 -fopenmp prtprm.f -o prtprm.o 
+     [exec] gfortran -c -O3 -fopenmp prtseq.f -o prtseq.o 
+     [exec] gfortran -c -O3 -fopenmp prtuind.f -o prtuind.o 
+     [exec] gfortran -c -O3 -fopenmp prtvel.f -o prtvel.o 
+     [exec] gfortran -c -O3 -fopenmp prtxyz.f -o prtxyz.o 
+     [exec] gfortran -c -O3 -fopenmp tree.f -o tree.o 
+     [exec] gfortran -c -O3 -fopenmp pss.f -o pss.o 
+     [exec] gfortran -c -O3 -fopenmp pssrigid.f -o pssrigid.o 
+     [exec] gfortran -c -O3 -fopenmp pssrot.f -o pssrot.o 
+     [exec] gfortran -c -O3 -fopenmp qrsolve.f -o qrsolve.o 
+     [exec] gfortran -c -O3 -fopenmp quatfit.f -o quatfit.o 
+     [exec] gfortran -c -O3 -fopenmp radial.f -o radial.o 
+     [exec] gfortran -c -O3 -fopenmp random.f -o random.o 
+     [exec] gfortran -c -O3 -fopenmp rattle.f -o rattle.o 
+     [exec] gfortran -c -O3 -fopenmp readcart.f -o readcart.o 
+     [exec] gfortran -c -O3 -fopenmp readdcd.f -o readdcd.o 
+     [exec] gfortran -c -O3 -fopenmp readdyn.f -o readdyn.o 
+     [exec] gfortran -c -O3 -fopenmp readgau.f -o readgau.o 
+     [exec] gfortran -c -O3 -fopenmp readgdma.f -o readgdma.o 
+     [exec] gfortran -c -O3 -fopenmp readint.f -o readint.o 
+     [exec] gfortran -c -O3 -fopenmp readmbis.f -o readmbis.o 
+     [exec] gfortran -c -O3 -fopenmp readmol.f -o readmol.o 
+     [exec] gfortran -c -O3 -fopenmp readmol2.f -o readmol2.o 
+     [exec] gfortran -c -O3 -fopenmp readpdb.f -o readpdb.o 
+     [exec] gfortran -c -O3 -fopenmp readprm.f -o readprm.o 
+     [exec] gfortran -c -O3 -fopenmp readseq.f -o readseq.o 
+     [exec] gfortran -c -O3 -fopenmp readxyz.f -o readxyz.o 
+     [exec] gfortran -c -O3 -fopenmp replica.f -o replica.o 
+     [exec] gfortran -c -O3 -fopenmp respa.f -o respa.o 
+     [exec] gfortran -c -O3 -fopenmp rgdstep.f -o rgdstep.o 
+     [exec] gfortran -c -O3 -fopenmp richmond.f -o richmond.o 
+     [exec] gfortran -c -O3 -fopenmp rings.f -o rings.o 
+     [exec] gfortran -c -O3 -fopenmp rmsfit.f -o rmsfit.o 
+     [exec] gfortran -c -O3 -fopenmp rotlist.f -o rotlist.o 
+     [exec] gfortran -c -O3 -fopenmp rotpole.f -o rotpole.o 
+     [exec] gfortran -c -O3 -fopenmp saddle.f -o saddle.o 
+     [exec] gfortran -c -O3 -fopenmp scan.f -o scan.o 
+     [exec] gfortran -c -O3 -fopenmp sdstep.f -o sdstep.o 
+     [exec] gfortran -c -O3 -fopenmp search.f -o search.o 
+     [exec] gfortran -c -O3 -fopenmp server.f -o server.o 
+     [exec] gfortran -c -O3 -fopenmp setprm.f -o setprm.o 
+     [exec] gfortran -c -O3 -fopenmp shakeup.f -o shakeup.o 
+     [exec] gfortran -c -O3 -fopenmp sigmoid.f -o sigmoid.o 
+     [exec] gfortran -c -O3 -fopenmp simplex.f -o simplex.o 
+     [exec] gfortran -c -O3 -fopenmp sktstuf.f -o sktstuf.o 
+     [exec] gfortran -c -O3 -fopenmp sniffer.f -o sniffer.o 
+     [exec] gfortran -c -O3 -fopenmp sort.f -o sort.o 
+     [exec] gfortran -c -O3 -fopenmp spacefill.f -o spacefill.o 
+     [exec] gfortran -c -O3 -fopenmp spectrum.f -o spectrum.o 
+     [exec] gfortran -c -O3 -fopenmp square.f -o square.o 
+     [exec] gfortran -c -O3 -fopenmp suffix.f -o suffix.o 
+     [exec] gfortran -c -O3 -fopenmp superpose.f -o superpose.o 
+     [exec] gfortran -c -O3 -fopenmp surface.f -o surface.o 
+     [exec] gfortran -c -O3 -fopenmp surfatom.f -o surfatom.o 
+     [exec] gfortran -c -O3 -fopenmp switch.f -o switch.o 
+     [exec] gfortran -c -O3 -fopenmp tcgstuf.f -o tcgstuf.o 
+     [exec] gfortran -c -O3 -fopenmp temper.f -o temper.o 
+     [exec] gfortran -c -O3 -fopenmp testgrad.f -o testgrad.o 
+     [exec] gfortran -c -O3 -fopenmp testhess.f -o testhess.o 
+     [exec] gfortran -c -O3 -fopenmp testpair.f -o testpair.o 
+     [exec] gfortran -c -O3 -fopenmp testpol.f -o testpol.o 
+     [exec] gfortran -c -O3 -fopenmp testrot.f -o testrot.o 
+     [exec] gfortran -c -O3 -fopenmp testsurf.f -o testsurf.o 
+     [exec] gfortran -c -O3 -fopenmp testvir.f -o testvir.o 
+     [exec] gfortran -c -O3 -fopenmp tettors.f -o tettors.o 
+     [exec] gfortran -c -O3 -fopenmp timer.f -o timer.o 
+     [exec] gfortran -c -O3 -fopenmp timerot.f -o timerot.o 
+     [exec] gfortran -c -O3 -fopenmp tncg.f -o tncg.o 
+     [exec] gfortran -c -O3 -fopenmp torphase.f -o torphase.o 
+     [exec] gfortran -c -O3 -fopenmp torque.f -o torque.o 
+     [exec] gfortran -c -O3 -fopenmp torsfit.f -o torsfit.o 
+     [exec] gfortran -c -O3 -fopenmp torsions.f -o torsions.o 
+     [exec] gfortran -c -O3 -fopenmp trimtext.f -o trimtext.o 
+     [exec] gfortran -c -O3 -fopenmp tritors.f -o tritors.o 
+     [exec] gfortran -c -O3 -fopenmp unionball.f -o unionball.o 
+     [exec] gfortran -c -O3 -fopenmp unitcell.f -o unitcell.o 
+     [exec] gfortran -c -O3 -fopenmp valfit.f -o valfit.o 
+     [exec] gfortran -c -O3 -fopenmp valence.f -o valence.o 
+     [exec] gfortran -c -O3 -fopenmp verlet.f -o verlet.o 
+     [exec] gfortran -c -O3 -fopenmp version.f -o version.o 
+     [exec] gfortran -c -O3 -fopenmp vibbig.f -o vibbig.o 
+     [exec] gfortran -c -O3 -fopenmp vibrate.f -o vibrate.o 
+     [exec] gfortran -c -O3 -fopenmp vibrot.f -o vibrot.o 
+     [exec] gfortran -c -O3 -fopenmp volume.f -o volume.o 
+     [exec] gfortran -c -O3 -fopenmp xtals.f -o xtals.o 
+     [exec] gfortran -c -O3 -fopenmp xtalfit.f -o xtalfit.o 
+     [exec] gfortran -c -O3 -fopenmp xtalmin.f -o xtalmin.o 
+     [exec] gfortran -c -O3 -fopenmp xyzatm.f -o xyzatm.o 
+     [exec] gfortran -c -O3 -fopenmp xyzedit.f -o xyzedit.o 
+     [exec] gfortran -c -O3 -fopenmp xyzint.f -o xyzint.o 
+     [exec] gfortran -c -O3 -fopenmp xyzmol2.f -o xyzmol2.o 
+     [exec] gfortran -c -O3 -fopenmp xyzpdb.f -o xyzpdb.o 
+     [exec] gfortran -c -O3 -fopenmp zatom.f -o zatom.o 
      [exec] ar -crusv libtinker.a \
      [exec] action.o \
      [exec] active.o \
@@ -817,6 +817,7 @@ maketinker:
      [exec] angang.o \
      [exec] angbnd.o \
      [exec] angles.o \
+     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] angpot.o \
      [exec] angtor.o \
      [exec] argue.o \
@@ -1177,7 +1178,6 @@ maketinker:
      [exec] moments.o \
      [exec] mplpot.o \
      [exec] mpole.o \
-     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] mrecip.o \
      [exec] mutant.o \
      [exec] mutate.o \
@@ -1886,71 +1886,71 @@ maketinker:
      [exec] a - zclose.o
      [exec] a - zcoord.o
      [exec] ranlib libtinker.a
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o alchemy.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib alchemy.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip alchemy.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o analyze.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib analyze.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip analyze.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o anneal.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib anneal.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip anneal.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o arcedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib arcedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip arcedit.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o bar.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib bar.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip bar.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o correlate.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib correlate.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip correlate.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o critical.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib critical.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip critical.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o crystal.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib crystal.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip crystal.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o diffuse.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib diffuse.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip diffuse.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o distgeom.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib distgeom.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip distgeom.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o document.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib document.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip document.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o dynamic.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib dynamic.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip dynamic.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o freefix.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib freefix.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip freefix.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o gda.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib gda.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip gda.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o intedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib intedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip intedit.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o intxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib intxyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip intxyz.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o minimize.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minimize.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minimize.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o minirot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minirot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minirot.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o minrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minrigid.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minrigid.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o mol2xyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib mol2xyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip mol2xyz.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o molxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib molxyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip molxyz.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o monte.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib monte.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip monte.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o newton.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib newton.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip newton.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o newtrot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib newtrot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip newtrot.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o nucleic.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib nucleic.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip nucleic.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o optimize.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib optimize.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip optimize.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o optirot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib optirot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip optirot.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o optrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib optrigid.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip optrigid.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o path.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib path.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip path.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o pdbxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib pdbxyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip pdbxyz.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o polarize.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib polarize.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip polarize.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o poledit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib poledit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip poledit.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o potential.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib potential.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip potential.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o prmedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib prmedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip prmedit.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o protein.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib protein.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip protein.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o pss.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib pss.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip pss.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o pssrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib pssrigid.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip pssrigid.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o pssrot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib pssrot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip pssrot.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o radial.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib radial.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip radial.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o saddle.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib saddle.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip saddle.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o scan.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib scan.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip scan.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o sniffer.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib sniffer.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip sniffer.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o spacefill.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib spacefill.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip spacefill.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o spectrum.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib spectrum.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip spectrum.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o superpose.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib superpose.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip superpose.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o testgrad.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testgrad.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testgrad.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o testhess.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testhess.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testhess.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o testpair.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testpair.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testpair.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o testpol.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testpol.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testpol.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o testrot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testrot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testrot.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o testsurf.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testsurf.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testsurf.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o testvir.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testvir.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testvir.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o timer.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib timer.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip timer.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o timerot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib timerot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip timerot.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o torsfit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib torsfit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip torsfit.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o valence.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib valence.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip valence.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o vibbig.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib vibbig.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip vibbig.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o vibrate.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib vibrate.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip vibrate.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o vibrot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib vibrot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip vibrot.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o xtalfit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xtalfit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xtalfit.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o xtalmin.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xtalmin.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xtalmin.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o xyzedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzedit.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o xyzint.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzint.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzint.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o xyzmol2.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzmol2.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzmol2.x
-     [exec] gfortran -Ofast -fopenmp -static-libgcc -o xyzpdb.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzpdb.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzpdb.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o alchemy.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib alchemy.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip alchemy.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o analyze.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib analyze.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip analyze.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o anneal.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib anneal.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip anneal.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o arcedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib arcedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip arcedit.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o bar.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib bar.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip bar.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o correlate.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib correlate.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip correlate.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o critical.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib critical.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip critical.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o crystal.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib crystal.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip crystal.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o diffuse.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib diffuse.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip diffuse.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o distgeom.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib distgeom.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip distgeom.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o document.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib document.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip document.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o dynamic.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib dynamic.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip dynamic.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o freefix.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib freefix.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip freefix.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o gda.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib gda.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip gda.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o intedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib intedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip intedit.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o intxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib intxyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip intxyz.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o minimize.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minimize.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minimize.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o minirot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minirot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minirot.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o minrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minrigid.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minrigid.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o mol2xyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib mol2xyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip mol2xyz.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o molxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib molxyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip molxyz.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o monte.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib monte.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip monte.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o newton.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib newton.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip newton.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o newtrot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib newtrot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip newtrot.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o nucleic.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib nucleic.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip nucleic.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o optimize.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib optimize.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip optimize.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o optirot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib optirot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip optirot.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o optrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib optrigid.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip optrigid.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o path.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib path.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip path.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o pdbxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib pdbxyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip pdbxyz.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o polarize.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib polarize.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip polarize.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o poledit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib poledit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip poledit.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o potential.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib potential.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip potential.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o prmedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib prmedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip prmedit.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o protein.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib protein.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip protein.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o pss.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib pss.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip pss.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o pssrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib pssrigid.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip pssrigid.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o pssrot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib pssrot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip pssrot.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o radial.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib radial.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip radial.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o saddle.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib saddle.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip saddle.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o scan.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib scan.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip scan.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o sniffer.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib sniffer.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip sniffer.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o spacefill.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib spacefill.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip spacefill.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o spectrum.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib spectrum.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip spectrum.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o superpose.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib superpose.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip superpose.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o testgrad.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testgrad.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testgrad.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o testhess.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testhess.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testhess.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o testpair.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testpair.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testpair.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o testpol.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testpol.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testpol.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o testrot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testrot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testrot.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o testsurf.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testsurf.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testsurf.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o testvir.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib testvir.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip testvir.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o timer.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib timer.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip timer.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o timerot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib timerot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip timerot.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o torsfit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib torsfit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip torsfit.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o valence.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib valence.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip valence.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o vibbig.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib vibbig.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip vibbig.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o vibrate.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib vibrate.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip vibrate.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o vibrot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib vibrot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip vibrot.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o xtalfit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xtalfit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xtalfit.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o xtalmin.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xtalmin.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xtalmin.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzedit.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzint.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzint.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzint.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzmol2.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzmol2.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzmol2.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzpdb.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzpdb.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzpdb.x
      [copy] Copying 65 files to /home/ponder/ffe/build/tinker/bin
 
 ffe:
@@ -2044,7 +2044,7 @@ resource:
      [copy] Copying 148 files to /home/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-25.4.jar
+      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-25.5.jar
 
 make:
 
@@ -2089,28 +2089,28 @@ kits:
 [install4j] Compressed media file 'Unix Installer':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_25.4.21.sh.
-[install4j]   The size of the media file is 264.1 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_25.5.21.sh.
+[install4j]   The size of the media file is 262.3 MB
 [install4j] 
 [install4j] Compressed media file 'Unix Archive':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_25.4.21.tar.gz.
-[install4j]   The size of the media file is 251.6 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_25.5.21.tar.gz.
+[install4j]   The size of the media file is 249.7 MB
 [install4j] 
 [install4j] Compressed media file 'Linux RPM':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_linux_25.4.21.rpm.
-[install4j]   The size of the media file is 252.2 MB
+[install4j]   The name of the media file is Tinker-FFE_linux_25.5.21.rpm.
+[install4j]   The size of the media file is 250.4 MB
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 72.7 seconds at 2025-09-02 23:25:38.
-     [gzip] Building: /home/ponder/ffe/build/kits/build_25.4.21.log.gz
-     [gzip] Building: /home/ponder/ffe/build/kits/error_25.4.21.log.gz
-   [delete] Deleting: /home/ponder/ffe/build/kits/build_25.4.21.log
-   [delete] Deleting: /home/ponder/ffe/build/kits/error_25.4.21.log
+[install4j] Build completed in 73.6 seconds at 2025-10-03 11:26:36.
+     [gzip] Building: /home/ponder/ffe/build/kits/build_25.5.21.log.gz
+     [gzip] Building: /home/ponder/ffe/build/kits/error_25.5.21.log.gz
+   [delete] Deleting: /home/ponder/ffe/build/kits/build_25.5.21.log
+   [delete] Deleting: /home/ponder/ffe/build/kits/error_25.5.21.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 6 minutes 11 seconds
+Total time: 5 minutes 34 seconds
