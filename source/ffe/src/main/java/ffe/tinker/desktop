@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  
+<!--
 
  Title: Force Field Explorer</p>
  Description: Force Field Explorer Molecular Modeling Program</p>
  Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  Author: Michael J. Schnieders
- Version: 25.4
- 
+ Version: 25.6
+
 -->
 <document>
   <properties>
@@ -1590,22 +1590,22 @@
  ??????chiral?????? centers, for example the alpha carbon in united-atom protein structures, are not
  enforced as chiral.
 		</subsection>
-      <subsection name="RATTLE" rep="CHECKBOXES">[BONDS/ANGLES/DIATOMIC/TRIATOMIC/WATER] Invokes the rattle
+      <subsection name="FREEZE" rep="CHECKBOXES">[BONDS/ANGLES/DIATOMIC/TRIATOMIC/WATER] Invokes the FREEZE
  algorithm, a velocity version of shake, on portions of a molecular system during a molecular
- dynamic calculation. The RATTLE keyword can be followed by any of the modifiers shown, in
+ dynamic calculation. The FREEZE keyword can be followed by any of the modifiers shown, in
  which case all occurrences of the modifier species are constrained at ideal values taken from
  the bond and angle parameters of the force field in use. In the absence of any modifier,
- RATTLE constrains all bonds to hydrogen atoms at ideal bond lengths.
+ FREEZE constrains all bonds to hydrogen atoms at ideal bond lengths.
          <Value name="BONDS"/>
         <Value name="ANGLES"/>
         <Value name="DIATOMIC"/>
         <Value name="TRIATOMIC"/>
         <Value name="WATER"/>
       </subsection>
-      <subsection name="RATTLE-DISTANCE" rep="EDITCOMBOBOX">[2 integers] This keyword allows the use of rattle (see above) on a the
+      <subsection name="FREEZE-DISTANCE" rep="EDITCOMBOBOX">[2 integers] This keyword allows the use of FREEZE (see above) on a the
  bond between the two atoms whose numbers are specified on the keyword line. If the two
  atoms are involved in a covalent bond, then their distance is constrained to the ideal bond
- length from the force field. For nonbonded atoms, the rattle constraint fixes their distance at
+ length from the force field. For nonbonded atoms, the FREEZE constraint fixes their distance at
  the distance in the input coordinate file.
 		</subsection>
       <subsection name="RESTRAIN-ANGLE" rep="EDITCOMBOBOX">[3 integers and 3 reals] This keyword implements a flat-welled harmonic potential

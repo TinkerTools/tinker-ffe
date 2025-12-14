@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 25.5
+ * @version 25.6
  */
 
 package ffe.parsers;
@@ -58,13 +58,13 @@ public class KeyFilter {
 					String keyword, data;
 					if (firstspace == -1) { // no parameters
 						keyword = s.trim().toUpperCase();
-						// Rattle is special case, because it can be active
+						// FREEZE is special case, because it can be active
 						// without being checked;
-						// Valid Key files can have: RATTLE, or RATTLE BONDS,
-						// or RATTLE & RATTLE BONDS as separate lines;
+						// Valid Key files can have: FREEZE, or FREEZE BONDS,
+						// or FREEZE & FREEZE BONDS as separate lines;
 						// Each of these valid cases mean different things...
-						if (keyword.equalsIgnoreCase("RATTLE")) {
-							data = "RATTLE";
+						if (keyword.equalsIgnoreCase("FREEZE")) {
+							data = "FREEZE";
 						} else {
 							data = null;
 						}

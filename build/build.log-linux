@@ -4,8 +4,8 @@ info:
      [echo] General Build Information:
      [echo] Developer: ponder
      [echo] Build File: /home/ponder/ffe/build/linux.ant.xml
-     [echo] OS: Linux version 6.8.0-85-generic on amd64
-     [echo] JVM: Amazon.com Inc. OpenJDK 64-Bit Server VM version 11.0.28
+     [echo] OS: Linux version 6.8.0-90-generic on amd64
+     [echo] JVM: Amazon.com Inc. OpenJDK 64-Bit Server VM version 11.0.29
      [echo] Compiler Information:
      [echo] Fortran Compiler: gfortran
      [echo] Fortran Flags: -Ofast -msse3 -fopenmp
@@ -31,7 +31,7 @@ init:
     [mkdir] Created dir: /home/ponder/ffe/build/tinker/bin
      [echo] Create APBS Directories
 [echoproperties] #Ant properties
-[echoproperties] #Fri Oct 03 11:21:02 EDT 2025
+[echoproperties] #Sat Dec 13 16:11:16 EST 2025
 [echoproperties] awt.toolkit=sun.awt.X11.XToolkit
 [echoproperties] ant.library.dir=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] env.TERM=xterm-256color
@@ -44,7 +44,7 @@ init:
 [echoproperties] java.vendor.url=https\://aws.amazon.com/corretto/
 [echoproperties] env.GNOME_SETUP_DISPLAY=\:1
 [echoproperties] env.CLUTTER_DISABLE_MIPMAPPED_TEXT=1
-[echoproperties] DSTAMP=20251003
+[echoproperties] DSTAMP=20251213
 [echoproperties] sun.boot.library.path=/usr/lib/jvm/java-11-amazon-corretto/lib
 [echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp  -f linux.ant.xml
 [echoproperties] env.MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA\=
@@ -53,11 +53,11 @@ init:
 [echoproperties] tinker.src.dir=/home/ponder/ffe/build/tinker/source
 [echoproperties] java.specification.vendor=Oracle Corporation
 [echoproperties] env.JAVA_HOME=/usr/lib/jvm/java-11-amazon-corretto
-[echoproperties] java.version.date=2025-07-15
+[echoproperties] java.version.date=2025-10-21
 [echoproperties] env.GDMSESSION=ubuntu
 [echoproperties] env.OSTYPE=linux
 [echoproperties] java.home=/usr/lib/jvm/java-11-amazon-corretto
-[echoproperties] version=25.5
+[echoproperties] version=25.6
 [echoproperties] basedir=/home/ponder/ffe/build
 [echoproperties] file.separator=/
 [echoproperties] java.vm.compressedOopsMode=Zero based
@@ -68,19 +68,19 @@ init:
 [echoproperties] env.GNOME_DESKTOP_SESSION_ID=this-is-deprecated
 [echoproperties] env.TLS=/home/ponder/ffe/build/buildtools
 [echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
-[echoproperties] java.runtime.version=11.0.28+6-LTS
+[echoproperties] java.runtime.version=11.0.29+7-LTS
 [echoproperties] user.name=ponder
 [echoproperties] env.PATH=/home/ponder/ffe/build/buildtools/ant-1.9.6/bin\:.\:..\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/opt/install4j10/bin\:/usr/lib/jvm/java-11-amazon-corretto/bin\:/usr/local/bin\:/Applications/groovy-2.4.4/bin\:/Applications/ant-1.9.6/bin\:/opt/install4j10/bin\:/usr/lib/jvm/java-11-amazon-corretto/bin\:/usr/local/bin\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin\:/snap/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin\:/usr/X11R6/bin\:.\:/home/ponder/tinker/bin
 [echoproperties] env.LOGNAME=ponder
 [echoproperties] file.encoding=UTF-8
 [echoproperties] env.VENDOR=unknown
-[echoproperties] java.vendor.version=Corretto-11.0.28.6.1
+[echoproperties] java.vendor.version=Corretto-11.0.29.7.1
 [echoproperties] env.SHLVL=1
 [echoproperties] env.XDG_SESSION_DESKTOP=ubuntu
 [echoproperties] cc=gcc
 [echoproperties] java.io.tmpdir=/tmp
 [echoproperties] env.GSM_SKIP_SSH_AGENT_WORKAROUND=true
-[echoproperties] java.version=11.0.28
+[echoproperties] java.version=11.0.29
 [echoproperties] env.SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
 [echoproperties] env.XDG_RUNTIME_DIR=/run/user/1001
 [echoproperties] fftw.dir=/home/ponder/ffe/build/fftw
@@ -91,7 +91,7 @@ init:
 [echoproperties] ant.home=/home/ponder/ffe/build/buildtools/ant-1.9.6
 [echoproperties] sun.os.patch.level=unknown
 [echoproperties] ant.file.type.Force\ Field\ Explorer\ for\ Linux=file
-[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/a3129f4b_36f1_42a8_a06e_074e438a87bb
+[echoproperties] env.GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/4a7a9512_df2e_46e2_8295_dcff5d084555
 [echoproperties] env.GROUP=ponder
 [echoproperties] ant.version=Apache Ant(TM) version 1.9.6 compiled on June 29 2015
 [echoproperties] java.library.path=\:/usr/java/packages/lib\:/usr/lib64\:/lib64\:/lib\:/usr/lib
@@ -100,12 +100,12 @@ init:
 [echoproperties] java.specification.maintenance.version=3
 [echoproperties] sun.io.unicode.encoding=UnicodeLittle
 [echoproperties] env.XDG_SESSION_CLASS=user
-[echoproperties] env.XAUTHORITY=/run/user/1001/.mutter-Xwaylandauth.ELUCD3
+[echoproperties] env.XAUTHORITY=/run/user/1001/.mutter-Xwaylandauth.E914G3
 [echoproperties] sun.desktop=gnome
 [echoproperties] ant.file.type=file
 [echoproperties] env.PWD=/home/ponder/ffe/build
 [echoproperties] env.LANG=en_US.UTF-8
-[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/3046,unix/ubuntu\:/tmp/.ICE-unix/3046
+[echoproperties] env.SESSION_MANAGER=local/ubuntu\:@/tmp/.ICE-unix/2761,unix/ubuntu\:/tmp/.ICE-unix/2761
 [echoproperties] env.HOSTTYPE=x86_64-linux
 [echoproperties] java.class.path=/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-xalan2.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jmf.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-javamail.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-logging.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bcel.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-testutil.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-regexp.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-oro.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-swing.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-antlr.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bsf.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jai.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit4.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jdepend.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-net.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-log4j.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jsch.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-netrexx.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-resolver.jar\:/home/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar
 [echoproperties] env.HOME=/home/ponder
@@ -128,7 +128,7 @@ init:
 [echoproperties] user.home=/home/ponder
 [echoproperties] env.DYLD_LIBRARY_PATH=
 [echoproperties] user.language=en
-[echoproperties] build.log=kits/build_25.5.21.log
+[echoproperties] build.log=kits/build_25.6.21.log
 [echoproperties] env.WAYLAND_DISPLAY=wayland-0
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ Linux=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] ffe.dir=/home/ponder/ffe/build/ffe
@@ -141,7 +141,7 @@ init:
 [echoproperties] fc=gfortran
 [echoproperties] env.GROOVY_HOME=/Applications/groovy-2.4.4
 [echoproperties] env.ANT_HOME=/home/ponder/ffe/build/buildtools/ant-1.9.6
-[echoproperties] TSTAMP=1121
+[echoproperties] TSTAMP=1611
 [echoproperties] env.XDG_MENU_PREFIX=gnome-
 [echoproperties] env.DBUS_SESSION_BUS_ADDRESS=unix\:path\=/run/user/1001/bus
 [echoproperties] env.HOST=ubuntu
@@ -149,10 +149,10 @@ init:
 [echoproperties] tinker.link.flags=-Ofast -fopenmp -static-libgcc -L. -L/home/ponder/ffe/build/fftw/lib -ltinker -lfftw3 -lfftw3_threads
 [echoproperties] ant.file=/home/ponder/ffe/build/linux.ant.xml
 [echoproperties] path.separator=\:
-[echoproperties] error.log=kits/error_25.5.21.log
+[echoproperties] error.log=kits/error_25.6.21.log
 [echoproperties] platform=linux
-[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.100
-[echoproperties] os.version=6.8.0-85-generic
+[echoproperties] env.GNOME_TERMINAL_SERVICE=\:1.94
+[echoproperties] os.version=6.8.0-90-generic
 [echoproperties] tinker.include.flags=-I/home/ponder/ffe/build/tinker/source -I/home/ponder/ffe/build/ffe/native -I/home/ponder/ffe/build/ffe/native/linux
 [echoproperties] java.runtime.name=OpenJDK Runtime Environment
 [echoproperties] tinker.bin.dir=/home/ponder/ffe/build/tinker/bin
@@ -164,7 +164,7 @@ init:
 [echoproperties] env.GTK_MODULES=gail\:atk-bridge
 [echoproperties] java.vendor.url.bug=https\://github.com/corretto/corretto-11/issues/
 [echoproperties] env.VTE_VERSION=7600
-[echoproperties] TODAY=October 3 2025
+[echoproperties] TODAY=December 13 2025
 [echoproperties] user.dir=/home/ponder/ffe/build
 [echoproperties] env.USERNAME=ponder
 [echoproperties] os.arch=amd64
@@ -174,8 +174,8 @@ init:
 [echoproperties] env.XDG_CURRENT_DESKTOP=ubuntu\:GNOME
 [echoproperties] env.ANT_OPTS=-Xms2048M -Xmx4096M
 [echoproperties] java.vm.info=mixed mode
-[echoproperties] java.vm.version=11.0.28+6-LTS
-[echoproperties] env.SYSTEMD_EXEC_PID=3082
+[echoproperties] java.vm.version=11.0.29+7-LTS
+[echoproperties] env.SYSTEMD_EXEC_PID=2809
 [echoproperties] build.number=21
 [echoproperties] env.GNOME_SHELL_SESSION_MODE=ubuntu
 [echoproperties] env.USER=ponder
@@ -566,6 +566,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp getarc.f -o getarc.o 
      [exec] gfortran -c -O3 -fopenmp getcart.f -o getcart.o 
      [exec] gfortran -c -O3 -fopenmp getdcd.f -o getdcd.o 
+     [exec] gfortran -c -O3 -fopenmp getfloat.f -o getfloat.o 
      [exec] gfortran -c -O3 -fopenmp getint.f -o getint.o 
      [exec] gfortran -c -O3 -fopenmp getkey.f -o getkey.o 
      [exec] gfortran -c -O3 -fopenmp getmol.f -o getmol.o 
@@ -622,6 +623,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp kewald.f -o kewald.o 
      [exec] gfortran -c -O3 -fopenmp kexpol.f -o kexpol.o 
      [exec] gfortran -c -O3 -fopenmp kextra.f -o kextra.o 
+     [exec] gfortran -c -O3 -fopenmp kfreeze.f -o kfreeze.o 
      [exec] gfortran -c -O3 -fopenmp kgeom.f -o kgeom.o 
      [exec] gfortran -c -O3 -fopenmp kimprop.f -o kimprop.o 
      [exec] gfortran -c -O3 -fopenmp kimptor.f -o kimptor.o 
@@ -650,6 +652,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp makeref.f -o makeref.o 
      [exec] gfortran -c -O3 -fopenmp makexyz.f -o makexyz.o 
      [exec] gfortran -c -O3 -fopenmp maxwell.f -o maxwell.o 
+     [exec] gfortran -c -O3 -fopenmp mdavg.f -o mdavg.o 
      [exec] gfortran -c -O3 -fopenmp mdinit.f -o mdinit.o 
      [exec] gfortran -c -O3 -fopenmp mdrest.f -o mdrest.o 
      [exec] gfortran -c -O3 -fopenmp mdsave.f -o mdsave.o 
@@ -706,6 +709,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp promo.f -o promo.o 
      [exec] gfortran -c -O3 -fopenmp protein.f -o protein.o 
      [exec] gfortran -c -O3 -fopenmp prtarc.f -o prtarc.o 
+     [exec] gfortran -c -O3 -fopenmp prtcif.f -o prtcif.o 
      [exec] gfortran -c -O3 -fopenmp prtdyn.f -o prtdyn.o 
      [exec] gfortran -c -O3 -fopenmp prterr.f -o prterr.o 
      [exec] gfortran -c -O3 -fopenmp prtfrc.f -o prtfrc.o 
@@ -727,6 +731,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp random.f -o random.o 
      [exec] gfortran -c -O3 -fopenmp rattle.f -o rattle.o 
      [exec] gfortran -c -O3 -fopenmp readcart.f -o readcart.o 
+     [exec] gfortran -c -O3 -fopenmp readcif.f -o readcif.o 
      [exec] gfortran -c -O3 -fopenmp readdcd.f -o readdcd.o 
      [exec] gfortran -c -O3 -fopenmp readdyn.f -o readdyn.o 
      [exec] gfortran -c -O3 -fopenmp readgau.f -o readgau.o 
@@ -753,7 +758,8 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp search.f -o search.o 
      [exec] gfortran -c -O3 -fopenmp server.f -o server.o 
      [exec] gfortran -c -O3 -fopenmp setprm.f -o setprm.o 
-     [exec] gfortran -c -O3 -fopenmp shakeup.f -o shakeup.o 
+     [exec] gfortran -c -O3 -fopenmp settle.f -o settle.o 
+     [exec] gfortran -c -O3 -fopenmp shake.f -o shake.o 
      [exec] gfortran -c -O3 -fopenmp sigmoid.f -o sigmoid.o 
      [exec] gfortran -c -O3 -fopenmp simplex.f -o simplex.o 
      [exec] gfortran -c -O3 -fopenmp sktstuf.f -o sktstuf.o 
@@ -817,7 +823,6 @@ maketinker:
      [exec] angang.o \
      [exec] angbnd.o \
      [exec] angles.o \
-     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] angpot.o \
      [exec] angtor.o \
      [exec] argue.o \
@@ -1037,6 +1042,7 @@ maketinker:
      [exec] getarc.o \
      [exec] getcart.o \
      [exec] getdcd.o \
+     [exec] getfloat.o \
      [exec] getint.o \
      [exec] getkey.o \
      [exec] getmol.o \
@@ -1111,6 +1117,7 @@ maketinker:
      [exec] kexpol.o \
      [exec] kextra.o \
      [exec] keys.o \
+     [exec] kfreeze.o \
      [exec] kgeom.o \
      [exec] khbond.o \
      [exec] kimprop.o \
@@ -1203,6 +1210,7 @@ maketinker:
      [exec] optsave.o \
      [exec] orbital.o \
      [exec] orbits.o \
+     [exec] ar: `u' modifier ignored since `D' is the default (see `U')
      [exec] orient.o \
      [exec] orthog.o \
      [exec] output.o \
@@ -1233,6 +1241,7 @@ maketinker:
      [exec] prmkey.o \
      [exec] promo.o \
      [exec] prtarc.o \
+     [exec] prtcif.o \
      [exec] prtdyn.o \
      [exec] prterr.o \
      [exec] prtfrc.o \
@@ -1251,6 +1260,7 @@ maketinker:
      [exec] random.o \
      [exec] rattle.o \
      [exec] readcart.o \
+     [exec] readcif.o \
      [exec] readdcd.o \
      [exec] readdyn.o \
      [exec] readgau.o \
@@ -1288,7 +1298,8 @@ maketinker:
      [exec] sequen.o \
      [exec] server.o \
      [exec] setprm.o \
-     [exec] shakeup.o \
+     [exec] settle.o \
+     [exec] shake.o \
      [exec] shapes.o \
      [exec] shunt.o \
      [exec] sigmoid.o \
@@ -1576,6 +1587,7 @@ maketinker:
      [exec] a - getarc.o
      [exec] a - getcart.o
      [exec] a - getdcd.o
+     [exec] a - getfloat.o
      [exec] a - getint.o
      [exec] a - getkey.o
      [exec] a - getmol.o
@@ -1650,6 +1662,7 @@ maketinker:
      [exec] a - kexpol.o
      [exec] a - kextra.o
      [exec] a - keys.o
+     [exec] a - kfreeze.o
      [exec] a - kgeom.o
      [exec] a - khbond.o
      [exec] a - kimprop.o
@@ -1772,6 +1785,7 @@ maketinker:
      [exec] a - prmkey.o
      [exec] a - promo.o
      [exec] a - prtarc.o
+     [exec] a - prtcif.o
      [exec] a - prtdyn.o
      [exec] a - prterr.o
      [exec] a - prtfrc.o
@@ -1790,6 +1804,7 @@ maketinker:
      [exec] a - random.o
      [exec] a - rattle.o
      [exec] a - readcart.o
+     [exec] a - readcif.o
      [exec] a - readdcd.o
      [exec] a - readdyn.o
      [exec] a - readgau.o
@@ -1827,7 +1842,8 @@ maketinker:
      [exec] a - sequen.o
      [exec] a - server.o
      [exec] a - setprm.o
-     [exec] a - shakeup.o
+     [exec] a - settle.o
+     [exec] a - shake.o
      [exec] a - shapes.o
      [exec] a - shunt.o
      [exec] a - sigmoid.o
@@ -1902,6 +1918,7 @@ maketinker:
      [exec] gfortran -O3 -fopenmp -static-libgcc -o gda.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib gda.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip gda.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o intedit.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib intedit.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip intedit.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o intxyz.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib intxyz.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip intxyz.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o mdavg.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib mdavg.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip mdavg.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o minimize.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minimize.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minimize.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o minirot.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minirot.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minirot.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o minrigid.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib minrigid.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip minrigid.x
@@ -1951,7 +1968,7 @@ maketinker:
      [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzint.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzint.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzint.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzmol2.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzmol2.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzmol2.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzpdb.x -L. -L/home/ponder/ffe/build/tinker/lib/linux -Wl,--no-as-needed -ldl  -L/home/ponder/ffe/build/fftw/lib xyzpdb.o libtinker.a  -lfftw3_threads -lfftw3 -lstdc++; strip xyzpdb.x
-     [copy] Copying 65 files to /home/ponder/ffe/build/tinker/bin
+     [copy] Copying 66 files to /home/ponder/ffe/build/tinker/bin
 
 ffe:
      [echo] Build Force Field Explorer
@@ -2041,10 +2058,10 @@ compile:
     [javac] 25 warnings
 
 resource:
-     [copy] Copying 148 files to /home/ponder/ffe/build/ffe/target/classes
+     [copy] Copying 150 files to /home/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-25.5.jar
+      [jar] Building jar: /home/ponder/ffe/build/ffe/lib/ffe-25.6.jar
 
 make:
 
@@ -2089,28 +2106,28 @@ kits:
 [install4j] Compressed media file 'Unix Installer':
 [install4j]   Compressing files
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_25.5.21.sh.
-[install4j]   The size of the media file is 262.3 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_25.6.21.sh.
+[install4j]   The size of the media file is 264.9 MB
 [install4j] 
 [install4j] Compressed media file 'Unix Archive':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_unix_25.5.21.tar.gz.
-[install4j]   The size of the media file is 249.7 MB
+[install4j]   The name of the media file is Tinker-FFE_unix_25.6.21.tar.gz.
+[install4j]   The size of the media file is 252.2 MB
 [install4j] 
 [install4j] Compressed media file 'Linux RPM':
 [install4j]   Moving media files to media directory /home/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_linux_25.5.21.rpm.
-[install4j]   The size of the media file is 250.4 MB
+[install4j]   The name of the media file is Tinker-FFE_linux_25.6.21.rpm.
+[install4j]   The size of the media file is 252.9 MB
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 73.6 seconds at 2025-10-03 11:26:36.
-     [gzip] Building: /home/ponder/ffe/build/kits/build_25.5.21.log.gz
-     [gzip] Building: /home/ponder/ffe/build/kits/error_25.5.21.log.gz
-   [delete] Deleting: /home/ponder/ffe/build/kits/build_25.5.21.log
-   [delete] Deleting: /home/ponder/ffe/build/kits/error_25.5.21.log
+[install4j] Build completed in 74.3 seconds at 2025-12-13 16:16:54.
+     [gzip] Building: /home/ponder/ffe/build/kits/build_25.6.21.log.gz
+     [gzip] Building: /home/ponder/ffe/build/kits/error_25.6.21.log.gz
+   [delete] Deleting: /home/ponder/ffe/build/kits/build_25.6.21.log
+   [delete] Deleting: /home/ponder/ffe/build/kits/error_25.6.21.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 5 minutes 34 seconds
+Total time: 5 minutes 38 seconds

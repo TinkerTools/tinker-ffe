@@ -4,7 +4,7 @@
 	<name>Force Field Explorer</name>
 	<artifactId>Tinker-FFE</artifactId>
 	<groupId>Tinker-FFE</groupId>
-	<version>25.5</version>
+	<version>25.6</version>
 	<url>https://github.com/TinkerTools/</url>
 	<organization>
 		<name>TinkerTools Organization</name>
@@ -55,15 +55,15 @@
 		</dependency>
 		<dependency>
 			<groupId>java3d</groupId>
-			<artifactId>j3dcore</artifactId>
+			<artifactId>java3d-core</artifactId>
 			<type>jar</type>
-			<version>1.7.1</version>
+			<version>1.7.2</version>
 		</dependency>
 		<dependency>
 			<groupId>java3d</groupId>
-			<artifactId>j3dutils</artifactId>
+			<artifactId>java3d-utils</artifactId>
 			<type>jar</type>
-			<version>1.7.1</version>
+			<version>1.7.2</version>
 		</dependency>
 		<dependency>
 			<groupId>javahelp</groupId>
@@ -81,7 +81,7 @@
 			<groupId>java3d</groupId>
 			<artifactId>vecmath</artifactId>
 			<type>jar</type>
-			<version>1.7.1</version>
+			<version>1.7.2</version>
 		</dependency>
 	</dependencies>
 	<!-- Build Properties -->

@@ -4,13 +4,13 @@
                  ##############################################
 
         This directory contains the most recent versions of Java3D, JOGL
-        and related packages as obtained from JogAmp.org in April 2025.
+        and related packages obtained from JogAmp.org during April 2025
+        and December 2025, respectively.
 
-        The Java3D package is found as version 1.7.1-final dated August
+        The Java3D package is found as version 1.7.2 dated August
         2023 and downloaded from:
 
-        http://jogamp.org/deployment/java3d/1.7.1-final \
-                  /jogamp-java3d-1.7.1-final.zip
+        https://jogamp.org/deployment/maven-java3d/
 
         The corresponding version of JOGAMP is version 2.5.0, containing
         JOGL, JOAL and GLUEGEN, dated August 2023 and downloaded from:
@@ -36,9 +36,9 @@
         To build FFE, several jar files from this directory should be
         copied to ffe/lib in the build tree. These include:
 
-        j3dcore-1.7.1.jar
-        j3utils-1.7.1.jar
-        vecmath-1.7.1.jar
+        java3d-core-1.7.2.jar
+        java3d-utils-1.7.2.jar
+        vecmath-1.7.2.jar
         gluegen.jar
         gluegen-rt.jar
         gluegen-rt-android-natives-linux-aarch64.jar

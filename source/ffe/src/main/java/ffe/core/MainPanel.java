@@ -4,7 +4,7 @@
  * <p>Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  * <p>Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  * @author Michael J. Schnieders
- * @version 25.5
+ * @version 25.6
  */
 
 package ffe.core;
@@ -1663,8 +1663,8 @@ public final class MainPanel extends JPanel implements ActionListener,
 			String path = MainPanel.class.getProtectionDomain().getCodeSource().getLocation().getPath();
 			String decodedPath = URLDecoder.decode(path, "UTF-8");
 			decodedPath = decodedPath.replaceAll("ffe/lib/.*jar", "");
-			String NIHDir = decodedPath + "NIHdownloads/";
-			File directory=new File(NIHDir);
+			String DownloadDir = decodedPath + "downloads/";
+			File directory=new File(DownloadDir);
 			if (!directory.exists()) {
 				directory.mkdir();
 			}
@@ -1725,17 +1725,17 @@ public final class MainPanel extends JPanel implements ActionListener,
 			in.close();
 			scan.close();
           
-			File keyfile=new File(NIHDir+moleculeName+".key");
+			File keyfile=new File(DownloadDir+moleculeName+".key");
 			FileWriter keyfilewrite=new FileWriter(keyfile);
 			BufferedWriter keyoutput=new BufferedWriter(keyfilewrite);
-			String PRMDir = NIHDir.replaceAll("NIHdownloads/", "") + "tinker/params/";
+			String PRMDir = DownloadDir.replaceAll("downloads/", "") + "tinker/params/";
 			// Modify Keyfile Directory for Windows, JWP July 2017
 			PRMDir = PRMDir.replaceAll("/C:", "C:");
 			keyoutput.append("\n# Force Field Selection\nPARAMETERS        "
 				+ PRMDir + "basic.prm\n");
 			keyoutput.close();
             
-			File file=new File(NIHDir+moleculeName+".xyz");
+			File file=new File(DownloadDir+moleculeName+".xyz");
 			FileWriter filewrite=new FileWriter(file);
 			BufferedWriter output=new BufferedWriter(filewrite);
 			output.append(atoms+"\t"+moleculeName+"\n");

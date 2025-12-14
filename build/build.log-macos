@@ -30,7 +30,7 @@ init:
     [mkdir] Created dir: /Users/ponder/ffe/build/tinker
     [mkdir] Created dir: /Users/ponder/ffe/build/tinker/bin
 [echoproperties] #Ant properties
-[echoproperties] #Thu Oct 02 18:33:24 EDT 2025
+[echoproperties] #Sat Dec 13 12:38:33 EST 2025
 [echoproperties] ant.library.dir=/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib
 [echoproperties] awt.toolkit=sun.lwawt.macosx.LWCToolkit
 [echoproperties] env.TERM=xterm-256color
@@ -41,26 +41,27 @@ init:
 [echoproperties] sun.arch.data.model=64
 [echoproperties] env.INSTALL4J_HOME=/Applications/install4j.app
 [echoproperties] java.vendor.url=https\://aws.amazon.com/corretto/
-[echoproperties] DSTAMP=20251002
+[echoproperties] DSTAMP=20251213
 [echoproperties] sun.boot.library.path=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib
 [echoproperties] sun.java.command=org.apache.tools.ant.launch.Launcher -cp  -f macos.ant.xml
 [echoproperties] ant.file.type.Force\ Field\ Explorer\ for\ macOS=file
 [echoproperties] jdk.debug=release
 [echoproperties] jni.dir=/Users/ponder/ffe/build/ffe/native
 [echoproperties] tinker.src.dir=/Users/ponder/ffe/build/tinker/source
+[echoproperties] env.JAVA_MAIN_CLASS_59200=org.apache.tools.ant.launch.Launcher
 [echoproperties] java.specification.vendor=Oracle Corporation
 [echoproperties] env.JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
 [echoproperties] java.version.date=2025-04-15
 [echoproperties] env.OSTYPE=darwin
 [echoproperties] java.home=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
-[echoproperties] version=25.5
+[echoproperties] version=25.6
 [echoproperties] basedir=/Users/ponder/ffe/build
 [echoproperties] file.separator=/
 [echoproperties] java.vm.compressedOopsMode=Zero based
 [echoproperties] line.separator=\n
 [echoproperties] java.specification.name=Java Platform API Specification
 [echoproperties] java.vm.specification.vendor=Oracle Corporation
-[echoproperties] env.SSH_TTY=/dev/ttys001
+[echoproperties] env.SSH_TTY=/dev/ttys002
 [echoproperties] tinker.dir=/Users/ponder/ffe/build/tinker
 [echoproperties] env.TLS=/Users/ponder/ffe/build/buildtools
 [echoproperties] sun.management.compiler=HotSpot 64-Bit Tiered Compilers
@@ -88,7 +89,6 @@ init:
 [echoproperties] env.TMPDIR=/var/folders/28/gkvk6tl10llf5tbrccddrjm00000gn/T/
 [echoproperties] java.library.path=\:/Users/ponder/Library/Java/Extensions\:/Library/Java/Extensions\:/Network/Library/Java/Extensions\:/System/Library/Java/Extensions\:/usr/lib/java\:.
 [echoproperties] java.vendor=Amazon.com Inc.
-[echoproperties] env.JAVA_MAIN_CLASS_76454=org.apache.tools.ant.launch.Launcher
 [echoproperties] java.specification.maintenance.version=3
 [echoproperties] sun.io.unicode.encoding=UnicodeBig
 [echoproperties] socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
@@ -100,7 +100,7 @@ init:
 [echoproperties] java.class.path=/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-net.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit4.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jai.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-resolver.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jdepend.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-regexp.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-log4j.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-javamail.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bcel.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-netrexx.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-swing.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jsch.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-junit.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-launcher.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-antlr.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-testutil.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-oro.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-jmf.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-xalan2.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-apache-bsf.jar\:/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant-commons-logging.jar
 [echoproperties] env.HOME=/Users/ponder
 [echoproperties] java.vm.vendor=Amazon.com Inc.
-[echoproperties] env.SSH_CLIENT=fe80\:\:82c\:d21e\:f408\:15ea%en1 50071 22
+[echoproperties] env.SSH_CLIENT=fe80\:\:14b4\:4024\:676b\:f556%en1 61975 22
 [echoproperties] kit.dir=kits
 [echoproperties] user.timezone=
 [echoproperties] ant.file.Force\ Field\ Explorer\ for\ macOS=/Users/ponder/ffe/build/macos.ant.xml
@@ -117,10 +117,10 @@ init:
 [echoproperties] user.home=/Users/ponder
 [echoproperties] env.DYLD_LIBRARY_PATH=
 [echoproperties] user.language=en
-[echoproperties] build.log=kits/build_25.5.11.log
+[echoproperties] build.log=kits/build_25.6.11.log
 [echoproperties] env.HOMEBREW_NO_ANALYTICS=1
 [echoproperties] ffe.dir=/Users/ponder/ffe/build/ffe
-[echoproperties] env.SSH_CONNECTION=fe80\:\:82c\:d21e\:f408\:15ea%en1 50071 fe80\:\:78\:8fd2\:fb56\:b2c4%en1 22
+[echoproperties] env.SSH_CONNECTION=fe80\:\:14b4\:4024\:676b\:f556%en1 61975 fe80\:\:c36\:ae3d\:8ff1\:934c%en1 22
 [echoproperties] env.ANT_ARGS=
 [echoproperties] ant.java.version=1.9
 [echoproperties] env.MACHTYPE=x86_64
@@ -129,14 +129,14 @@ init:
 [echoproperties] fc=gfortran
 [echoproperties] env.GROOVY_HOME=/Applications/groovy-2.4.4
 [echoproperties] env.ANT_HOME=/Users/ponder/ffe/build/buildtools/ant-1.9.6
-[echoproperties] TSTAMP=1833
+[echoproperties] TSTAMP=1238
 [echoproperties] env.HOST=vixen
 [echoproperties] fftw.lib.dir=/Users/ponder/ffe/build/fftw/lib
 [echoproperties] ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
 [echoproperties] tinker.link.flags=-Ofast -fopenmp -static-libgcc -L. -L/Users/ponder/ffe/build/fftw/lib -ltinker -lfftw3 -lfftw3_threads -framework JavaNativeFoundation -framework CoreFoundation
 [echoproperties] ant.file=/Users/ponder/ffe/build/macos.ant.xml
 [echoproperties] path.separator=\:
-[echoproperties] error.log=kits/error_25.5.11.log
+[echoproperties] error.log=kits/error_25.6.11.log
 [echoproperties] platform=macos
 [echoproperties] os.version=15.7.1
 [echoproperties] tinker.include.flags=-I/Users/ponder/ffe/build/tinker/source -I/Users/ponder/ffe/build/ffe/native -I/Users/ponder/ffe/build/ffe/native/macos
@@ -148,7 +148,7 @@ init:
 [echoproperties] env.SHELL=/bin/tcsh
 [echoproperties] ant.core.lib=/Users/ponder/ffe/build/buildtools/ant-1.9.6/lib/ant.jar
 [echoproperties] java.vendor.url.bug=https\://github.com/corretto/corretto-11/issues/
-[echoproperties] TODAY=October 2 2025
+[echoproperties] TODAY=December 13 2025
 [echoproperties] user.dir=/Users/ponder/ffe/build
 [echoproperties] env.TM_PROJECT_UUID=00000000-0000-0000-0000-000000000000
 [echoproperties] os.arch=x86_64
@@ -545,6 +545,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp getarc.f -o getarc.o 
      [exec] gfortran -c -O3 -fopenmp getcart.f -o getcart.o 
      [exec] gfortran -c -O3 -fopenmp getdcd.f -o getdcd.o 
+     [exec] gfortran -c -O3 -fopenmp getfloat.f -o getfloat.o 
      [exec] gfortran -c -O3 -fopenmp getint.f -o getint.o 
      [exec] gfortran -c -O3 -fopenmp getkey.f -o getkey.o 
      [exec] gfortran -c -O3 -fopenmp getmol.f -o getmol.o 
@@ -601,6 +602,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp kewald.f -o kewald.o 
      [exec] gfortran -c -O3 -fopenmp kexpol.f -o kexpol.o 
      [exec] gfortran -c -O3 -fopenmp kextra.f -o kextra.o 
+     [exec] gfortran -c -O3 -fopenmp kfreeze.f -o kfreeze.o 
      [exec] gfortran -c -O3 -fopenmp kgeom.f -o kgeom.o 
      [exec] gfortran -c -O3 -fopenmp kimprop.f -o kimprop.o 
      [exec] gfortran -c -O3 -fopenmp kimptor.f -o kimptor.o 
@@ -629,6 +631,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp makeref.f -o makeref.o 
      [exec] gfortran -c -O3 -fopenmp makexyz.f -o makexyz.o 
      [exec] gfortran -c -O3 -fopenmp maxwell.f -o maxwell.o 
+     [exec] gfortran -c -O3 -fopenmp mdavg.f -o mdavg.o 
      [exec] gfortran -c -O3 -fopenmp mdinit.f -o mdinit.o 
      [exec] gfortran -c -O3 -fopenmp mdrest.f -o mdrest.o 
      [exec] gfortran -c -O3 -fopenmp mdsave.f -o mdsave.o 
@@ -685,6 +688,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp promo.f -o promo.o 
      [exec] gfortran -c -O3 -fopenmp protein.f -o protein.o 
      [exec] gfortran -c -O3 -fopenmp prtarc.f -o prtarc.o 
+     [exec] gfortran -c -O3 -fopenmp prtcif.f -o prtcif.o 
      [exec] gfortran -c -O3 -fopenmp prtdyn.f -o prtdyn.o 
      [exec] gfortran -c -O3 -fopenmp prterr.f -o prterr.o 
      [exec] gfortran -c -O3 -fopenmp prtfrc.f -o prtfrc.o 
@@ -706,6 +710,7 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp random.f -o random.o 
      [exec] gfortran -c -O3 -fopenmp rattle.f -o rattle.o 
      [exec] gfortran -c -O3 -fopenmp readcart.f -o readcart.o 
+     [exec] gfortran -c -O3 -fopenmp readcif.f -o readcif.o 
      [exec] gfortran -c -O3 -fopenmp readdcd.f -o readdcd.o 
      [exec] gfortran -c -O3 -fopenmp readdyn.f -o readdyn.o 
      [exec] gfortran -c -O3 -fopenmp readgau.f -o readgau.o 
@@ -732,7 +737,8 @@ maketinker:
      [exec] gfortran -c -O3 -fopenmp search.f -o search.o 
      [exec] gfortran -c -O3 -fopenmp server.f -o server.o 
      [exec] gfortran -c -O3 -fopenmp setprm.f -o setprm.o 
-     [exec] gfortran -c -O3 -fopenmp shakeup.f -o shakeup.o 
+     [exec] gfortran -c -O3 -fopenmp settle.f -o settle.o 
+     [exec] gfortran -c -O3 -fopenmp shake.f -o shake.o 
      [exec] gfortran -c -O3 -fopenmp sigmoid.f -o sigmoid.o 
      [exec] gfortran -c -O3 -fopenmp simplex.f -o simplex.o 
      [exec] gfortran -c -O3 -fopenmp sktstuf.f -o sktstuf.o 
@@ -1015,6 +1021,7 @@ maketinker:
      [exec] 	getarc.o \
      [exec] 	getcart.o \
      [exec] 	getdcd.o \
+     [exec] 	getfloat.o \
      [exec] 	getint.o \
      [exec] 	getkey.o \
      [exec] 	getmol.o \
@@ -1089,6 +1096,7 @@ maketinker:
      [exec] 	kexpol.o \
      [exec] 	kextra.o \
      [exec] 	keys.o \
+     [exec] 	kfreeze.o \
      [exec] 	kgeom.o \
      [exec] 	khbond.o \
      [exec] 	kimprop.o \
@@ -1211,6 +1219,7 @@ maketinker:
      [exec] 	prmkey.o \
      [exec] 	promo.o \
      [exec] 	prtarc.o \
+     [exec] 	prtcif.o \
      [exec] 	prtdyn.o \
      [exec] 	prterr.o \
      [exec] 	prtfrc.o \
@@ -1229,6 +1238,7 @@ maketinker:
      [exec] 	random.o \
      [exec] 	rattle.o \
      [exec] 	readcart.o \
+     [exec] 	readcif.o \
      [exec] 	readdcd.o \
      [exec] 	readdyn.o \
      [exec] 	readgau.o \
@@ -1266,8 +1276,9 @@ maketinker:
      [exec] 	sequen.o \
      [exec] 	server.o \
      [exec] 	setprm.o \
+     [exec] 	settle.o \
+     [exec] 	shake.o \
      [exec] 	shapes.o \
-     [exec] 	shakeup.o \
      [exec] 	shunt.o \
      [exec] 	sigmoid.o \
      [exec] 	simplex.o \
@@ -1324,10 +1335,6 @@ maketinker:
      [exec] 	zatom.o \
      [exec] 	zclose.o \
      [exec] 	zcoord.o
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(ascii.o) has no symbols
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
-     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(units.o) has no symbols
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(ascii.o) has no symbols
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
      [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
@@ -1562,6 +1569,7 @@ maketinker:
      [exec] a - getarc.o
      [exec] a - getcart.o
      [exec] a - getdcd.o
+     [exec] a - getfloat.o
      [exec] a - getint.o
      [exec] a - getkey.o
      [exec] a - getmol.o
@@ -1636,6 +1644,7 @@ maketinker:
      [exec] a - kexpol.o
      [exec] a - kextra.o
      [exec] a - keys.o
+     [exec] a - kfreeze.o
      [exec] a - kgeom.o
      [exec] a - khbond.o
      [exec] a - kimprop.o
@@ -1758,6 +1767,7 @@ maketinker:
      [exec] a - prmkey.o
      [exec] a - promo.o
      [exec] a - prtarc.o
+     [exec] a - prtcif.o
      [exec] a - prtdyn.o
      [exec] a - prterr.o
      [exec] a - prtfrc.o
@@ -1776,6 +1786,7 @@ maketinker:
      [exec] a - random.o
      [exec] a - rattle.o
      [exec] a - readcart.o
+     [exec] a - readcif.o
      [exec] a - readdcd.o
      [exec] a - readdyn.o
      [exec] a - readgau.o
@@ -1813,8 +1824,9 @@ maketinker:
      [exec] a - sequen.o
      [exec] a - server.o
      [exec] a - setprm.o
+     [exec] a - settle.o
+     [exec] a - shake.o
      [exec] a - shapes.o
-     [exec] a - shakeup.o
      [exec] a - shunt.o
      [exec] a - sigmoid.o
      [exec] a - simplex.o
@@ -1872,6 +1884,10 @@ maketinker:
      [exec] a - zclose.o
      [exec] a - zcoord.o
      [exec] ranlib -c libtinker.a
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(ascii.o) has no symbols
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(math.o) has no symbols
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(sizes.o) has no symbols
+     [exec] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtinker.a(units.o) has no symbols
      [exec] gfortran -O3 -fopenmp -static-libgcc -o alchemy.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib alchemy.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip alchemy.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o analyze.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib analyze.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip analyze.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o anneal.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib anneal.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip anneal.x
@@ -1888,6 +1904,7 @@ maketinker:
      [exec] gfortran -O3 -fopenmp -static-libgcc -o gda.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib gda.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip gda.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o intedit.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib intedit.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip intedit.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o intxyz.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib intxyz.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip intxyz.x
+     [exec] gfortran -O3 -fopenmp -static-libgcc -o mdavg.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib mdavg.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip mdavg.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o minimize.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib minimize.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip minimize.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o minirot.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib minirot.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip minirot.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o minrigid.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib minrigid.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip minrigid.x
@@ -1937,7 +1954,7 @@ maketinker:
      [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzint.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib xyzint.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip xyzint.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzmol2.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib xyzmol2.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip xyzmol2.x
      [exec] gfortran -O3 -fopenmp -static-libgcc -o xyzpdb.x -L. -L/Users/ponder/ffe/build/tinker/lib/macos -L/Users/ponder/ffe/build/fftw/lib xyzpdb.o libtinker.a -lfftw3_threads -lfftw3 -lstdc++; strip xyzpdb.x
-     [copy] Copying 65 files to /Users/ponder/ffe/build/tinker/bin
+     [copy] Copying 66 files to /Users/ponder/ffe/build/tinker/bin
 
 ffe:
      [echo] Build Force Field Explorer
@@ -2027,10 +2044,10 @@ compile:
     [javac] 25 warnings
 
 resource:
-     [copy] Copying 148 files to /Users/ponder/ffe/build/ffe/target/classes
+     [copy] Copying 150 files to /Users/ponder/ffe/build/ffe/target/classes
 
 package:
-      [jar] Building jar: /Users/ponder/ffe/build/ffe/lib/ffe-25.5.jar
+      [jar] Building jar: /Users/ponder/ffe/build/ffe/lib/ffe-25.6.jar
 
 make:
 
@@ -2067,23 +2084,23 @@ kits:
 [install4j]   Generating VM options file vmoptions.txt.
 [install4j]   Signing installer (adhoc)
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_macos_25.5.11.dmg.
-[install4j]   The size of the media file is 264.6 MB
+[install4j]   The name of the media file is Tinker-FFE_macos_25.6.11.dmg.
+[install4j]   The size of the media file is 266.9 MB
 [install4j] 
 [install4j] Compressed media file 'macOS Archive':
 [install4j]   Moving media files to media directory /Users/ponder/ffe/build/kits
-[install4j]   The name of the media file is Tinker-FFE_macos_25.5.11.tgz.
-[install4j]   The size of the media file is 248.2 MB
+[install4j]   The name of the media file is Tinker-FFE_macos_25.6.11.tgz.
+[install4j]   The size of the media file is 250.4 MB
 [install4j] Writing md5sums.
 [install4j] Writing sha256sums.
 [install4j] Writing updates.xml.
-[install4j] Build completed in 47.3 seconds at 2025-10-02 18:43:26.
-     [gzip] Building: /Users/ponder/ffe/build/kits/build_25.5.11.log.gz
-     [gzip] Building: /Users/ponder/ffe/build/kits/error_25.5.11.log.gz
-   [delete] Deleting: /Users/ponder/ffe/build/kits/build_25.5.11.log
-   [delete] Deleting: /Users/ponder/ffe/build/kits/error_25.5.11.log
+[install4j] Build completed in 43.1 seconds at 2025-12-13 12:48:24.
+     [gzip] Building: /Users/ponder/ffe/build/kits/build_25.6.11.log.gz
+     [gzip] Building: /Users/ponder/ffe/build/kits/error_25.6.11.log.gz
+   [delete] Deleting: /Users/ponder/ffe/build/kits/build_25.6.11.log
+   [delete] Deleting: /Users/ponder/ffe/build/kits/error_25.6.11.log
 
 make:
 
 BUILD SUCCESSFUL
-Total time: 10 minutes 2 seconds
+Total time: 9 minutes 51 seconds

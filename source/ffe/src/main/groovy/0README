@@ -10,3 +10,6 @@
         Console classes must be compiled and installed in the "target"
         directory via "console.make" before building the rest of FFE.
 
+        Warnings about illegal reflective access operations can safely
+        be  ignored, for now.
+

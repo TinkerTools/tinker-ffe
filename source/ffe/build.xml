@@ -37,7 +37,7 @@
 		
 	</description>
 
-	<property name="ffe.version" value="25.5" />
+	<property name="ffe.version" value="25.6" />
 	<property name="src.dir" value="src/main/java" />
 	<property name="build.dir" value="target/classes" />
 	<property name="jar.dir" value="${basedir}/lib" />
@@ -118,8 +118,8 @@
 		<pathelement location="${jar.dir}/gluegen-rt.jar" />
 		<pathelement location="${jar.dir}/gluegen.jar" />
 		<pathelement location="${jar.dir}/groovy-all-2.4.4.jar" />
-		<pathelement location="${jar.dir}/j3dcore-1.7.1.jar" />
-		<pathelement location="${jar.dir}/j3dutils-1.7.1.jar" />
+		<pathelement location="${jar.dir}/java3d-core-1.7.2.jar" />
+		<pathelement location="${jar.dir}/java3d-utils-1.7.2.jar" />
 		<pathelement location="${jar.dir}/jh-2.0.5.jar" />
 		<pathelement location="${jar.dir}/joal-natives-linux-amd64.jar" />
 		<pathelement location="${jar.dir}/joal-natives-macosx-universal.jar" />
@@ -130,7 +130,7 @@
 		<pathelement location="${jar.dir}/jogl-all-noawt-natives-windows-amd64.jar" />
 		<pathelement location="${jar.dir}/jogl-all.jar" />
 		<pathelement location="${jar.dir}/sunjce_provider.jar" />
-		<pathelement location="${jar.dir}/vecmath-1.7.1.jar" />
+		<pathelement location="${jar.dir}/vecmath-1.7.2.jar" />
 	</path>
 
 	<target name="info" description="Print Platform Details">

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--  
-	
+<!--
+
  Title: Force Field Explorer</p>
  Description: Force Field Explorer Molecular Modeling Program</p>
  Copyright: Copyright (c) 2004-2025 Jay William Ponder</p>
  Institution: Jay Ponder Lab, Washington University in St. Louis</p>
  Author: Michael J. Schnieders
- Version: 25.4
-	
+ Version: 25.6
+
 -->
 <!DOCTYPE TinkerCommands>
 <TinkerCommands>
@@ -15,6 +15,7 @@
 		<title>Tinker Commands</title>
 		<meta name="Tinker Commands" />
 	</properties>
+
 	<Command
 		name="Alchemy"
 		fileType="ARC"
@@ -61,6 +62,7 @@
 			<Value name="N" />
 		</Option>
 	</Command>
+
 	<Command
 		name="Analyze"
 		fileType="XYZ ARC"
@@ -105,6 +107,7 @@
 			/>
 		</Option>
 	</Command>
+
 	<Command
 		name="Anneal"
 		fileType="XYZ"
@@ -166,6 +169,7 @@
 			default="0.0"
 		/>
 	</Command>
+
 	<Command
 		name="Archive"
 		fileType="XYZ INT ARC"
@@ -204,6 +208,7 @@
 			default="1 10000 1"
 		/>
 	</Command>
+
 	<Command
 		name="Diffuse"
 		fileType="ARC"
@@ -233,6 +238,7 @@
 			gui="TEXTFIELD"
 		/>
 	</Command>
+
 	<Command
 		name="Dynamic"
 		fileType="XYZ"
@@ -306,6 +312,7 @@
 			/>
 		</Option>
 	</Command>
+
 	<Command
 		name="INTXYZ"
 		fileType="INT"
@@ -313,6 +320,7 @@
 		description="A program to convert a Tinker .int internal coordinates formatted
  file into a Tinker .xyz Cartesian coordinates formatted file."
 	/>
+
 	<Command
 		name="Minimize"
 		fileType="XYZ"
@@ -336,6 +344,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Minrigid"
 		fileType="XYZ"
@@ -351,6 +360,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Minirot"
 		fileType="INT"
@@ -388,6 +398,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Monte"
 		fileType="XYZ"
@@ -433,6 +444,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Newton"
 		fileType="XYZ"
@@ -483,6 +495,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Newtrot"
 		fileType="INT"
@@ -545,6 +558,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Nucleic"
 		description="A program for automated building of nucleic acid structures. Upon input
@@ -593,6 +607,7 @@
 			<Value name="N" />
 		</Option>
 	</Command>
+
 	<Command
 		name="Optimize"
 		fileType="XYZ"
@@ -615,6 +630,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Optrigid"
 		fileType="XYZ"
@@ -631,6 +647,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Optirot"
 		fileType="INT"
@@ -669,6 +686,7 @@
 			default="0.01"
 		/>
 	</Command>
+
 	<Command
 		name="Path"
 		fileType="XYZ"
@@ -699,6 +717,7 @@
 			default="0.1"
 		/>
 	</Command>
+
 	<Command
 		name="PDBXYZ"
 		fileType="PDB"
@@ -735,6 +754,7 @@
 			/>
 		</Option>
 	</Command>
+
 	<Command
 		name="Protein"
 		description="A program for automated building of peptide and protein structures.
@@ -794,6 +814,7 @@
 			<Value name="N" />
 		</Option>
 	</Command>
+
 	<Command
 		name="PSS"
 		fileType="XYZ"
@@ -849,6 +870,7 @@
 			default="0.0001"
 		/>
 	</Command>
+
 	<Command
 		name="PSSRigid"
 		fileType="XYZ"
@@ -886,6 +908,7 @@
 			default="0.0001"
 		/>
 	</Command>
+
 	<Command
 		name="Polarize"
 		fileType="XYZ"
@@ -895,6 +918,7 @@
  keyfile settings. A Tinker .xyz file is required as input. The output consists of the overall
  polarizability tensor in the global coordinates and its eigenvalues."
 	/>
+
 	<Command
 		name="Saddle"
 		fileType="XYZ"
@@ -931,6 +955,7 @@
 			<Value name="Y" />
 		</Option>
 	</Command>
+
 	<Command
 		name="Scan"
 		fileType="XYZ"
@@ -983,6 +1008,7 @@
 			default="0.0001"
 		/>
 	</Command>
+
 	<Command
 		name="Sniffer"
 		fileType="XYZ"
@@ -1015,6 +1041,7 @@
 			default="1.0"
 		/>
 	</Command>
+
 	<Command
 		name="Spacefill"
 		fileType="XYZ"
@@ -1056,6 +1083,7 @@
 			<Value name="N" />
 		</Option>
 	</Command>
+
 	<Command
 		name="Superpose"
 		fileType="XYZ"
@@ -1137,6 +1165,7 @@
 			upperLimit="NONE"
 		/>
 	</Command>
+
 	<Command
 		name="Testgrad"
 		fileType="XYZ"
@@ -1180,6 +1209,7 @@
 			<Value name="N" />
 		</Option>
 	</Command>
+
 	<Command
 		name="Testhess"
 		fileType="XYZ"
@@ -1223,6 +1253,7 @@
 			default="0.1D-04"
 		/>
 	</Command>
+
 	<Command
 		name="Testrot"
 		fileType="INT"
@@ -1261,6 +1292,7 @@
 			default="0.1D-04"
 		/>
 	</Command>
+
 	<Command
 		name="Timer"
 		fileType="XYZ"
@@ -1286,6 +1318,7 @@
 			<Value name="N" />
 		</Option>
 	</Command>
+
 	<Command
 		name="Timerot"
 		fileType="INT"
@@ -1332,6 +1365,7 @@
 			<Value name="N" />
 		</Option>
 	</Command>
+
 	<Command
 		name="Vibrate"
 		fileType="XYZ"
@@ -1350,6 +1384,7 @@
 			postProcess="SPLIT"
 		/>
 	</Command>
+
 	<Command
 		name="Vibrot"
 		fileType="INT"
@@ -1383,6 +1418,7 @@
 			/>
 		</Option>
 	</Command>
+
 	<Command
 		name="XYZINT"
 		fileType="XYZ"
@@ -1402,6 +1438,7 @@
 			<Value name="A" />
 		</Option>
 	</Command>
+
 	<Command
 		name="XYZPDB"
 		fileType="XYZ"
@@ -1409,4 +1446,5 @@
 		description="A program for converting a Tinker .xyz Cartesian coordinate file
  into a Brookhaven Protein Data Bank file (a PDB file)."
 	/>
+
 </TinkerCommands>
